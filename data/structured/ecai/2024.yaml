@@ -1,0 +1,318 @@
+conference: ECAI
+year: 2024
+last_checked: '2026-02-16T07:59:08.900286+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: Thursday, April 25, 2024
+    evidence: 'Paper deadline: Thursday, 25 April 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thursday, April 25, 2024
+  abstract_deadline:
+    value: Friday, April 19, 2024
+    evidence: 'Abstract deadline: Friday, 19 April 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Friday, April 19, 2024
+  notification_date:
+    value: Thursday, July 4, 2024
+    evidence: 'Author notification: Thursday, 4 July 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thursday, July 4, 2024
+  camera_ready_deadline:
+    value: Monday, August 26, 2024
+    evidence: 'Camera-ready deadline: Monday, 26 August 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Monday, August 26, 2024
+  conference_dates:
+    value: October 19-24, 2024
+    evidence: 'date: October 19-24, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 19-24, 2024
+  rebuttal_deadline:
+    value: Wednesday, June 17, 2024 - Wednesday, June 19, 2024 (72 hours)
+    evidence: 'Rebuttal period: Monday-Wednesday 17-19 June 2024 (72 hours)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wednesday, June 17, 2024 - Wednesday, June 19, 2024 (72 hours)
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Monday, August 19, 2024
+    evidence: 'Early registration deadline: Monday, 19 August 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Monday, August 19, 2024
+  double_blind:
+    value: true
+    evidence: Reviewing for ECAI is double-blind, meaning that reviewers should not
+      be aware of the identity of the authors of the papers they review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors may be called upon to help with reviewing papers for ECAI. This
+      does not apply to individuals who already are serving on the PC or who are...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 7 pages
+    evidence: Papers must be written in English, be prepared for double-blind review
+      using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 7 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be written in English, be prepared for double-blind review
+      using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: You have the option to accompany your submission with supplementary
+      material, such as a technical appendix or code and data (up to 50MB).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: 'Concurrent submission: We recognise the significant strain on the scientific
+      community caused by the needs of peer review. Therefore, the work you...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: open-access proceedings published by IOS Press
+    evidence: The open-access proceedings will be published by IOS Press. A selection
+      of the best papers submitted to the conference will be invited for fast-track...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: open-access proceedings published by IOS Press
+  statements:
+    value: true
+    evidence: Research reported at ECAI should avoid harm, be honest and trustworthy,
+      fair and non-discriminatory, and respect privacy and intellectual property....
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Santiago de Compostela
+    evidence: 19-24 October 2024 Santiago de Compostela
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Santiago de Compostela
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Santiago de Compostela
+  conference_format:
+    value: in-person
+    evidence: The conference is planned as an in-person event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - combined poster/spotlight
+    evidence: Each accepted paper will get assigned either an oral presentation slot
+      or a combined poster/spotlight presentation slot. The presentation modality
+      is...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''combined poster/spotlight'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite proposals for workshops to be held as part of the pre-conference
+      programme during the first two days of the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: ECAI EasyChair
+    evidence: Papers must be written in English, be prepared for double-blind review
+      using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: ECAI EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be held as part of the pre-conference
+      programme during the first two days of the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorial Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: Call for Demo Papers
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: We invite proposals for Birds of a Feather Sessions at ECAI-2024.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ECAI is proud to host the 50th anniversary edition of the World Computer
+      Chess Championship (WCCC). You can look forward to multiple competitions as...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

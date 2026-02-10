@@ -1,0 +1,324 @@
+conference: ASIACRYPT
+year: 2025
+last_checked: '2026-02-16T10:12:55.310792+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: May 16, 2025
+    evidence: Submission deadline at 12:00 GMT
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 16, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Aug 10, 2025
+    evidence: Aug 10, 2025 Final notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Aug 10, 2025
+  camera_ready_deadline:
+    value: Sep 10, 2025
+    evidence: Sep 10, 2025 Camera-ready version due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Sep 10, 2025
+  conference_dates:
+    value: Dec 8-12, 2025
+    evidence: Asiacrypt 2025 will take place in Melbourne, Australia on December 8-12,
+      2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Dec 8-12, 2025
+  rebuttal_deadline:
+    value: Jul 25, 2025
+    evidence: Jul 25, 2025 End of interactive rebuttals
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Jul 25, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions will be blind-refereed and thus must be anonymous, with
+      no author names, affiliations, acknowledgments, or obvious references.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The authors of the selected submissions are invited to submit a text-based
+      rebuttal letter to the review comments.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 28 pages
+    evidence: Submissions must be at most 28 pages excluding references and auxiliary
+      supporting material, and using the Springer LNCS format.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 28 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Optionally, if an author desires, a clearly-marked supplementary material
+      can be appended to the submission.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in the Lecture Notes in Computer Science (LNCS) series
+    evidence: The proceedings will be published by Springer in the Lecture Notes in
+      Computer Science (LNCS) series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: true
+    evidence: Authors of each submission are asked during the submission process to
+      identify all members of the Program Committee who have an automatic conflict
+      of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: In order to encourage open and reproducible research, authors of accepted
+      papers will be invited to submit artifacts associated with their papers,...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed_disclosure
+    evidence: There is a new policy on the use of AI tools by authors May 12, 2025
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed_disclosure
+  conference_location:
+    value: Melbourne, Australia
+    evidence: Asiacrypt 2025 will take place in Melbourne, Australia on December 8-12,
+      2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Melbourne, Australia
+    normalized:
+      city: Melbourne
+      country: Australia
+      display: Melbourne, Australia
+      raw: Melbourne, Australia
+  conference_format:
+    value: in-person
+    evidence: Asiacrypt 2025 will take place in Melbourne, Australia on December 8-12,
+      2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: A limited number of stipends will be available to students who are unable
+      to obtain funding to attend the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

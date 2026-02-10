@@ -1,0 +1,389 @@
+conference: SIGKDD
+year: 2025
+last_checked: '2026-02-16T10:04:04.697192+00:00'
+completeness:
+  known: 39
+  total: 40
+  percentage: 97.5
+quality:
+  conflict_count: 2
+  conflicts:
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[]'
+  - field: has_awards
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  source_coverage:
+    llm: 40
+rules:
+  submission_deadline:
+    value: February 10, 2025
+    evidence: 'Paper Deadline: Feb 10th, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 10, 2025
+  abstract_deadline:
+    value: February 3, 2025
+    evidence: 'Abstract Deadline: Feb 3, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: February 3, 2025
+  notification_date:
+    value: May 16, 2025
+    evidence: 'Notification: May 16, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: May 16, 2025
+  camera_ready_deadline:
+    value: June 1, 2025
+    evidence: 'Camera-ready: Jun 1, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: June 1, 2025
+  conference_dates:
+    value: August 3-7, 2025
+    evidence: The conference will take place in Toronto, Canada, from Sunday, August
+      3, 2025 to Thursday, August 7, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 3-7, 2025
+  rebuttal_deadline:
+    value: April 4-18, 2025
+    evidence: 'Author Rebuttal Period: Apr 4-18, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: April 4-18, 2025
+  withdrawal_deadline:
+    value: End of the rebuttal period
+    evidence: Authors may use the withdrawal button on OpenReview up until the end
+      of the rebuttal period.
+    category: deadlines
+    priority: low
+    _sources:
+      llm_batch1:
+        value: End of the rebuttal period
+  registration_deadline:
+    value: June 18, 2025
+    evidence: 'Registration Deadline: Jun 18, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: June 18, 2025
+  double_blind:
+    value: true
+    evidence: The review process will be double-blind . The submitted document should
+      omit any author names, affiliations, or other identifying information.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have the chance to provide a response to each review during
+      the rebuttal period.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Incomplete OpenReview profile is sufficient ground for desk rejection.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: 'Submissions must be a single PDF file: 8 (eight) content pages as main
+      paper, followed by references and an optional Appendix that has no page limits.'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must adhere to the ACM template and format (also available
+      in Overleaf); Word users may use the Word Interim Template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: The Appendix can contain details on reproducibility, proofs, pseudo-code,
+      etc.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: A paper should either be submitted to the Research Track or the Applied
+      Data Science Track but not both.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors may submit anonymized work that is already available as a preprint
+      (e.g., on arXiv or SSRN) without citing it.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted papers will be allowed the same maximum page length in
+      the proceedings (12 pages, of which 9 are content pages), which will be published...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are encouraged to include a section on the ethical use of data
+      and/or informed consent of research subjects in their paper, when appropriate.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Upon acceptance, authors are strongly encouraged to make their code
+      and data publicly available. We are promoting the use of the “Artifacts...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Any use of generative AI tools during the reviewing process must be
+      disclosed in the review form.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+  conference_location:
+    value: Toronto, Canada
+    evidence: The conference will take place in Toronto, Canada, from Sunday, August
+      3, 2025 to Thursday, August 7, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Toronto, Canada
+    normalized:
+      city: Toronto
+      country: Canada
+      display: Toronto, Canada
+      raw: Toronto, Canada
+  conference_format:
+    value: in-person
+    evidence: The official publication date is the date the proceedings are made available
+      in the ACM Digital Library. This date for KDD 2025 will be confirmed at...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+  presentation_formats:
+    value: []
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[]'
+    _conflict: true
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: We will use OpenReview to manage the submissions and reviewing.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true

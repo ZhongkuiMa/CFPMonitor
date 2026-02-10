@@ -1,0 +1,270 @@
+conference: MOBISYS
+year: 2024
+last_checked: '2026-02-16T08:52:01.389773+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: November 30th, 2023
+    evidence: 'Paper Submission: November 30th, 2023 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 30th, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 6th, 2024
+    evidence: 'Final Decision Notification: March 6th, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 6th, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: June 4th to June 6th, 2024
+    evidence: 'Main Conference: June 4th to June 6th, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 4th to June 6th, 2024
+  rebuttal_deadline:
+    value: February 5-8th, 2024
+    evidence: 'Rebuttal Period: February 5-8th, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 5-8th, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Note: Selected outstanding papers may be fast-tracked as a special
+      section of IEEE Transactions on Mobile Computing'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Mobile Computing
+    evidence: 'Note: Selected outstanding papers may be fast-tracked as a special
+      section of IEEE Transactions on Mobile Computing'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Mobile Computing
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Toranomon Hills, Minato City
+    evidence: 'Location: Toranomon Hills, Minato City'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Toranomon Hills, Minato City
+    normalized:
+      city: Toranomon Hills
+      country: Minato City
+      display: Toranomon Hills, Minato City
+      raw: Toranomon Hills, Minato City
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

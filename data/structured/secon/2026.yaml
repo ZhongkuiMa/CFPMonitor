@@ -1,0 +1,280 @@
+conference: SECON
+year: 2026
+last_checked: '2026-02-16T11:48:16.226772+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: December 30, 2025
+    evidence: 'Paper Submission: December 30, 2025 (23:59 AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 30, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 6, 2026
+    evidence: 'Notification of Acceptance: March 6, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 6, 2026
+  camera_ready_deadline:
+    value: March 13, 2026
+    evidence: 'Camera-Ready Papers Due: March 13, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 13, 2026
+  conference_dates:
+    value: April 27-29, 2026
+    evidence: 'Conference Dates: April 27-29, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 27-29, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All papers for IEEE SECON 2026 must be submitted via the conference
+      submission system. Each submission must be no longer than 9 pages (including
+      all...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: All papers for IEEE SECON 2026 must be submitted via the conference
+      submission system. Each submission must be no longer than 9 pages (including
+      all...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: Papers should neither have been published elsewhere nor be currently
+      under review at another venue. All papers for IEEE SECON 2026 must be submitted...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Use the standard IEEE Transactions templates for Microsoft Word or LaTeX
+      formats at https://www.ieee.org/conferences/publishing/templates.html .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE SECON 2026 Conference Proceedings
+    evidence: Accepted and presented papers will be published in the IEEE SECON 2026
+      Conference Proceedings and submitted to IEEE Xplore®.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE SECON 2026 Conference Proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Papers are reviewed on the basis that they do not contain plagiarized
+      material and have not been submitted to any other conference at the same time...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Abu Dhabi, UAE
+    evidence: 27 - 29 April 2026 Abu Dhabi, United Arab Emirates
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Abu Dhabi, UAE
+    normalized:
+      city: Abu Dhabi
+      country: UAE
+      display: Abu Dhabi, UAE
+      raw: Abu Dhabi, UAE
+  conference_format:
+    value: in-person
+    evidence: The organizers of IEEE SECON 2026 as well as our attendees expect accepted
+      papers to be presented at the conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: IEEE Communications Society offers a limited number of student travel
+      grants (in US Dollars) to students who have registered and co-authored an...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: EDAS
+    evidence: 'Submit your papers via EDAS at: https://edas.info/N34344'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,286 @@
+conference: ESORICS
+year: 2026
+last_checked: '2026-02-16T11:35:33.252963+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: January 09, 2026
+    evidence: 'Winter Cycle: Full Paper Submission Deadline: January 09, 2026 (firm)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 09, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 10, 2026
+    evidence: 'Notification of Acceptance: March 10, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 10, 2026
+  camera_ready_deadline:
+    value: March 24, 2026
+    evidence: 'Registration & Camera Ready: March 24, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 24, 2026
+  conference_dates:
+    value: September 21-25, 2026
+    evidence: ESORICS 2026, Rome, Italy (September 21-25, 2026)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 21-25, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: false
+    evidence: Submissions are not required to be anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: true
+    evidence: Review is single-blind, meaning that reviewers remain anonymous, while
+      authors and their affiliations are disclosed.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: Submitted papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Papers should be intelligible without appendices as TPC members are
+      not required to read them.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors must use the official LNCS template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submitted papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in the Lecture Notes in Computer Science series (LNCS)
+    evidence: The symposium proceedings will be published by Springer in the Lecture
+      Notes in Computer Science series (LNCS).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the Lecture Notes in Computer Science series (LNCS)
+  statements:
+    value: true
+    evidence: Authors are obliged to specify the Conflict of Interests at the time
+      of submission.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Rome
+    evidence: ESORICS 2026, Rome, Italy (September 21-25, 2026)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Rome
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Rome
+  conference_format:
+    value: in-person
+    evidence: ESORICS 2026, Rome, Italy (September 21-25, 2026)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: 'Travel Grant Co-Chairs : Denis Donadel, Alessandro Galeazzi'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: 'Workshop Chair: Dorjan Hitaj'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: https://easychair.org/conferences/?conf=esorics2026
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Proposals are solicited for Workshops to be held in conjunction with
+      ESORICS 2026 in September 2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ESORICS 2026 will present a Best Paper Award chosen by the Program Committee.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

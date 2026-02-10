@@ -1,0 +1,311 @@
+conference: CF
+year: 2026
+last_checked: '2026-02-16T11:01:58.916532+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: 1 February 2026
+    evidence: Submission deadlines final extension to February 1, 2026 (AoE)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 1 February 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 9 March 2026
+    evidence: 'Author Notification: 9 March 2026 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 9 March 2026
+  camera_ready_deadline:
+    value: 6 April 2026
+    evidence: 'Camera Ready: 6 April 2026 (AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 6 April 2026
+  conference_dates:
+    value: 19 May 2026 - 21 May 2026
+    evidence: The 23rd ACM International Conference on Computing Frontiers (CF'26)
+      will take place May 19th-21th, 2026 in Catania, Sicily, Italy.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 19 May 2026 - 21 May 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: As the review process is double-blind, the removal of all identifying
+      information from paper submissions is required
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors may be invited by the AE Committee to revise their instructions
+      according to their feedback
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: Full papers are a maximum of eight (8) pages (excluding references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must use the double-column ACM conference format
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Concurrent submission of the same paper to any other conference or journal
+      is not permitted
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted contributions (abstract or optional papers) will be published
+      in the workshop proceedings of Computing Frontiers in the ACM Digital...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: By submitting your article to an ACM Publication, you are hereby acknowledging
+      that you and your co-authors are subject to all ACM Publications...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: The CF’26 Organizing Committee strongly encourages authors on a voluntary
+      basis to present the Artifact Evaluation (AE) documentation to support...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: As per ACM Publications Policies, any use of artificial intelligence
+      (AI) generated content in a paper must be clearly disclosed in the...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Catania, Sicily, Italy
+    evidence: The 23rd ACM International Conference on Computing Frontiers (CF'26)
+      will take place May 19th-21th, 2026 in Catania, Sicily, Italy.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Catania, Sicily, Italy
+    normalized:
+      city: Catania
+      country: Italy
+      display: Catania, Italy
+      raw: Catania, Sicily, Italy
+  conference_format:
+    value: in-person
+    evidence: Participation is in-person only
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted contributions (abstract or optional papers) will be published
+      in the workshop proceedings of Computing Frontiers in the ACM Digital...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: See individual workshop pages for important dates.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers must be submitted through: https://cf26.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: See individual workshop pages for important dates.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: See individual workshop pages for important dates.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: Call for Posters
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: There will be a Best Poster Award based on voting by the Poster Program
+      Committee
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

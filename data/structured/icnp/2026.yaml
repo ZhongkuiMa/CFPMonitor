@@ -1,0 +1,313 @@
+conference: ICNP
+year: 2026
+last_checked: '2026-02-16T11:33:51.452879+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: May 22, 2026
+    evidence: 'Full paper submission: May 22, 2026 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 22, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 21, 2026
+    evidence: 'Notification of acceptance: July 21, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 21, 2026
+  camera_ready_deadline:
+    value: August 25, 2026
+    evidence: 'Camera ready version: August 25, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 25, 2026
+  conference_dates:
+    value: October 05-08, 2026
+    evidence: ICNP 2026 will be held in Tempe, Arizona on October 5-8, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 05-08, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers submitted to the conference will be reviewed through a double-blind
+      review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers containing plagiarized materials will be subject to the IEEE
+      plagiarism policy and possible penalties and will be rejected without being...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: should not exceed 10 pages excluding references and well-marked appendices
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: true
+    evidence: should not exceed 10 pages excluding references and well-marked appendices
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: false
+    evidence: All papers will be provisionally accepted, and the final acceptance
+      of any paper will be subject to shepherding by a member of the Program Committee.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Papers must present original contributions and can neither be previously
+      published nor under review by another conference or journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE/ACM Transactions on Networking
+    evidence: One of the accepted papers will be selected for the Best Paper award.
+      The Best Paper will be fast tracked to the IEEE/ACM Transactions on Networking,...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE/ACM Transactions on Networking
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: The authors who have developed software or collected data for the paper
+      are encouraged to release their artefacts and describe them in the submitted...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: While we acknowledge that generative AI is seamlessly included in many
+      editing packages, e.g., Grammarly, and thus often hard to detect, authors must...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Tempe, Arizona, USA
+    evidence: ICNP 2026 will be held in Tempe, Arizona on October 5-8, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tempe, Arizona, USA
+    normalized:
+      city: Tempe
+      country: US
+      display: Tempe, US
+      raw: Tempe, Arizona, USA
+  conference_format:
+    value: in-person
+    evidence: ICNP 2026 will be held physically in person in Tempe, Arizona.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All papers will be provisionally accepted, and the final acceptance
+      of any paper will be subject to shepherding by a member of the Program Committee.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ICNP, the IEEE International Conference on Network Protocols, is the
+      premier conference covering all aspects of network protocol research, including...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: We invite you to submit workshop proposals on any topic related to the
+      main ICNP conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: ICNP 2026 will hold a poster and demo session to showcase work in progress.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: One of the accepted papers will be selected for the Best Paper award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,449 @@
+conference: RECSYS
+year: 2024
+last_checked: '2026-02-16T08:23:47.680834+00:00'
+completeness:
+  known: 35
+  total: 40
+  percentage: 87.5
+quality:
+  conflict_count: 9
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: April 29, 2024
+      llm_batch2: April 21, 2026
+  - field: notification_date
+    values:
+      llm_batch1: July 22, 2024
+      llm_batch2: July 9, 2026
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: August 19, 2024
+      llm_batch2: July 27, 2026 (strict)
+  - field: conference_dates
+    values:
+      llm_batch1: October 14-18, 2024
+      llm_batch2: September 28-October 2, 2026
+  - field: rebuttal_deadline
+    values:
+      llm_batch1: June 10-17, 2024
+      llm_batch2: June 4-9, 2026
+  - field: desk_rejection
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: conference_location
+    values:
+      llm_batch1: Bari, Italy
+      llm_batch2: Minneapolis, Minnesota, USA
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: has_doctoral_consortium
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  source_coverage:
+    llm: 35
+rules:
+  submission_deadline:
+    value: April 21, 2026
+    evidence: 'Papers (main track) due: April 21, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 29, 2024
+      llm_batch2:
+        value: April 21, 2026
+    _conflict: true
+  abstract_deadline:
+    value: April 22, 2024
+    evidence: 'Abstract submission deadline: April 22, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: April 22, 2024
+  notification_date:
+    value: July 9, 2026
+    evidence: 'Paper notifications: July 9, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: July 22, 2024
+      llm_batch2:
+        value: July 9, 2026
+    _conflict: true
+  camera_ready_deadline:
+    value: July 27, 2026 (strict)
+    evidence: 'Camera-ready due: July 27, 2026 (strict)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: August 19, 2024
+      llm_batch2:
+        value: July 27, 2026 (strict)
+    _conflict: true
+  conference_dates:
+    value: September 28-October 2, 2026
+    evidence: RecSys 2026 will be held in Minneapolis, Minnesota, USA, September 28
+      – October 2, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: October 14-18, 2024
+      llm_batch2:
+        value: September 28-October 2, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: June 4-9, 2026
+    evidence: 'Author rebuttal period for papers: June 4-9, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: June 10-17, 2024
+      llm_batch2:
+        value: June 4-9, 2026
+    _conflict: true
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The peer review process is mutually anonymous. This means that all submissions
+      must not include any information that identifies the authors or their...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: At the time of submission, all relevant materials (artifacts) necessary
+      to fully assess the validity of the work, including source code, data, and...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Submissions that do not meet the requirements for anonymity, length,
+      or formatting; violate dual submission policy and/or any of ACM’s policies on...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The maximum length is 8 content pages for long papers and 4 content
+      pages for short papers and past/present/future papers (using the ACM 2-column...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Reference pages do not count towards the content pages.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: All submissions must be in ACM’s double-column format as specified in
+      the common submission requirements.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Submissions should report on substantial contributions of lasting value.
+      The length is 4-8 pages (including figures, tables, appendices, bios, and...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: An anonymous version of your RecSys submission can be submitted at any
+      time to pre-print sites like arXiv.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Each accepted paper will be included in the conference proceedings and
+      presented in the form of a talk or poster as part of the main conference...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are strongly encouraged to carefully review ACM’s authorship
+      policy before submitting their papers. All authors must be listed in the correct...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: At the time of submission, all relevant materials (artifacts) necessary
+      to fully assess the validity of the work, including source code, data, and...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Authors must follow the ACM Policy on the use of generative AI software
+      tools. If a paper includes material generated by GenAI tools (such as text...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Minneapolis, Minnesota, USA
+    evidence: RecSys 2026 will be held in Minneapolis, Minnesota, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Bari, Italy
+      llm_batch2:
+        value: Minneapolis, Minnesota, USA
+    _conflict: true
+    normalized:
+      city: Minneapolis
+      country: US
+      display: Minneapolis, US
+      raw: Minneapolis, Minnesota, USA
+  conference_format:
+    value: in-person
+    evidence: RecSys 2026 is an in-person conference. All accepted papers to the main
+      conference are expected to be presented in-person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Each accepted paper will be included in the conference proceedings and
+      presented in the form of a talk or poster as part of the main conference...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: false
+    evidence: RecSys 2026 is an in-person conference. All accepted papers to the main
+      conference are expected to be presented in-person. At least one author from...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: 'The following RecSys 2026 general policies apply to the Workshop track
+      submissions:'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions will be handled electronically via EasyChair by selecting
+      the “RecSys 2026 Main Track”
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: EasyChair
+      llm_batch2:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'

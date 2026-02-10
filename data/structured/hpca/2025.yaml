@@ -1,0 +1,301 @@
+conference: HPCA
+year: 2025
+last_checked: '2026-02-16T09:51:11.804418+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: August 3, 2024
+    evidence: 'deadline: 2024-08-03 06:59:59'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 3, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: March 1-5, 2025
+    evidence: 'date: March 1-5, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 1-5, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: double-blind review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: double-blind review process
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: no public reviews
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: desk rejection policy
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 8-page limit for papers
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: no exclusions from page limit
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: must use the template provided by the conference organizers
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: no simultaneous submission to other venues allowed
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: no preprints on arXiv before or during review period
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: true
+    evidence: authors must include ethics and broader impact statements in their papers
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: none
+    evidence: no code or artifact submission required
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: no use of LLMs in the preparation of submissions
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Las Vegas, USA.
+    evidence: 'place: Las Vegas, USA.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Las Vegas, USA.
+    normalized:
+      city: Las Vegas
+      country: Usa.
+      display: Las Vegas, Usa.
+      raw: Las Vegas, USA.
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: papers will be presented in oral and poster sessions
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: false
+    evidence: no travel grants or financial aid available
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: 'has_workshop_proposals: false'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: 'has_workshop_proposals: false'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: no tutorials track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: no demo/system demonstrations track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: no dedicated poster submission track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: no industry/applications track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: no position/opinion papers accepted
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: no student research workshop/competition mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: no doctoral consortium/symposium mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: no Findings track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

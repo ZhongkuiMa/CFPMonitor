@@ -1,0 +1,301 @@
+conference: EMSOFT
+year: 2024
+last_checked: '2026-02-16T08:27:30.716699+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 17, 2026
+    evidence: 'Journal Track, Late Breaking Track: Notification'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 17, 2026
+  camera_ready_deadline:
+    value: August 17, 2026
+    evidence: 'All tracks (full paper, LB, Special Session): Camera ready'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 17, 2026
+  conference_dates:
+    value: October 4-9, 2026
+    evidence: ESWEEK 2026 will take place as an in-person event from October 4th to
+      October 9th, 2026 in Barcelona, Spain.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 4-9, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'Journal Track Papers: double-blind review process will be enforced'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: 'Journal Track Papers: double-blind review process will be enforced'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: LB papers go through one stage of review. LB paper submissions that
+      pass the first stage of reviews will be asked to revise their work based on...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: 'EMBEDDED SYSTEMS WEEK: ESWEEK is a conference held exclusively in person.
+      Therefore, it is mandatory that at least one author of each accepted paper...'
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: 'Journal Track Papers: papers should not exceed 12 pages in the IEEE
+      transactions two-column format for the initial submission'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: true
+    evidence: 'Journal Track Papers: references, appendix, etc. are all counted towards
+      the 12-page limit'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+      (TCAD)
+    evidence: 'Journal Track Papers: ESWEEK’2026 full-length papers are submitted
+      for publication in IEEE TCAD'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+          Systems (TCAD)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'EMSOFT Program Chairs: Borzoo Bonakdarpour, EMSOFT TPC Chair: Michigan
+      State University, US; Li-Pin Chang, EMSOFT TPC Co-Chair: National Yang Ming...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Barcelona, Spain
+    evidence: ESWEEK 2026 will take place as an in-person event from October 4th to
+      October 9th, 2026 in Barcelona, Spain.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Barcelona, Spain
+    normalized:
+      city: Barcelona
+      country: Spain
+      display: Barcelona, Spain
+      raw: Barcelona, Spain
+  conference_format:
+    value: in-person
+    evidence: 'EMBEDDED SYSTEMS WEEK: ESWEEK is a conference held exclusively in person'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'EMSOFT Program Chairs: Borzoo Bonakdarpour, EMSOFT TPC Chair: Michigan
+      State University, US; Li-Pin Chang, EMSOFT TPC Co-Chair: National Yang Ming...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'EMSOFT Program Chairs: Borzoo Bonakdarpour, EMSOFT TPC Chair: Michigan
+      State University, US; Li-Pin Chang, EMSOFT TPC Co-Chair: National Yang Ming...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Author Information - Embedded Systems Week: All papers (journal track
+      and late breaking track) must be submitted through the hotCRP management tool...'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshop Proposals - Embedded Systems Week
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

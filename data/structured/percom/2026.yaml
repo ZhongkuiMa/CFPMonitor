@@ -1,0 +1,333 @@
+conference: PERCOM
+year: 2026
+last_checked: '2026-02-16T11:09:08.150873+00:00'
+completeness:
+  known: 34
+  total: 40
+  percentage: 85.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 34
+rules:
+  submission_deadline:
+    value: October 3, 2025
+    evidence: 'Submission via EDAS: September 19, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 3, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 22, 2025
+    evidence: 'Final notification: December 22, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2025
+  camera_ready_deadline:
+    value: February 2, 2026
+    evidence: 'Camera Ready: February 2, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 2, 2026
+  conference_dates:
+    value: March 16-20, 2026
+    evidence: PerCom 2026 will be held in Pisa, Italy in March 2026 as an in-person
+      physical event.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 16-20, 2026
+  rebuttal_deadline:
+    value: December 5, 2025
+    evidence: 'Rebuttal submission: December 5, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 5, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: February 2, 2026
+    evidence: 'Author registration deadline: February 2, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 2, 2026
+  double_blind:
+    value: true
+    evidence: PerCom 2026 will follow a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: PerCom would not be PerCom without its community. For this reason, we
+      are looking for ways to strengthen the community and encourage meaningful...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 9 pages of technical content
+    evidence: Papers must be at most 9 pages of technical content (10pt font, 2-column
+      format), including text, figures, and tables, and up to 1 additional page...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages of technical content
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: The IEEE LaTeX and Microsoft Word templates, as well as formatting instructions,
+      can be found on the conference website.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submitted papers must be unpublished and not considered elsewhere for
+      publication.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Moreover, we instruct reviewers NOT to go searching for pre-prints of
+      submitted papers. Publishing pre-prints of your submitted papers in online...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted papers will be published in IEEE Xplore.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: Contributions should be novel (those presenting only minor improvements
+      over the state of the art will not be considered), should demonstrate a...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: All accepted papers will be invited to submit an artifact abstract providing
+      the code, data, results, etc. associated with the contribution.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Pisa, Italy
+    evidence: PerCom 2026 will be held in Pisa, Italy as an in-person physical event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Pisa, Italy
+    normalized:
+      city: null
+      country: Italy
+      display: Italy
+      raw: Pisa, Italy
+  conference_format:
+    value: in-person
+    evidence: PerCom 2026 will be held in Pisa, Italy as an in-person physical event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted papers will be presented either as ‘spotlight’ or as ‘interactive’
+      presentation. Spotlight presentations will be given increased visibility...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Some students will also be able to apply for travel grants (when details
+      are available, they will be published on the PerCom website).
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EDAS
+    evidence: Paper submission must be done for the main conference and all associated
+      events via EDAS.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: The PerCom 2026 Organizing Committee invites proposals for workshops
+      to be held prior to or immediately after the main conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The best paper will receive the prestigious Mark Weiser Best Paper Award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

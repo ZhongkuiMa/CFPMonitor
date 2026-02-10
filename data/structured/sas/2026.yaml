@@ -1,0 +1,358 @@
+conference: SAS
+year: 2026
+last_checked: '2026-02-16T11:26:14.024088+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Wed 17 Dec 2025
+      llm_batch2: Mar 3, 2026
+  - field: conference_dates
+    values:
+      llm_batch1: Sat 3 - Fri 9 Oct 2026
+      llm_batch2: Jun 15-18, 2026
+  - field: conference_location
+    values:
+      llm_batch1: Oakland, California, USA
+      llm_batch2: Pittsburgh, PA, USA
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'', ''microtalk'', ''panel'']'
+  - field: has_posters
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: Fri 10 Oct 2025
+    evidence: Submission (Round 1) deadline is October 10, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Fri 10 Oct 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Mar 3, 2026
+    evidence: Notifications of acceptance will be sent by the end of February 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Wed 17 Dec 2025
+      llm_batch2:
+        value: Mar 3, 2026
+    _conflict: true
+  camera_ready_deadline:
+    value: Fri 27 Feb 2026
+    evidence: Camera Ready (Round 1) deadline is February 27, 2026.
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Fri 27 Feb 2026
+  conference_dates:
+    value: Jun 15-18, 2026
+    evidence: The 37th Society for Animation Studies Conference will take place in
+      the city of Pittsburgh (USA) from June 15 to 18, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sat 3 - Fri 9 Oct 2026
+      llm_batch2:
+        value: Jun 15-18, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must be submitted in a double-blind manner.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 23 pages
+    evidence: Initial submissions must be at most 23 pages using the template.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 23 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: PACMPL
+    evidence: Accepted papers will appear in the upcoming volume of PACMPL(OOPSLA).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: PACMPL
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+  conference_location:
+    value: Pittsburgh, PA, USA
+    evidence: The 37th Society for Animation Studies Conference will take place in
+      the city of Pittsburgh (USA) from June 15 to 18, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Oakland, California, USA
+      llm_batch2:
+        value: Pittsburgh, PA, USA
+    _conflict: true
+    normalized:
+      city: Pittsburgh
+      country: US
+      display: Pittsburgh, US
+      raw: Pittsburgh, PA, USA
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - microtalk
+    - panel
+    evidence: We invite proposals on any animation-related topic but encourage in
+      particular proposals that engage with the theme of the Animate Experience. Topics...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'', ''microtalk'', ''panel'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The data does not mention any workshops or satellite events for the
+      main conference track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: The data does not mention any workshops or satellite events for the
+      main conference track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: We will hold a screening of animated works from SAS practitioners as
+      part of the conference proceedings.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: The data does not mention any student research track for the main conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

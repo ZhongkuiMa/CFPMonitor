@@ -1,0 +1,300 @@
+conference: CP
+year: 2026
+last_checked: '2026-02-16T11:42:53.645114+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: March 7, 2026
+    evidence: 'Paper submission: 07/03'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 7, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 30, 2026
+    evidence: 'Final notification: 30/04'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 30, 2026
+  camera_ready_deadline:
+    value: May 7, 2026
+    evidence: 'Camera Ready: 07/05'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 7, 2026
+  conference_dates:
+    value: July 20-23, 2026
+    evidence: Main Conference 20/07 - 23/07
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 20-23, 2026
+  rebuttal_deadline:
+    value: April 9-12, 2026
+    evidence: 'Author rebuttal: 09/04-12/04'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 9-12, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All papers will go through a double-blind reviewing process, meaning
+      that authors and reviewers are mutually anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will also be able to submit a single rebuttal for each paper
+      during the period.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages (references and appendices excluded) for full papers; 8 pages
+      (references and appendices excluded) for short papers
+    evidence: Papers should be submitted in the form of a PDF file following LIPIcs
+      guidelines. To open the conference more widely, two types of submissions are...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages (references and appendices excluded) for full papers; 8 pages
+          (references and appendices excluded) for short papers
+  page_limit_exclusions:
+    value: true
+    evidence: Appendices of up to 6 pages for full papers and up to 3 pages for short
+      papers can be included and will not contribute towards the total page count...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Papers should be submitted in the form of a PDF file following LIPIcs
+      guidelines.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplemental material (for example, experimental results or code) may
+      be referenced, but only if this is done without revealing the authors'...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Submissions exceeding the page limits, improperly formatted, with author
+      names/affiliations/identifying-websites will be rejected without review. The...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: LIPIcs
+    evidence: Accepted papers will appear in conference proceedings published by LIPIcs,
+      and follow the authors instructions guidelines.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: LIPIcs
+  statements:
+    value: true
+    evidence: Please consider making your research contribution description inclusive
+      in nature. For example, consider using gender-neutral pronouns, using...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: CP 2026 is adopting the AAAI policy regarding the use of Generative
+      AI systems such as ChatGPT. Papers that include text generated from an AI system...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Lisbon, Portugal
+    evidence: Main Conference 20/07 - 23/07, Lisbon, at ISCTE – Instituto Universitário
+      de Lisboa
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lisbon, Portugal
+    normalized:
+      city: Lisbon
+      country: Portugal
+      display: Lisbon, Portugal
+      raw: Lisbon, Portugal
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: Both full and short papers should attract a wide audience and will be
+      allocated time for presentation during the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: CP 2026 offers DEI scholarships to support individuals from underrepresented
+      groups. These scholarships provide financial assistance to cover...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: This year, CP is part of the the Federated Logic Conference (FLoC) 2026.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'DEI Chair: Mohamed Siala (INSA Toulouse and LAAS-CNRS)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,351 @@
+conference: LCTES
+year: 2024
+last_checked: '2026-02-16T07:44:53.173134+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 4
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Mon 26 Feb 2024
+      llm_batch2: Wed 26 Apr 2024
+  - field: conference_dates
+    values:
+      llm_batch1: Mon 24 - Fri 28 Jun 2024
+      llm_batch2: Mon 24 Jun - Fri 28 Jun 2024
+  - field: page_limit
+    values:
+      llm_batch1: 20 pages
+      llm_batch2: 2 pages
+  - field: publication_venue
+    values:
+      llm_batch1: PACMPL
+      llm_batch2: ACM
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: Thu 16 Nov 2023
+    evidence: Submission deadline is Thu 16 Nov 2023
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 16 Nov 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Wed 26 Apr 2024
+    evidence: Fri 26 Apr 2024 Author Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mon 26 Feb 2024
+      llm_batch2:
+        value: Wed 26 Apr 2024
+    _conflict: true
+  camera_ready_deadline:
+    value: Sat 6 Apr 2024
+    evidence: 'Camera-Ready Deadline: Sat 6 Apr 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Sat 6 Apr 2024
+  conference_dates:
+    value: Mon 24 Jun - Fri 28 Jun 2024
+    evidence: PLDI 2024 Mon 24 - Fri 28 June 2024 Copenhagen, Denmark
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mon 24 - Fri 28 Jun 2024
+      llm_batch2:
+        value: Mon 24 Jun - Fri 28 Jun 2024
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The submission version of your accepted paper (in .pdf format).
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 2 pages
+    evidence: No more than 2 pages. Reference lists do not count towards these limits.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 20 pages
+      llm_batch2:
+        value: 2 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Use the acmart template file ( overleaf template , latex template ).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are welcome to provide supplementary material if that material
+      supports the claims in the paper.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: PLDI waives registration costs for all students with accepted papers.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: PACMPL
+      llm_batch2:
+        value: ACM
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors of accepted papers are encouraged to make their artifacts publicly
+      available upon publication of the proceedings
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifacts will be evaluated with respect to the claims and presentation
+      in the submitted version of the paper, not the camera-ready version.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: forbidden
+  conference_location:
+    value: Copenhagen, Denmark
+    evidence: PLDI 2024 Mon 24 - Fri 28 June 2024 Copenhagen, Denmark
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Copenhagen, Denmark
+      llm_batch2:
+        value: Copenhagen, Denmark
+    normalized:
+      city: Copenhagen
+      country: Denmark
+      display: Copenhagen, Denmark
+      raw: Copenhagen, Denmark
+  conference_format:
+    value: in-person
+    evidence: PLDI waives registration costs for all students with accepted papers.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The students who qualify for the final presentation round will be given
+      7 minutes to present their work, followed by a 4-minute Q&A session at the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: PLDI Events
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: https://pldi24ae.hotcrp.com/ Artifact Evaluation Committee
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: PLDI Events
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: PLDI Events
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: 'Poster round : During the conference, students present a poster to
+      in-person judges and conference attendees.'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: PLDI Events
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: The Student Research Competition (SRC) at PLDI allows students to present
+      their research and get feedback from prominent members of the programming...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: PLDI Events
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Three students from each category (graduate and undergraduate) are selected
+      as winners. The top student in each category is invited to participate in...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'

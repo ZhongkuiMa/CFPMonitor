@@ -1,0 +1,270 @@
+conference: WASA
+year: 2025
+last_checked: '2026-02-16T10:13:59.258873+00:00'
+completeness:
+  known: 15
+  total: 40
+  percentage: 37.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 15
+rules:
+  submission_deadline:
+    value: January 15, 2025
+    evidence: 'submission_deadline: Jan 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 15, 2025
+    evidence: 'notification: Mar 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 15, 2025
+  camera_ready_deadline:
+    value: May 1, 2025
+    evidence: 'camera_ready: May 1, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1, 2025
+  conference_dates:
+    value: June 24-26, 2025
+    evidence: 'date: June 24-26, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 24-26, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: topics of interests include, but not limited to, Artificial Intelligence
+      and Machine Learning, Wireless Communication Technologies, IoT and Edge...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: conference proceedings
+    evidence: WASA is a prestigious annual gathering that serves as a global platform
+      for researchers, academics, and industry professionals to explore and...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: conference proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: topics of interests include, but not limited to, Artificial Intelligence
+      and Machine Learning, Wireless Communication Technologies, IoT and Edge...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Tokyo, Japan
+    evidence: 'location: Tokyo, Japan'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tokyo, Japan
+    normalized:
+      city: Tokyo
+      country: Japan
+      display: Tokyo, Japan
+      raw: Tokyo, Japan
+  conference_format:
+    value: in-person
+    evidence: 'date: June 24-26, 2025'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: topics of interests include, but not limited to, Artificial Intelligence
+      and Machine Learning, Wireless Communication Technologies, IoT and Edge...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: WASA is a prestigious annual gathering that serves as a global platform
+      for researchers, academics, and industry professionals to explore and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'submission_deadline: Jan 15, 2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: WASA is a prestigious annual gathering that serves as a global platform
+      for researchers, academics, and industry professionals to explore and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

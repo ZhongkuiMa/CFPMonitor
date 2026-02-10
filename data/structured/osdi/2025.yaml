@@ -1,0 +1,245 @@
+conference: OSDI
+year: 2025
+last_checked: '2026-02-16T09:30:27.965743+00:00'
+completeness:
+  known: 9
+  total: 40
+  percentage: 22.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 9
+rules:
+  submission_deadline:
+    value: December 10, 2024
+    evidence: 'Complete paper submissions due: Tuesday, December 10, 2024, 5:59 pm
+      EST (10:59 pm UTC)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 10, 2024
+  abstract_deadline:
+    value: December 3, 2024
+    evidence: 'Abstract registrations due: Tuesday, December 3, 2024, 5:59 pm EST
+      (10:59 pm UTC)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 3, 2024
+  notification_date:
+    value: March 25, 2025
+    evidence: 'Notification to authors: Tuesday, March 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 25, 2025
+  camera_ready_deadline:
+    value: June 5, 2025
+    evidence: 'Final papers due: Thursday, June 5, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 5, 2025
+  conference_dates:
+    value: July 7-9, 2025
+    evidence: The 19th USENIX Symposium on Operating Systems Design and Implementation
+      (OSDI '25) will be co-located with the 2025 USENIX Annual Technical...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-9, 2025
+  rebuttal_deadline:
+    value: March 10, 2025
+    evidence: 'Author responses due: Monday, March 10, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 10, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The paper review process is double-blind. Authors must make a good-faith
+      effort to anonymize their submissions, and they should not identify...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: OSDI will provide an opportunity for authors to respond to reviews prior
+      to final consideration of the papers at the program committee meeting,...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submitted papers must be no longer than 12 single-spaced 8.5
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

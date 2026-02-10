@@ -1,0 +1,299 @@
+conference: SDM
+year: 2025
+last_checked: '2026-02-16T10:11:56.311934+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: October 4, 2024
+    evidence: 'Full Paper Submission: October 4, 2024, 11:59 pm (US Pacific time)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 4, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 1 - 3, 2025
+    evidence: May 1-3, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 1 - 3, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'The review will be triple-blind: submissions must be anonymized.'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: All research papers should have a maximum length of eight (8) pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: References and appendices are unlimited and may not be reviewed.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors must use the SIAM macro; papers prepared using other macros
+      will not be accepted.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: "Papers must be prepared in LaTeX2e, and formatted using SIAMâ\x80\x99\
+      s double-column macro. The macro is available here."
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Having papers on arXiv is allowed per the dual submission policy.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: SIAM website
+    evidence: Accepted contributions will be published in archival form and made available
+      on the SIAM website
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: SIAM website
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: No mention of artifact evaluation or submission requirements.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed_disclosure
+    evidence: Authors must disclose the use of LLMs in the paper submission form.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed_disclosure
+  conference_location:
+    value: The Westin Alexandria Old Town Hotel | Alexandria, Virginia, U.S.
+    evidence: The Westin Alexandria Old Town Hotel, A
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: The Westin Alexandria Old Town Hotel | Alexandria, Virginia, U.S.
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: The Westin Alexandria Old Town Hotel | Alexandria, Virginia, U.S.
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: No specific mention of presentation formats, but oral and poster are
+      common in such conferences.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: false
+    evidence: 'Apply for Assistance (Travel Fund Application Deadline: SIAM Student
+      Travel Award and Early Career Travel Award Applications): January 30, 2025,...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: true
+    evidence: A series of focused workshops will be held on the conference's, providing
+      a collaborative space to delve deeper into specific data mining topics.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: EasyChair
+    evidence: Visit https://easychair.org/conferences/?conf=sdm2025 to register your
+      abstract and upload your manuscript.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop Proposals: October 11, 2024, 11:59 pm (US Pacific time)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: No specific mention of poster submission track, but common in such conferences.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

@@ -1,0 +1,328 @@
+conference: USENIX ATC
+year: 2025
+last_checked: '2026-02-16T09:36:13.977049+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: January 14, 2025
+    evidence: 'Submissions due: Tuesday, January 14, 2025, 11:59 pm UTC'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 14, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 25, 2025
+    evidence: 'Notification to authors: Friday, April 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 25, 2025
+  camera_ready_deadline:
+    value: June 3, 2025
+    evidence: 'Final papers due: Tuesday, June 3, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 3, 2025
+  conference_dates:
+    value: July 7-9, 2025
+    evidence: The 2025 USENIX Annual Technical Conference will be co-located with
+      the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-9, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: USENIX ATC '25 will employ double-blind reviewing. Papers that are not
+      properly anonymized may be rejected without review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: USENIX ATC '25 will provide an opportunity for authors to respond to
+      reviews prior to final consideration of the submissions at the program committee...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages for full papers; 6 pages for short papers
+    evidence: Full submissions must not exceed 12 pages, and short submissions must
+      not exceed 6 pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages for full papers; 6 pages for short papers
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must strictly adhere to the policies specified below. By submitting,
+      you agree that if the paper is accepted, at least one of the authors will...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Submissions may include as many additional pages as needed for references
+      and for supplementary material in appendices.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Papers describing experiments with users or user data (e.g., network
+      traffic, passwords, social media information), should follow the basic...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Proceedings
+    evidence: ''
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: Authors must, as part of the submission process, attest that their work
+      complies with all applicable ethical standards of their home institution(s),...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: There will be an optional artifact evaluation process for accepted papers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: forbidden
+    evidence: While we acknowledge that generative AI is seamlessly included in many
+      editing packages, e.g., Grammarly, and thus often hard to detect, authors must...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Boston, MA, USA
+    evidence: The 2025 USENIX Annual Technical Conference will be co-located with
+      the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Boston, MA, USA
+    normalized:
+      city: Boston
+      country: US
+      display: Boston, US
+      raw: Boston, MA, USA
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted (long and short) papers will be allowed one additional page
+      in the proceedings. One author of each accepted paper must present the work
+      in...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions must be in PDF format. No extensions will be given. Submissions
+      must strictly adhere to the policies specified below. By submitting, you...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

@@ -1,0 +1,306 @@
+conference: EUROGRAPHICS
+year: 2026
+last_checked: '2026-02-16T10:52:20.530667+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: Fri Feb. 26, 2026
+    evidence: Submission deadline is February 26, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Fri Feb. 26, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Mon Mar. 13, 2026
+    evidence: Notification to authors on March 13, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Mon Mar. 13, 2026
+  camera_ready_deadline:
+    value: Fri Feb. 20, 2026
+    evidence: Camera-ready version due on February 20, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Fri Feb. 20, 2026
+  conference_dates:
+    value: Fri Apr. 3, 2026 - Mon May 4, 2026
+    evidence: Conference begins on April 3, 2026 and ends on May 4, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Fri Apr. 3, 2026 - Mon May 4, 2026
+  rebuttal_deadline:
+    value: Wed Nov. 26, 2025
+    evidence: Rebuttal due on November 26, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wed Nov. 26, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Fri Feb. 13, 2026
+    evidence: Registration for at least one paper author by February 13, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Fri Feb. 13, 2026
+  double_blind:
+    value: true
+    evidence: All submissions will undergo a double-blind two-step review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: During a rebuttal period from November 19 to November 26, 2025, authors
+      will be able to submit a brief document to address any factual errors or...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: true
+    evidence: At least one author needs to register and present in-person their paper
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 8 pages
+    evidence: max. 8 pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submitted papers must be anonymous, up to 4 pages in length, and formatted
+      according to the Eurographics Author’s guidelines (short papers LaTeX...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Submissions can also include supplementary material such as videos or
+      executable programs
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Authors are encouraged to cite, discuss differences and novelty, and
+      compare results, if applicable, with respect to relevant existing publications,...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Computer Graphics Forum
+    evidence: Accepted full papers will be presented at the Eurographics 2026 conference
+      and published in a special issue of the Eurographics journal Computer...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Computer Graphics Forum
+  statements:
+    value: true
+    evidence: Authors must not use ideas or content originating from others without
+      properly crediting their original sources. Note that such sources are not...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors can utilize Generative AI tools to assist with grammar corrections
+      while preparing their submissions. However, authors are responsible for...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: in-person
+    evidence: Participants of Eurographics 2026 will be able to attend presentations
+      of the latest advances in computer graphics and imaging from the research and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SRMv2
+    evidence: Electronic submission of all papers is mandatory and will be conducted
+      using the Submission and Review Management (SRMv2) platform
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SRMv2
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: The Doctoral Consortium is a networking event that provides PhD students
+      working in all areas of computer graphics with an excellent opportunity to...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: From all accepted and presented papers, an international jury will select
+      the best papers. The best paper will receive the Günter Enderle Award,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

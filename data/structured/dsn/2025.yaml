@@ -1,0 +1,291 @@
+conference: DSN
+year: 2025
+last_checked: '2026-02-16T09:46:22.892672+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: December 4, 2024
+    evidence: Dec. 4, 2024 Paper Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 4, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 19, 2025
+    evidence: Mar. 19, 2025 Notification to Authors
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 19, 2025
+  camera_ready_deadline:
+    value: April 28, 2025
+    evidence: Apr. 28, 2025 Camera Ready Materials
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 28, 2025
+  conference_dates:
+    value: June 23-26, 2025
+    evidence: Naples, Italy, June 23-26, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 23-26, 2025
+  rebuttal_deadline:
+    value: February 13 - 27, 2025
+    evidence: Feb. 13 - 27, 2025 Author Rebuttal Period
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 13 - 27, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The program committee will perform a double-blind review of all submissions,
+      with help from outside referees.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are invited to submit original papers on all topics within this
+      broad scope.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: DSN will continue to employ the Early Rejection Notification Policy.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The page limit includes everything except references. The first page
+      must include the title of the paper, the type of the paper (Regular / Practical...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: "Submissions must adhere to the IEEE Computer Society camera-ready 8.5â\x80\
+      3x11â\x803 two-column camera-ready format (using a 10-point font on 12-point..."
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: The first page must include the title of the paper, the type of the
+      paper (Regular / Practical Experience / Tool), and a maximum 150-word abstract.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Computer Society
+    evidence: IEEE Computer Society will publish accepted contributions.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Computer Society
+  statements:
+    value: true
+    evidence: Submissions describing experiments with data derived from human subjects
+      or presenting results that might have ethical considerations should discuss...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: DSN supports open science, where authors of accepted papers are encouraged
+      to make their code and datasets publicly available to ensure...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Naples, Italy
+    evidence: Naples, Italy, June 23-26, 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Naples, Italy
+    normalized:
+      city: Naples
+      country: Italy
+      display: Naples, Italy
+      raw: Naples, Italy
+  conference_format:
+    value: in-person
+    evidence: Naples, Italy, June 23-26, 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Apr 23 2025 Travel grants information are now available for students
+      , students volunteers , and young researchers . Deadlines for applications are...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers are submitted via the submission website: https://dsn25.hotcrp.com.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: true
+    evidence: Industry Track (tentative)
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: DSN gives three Best Paper Awards and one of them, based on the quality
+      of the oral presentation, will also receive a Distinguished Best Paper Award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

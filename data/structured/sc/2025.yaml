@@ -1,0 +1,411 @@
+conference: SC
+year: 2025
+last_checked: '2026-02-16T09:09:50.405708+00:00'
+completeness:
+  known: 34
+  total: 40
+  percentage: 85.0
+quality:
+  conflict_count: 11
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: 14 April 2025
+      llm_batch2: April 14, 2025
+  - field: notification_date
+    values:
+      llm_batch1: 27 June 2025
+      llm_batch2: June 27, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: 25 August 2025
+      llm_batch2: August 25, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: 18-20 November 2025
+      llm_batch2: November 16-21, 2025
+  - field: page_limit
+    values:
+      llm_batch1: 10 pages
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library and IEEE Xplore
+      llm_batch2: SC Workshop Proceedings
+  - field: llm_policy
+    values:
+      llm_batch1: allowed
+      llm_batch2: allowed_disclosure
+  - field: conference_location
+    values:
+      llm_batch1: St. Louis, MO, USA
+      llm_batch2: St. Louis, MO
+  - field: workshops
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: submission_system
+    values:
+      llm_batch1: Linklings
+      llm_batch2: SC submissions website
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 34
+rules:
+  submission_deadline:
+    value: April 14, 2025
+    evidence: Submission deadline is April 14, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 14 April 2025
+      llm_batch2:
+        value: April 14, 2025
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 27, 2025
+    evidence: Notification date is June 27, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 27 June 2025
+      llm_batch2:
+        value: June 27, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: August 25, 2025
+    evidence: Camera ready deadline is August 25, 2025.
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 25 August 2025
+      llm_batch2:
+        value: August 25, 2025
+    _conflict: true
+  conference_dates:
+    value: November 16-21, 2025
+    evidence: Dates are November 16-21, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 18-20 November 2025
+      llm_batch2:
+        value: November 16-21, 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Peer review is single-anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: During the rebuttal period, authors should still assume double-anonymous
+      review.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: Page limit is 8 pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 10 pages
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions are limited to 10 2-column pages (U.S. letter – 8.5″x11″),
+      excluding the bibliography, using the ACM proceedings template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors of accepted papers may provide supplemental material with their
+      final version of the paper (e.g., additional proofs, videos, or images).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  publication_venue:
+    value: SC Workshop Proceedings
+    evidence: Workshops may be included in the SC Workshop Proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library and IEEE Xplore
+      llm_batch2:
+        value: SC Workshop Proceedings
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors should not be required to go to great lengths to anonymize their
+      submissions.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: All SC papers must provide (1) an artifact description or (2) a reason
+      why an artifact description can not be provided.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: allowed_disclosure
+    evidence: Artificial intelligence AI–generated text in an article shall be disclosed
+      in the acknowledgements section of any paper submitted to SC.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed_disclosure
+    _conflict: true
+  conference_location:
+    value: St. Louis, MO
+    evidence: Location is St. Louis, MO.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: St. Louis, MO, USA
+      llm_batch2:
+        value: St. Louis, MO
+    _conflict: true
+    normalized:
+      city: St. Louis
+      country: US
+      display: St. Louis, US
+      raw: St. Louis, MO
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  workshops:
+    value: true
+    evidence: Workshops are provided as a venue for focused, in-depth presentations,
+      discussion, interaction, and hands-on activities.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  submission_system:
+    value: SC submissions website
+    evidence: Workshop organizers may use the SC submissions website for the collection
+      and review of your workshop papers.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Linklings
+      llm_batch2:
+        value: SC submissions website
+    _conflict: true
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals are peer-reviewed by a committee of experts.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best Paper (BP), Best Student Paper (BSP), and Best Reproducibility
+      Advancement (BRA) nominations are made during the review process and are...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

@@ -1,0 +1,279 @@
+conference: RAID
+year: 2024
+last_checked: '2026-02-16T08:38:59.502978+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: April 15, 2024
+    evidence: 'Paper Submission Deadline: April 9 April 15 2024 11:59:59pm Anywhere
+      on earth (UTC-12)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 15, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 24, 2024
+    evidence: 'Notification to Authors: June 24 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 24, 2024
+  camera_ready_deadline:
+    value: July 22, 2024
+    evidence: 'Camera Ready Submission Deadline: July 22 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 22, 2024
+  conference_dates:
+    value: September 30 - October 2, 2024
+    evidence: 'Conference: September 30 - October 2, 2024, Padua, Italy'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 30 - October 2, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Reviewing will be double-blind, meaning the authors’ identities will
+      be hidden from the reviewers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions must be a PDF file in double-column ACM format (see ACM
+      Proceedings Template , using the sigconf style , e.g., \\(documentclass[sigconf,...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must be a PDF file in double-column ACM format (see ACM
+      Proceedings Template , using the sigconf style , e.g., \\(documentclass[sigconf,...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Papers that have been formally reviewed and accepted will be presented
+      at RAID 2024 and published at the International Conference Proceedings Series...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: International Conference Proceedings Series by ACM
+    evidence: Papers that have been formally reviewed and accepted will be presented
+      at RAID 2024 and published at the International Conference Proceedings Series...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: International Conference Proceedings Series by ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: We encourage authors to make both the tools and data publicly available.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Padua, Italy
+    evidence: 'Conference: September 30 - October 2, 2024, Padua, Italy'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Padua, Italy
+    normalized:
+      city: Padua
+      country: Italy
+      display: Padua, Italy
+      raw: Padua, Italy
+  conference_format:
+    value: in-person
+    evidence: 'Conference: September 30 - October 2, 2024, Padua, Italy'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'The submission site is available here: https://raid2024.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

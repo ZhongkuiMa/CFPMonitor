@@ -1,0 +1,317 @@
+conference: ECAI
+year: 2025
+last_checked: '2026-02-16T09:19:26.569035+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: Tuesday, 6 May 2025
+    evidence: 'Paper deadline: Tuesday, 6 May 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Tuesday, 6 May 2025
+  abstract_deadline:
+    value: Tuesday, 29 April 2025
+    evidence: 'Abstract deadline: Tuesday, 29 April 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Tuesday, 29 April 2025
+  notification_date:
+    value: Thursday, 10 July 2025
+    evidence: 'Author notification: Thursday, 10 July 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thursday, 10 July 2025
+  camera_ready_deadline:
+    value: Tuesday, 26 August 2025
+    evidence: 'Camera-ready deadline: Tuesday, 26 August 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Tuesday, 26 August 2025
+  conference_dates:
+    value: October 27-30, 2025
+    evidence: Main Conference Location Bologna Congress Center The main conference
+      will include PAIS October 27-30, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 27-30, 2025
+  rebuttal_deadline:
+    value: Wednesday, 24 June 2025
+    evidence: 'Rebuttal period: Monday-Wednesday 23-25 June 2025 (72 hours)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wednesday, 24 June 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Wednesday, 3 September 2025
+    evidence: 'Early registration deadline: Wednesday, 3 September 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wednesday, 3 September 2025
+  double_blind:
+    value: true
+    evidence: 'Anonymity: Reviewing for ECAI is double-blind, meaning that reviewers
+      should not be aware of the identity of the authors of the papers they review.'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors may be called upon to help with reviewing papers for ECAI. This
+      does not apply to individuals who already are serving on the PC or who are...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 7 pages
+    evidence: Papers must be written in English, be prepared for double-blind review
+      using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 7 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be written in English, be prepared for double-blind review
+      using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: You have the option to accompany your submission with supplementary
+      material, such as a technical appendix or code and data (up to 50MB).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: 'Concurrent submission: We recognise the significant strain on the scientific
+      community caused by the needs of peer review. Therefore, the work you...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IOS Press
+    evidence: The open-access proceedings will be published by IOS Press . A selection
+      of the best papers submitted to the conference will be invited for...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IOS Press
+  statements:
+    value: true
+    evidence: ETHICS STATEMENT Research reported at ECAI should avoid harm, be honest
+      and trustworthy, fair and non-discriminatory, and respect privacy and...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Bologna, Italy
+    evidence: The main conference will include PAIS October 27-30, 2025 Location Bologna
+      Congress Center
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bologna, Italy
+    normalized:
+      city: Bologna
+      country: Italy
+      display: Bologna, Italy
+      raw: Bologna, Italy
+  conference_format:
+    value: in-person
+    evidence: The conference is planned as an in-person event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Each accepted paper will get assigned either an oral presentation slot
+      or a combined poster/spotlight presentation slot.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite proposals for workshops to be held as part of the pre-conference
+      programme during the first two days of the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'The submission website is: https://easychair.org/conferences/?conf=ecai20250
+      .'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be held as part of the pre-conference
+      programme during the first two days of the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorials – ECAI 2025 Call for Tutorials
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: Call for Demo Papers – ECAI 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'We welcome submissions on all aspects of AI. This includes in particular:
+      Humans and AI'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: A selection of the best papers submitted to the conference will be invited
+      for fast-track consideration by the Artificial Intelligence Journal or the...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

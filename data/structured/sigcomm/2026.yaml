@@ -1,0 +1,302 @@
+conference: SIGCOMM
+year: 2026
+last_checked: '2026-02-16T11:22:10.429065+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: February 6, 2026
+    evidence: 'Friday, February 6, 2026 AoE Main Track CFP : Paper submission'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 6, 2026
+  abstract_deadline:
+    value: January 30, 2026
+    evidence: 'Friday, January 30, 2026 AoE Main Track CFP : Abstract registration'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 30, 2026
+  notification_date:
+    value: May 11, 2026
+    evidence: Review results notification Monday, May 11, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 11, 2026
+  camera_ready_deadline:
+    value: July 3, 2026
+    evidence: Camera-ready deadline Friday, July 3, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 3, 2026
+  conference_dates:
+    value: August 17 - 21, 2026
+    evidence: Conference August 17 - 21, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 17 - 21, 2026
+  rebuttal_deadline:
+    value: April 27 - April 29, 2026
+    evidence: Rebuttal period April 27 - April 29, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 27 - April 29, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must be anonymous , i.e., not reveal author names.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of papers that made it through to the discussion phase will
+      be given a chance to respond to reviewer comments via a rebuttal system.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers that do not include an ethics statement will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages body, 14 pages total
+    evidence: All submissions must obey the following formatting requirements. Paper
+      bodies (all content before references and appendices) must be no more than...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages body, 14 pages total
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: You must list the submission number and the number of pages (ideally)
+      in your paper in the author block, e.g., "Paper N, 12 pages body, 14 pages...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Under no circumstances, except where noted below, should authors submit
+      previously-published work, submit the same work simultaneously to multiple...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Workshop papers, unless opted-out, will be published in the same set
+      of proceedings as the conference's papers, and will be available on the ACM...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: All papers must include, in the main body of the paper, a statement
+      about ethical issues; papers that don't include such a statement may be rejected.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: The authors of accepted SIGCOMM 2026 papers will be invited to submit
+      supporting materials to the Artifact Evaluation process.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: Generative AI tools and technologies, such as ChatGPT, may not be listed
+      as authors of an ACM published Work. The use of generative AI tools and...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Denver, Colorado, USA
+    evidence: ACM SIGCOMM 2026, the 40th edition of the conference series, will be
+      held between August 17 - 21, 2026 , at the Colorado Convention Center in Denver,...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Denver, Colorado, USA
+    normalized:
+      city: Denver
+      country: US
+      display: Denver, US
+      raw: Denver, Colorado, USA
+  conference_format:
+    value: in-person
+    evidence: SIGCOMM 2026 plans to be an in-person event
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshop Proposals and Call for Tutorials January 21, 2026
+      Updates to Main Track CFP (e.g., notification dates, more info on ethics...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submission site: https://sigcomm26.hotcrp.com'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshop Proposals and Call for Tutorials January 21, 2026
+      Updates to Main Track CFP (e.g., notification dates, more info on ethics...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

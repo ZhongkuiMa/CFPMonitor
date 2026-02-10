@@ -1,0 +1,307 @@
+conference: RSS
+year: 2025
+last_checked: '2026-02-16T09:37:42.879464+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: January 17, 2025
+    evidence: Abstract/Title Submission Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 17, 2025
+  notification_date:
+    value: April 25, 2025
+    evidence: Paper and Demo Acceptance Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 25, 2025
+  camera_ready_deadline:
+    value: June 20, 2025
+    evidence: Final Camera Ready Paper Submission
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 20, 2025
+  conference_dates:
+    value: June 21-25, 2025
+    evidence: The conference will be held at the University of Southern California,
+      Los Angeles, California from June 21-25, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 21-25, 2025
+  rebuttal_deadline:
+    value: April 10, 2025
+    evidence: Rebuttal Submission Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 10, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: RSS 2025 continues the tradition of double-blind reviews for Science
+      and Systems papers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Demo paper submissions are allowed (but not required) to be single-blind
+      in contrast to Science/System papers, which must be double-blind.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The conference includes a rebuttal stage.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: 'null'
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: RSS 2025 has no page length requirements on submissions. Traditionally,
+      RSS submissions have been 8 pages given the paper template, which is...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: A template for paper and demo submissions is available in LaTeX and
+      Word . Do not modify the formatting provided in the templates.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary Materials for Papers and Demos
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: 'null'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Conference proceedings
+    evidence: The conference will consist of oral and poster presentations of accepted
+      papers, demonstrations, invited talks, and panels.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Conference proceedings
+  statements:
+    value: true
+    evidence: RSS 2025 requires authors to submit the title/abstract of their paper(s)
+      by January 17 , one week before the full paper submission. This gives extra...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Papers that include text generated from a large language model (LLM),
+      such as ChatGPT, are prohibited unless the produced text is presented as a part...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Los Angeles, California, USA
+    evidence: The conference will be held at the University of Southern California,
+      Los Angeles, California from June 21-25, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Los Angeles, California, USA
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Los Angeles, California, USA
+  conference_format:
+    value: in-person
+    evidence: RSS 2025 and its accompanying workshops are planned as in-person events.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The conference will consist of oral and poster presentations of accepted
+      papers, demonstrations, invited talks, and panels.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'We invite proposals for full and half-day workshops and tutorials to
+      take place in conjunction with the “Robotics: Science and Systems” (RSS) 2025...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Paper submission and review will occur in the OpenReview system at the
+      following link:...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: 'We invite proposals for full and half-day workshops and tutorials to
+      take place in conjunction with the “Robotics: Science and Systems” (RSS) 2025...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: true
+    evidence: Demo submissions will be possible for RSS 2025 contributors.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,287 @@
+conference: ICS
+year: 2024
+last_checked: '2026-02-16T08:54:02.953430+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: January 18, 2024
+    evidence: 'Paper submission: January 18th, 2024 CLOSED'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 18, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 2nd, 2024
+    evidence: 'Author notification: April 2nd, 2024 CLOSED'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 2nd, 2024
+  camera_ready_deadline:
+    value: April 22nd, 2024
+    evidence: 'Camera-ready: April 22nd, 2024 CLOSED'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 22nd, 2024
+  conference_dates:
+    value: June 5-7, 2024
+    evidence: '- Main conference: June 5-7 CLOSED'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 5-7, 2024
+  rebuttal_deadline:
+    value: March 18th to March 20th, 2024
+    evidence: 'Rebuttal period: March 18th to March 20th, 2024 CLOSED'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 18th to March 20th, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 30th, 2024
+    evidence: 'Author registration due: April 30th, 2024 CLOSED'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 30th, 2024
+  double_blind:
+    value: true
+    evidence: Submissions (both abstract and paper) should be prepared for double-blind
+      review, i.e., without author names or other identifying material.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: 'Rebuttal period: March 18th to March 20th, 2024 CLOSED'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Papers must be submitted in printable PDF format and should contain
+      a maximum of 11 pages of single-spaced two-column text plus unlimited references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: If you are using Latex please use the following template . A sample
+      PDF generated from the template is available here .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: By submitting a manuscript to ICS 2024, the authors guarantee that the
+      manuscript has not been previously published or accepted for publication in
+      a...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Papers accepted for this conference will be published in the ACM proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: Authors are not allowed to contact reviewers or PC members to encourage
+      or solicit them to bid on any paper.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Kyoto University, Kyoto, Japan
+    evidence: June 4-7, 2024 International Conference Hall, Kyoto University, Kyoto,
+      Japan
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kyoto University, Kyoto, Japan
+    normalized:
+      city: Kyoto
+      country: Japan
+      display: Kyoto, Japan
+      raw: Kyoto University, Kyoto, Japan
+  conference_format:
+    value: in-person
+    evidence: ICS 2024 WILL BE HELD IN-PERSON STYLE.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: '- Main conference: June 5-7 CLOSED'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'All papers must be original and not simultaneously submitted to another
+      journal or conference. The conference will include the following workshops:'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions will be handled via HotCRP
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: BEST PAPER AWARD
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,313 @@
+conference: CHES
+year: 2025
+last_checked: '2026-02-16T09:29:35.984993+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 14 Oct. 2024
+    evidence: 15 Sept. 2024 Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 14 Oct. 2024
+  camera_ready_deadline:
+    value: 14 Oct. 2024
+    evidence: 14 Oct. 2024 Final version due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 14 Oct. 2024
+  conference_dates:
+    value: September 14-18, 2025
+    evidence: CHES 2025 will take place in Kuala Lumpur, Malaysia in September 14-18,
+      2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 14-18, 2025
+  rebuttal_deadline:
+    value: 15 Sept. 2024
+    evidence: 19–23 Aug. 2024 Rebuttal phase
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 15 Sept. 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: 14 Oct. 2024
+    evidence: 14 Oct. 2024 Final version due
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 14 Oct. 2024
+  double_blind:
+    value: true
+    evidence: Each paper will be double-blind reviewed by at least three members of
+      the TCHES editorial board.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: In order to improve the quality of the review process, authors are given
+      the opportunity to submit a rebuttal (between the indicated dates) after...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: TCHES follows IACR policy with respect to conflicts of interest that
+      could prevent impartial review.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 20 pages
+    evidence: The page limit is up to 20 pages, including all figures, tables, and
+      appendices, but excluding the bibliography.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions should be typeset in the LaTeX style available at https://tches.iacr.org/index.php/TCHES/submission
+      , noting that TCHES only accepts...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are encouraged to include additional supplementary material
+      needed to validate the content (e.g., test vectors or source code) as separate...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Transactions on Cryptographic Hardware and Embedded Systems (TCHES)
+    evidence: Papers will undergo a journal-style review process, with accepted papers
+      published by Ruhr University Bochum in an issue of the journal IACR...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Transactions on Cryptographic Hardware and Embedded Systems (TCHES)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: optional
+    evidence: Authors of papers accepted to CHES 2025 are invited to submit artifacts
+      associated with their papers, such as software or datasets, for review.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Kuala Lumpur, Malaysia
+    evidence: CHES 2025 will take place in Kuala Lumpur, Malaysia in September 14-18,
+      2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kuala Lumpur, Malaysia
+    normalized:
+      city: Kuala Lumpur
+      country: Malaysia
+      display: Kuala Lumpur, Malaysia
+      raw: Kuala Lumpur, Malaysia
+  conference_format:
+    value: in-person
+    evidence: CHES 2025 will take place in Kuala Lumpur, Malaysia in September 14-18,
+      2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The review process outcome is either an outright accept or reject decision,
+      or one of two deferred decision types. Specifically, 'minor revision'...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The call for papers does not mention workshops or any satellite events.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: To ensure consistency, the reviewers assigned for a revised paper are
+      ideally the same as for the original submission.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: The call for papers does not mention workshops or any satellite events.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: The call for papers does not mention tutorials or any related tracks.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: We invite proposals of interest for a poster presentation session to
+      be held during the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: The call for papers does not mention a doctoral consortium or any related
+      tracks.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: The call for papers does not mention a Findings track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: An award will be given in year X to honor a paper published at (T)CHES
+      in years X-21 to X-19 which has had a lasting impact on the field with respect...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

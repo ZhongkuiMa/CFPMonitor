@@ -1,0 +1,267 @@
+conference: PPSN
+year: 2026
+last_checked: '2026-02-16T10:54:11.420589+00:00'
+completeness:
+  known: 14
+  total: 40
+  percentage: 35.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 14
+rules:
+  submission_deadline:
+    value: March 28, 2026
+    evidence: 'Paper submission deadline: March 28, 2026 (Friday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 28, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 22, 2026
+    evidence: 'Notification of acceptance: May 22, 2026 (Friday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 22, 2026
+  camera_ready_deadline:
+    value: June 12, 2026
+    evidence: 'Camera-ready papers due: June 12, 2026 (Friday)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 12, 2026
+  conference_dates:
+    value: August 29 - September 2, 2026
+    evidence: 'date: August 29-September 2, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 29 - September 2, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: false
+    evidence: Authors' names need not be hidden for the reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: Papers must be submitted as PDF files in Springer LNCS style through
+      the conference submission portal. The page limit is 14 pages , excluding...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: true
+    evidence: If authors wish to include supplementary material, we suggest they host
+      a separate document online (e.g., Zenodo) and cite it appropriately within...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Lecture Notes in Computer Science (LNCS)
+    evidence: The proceedings will be published in the Lecture Notes in Computer Science
+      (LNCS) series by Springer.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Computer Science (LNCS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: University of Trento, Trento, Italy
+    evidence: PPSN 2026 will be hosted at the University of Trento.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: University of Trento, Trento, Italy
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: University of Trento, Trento, Italy
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshops
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Papers must be submitted as PDF files in Springer LNCS style through
+      the conference submission portal.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: The PPSN 2026 Organizing Committee invites proposals for workshops to
+      be held in conjunction with PPSN 2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorials
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

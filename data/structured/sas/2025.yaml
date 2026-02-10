@@ -1,0 +1,315 @@
+conference: SAS
+year: 2025
+last_checked: '2026-02-16T10:02:57.891636+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 20, 2025
+    evidence: 'Notification of Acceptance : June 20, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 20, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: October 13-14, 2025
+    evidence: The Symposium will be held from October 13-14 at the Marina Bay Sands
+      Convention Centre.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 13-14, 2025
+  rebuttal_deadline:
+    value: June 16 - June 18, 2025
+    evidence: Mon 16 Jun - Wed 18 Jun 2025 Author Response
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 16 - June 18, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All regular papers will follow a double-blind process, where author
+      names and affiliations are hidden for the review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The review process will include a rebuttal period where authors have
+      the opportunity to respond to preliminary reviews on the paper.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: All paper submissions will be evaluated on the basis of significance,
+      relevance, correctness, originality, and clarity.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors should consult Springer’s authors’ guidelines and use their
+      proceedings templates, for LaTeX, Overleaf, or Word, for the preparation of
+      their...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Artifact submission is optional. Artifact evaluation will be concurrent
+      with paper review.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in their LNCS series
+    evidence: The SAS 2025 proceedings will be published by Springer in their LNCS
+      series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in their LNCS series
+  statements:
+    value: true
+    evidence: All paper submissions will be evaluated on the basis of significance,
+      relevance, correctness, originality, and clarity.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: Artifact submission is optional. Artifact evaluation will be concurrent
+      with paper review.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Singapore
+    evidence: The Symposium will be held from October 13-14 at the Marina Bay Sands
+      Convention Centre.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Singapore
+    normalized:
+      city: Singapore
+      country: Singapore
+      display: Singapore
+      raw: Singapore
+  conference_format:
+    value: in-person
+    evidence: The Symposium will be held from October 13-14 at the Marina Bay Sands
+      Convention Centre.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The technical program for SAS 2025 will consist of invited lectures
+      and presentations of refereed papers.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: SAS 2025
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submission Link https://sas25.hotcrp.com
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: ICFP and SPLASH provide complementary yet distinct tracks, bringing
+      together different aspects of programming research. Workshops will occur...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The program committee will select an accepted regular paper for the
+      Radhia Cousot Young Researcher Best Paper Award in memory of Radhia Cousot and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

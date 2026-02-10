@@ -1,0 +1,309 @@
+conference: ICML
+year: 2026
+last_checked: '2026-02-16T11:29:32.789682+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: January 28, 2026
+    evidence: ''
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 28, 2026
+  abstract_deadline:
+    value: January 23, 2026
+    evidence: ''
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 23, 2026
+  notification_date:
+    value: April 30, 2026
+    evidence: ''
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 30, 2026
+  camera_ready_deadline:
+    value: June 15, 2026
+    evidence: ''
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 15, 2026
+  conference_dates:
+    value: July 7-9, 2026
+    evidence: ''
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-9, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 8 pages
+    evidence: ''
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Proceedings of Machine Learning Research
+    evidence: ''
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Seoul, South Korea
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Seoul, South Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, South Korea
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

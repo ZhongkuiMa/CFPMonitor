@@ -1,0 +1,309 @@
+conference: NDSS
+year: 2024
+last_checked: '2026-02-16T07:58:13.100710+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: April 19, 2023
+    evidence: 'Wed, 19 Apr 2023: Paper submission deadline'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 19, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 21, 2023
+    evidence: 'Wed, 21 Jun 2023: Paper notification to authors'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 21, 2023
+  camera_ready_deadline:
+    value: August 30, 2023
+    evidence: 'Wed, 30 Aug 2023: Camera Ready deadline'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 30, 2023
+  conference_dates:
+    value: February 26 - March 1, 2024
+    evidence: 'date: February 26 - March 1, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 26 - March 1, 2024
+  rebuttal_deadline:
+    value: June 14, 2023
+    evidence: 'Mon, 12 Jun to Mon, 19 Jun 2023: Interactive discussion with reviewers'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 14, 2023
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: NDSS implements a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of accepted papers must ensure that their papers will be presented
+      at the conference according to the conference participation policy.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages
+    evidence: Papers must not exceed 13 pages, excluding references or appendices
+      and must be written in English.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors must use the NDSS templates provided for their submission.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Technical papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Internet Society
+    evidence: The Proceedings will be made freely accessible from the Internet Society
+      web pages.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Internet Society
+  statements:
+    value: true
+    evidence: 'Ethical Considerations: If a paper relates to human subjects...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: NDSS Symposium 2024 introduces an Artifact Evaluation (AE) process,
+      allowing authors to submit an artifact alongside accepted papers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: San Diego, CA, USA
+    evidence: 'place: San Diego, California'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Diego, CA, USA
+    normalized:
+      city: San Diego
+      country: US
+      display: San Diego, US
+      raw: San Diego, CA, USA
+  conference_format:
+    value: in-person
+    evidence: The Network and Distributed System Security Symposium (NDSS) is a top
+      venue...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Summer review cycle submission site: https://ndss24-summer.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

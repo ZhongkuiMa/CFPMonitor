@@ -1,0 +1,281 @@
+conference: EURO-PAR
+year: 2024
+last_checked: '2026-02-16T08:11:45.724945+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: March 25, 2024
+    evidence: 'Paper submission: March 15th, 2024 March 25th, 2024 (extended deadline)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 25, 2024
+  abstract_deadline:
+    value: March 15, 2024
+    evidence: 'Abstract Submission: March 5th, 2024, March 15th, 2024 (extended deadline)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 15, 2024
+  notification_date:
+    value: April 30, 2024
+    evidence: 'Author Notification: April 29th, 2024 April 30th, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 30, 2024
+  camera_ready_deadline:
+    value: June 2, 2024
+    evidence: 'Camera-Ready Papers: June 2, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 2, 2024
+  conference_dates:
+    value: August 28-30, 2024
+    evidence: Main conference August 28-30th, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 28-30, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 2, 2024
+    evidence: 'Author Registration: June 2, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 2, 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: Papers must not exceed 14 pages (including references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be formatted in the Springer LNCS style
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in the LNCS series
+    evidence: The Euro-Par 2024 proceedings will be published by Springer in the LNCS
+      series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the LNCS series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors of accepted papers will be invited to submit an artifact that
+      will be evaluated separately. Accepted Artifacts will be considered for the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Madrid, Spain
+    evidence: Euro-Par 2024 will be held as a primarily in-person event (although
+      remote presentation and participation will be supported, if unavoidable). The...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Madrid, Spain
+    normalized:
+      city: Madrid
+      country: Spain
+      display: Madrid, Spain
+      raw: Madrid, Spain
+  conference_format:
+    value: in-person
+    evidence: Euro-Par 2024 will be held as a primarily in-person event (although
+      remote presentation and participation will be supported, if unavoidable)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Submission must be done using the EasyChair link: https://easychair.org/my/conference?conf=europar2024(Euro-Par
+      2024, choose track).'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

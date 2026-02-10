@@ -1,0 +1,272 @@
+conference: ICANN
+year: 2026
+last_checked: '2026-02-16T11:30:23.059573+00:00'
+completeness:
+  known: 15
+  total: 40
+  percentage: 37.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 15
+rules:
+  submission_deadline:
+    value: March 16, 2026
+    evidence: 'Deadline for full paper submission : 16 March 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 16, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 29, 2026
+    evidence: 'Final notification of Acceptance or Rejection : 29 May, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 29, 2026
+  camera_ready_deadline:
+    value: June 29, 2026
+    evidence: 'Camera-ready paper upload and author registration : 29 June 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 29, 2026
+  conference_dates:
+    value: September 14-17, 2026
+    evidence: 'Conference Dates: September 14 to September 17, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 14-17, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 29, 2026
+    evidence: Author registration and early registration at early rate 29th June 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 29, 2026
+  double_blind:
+    value: true
+    evidence: The review process of the ICANN 2026 is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: up to 12 pages (including references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The paper template is found at LaTeX2e Proceedings Templates download.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science (LNCS) series
+    evidence: The ICANN 2026 proceedings will be published in the Springer Lecture
+      Notes in Computer Science (LNCS) series, indexed as peer-reviewed publication
+      in...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Conference center of the School of Psychology, University of Padua, Italy
+    evidence: 'Conference Venue: Conference center of the School of Psychology, University
+      of Padua, Italy'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Conference center of the School of Psychology, University of Padua,
+          Italy
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Conference center of the School of Psychology, University of Padua, Italy
+  conference_format:
+    value: in-person
+    evidence: We expect that at least one co-author of each accepted paper will be
+      physically present in Padua to give his or her presentation.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: Workshops may span up to half a conference day and can include a variety
+      of formats, such as invited talks, panel discussions, interactive sessions,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: Microsoft CMT
+    evidence: The Microsoft CMT service was used for managing the peer-reviewing process
+      for this conference.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Microsoft CMT
+  has_workshop_proposals:
+    value: true
+    evidence: Workshops may span up to half a conference day and can include a variety
+      of formats, such as invited talks, panel discussions, interactive sessions,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

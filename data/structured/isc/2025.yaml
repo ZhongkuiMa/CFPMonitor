@@ -1,0 +1,284 @@
+conference: ISC
+year: 2025
+last_checked: '2026-02-16T10:07:00.377626+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: June 11, 2025
+    evidence: 'Submission Deadline: June 4, AoE June 11, AoE (Extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 11, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 29, 2025
+    evidence: 'Notification: July 29, AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 29, 2025
+  camera_ready_deadline:
+    value: August 13, 2025
+    evidence: 'Camera-Ready Deadline: August 13, AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 13, 2025
+  conference_dates:
+    value: October 20-22, 2025
+    evidence: 'Conference: October 20-22, KST'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 20-22, 2025
+  rebuttal_deadline:
+    value: July 13-16, 2025
+    evidence: 'Rebuttal: July 13-16, AoE'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 13-16, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The submission must be anonymous with no author names, affiliations,
+      or obvious references.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: For papers that are accepted, the corresponding author must, acting
+      on behalf of all of the authors of that paper, complete and sign a...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 20 pages
+    evidence: They are limited to 16 pages excluding bibliography and appendices,
+      and to 20 pages including bibliography and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Optionally, any amount of clearly marked supplementary material may
+      be supplied, following the main body of the paper, but reviewers are not required...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors should consult Springer’s authors’ guidelines and use their
+      LaTeX proceedings template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Optionally, any amount of clearly marked supplementary material may
+      be supplied, following the main body of the paper, but reviewers are not required...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science (LNCS)
+    evidence: The proceedings of ISC 2025 will be published as a separate LNCS volume
+      by Springer.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science (LNCS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Sungkyunkwan University, Seoul, S.Korea
+    evidence: The conference will be held in-person at the 600 Years Anniversary Hall,
+      Sungkyunkwan University (Humanities & Social Sciences Campus).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Sungkyunkwan University, Seoul, S.Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Sungkyunkwan University, Seoul, S.Korea
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in-person at the 600 Years Anniversary Hall,
+      Sungkyunkwan University (Humanities & Social Sciences Campus).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submitted papers must be in PDF format and submitted electronically
+      via the ISC 2025 submission system (HotCRP).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: 'Best Paper Award: The Multi-User Security of GCM-SST and Further Enhancements
+      [10/22/2025]'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

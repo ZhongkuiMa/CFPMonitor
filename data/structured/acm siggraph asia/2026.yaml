@@ -1,0 +1,351 @@
+conference: ACM SIGGRAPH ASIA
+year: 2026
+last_checked: '2026-02-16T10:45:14.650886+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: conference_dates
+    values:
+      llm_batch1: 16 – 18 December 2025
+      llm_batch2: December 01-04, 2026
+  - field: page_limit
+    values:
+      llm_batch1: 30 minutes
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: SIGGRAPH Asia 2026 Conference Proceedings
+  - field: llm_policy
+    values:
+      llm_batch1: allowed
+      llm_batch2: forbidden
+  - field: conference_location
+    values:
+      llm_batch1: Hong Kong
+      llm_batch2: Kuala Lumpur, Malaysia
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: 13 July 2025
+    evidence: The SIGGRAPH Asia 2025 Computer Animation Festival is now open for submissions!
+      We invite creators worldwide to submit their projects and help us...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 13 July 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 29 September 2025
+    evidence: On 29 September 2025, you will be notified by email of the status of
+      your work.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 29 September 2025
+  camera_ready_deadline:
+    value: 15 – 18 December 2025
+    evidence: Final Movie Submission / Final Materials Due
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 15 – 18 December 2025
+  conference_dates:
+    value: December 01-04, 2026
+    evidence: SIGGRAPH Asia 2026 invites you to submit your best works and creative
+      innovations at the 19th ACM SIGGRAPH Conference and Exhibition on Computer...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 16 – 18 December 2025
+      llm_batch2:
+        value: December 01-04, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: We use double-blind reviewing. Authors are expected to strictly adhere
+      to the Anonymity Policy.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Immediately following the submission deadline, plagiarism detection
+      software will be run on all submissions, and the sorting team will further...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: Papers accepted to this track will be published in the SIGGRAPH Asia
+      2025 Conference Proceedings. In particular, when assessing a submission’s...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 30 minutes
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: To access electronically submitted papers and supplemental material,
+      log into the submission portal the same way you would to make a submission to...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: You’re not required to, but it is often a good idea. The power of a
+      video during the jury process cannot be stressed enough.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: We use double-blind reviewing. Authors are expected to strictly adhere
+      to the Anonymity Policy.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: SIGGRAPH Asia 2026 Conference Proceedings
+    evidence: Papers accepted to this track will be published in the SIGGRAPH Asia
+      2025 Conference Proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: SIGGRAPH Asia 2026 Conference Proceedings
+    _conflict: true
+  statements:
+    value: true
+    evidence: Ethics and Professionalism
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Make sure you remember that all submissions must be received by 13 July
+      2025, 23:59 AoE.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: Use of LLMs Large language models (LLMs) are NOT allowed to be used
+      for writing the reviews nor the meta-reviews at any step.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: forbidden
+    _conflict: true
+  conference_location:
+    value: Kuala Lumpur, Malaysia
+    evidence: SIGGRAPH Asia 2026 invites you to submit your best works and creative
+      innovations at the 19th ACM SIGGRAPH Conference and Exhibition on Computer...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Hong Kong
+      llm_batch2:
+        value: Kuala Lumpur, Malaysia
+    _conflict: true
+    normalized:
+      city: Kuala Lumpur
+      country: Malaysia
+      display: Kuala Lumpur, Malaysia
+      raw: Kuala Lumpur, Malaysia
+  conference_format:
+    value: in-person
+    evidence: SIGGRAPH Asia 2026 invites you to submit your best works and creative
+      innovations at the 19th ACM SIGGRAPH Conference and Exhibition on Computer...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: SIGGRAPH Asia values conversations and industry contributions that spotlight
+      how diversity, equity, and inclusion makes our communities, industries,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshops Submission Deadline: TBA'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: To access electronically submitted papers and supplemental material,
+      log into the submission portal the same way you would to make a submission to...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: SIGGRAPH Asia values conversations and industry contributions that spotlight
+      how diversity, equity, and inclusion makes our communities, industries,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'

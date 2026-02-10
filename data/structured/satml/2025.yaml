@@ -1,0 +1,290 @@
+conference: SATML
+year: 2025
+last_checked: '2026-02-16T09:45:23.175272+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: September 27, 2024
+    evidence: 'Paper submission deadline: Friday, September 27, 2024 (extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 27, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 12, 2024
+    evidence: 'Decision notification: Thursday, December 12, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 12, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 9–11, 2025
+    evidence: 'Conference dates: April 9–11, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 9–11, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: SaTML follows a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: SaTML will have a discussion period during which authors can exchange
+      messages with reviewers, respond to their questions, and address their comments...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: If the PC chairs conclude that there is no path for acceptance at SaTML
+      upon considering these initial reviews, the paper is early-rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submission must be up to 12 pages of body text, with unlimited additional
+      space for references and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must be a PDF file in two-column IEEE proceedings style.
+      That is, authors must use \ extbackslash{}documentclass[conference]{IEEEtran}...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Authors may choose to give talks about their work, post a preprint of
+      the paper online, and disclose security vulnerabilities to vendors.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE Conference on Secure and Trustworthy Machine Learning
+    evidence: The papers will immediately be published, open access, in the Computer
+      Society’s Digital Library, and they may be cited as “To appear in the IEEE...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Conference on Secure and Trustworthy Machine Learning
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: optional
+    evidence: We especially encourage submissions from fields with a clear positive
+      societal impact and promote causes that use AI to help disadvantaged...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: We encourage authors to use any suitable tools, including Large Language
+      Models (LLMs), for preparing high-quality papers and research.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Copenhagen, Denmark
+    evidence: IEEE SaTML 2025 will be hosted on the campus of the University of Copenhagen
+      on April 9-11, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Copenhagen, Denmark
+    normalized:
+      city: Copenhagen
+      country: Denmark
+      display: Copenhagen, Denmark
+      raw: Copenhagen, Denmark
+  conference_format:
+    value: in-person
+    evidence: 'The conference dates: April 9–11, 2025'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submission site: https://hotcrp.satml.org'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: We solicit research papers, systematization of knowledge papers, and
+      position papers
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Outstanding paper(s) will be selected by the Program Committee, with
+      input from the Steering Committee, for the best paper award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

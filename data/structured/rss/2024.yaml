@@ -1,0 +1,313 @@
+conference: RSS
+year: 2024
+last_checked: '2026-02-16T08:14:55.456025+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: February 2, 2024
+    evidence: Paper and Demo Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 2, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 31, 2024
+    evidence: Camera-ready Submission
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 31, 2024
+  camera_ready_deadline:
+    value: July 15th – July 19th, 2024
+    evidence: Camera-ready Submission
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 15th – July 19th, 2024
+  conference_dates:
+    value: July 15 - 19, 2024
+    evidence: Important Dates
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 15 - 19, 2024
+  rebuttal_deadline:
+    value: April 19, 2024
+    evidence: Paper revision, response to reviews Submission Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 19, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Double-Blind Submission for Papers
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Paper and Demo Format
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: 'Robotics: Science and Systems proceedings'
+    evidence: Call for Papers and Demos
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: 'Robotics: Science and Systems proceedings'
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Delft, Netherlands
+    evidence: Important Dates
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Delft, Netherlands
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Delft, Netherlands
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

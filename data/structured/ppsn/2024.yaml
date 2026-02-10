@@ -1,0 +1,276 @@
+conference: PPSN
+year: 2024
+last_checked: '2026-02-16T08:06:46.350063+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: April 18, 2024
+    evidence: 'Paper submission due: April 5, 2024 Extension: April 18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 18, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 31, 2024
+    evidence: '[Closed] Paper review due: May 20, 2024 Notification of acceptance:
+      May 31, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 31, 2024
+  camera_ready_deadline:
+    value: June 22, 2024
+    evidence: '[Closed] Camera ready paper submission due: June 22, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 22, 2024
+  conference_dates:
+    value: September 14-18, 2024
+    evidence: 'PPSN 2024 will take place from September 14-18, 2024 . Other important
+      dates are: (deadline interpretation = end of the day, anywhere on earth)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 14-18, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 22, 2024
+    evidence: '[Closed] Early bird registration due: June 22, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 22, 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: Papers must be submitted as PDF files in Springer LNCS style through
+      the conference Paper Submission page. The page limit is 14 pages, excluding...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: '- All papers must be original and not simultaneously submitted to another
+      journal or conference.'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Lecture Notes in Computer Science (LNCS) series by Springer
+    evidence: The proceedings will be published in the Lecture Notes in Computer Science
+      (LNCS) series by Springer.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Computer Science (LNCS) series by Springer
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hagenberg, Austria
+    evidence: PPSN 2024 will take place on the Campus of the University of Applied
+      Sciences Upper Austria , located in the Softwarepark Hagenberg, Austria .
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hagenberg, Austria
+    normalized:
+      city: Hagenberg
+      country: Austria
+      display: Hagenberg, Austria
+      raw: Hagenberg, Austria
+  conference_format:
+    value: in-person
+    evidence: The tutorials and conference will be held “on-site” only. The organizers
+      should consider this in their proposal.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: '[Closed] Call for Workshops'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: '[Closed] Call for Workshops'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: true
+    evidence: '[Closed] Call for Tutorials'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: Following PPSN’s unique tradition, all accepted papers will be presented
+      during the poster sessions and will be included in the proceedings.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

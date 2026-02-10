@@ -1,0 +1,307 @@
+conference: MOBISYS
+year: 2025
+last_checked: '2026-02-16T10:22:06.467579+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: December 9, 2024
+    evidence: Paper Submission December 9th, 2024 23:59 AoE
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 9, 2024
+  abstract_deadline:
+    value: December 2nd, 2024
+    evidence: Abstract Registration December 2nd, 2024 23:59 AoE
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 2nd, 2024
+  notification_date:
+    value: March 7, 2025
+    evidence: Final Decision Notification March 7th, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 7, 2025
+  camera_ready_deadline:
+    value: May 1st, 2025
+    evidence: Camera-ready Version Due May 1st, 2025 AoE
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1st, 2025
+  conference_dates:
+    value: June 23-27, 2025
+    evidence: 'Workshop Date June 27th, 2025 Conference dates: June 23rd - 27th, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 23-27, 2025
+  rebuttal_deadline:
+    value: February 13-17, 2025
+    evidence: Rebuttal Period February 13th - 17th, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 13-17, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 23, 2025
+    evidence: Early Registration Due May 23rd, 2025 23:59 PDT
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 23, 2025
+  double_blind:
+    value: true
+    evidence: Double-Blind Review Process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Early Rejection Notification and Rebuttal
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Desk rejection is implied by the abstract registration deadline and
+      paper submission deadline being separate but close in time
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Contain no more than twelve (12) single-spaced and numbered pages, including
+      figures, tables, any appendices, and any other material, followed by as...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors’ names must not appear anywhere in the paper or in the PDF file.
+      The PDF file must also not contain any embedded hyperlinks, as these may...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Submissions must describe original research not published or currently
+      under review for another conference or journal.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The Artifact Evaluation committee will provide feedback to the authors.
+      If required, authors may be asked to revise their artifacts based on the...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Ethics Review Board Approval Requirement
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: As in the case of previous two ACM MobiSys editions, the authors of
+      accepted ACM MobiSys 2025 papers will have the option to opt for an artifact...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Policy on the Use of Large Language Models [New to MobiSys'25]
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Anaheim, California, US
+    evidence: 'Location: Anaheim, California, US'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Anaheim, California, US
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Anaheim, California, US
+  conference_format:
+    value: in-person
+    evidence: All workshops will be held together with the ACM MobiSys conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: N 2 Women Travel Grant Submission May 15th, 2025 23:59 AoE Travel support
+      Travel grant awards are meant to cover the cost of attending the N 2 Women...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submission site: https://mobisys25.hotcrp.com'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Proposal Submission Deadline February 10th, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Best Demo Award Best Poster Award
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,270 @@
+conference: WCNC
+year: 2024
+last_checked: '2026-02-16T08:15:38.717685+00:00'
+completeness:
+  known: 15
+  total: 40
+  percentage: 37.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 15
+rules:
+  submission_deadline:
+    value: 11 October 2023 (FIRM)
+    evidence: Call for Papers Deadline EXTENDED TO 11 OCTOBER 2023
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 11 October 2023 (FIRM)
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 22 December 2023
+    evidence: 'Notification of Acceptance: 22 December 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 22 December 2023
+  camera_ready_deadline:
+    value: 12 January 2024
+    evidence: 'Camera-Ready Papers: 12 January 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 12 January 2024
+  conference_dates:
+    value: 21 April 2024 - 24 April 2024
+    evidence: Conference Begins 21 April 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 21 April 2024 - 24 April 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: 12 January 2024
+    evidence: One FULL or LIMITED REGISTRATION allows the author to upload up to three
+      (3) papers on which he/she is an author or co-author. A “paper upload code”...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 12 January 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: The submissions of technical papers should be made on EDAS in the following
+      four tracks. Submissions should be in PDF and are limited to 6 pages,...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Download Standard IEEE conference templates for LaTeX formats >> You
+      may also use one of the following templates for Microsoft Word: A4, US letter.'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Papers are reviewed on the basis that they do not contain plagiarized
+      material and have not been submitted to any other conference at the same time...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Dubai, United Arab Emirates
+    evidence: 21–24 April 2024 // Conrad Hotel in Dubai, United Arab Emirates
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Dubai, United Arab Emirates
+    normalized:
+      city: Dubai
+      country: UAE
+      display: Dubai, UAE
+      raw: Dubai, United Arab Emirates
+  conference_format:
+    value: in-person
+    evidence: The Conrad Dubai is fully prepared and eager to welcome all our esteemed
+      delegates.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshops
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EDAS
+    evidence: The submissions of technical papers should be made on EDAS in the following
+      four tracks.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Panels
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorials
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,318 @@
+conference: MOBISYS
+year: 2026
+last_checked: '2026-02-16T11:45:07.080529+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: December 5, 2025
+    evidence: Paper Submission December 5, 2025 23:59 AoE
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 5, 2025
+  abstract_deadline:
+    value: November 28, 2025
+    evidence: Abstract Registration November 28, 2025 23:59 AoE
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 28, 2025
+  notification_date:
+    value: March 2, 2026
+    evidence: Final Decision Notification March 2, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 2, 2026
+  camera_ready_deadline:
+    value: April 13, 2026
+    evidence: Final Camera-ready Deadline April 13, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 13, 2026
+  conference_dates:
+    value: June 22 - 24, 2026
+    evidence: Main Conference June 22 - 24, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 22 - 24, 2026
+  rebuttal_deadline:
+    value: February 9, 2026 -- February 13, 2026
+    evidence: Rebuttal Period February 9, 2026 - February 13, 2026 23:59 AoE
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 9, 2026 -- February 13, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: false
+    evidence: Starting in 2026, MobiSys will revert to a single-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: true
+    evidence: Starting in 2026, MobiSys will revert to a single-blind review process.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Responses may only include new experiments or describe additional work
+      completed since submission if they directly address reviewer feedback;...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 single-spaced, numbered pages
+    evidence: Papers must not exceed twelve (12) single-spaced, numbered pages for
+      the main content, including figures and tables.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 single-spaced, numbered pages
+  page_limit_exclusions:
+    value: true
+    evidence: Authors may provide additional appendix and reference sections without
+      page limits. The appendix and references will not count toward the 12-page...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Please register and submit your paper at https://mobisys26.hotcrp.com/
+      . Detailed guidelines on submission policies and formatting requirements...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may provide additional appendix and reference sections without
+      page limits. The appendix and references will not count toward the 12-page...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Papers whose contributions overlap with work currently under review
+      elsewhere must not be submitted to ACM MobiSys 2026.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The accepted extended abstracts of the demo submissions will be posted
+      on the official conference website and will be included in the conference...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: As part of the submission process, authors of papers that describe experiments
+      on human subjects, or that analyze non-public data derived from human...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: The authors of accepted ACM MobiSys 2026 papers will have the option
+      to opt for an artefact evaluation. By doing so, they commit to providing the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: required_disclosure
+    evidence: Following MobiSys 2025 and other major conferences such as CHI 2025,
+      any text in submissions that is generated using large-scale language models...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: required_disclosure
+  conference_location:
+    value: Cambridge, UK
+    evidence: 'Location: Cambridge, UK'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Cambridge, UK
+    normalized:
+      city: Cambridge
+      country: UK
+      display: Cambridge, UK
+      raw: Cambridge, UK
+  conference_format:
+    value: in-person
+    evidence: All workshops will be held together with the ACM MobiSys conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Every accepted paper will receive a conditional acceptance at the notification
+      stage. Final acceptance will be granted after an anonymous shepherding...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ACM MobiSys is a premier venue for researchers working in the area of
+      mobile and wireless systems, middleware, services, and applications. We solicit...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Please register and submit your paper at https://mobisys26.hotcrp.com/
+      .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: ACM MobiSys is a premier venue for researchers working in the area of
+      mobile and wireless systems, middleware, services, and applications. We solicit...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: true
+    evidence: MobiSys 2026 invites proposals for live demonstrations of mobile systems,
+      applications, and services.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: true
+    evidence: MobiSys 2026 continues the tradition of seeking proposals for posters
+      describing novel work not published before on mobile systems, applications,
+      and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: All demo submissions will be considered for the Best Demo Award. An
+      independent review committee will select the winners at the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

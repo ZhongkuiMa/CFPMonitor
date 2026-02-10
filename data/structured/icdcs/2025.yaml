@@ -1,0 +1,293 @@
+conference: ICDCS
+year: 2025
+last_checked: '2026-02-16T09:03:33.331566+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: December 18, 2024
+    evidence: 'Papers: December 11, 2024 Extended to December 18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 18, 2024
+  abstract_deadline:
+    value: December 11, 2024
+    evidence: 'Abstracts: December 4, 2024 Extended to December 11, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 11, 2024
+  notification_date:
+    value: April 2, 2025
+    evidence: Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 2, 2025
+  camera_ready_deadline:
+    value: April 16, 2025
+    evidence: Camera-ready
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 16, 2025
+  conference_dates:
+    value: July 20-23, 2025
+    evidence: The 45th IEEE ICDCS 2025 will run from July 20-23, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 20-23, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The paper review process is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Each submission can have up to eleven (11) pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All paper submissions should follow the IEEE 8.5″ x 11″ two-column format
+      using 10pt fonts and the IEEE Conference template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: While authors can upload their paper to institutional or other preprint
+      repositories such as arXiv.org before reviewing is complete, we generally...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Transactions on Parallel and Distributed Systems (TPDS)
+    evidence: 'Note : A set of highly selected IEEE ICDCS 2025 papers will be considered
+      for publication in the IEEE Transactions on Parallel and Distributed...'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Parallel and Distributed Systems (TPDS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: To encourage reproducibility, we encourage the authors, whenever it
+      is possible, to include in their paper a link to an anonymised GitHub repository...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Glasgow, Scotland, UK
+    evidence: The conference will be held over July 20-23 rd , 2025 in Glasgow, Scotland,
+      UK
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Glasgow, Scotland, UK
+    normalized:
+      city: Glasgow
+      country: UK
+      display: Glasgow, UK
+      raw: Glasgow, Scotland, UK
+  conference_format:
+    value: in-person
+    evidence: The annual IEEE International Conference on Distributed Computing Systems
+      (ICDCS) is a premier international forum for researchers, developers and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: IEEE ICDCS 2025 will be hosting workshops in conjunction with the conference
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Paper Submission Website: https://easychair.org/conferences/?conf=icdcs2025
+      (Submission portal opens on 1 November 2024)'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop Proposals Dates
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: ICDCS 2025 is now inviting contributions to the poster track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: true
+    evidence: IEEE ICDCS 2025 will feature an Industry Event track in conjunction
+      with the conference
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

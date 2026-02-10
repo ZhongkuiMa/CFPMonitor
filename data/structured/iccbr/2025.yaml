@@ -1,0 +1,277 @@
+conference: ICCBR
+year: 2025
+last_checked: '2026-02-16T10:07:58.237614+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: March 16, 2025
+    evidence: 'Final Submission Deadline: March 16, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 16, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 11, 2025
+    evidence: 'Final Paper Notification: April 11, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 11, 2025
+  camera_ready_deadline:
+    value: May 1st, 2025
+    evidence: 'Camera Ready Copy: May 1st, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1st, 2025
+  conference_dates:
+    value: June 30 – July 3rd, 2025
+    evidence: "Conference Timing: June 30 â\x80\x93 July 3rd, 2025"
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 30 – July 3rd, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 1st, 2025
+    evidence: For a paper to appear in the proceedings, at least one of the authors
+      must register for the conference by the camera-ready copy deadline.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 1st, 2025
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Papers (submitted and final) should be no longer than 15 pages including
+      references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Lecture Notes in Computer Science (LNCS) series
+    evidence: 'Publication: ICCBR 2025 Conference proceedings will be published in
+      the Lecture Notes in Computer Science (LNCS) series.'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: "Generative AI and CBR is this yearâ\x80\x99s conference theme, directing\
+      \ the communityâ\x80\x99s attention to the growing pervasion of Generative AI\
+      \ in..."
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Biarritz, France
+    evidence: The conference will be held in Biarritz, France, in the IUT
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Biarritz, France
+    normalized:
+      city: Biarritz
+      country: France
+      display: Biarritz, France
+      raw: Biarritz, France
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Please submit papers using the EasyChair (https://easychair.org/my/conference?conf=iccbr2025)
+      conference management system.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

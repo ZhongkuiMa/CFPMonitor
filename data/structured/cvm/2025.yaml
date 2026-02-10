@@ -1,0 +1,270 @@
+conference: CVM
+year: 2025
+last_checked: '2026-02-16T09:17:48.599454+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: October 12, 2024
+    evidence: 'Full Papers Due: October 12, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 12, 2024
+  abstract_deadline:
+    value: October 9, 2024
+    evidence: 'Abstract Due: October 9, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 9, 2024
+  notification_date:
+    value: December 13, 2024
+    evidence: 'Acceptance Notification: December 13, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 13, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 19-21, 2025
+    evidence: 'Conference Days: April 19-21, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 19-21, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: The length of a paper should not exceed 14 pages (including references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: true
+    evidence: each submission are allowed to upload supplementary files within 50M
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: prestigious journals
+    evidence: Accepted full papers will undergo a revision round before being published
+      in prestigious journals, including IEEE Transactions on Visualization and...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: prestigious journals
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: No artifact evaluation policy mentioned
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: No specific LLM policy mentioned but no restrictions found
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Hong Kong, China
+    evidence: The 13th Computational Visual Media Conference (CVM 2025) will be held
+      in Hong Kong SAR, China, on April 19 - 21, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hong Kong, China
+    normalized:
+      city: Hong Kong
+      country: China
+      display: Hong Kong, China
+      raw: Hong Kong, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: No workshops mentioned
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: http://iccvm.org/2025/submission.htm
+    evidence: 'Submission website: http://iccvm.org/2025/submission.htm.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: http://iccvm.org/2025/submission.htm
+  has_workshop_proposals:
+    value: false
+    evidence: No mention of workshop proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: No doctoral consortium mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: No Findings track mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,293 @@
+conference: ACNS
+year: 2024
+last_checked: '2026-02-16T08:39:15.879216+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: 25 January 2024
+    evidence: '18 Jan 2024: Deadline for student travel grants extended to: 20th Jan
+      2024 (AoE) 03 Jan 2024: Call for Posters page updated: author notification and...'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 25 January 2024
+  conference_dates:
+    value: March 5-8, 2024
+    evidence: 'ACNS2024 – ACNS 2024: 22nd International Conference on Applied Cryptography
+      and Network Security, Abu Dhabi, UAE, 5-8 March, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 5-8, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: 25 January 2024
+    evidence: '18 Jan 2024: Deadline for student travel grants extended to: 20th Jan
+      2024 (AoE) 03 Jan 2024: Call for Posters page updated: author notification and...'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 25 January 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Submissions may focus on the modelling, design, analysis (including
+      security proofs and attacks), development (e.g. implementations), deployment...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in the LNCS series
+    evidence: The proceedings of ACNS 2024 will be published by Springer in the LNCS
+      series .
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the LNCS series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Submissions may focus on the modelling, design, analysis (including
+      security proofs and attacks), development (e.g. implementations), deployment...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Abu Dhabi, UAE
+    evidence: 'ACNS2024 – ACNS 2024: 22nd International Conference on Applied Cryptography
+      and Network Security, Abu Dhabi, UAE, 5-8 March, 2024'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Abu Dhabi, UAE
+    normalized:
+      city: Abu Dhabi
+      country: UAE
+      display: Abu Dhabi, UAE
+      raw: Abu Dhabi, UAE
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Submissions may focus on the modelling, design, analysis (including
+      security proofs and attacks), development (e.g. implementations), deployment...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: '12 Jan 2024: Deadline for student travel grants applications announced:
+      15th Jan 2024 (AoE) 18 Jan 2024: Deadline for student travel grants extended...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: 'Updates 01 Jul 2024: ACNS’24 Workshops proceedings links: Part 1, Part
+      2'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: 'Updates 01 Jul 2024: ACNS’24 Workshops proceedings links: Part 1, Part
+      2'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: '07 Oct 2023: Call For Papers – Cycle 2 submission page is ready and
+      will now accept submissions here . For more details you may also check the CfP...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards ACNS gives a best student paper award, with 1500 EUR prize sponsored
+      by Springer, to encourage promising students to publish their best...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

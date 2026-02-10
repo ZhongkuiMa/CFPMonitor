@@ -1,0 +1,277 @@
+conference: WCNC
+year: 2025
+last_checked: '2026-02-16T09:38:45.115940+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: October 14, 2024
+    evidence: 'Paper Submissions Deadline: 14 October 2024 (Firm Deadline)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 14, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 20, 2024
+    evidence: 'Notification of Acceptance: 20 December 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 20, 2024
+  camera_ready_deadline:
+    value: January 25, 2025
+    evidence: 'Camera-Ready Papers: 24 January 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 25, 2025
+  conference_dates:
+    value: March 24-27, 2025
+    evidence: 'Conference dates: 24-29 March 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 24-27, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers are reviewed on the basis that they do not contain plagiarized
+      material and have not been submitted to any other conference at the same time...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: The page length limit for all initial submissions for review is SIX
+      (6) printed pages (10-point font)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'You may also use one of the following templates for Microsoft Word:
+      A4, US letter.'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted and presented papers will be published in the IEEE WCNC 2025
+      Conference Proceedings and submitted to IEEE Xplore®.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Milan, Italy
+    evidence: IEEE Wireless Communications and Networking Conference - IEEE WCNC 2025
+      // Mico Milano Congressi, Milan, Italy
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Milan, Italy
+    normalized:
+      city: Milan
+      country: Italy
+      display: Milan, Italy
+      raw: Milan, Italy
+  conference_format:
+    value: in-person
+    evidence: IEEE WCNC 2025 will be hosted in the vibrant city of Milan, Italy and
+      will be conducted in person, allowing attendees to fully benefit from the...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EDAS
+    evidence: All submissions must be done through EDAS.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: IEEE WCNC 2025 invites submissions of technical demonstrations that
+      exhibit innovative and original research.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

@@ -1,0 +1,436 @@
+conference: ESEM
+year: 2024
+last_checked: '2026-02-16T08:25:22.533689+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 8
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch2: Thu 1 Aug 2024
+      llm_batch3: May 6, 2024
+  - field: notification_date
+    values:
+      llm_batch1: Thu 15 Aug 2024
+      llm_batch2: Wed 26 Aug 2024
+      llm_batch3: June 20, 2024
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Fri 6 Sep 2024
+      llm_batch2: Thu 6 Sep 2024
+      llm_batch3: September 3, 2024
+  - field: conference_dates
+    values:
+      llm_batch1: Sun 20 - Fri 25 Oct 2024
+      llm_batch2: Sun 20 Oct - Fri 25 Oct 2024
+      llm_batch3: October 20 - October 25, 2024
+  - field: page_limit
+    values:
+      llm_batch1: 6 pages
+      llm_batch2: 8 pages
+      llm_batch3: 12 pages
+  - field: page_limit_exclusions
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+      llm_batch3: 'False'
+  - field: publication_venue
+    values:
+      llm_batch1: ESEM Proceedings
+      llm_batch2: ACM
+      llm_batch3: ACM
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'', ''poster'']'
+      llm_batch3: '[''oral'']'
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: May 6, 2024
+    evidence: 'Submission: May 6 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: Thu 1 Aug 2024
+      llm_batch3:
+        value: May 6, 2024
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 20, 2024
+    evidence: 'Notification: June 20 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 15 Aug 2024
+      llm_batch2:
+        value: Wed 26 Aug 2024
+      llm_batch3:
+        value: June 20, 2024
+    _conflict: true
+  camera_ready_deadline:
+    value: September 3, 2024
+    evidence: 'Camera-ready: September 3 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Fri 6 Sep 2024
+      llm_batch2:
+        value: Thu 6 Sep 2024
+      llm_batch3:
+        value: September 3, 2024
+    _conflict: true
+  conference_dates:
+    value: October 20 - October 25, 2024
+    evidence: Sun 20 Oct - Fri 25 October 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sun 20 - Fri 25 Oct 2024
+      llm_batch2:
+        value: Sun 20 Oct - Fri 25 Oct 2024
+      llm_batch3:
+        value: October 20 - October 25, 2024
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Make sure that you and your co-authors obtain an ORCID ID, so you can
+      complete the publishing process for your accepted paper.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Papers must contain an explicit description of the empirical strategy
+      used or investigated.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Any papers that are outside the scope of the symposium, exceed the maximum
+      number of pages for the respective category, or do not follow the...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions to this track are limited to 10 pages excluding references
+      and 12 pages with references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 6 pages
+      llm_batch2:
+        value: 8 pages
+      llm_batch3:
+        value: 12 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: Submissions to this track are limited to 10 pages excluding references
+      and 12 pages with references
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'False'
+    _conflict: true
+  template_required:
+    value: true
+    evidence: Make sure the paper follows the ACM two-column template (in Latex, use
+      “sigconf”)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: The review committee members’ bidding information may be used to assess
+      what is considered out of scope.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch3:
+        value: 'False'
+  publication_venue:
+    value: ACM
+    evidence: By submitting your article to an ACM Publication
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ESEM Proceedings
+      llm_batch2:
+        value: ACM
+      llm_batch3:
+        value: ACM
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors are requested to share their tools, data, and code in the form
+      of a replication package, and provide explanations on how to use and navigate...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors are requested to share their tools, data, and code in the form
+      of a replication package, and provide explanations on how to use and navigate...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch3:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: A Transformer-based Approach for Augmenting Software Engineering Chatbots
+      Datasets
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch3:
+        value: allowed
+  conference_location:
+    value: Barcelona, Spain
+    evidence: Barcelona, Spain
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Barcelona, Spain
+      llm_batch2:
+        value: Barcelona, Spain
+      llm_batch3:
+        value: Barcelona, Spain
+    normalized:
+      city: Barcelona
+      country: Spain
+      display: Barcelona, Spain
+      raw: Barcelona, Spain
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+      llm_batch3:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+      llm_batch3:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions to this track are limited to 10 pages excluding references
+      and 12 pages with references and must be submitted through EasyChair by...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: EasyChair
+      llm_batch3:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch3:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

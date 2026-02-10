@@ -1,0 +1,415 @@
+conference: EASE
+year: 2025
+last_checked: '2026-02-16T09:02:00.367744+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 9
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: '2025-03-16 23:59:59'
+      llm_batch2: '2025-01-31 23:59:59'
+      llm_batch3: Sun 16 Mar 2025
+  - field: abstract_deadline
+    values:
+      llm_batch2: '2025-01-24 23:59:59'
+      llm_batch3: Sun 9 Mar 2025
+  - field: notification_date
+    values:
+      llm_batch1: '2025-04-13 23:59:59'
+      llm_batch2: '2025-03-21'
+      llm_batch3: Fri 18 Apr 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: '2025-04-27 23:59:59'
+      llm_batch2: '2025-04-27'
+      llm_batch3: Sun 27 Apr 2025
+  - field: conference_dates
+    values:
+      llm_batch1: June 17 - June 20, 2025
+      llm_batch2: June 17 - 20, 2025
+      llm_batch3: Tue 17 - Fri 20 Jun 2025
+  - field: page_limit
+    values:
+      llm_batch1: 4 pages
+      llm_batch2: 10 pages for the main text, including all figures, tables, appendices,
+        etc. Up to two additional pages containing ONLY references are permitted.
+      llm_batch3: 6 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM digital library
+      llm_batch2: Published in the conference proceedings.
+      llm_batch3: ACM
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'']'
+      llm_batch3: '[''oral'', ''poster'']'
+  - field: has_industry_track
+    values:
+      llm_batch1: 'True'
+      llm_batch3: 'False'
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: Sun 16 Mar 2025
+    evidence: Sun 16 Mar 2025 Full Paper Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: '2025-03-16 23:59:59'
+      llm_batch2:
+        value: '2025-01-31 23:59:59'
+      llm_batch3:
+        value: Sun 16 Mar 2025
+    _conflict: true
+  abstract_deadline:
+    value: Sun 9 Mar 2025
+    evidence: Sun 9 Mar 2025 Abstract Submission Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: '2025-01-24 23:59:59'
+      llm_batch3:
+        value: Sun 9 Mar 2025
+    _conflict: true
+  notification_date:
+    value: Fri 18 Apr 2025
+    evidence: Fri 18 Apr 2025 Notification Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: '2025-04-13 23:59:59'
+      llm_batch2:
+        value: '2025-03-21'
+      llm_batch3:
+        value: Fri 18 Apr 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: Sun 27 Apr 2025
+    evidence: Sun 27 Apr 2025 Camera Ready Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: '2025-04-27 23:59:59'
+      llm_batch2:
+        value: '2025-04-27'
+      llm_batch3:
+        value: Sun 27 Apr 2025
+    _conflict: true
+  conference_dates:
+    value: Tue 17 - Fri 20 Jun 2025
+    evidence: EASE 2025 Tue 17 - Fri 20 June 2025 Istanbul, Turkey
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 17 - June 20, 2025
+      llm_batch2:
+        value: June 17 - 20, 2025
+      llm_batch3:
+        value: Tue 17 - Fri 20 Jun 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: '2025-04-27 23:59:59'
+    evidence: 'Early Registration Deadline: April 27, 2025, AoE'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: '2025-04-27 23:59:59'
+  double_blind:
+    value: true
+    evidence: EASE 2025 will employ a double-anonymous review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: Submissions must not exceed 6 pages, including all figures, tables,
+      references, and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 4 pages
+      llm_batch2:
+        value: 10 pages for the main text, including all figures, tables, appendices,
+          etc. Up to two additional pages containing ONLY references are permitted.
+      llm_batch3:
+        value: 6 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions should use the official ACM Primary Article Template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: EASE 2025 will employ a double-anonymous review process.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM digital library
+      llm_batch2:
+        value: Published in the conference proceedings.
+      llm_batch3:
+        value: ACM
+    _conflict: true
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Istanbul, Turkey
+    evidence: EASE 2025 Tue 17 - Fri 20 June 2025 Istanbul, Turkey
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Istanbul, Turkey
+      llm_batch2:
+        value: Istanbul, Turkey
+      llm_batch3:
+        value: Istanbul, Turkey
+    normalized:
+      city: Istanbul
+      country: Turkey
+      display: Istanbul, Turkey
+      raw: Istanbul, Turkey
+  conference_format:
+    value: in-person
+    evidence: The conference strictly enforces the ACM Policy and Procedures on Plagiarism.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+      llm_batch3:
+        value: '[''oral'', ''poster'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  submission_system:
+    value: Easychair
+    evidence: All papers must be submitted in PDF format through Easychair submission
+      system.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: EasyChair
+      llm_batch3:
+        value: Easychair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'False'
+    _conflict: true
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'

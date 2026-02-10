@@ -1,0 +1,295 @@
+conference: EMNLP
+year: 2025
+last_checked: '2026-02-16T10:01:00.033272+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: May 19, 2025
+    evidence: ARR submission deadline (long & short papers)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 19, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 20, 2025
+    evidence: Notification of acceptance (long & short papers)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 20, 2025
+  camera_ready_deadline:
+    value: September 19, 2025
+    evidence: Camera-ready papers due (long & short)
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 19, 2025
+  conference_dates:
+    value: November 5-9, 2025
+    evidence: Main Conference (dates for Workshops/Tutorials TBD) November 5-9, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 5-9, 2025
+  rebuttal_deadline:
+    value: June 26 - July 2, 2025
+    evidence: Author response and author-reviewer discussion June 26 - July 2, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 26 - July 2, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Following the ACL and ARR policies, there is no anonymity period requirement,
+      e.g. one may upload the paper to arXiv at any time.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Reviewing is single-blind . Authors should include names, affiliations,
+      and may cite their own work.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: Note that there is no rebuttal stage.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Long Papers (8 pages) and Short Papers (4 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Manuscripts should be submitted electronically, in PDF format and formatted
+      using the templates available here . Please do not modify these style...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Optional Supplementary Materials
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: EMNLP 2025 proceedings
+    evidence: Accepted papers will be given one additional page of content (up to
+      9 pages for long papers, up to 5 pages for short papers) to address reviewers’...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: EMNLP 2025 proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Following the ACL and ARR policies, there is no anonymity period requirement,
+      e.g. one may upload the paper to arXiv at any time.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Suzhou, China
+    evidence: The 2025 Conference on Empirical Methods in Natural Language Processing
+      (EMNLP 2025) will be held in Suzhou, China from November 4th to November 9th...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Suzhou, China
+    normalized:
+      city: Suzhou
+      country: China
+      display: Suzhou, China
+      raw: Suzhou, China
+  conference_format:
+    value: hybrid
+    evidence: The conference will include both in-person and virtual presentation
+      options.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Both submissions of articles for review and commitment of reviewed articles
+      to the conference will be performed via the Open Review platform.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Special Theme Best paper award
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

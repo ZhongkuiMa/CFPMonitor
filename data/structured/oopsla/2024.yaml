@@ -1,0 +1,398 @@
+conference: OOPSLA
+year: 2024
+last_checked: '2026-02-16T07:52:21.878138+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 6
+  conflicts:
+  - field: conference_dates
+    values:
+      llm_batch1: October 20-25, 2024
+      llm_batch2: Sun 20 Oct - Fri 25 Oct 2024
+  - field: page_limit
+    values:
+      llm_batch1: 8 pages
+      llm_batch2: 23 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: PACMPL (OOPSLA)
+  - field: llm_policy
+    values:
+      llm_batch1: allowed
+      llm_batch2: allowed_disclosure
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'', ''poster'']'
+      llm_batch2: '[''oral'']'
+  - field: has_awards
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: April 5, 2024
+    evidence: Submission Deadline Round 2
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 5, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Sun 18 Aug 2024
+    evidence: Sun 18 Aug 2024 R2 Author Notification of Revisions
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: Sun 18 Aug 2024
+  camera_ready_deadline:
+    value: Sun 5 Apr 2024
+    evidence: Sun 1 Sep 2024 R2 Camera Ready Due
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: Sun 5 Apr 2024
+  conference_dates:
+    value: Sun 20 Oct - Fri 25 Oct 2024
+    evidence: Sun 20 Oct Mon 21 Oct Tue 22 Oct Wed 23 Oct Thu 24 Oct Fri 25 Oct
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: October 20-25, 2024
+      llm_batch2:
+        value: Sun 20 Oct - Fri 25 Oct 2024
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PACMPL uses double-blind reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: You will receive around three reviews and an opportunity to provide
+      an author response that will be read and addressed by the reviewers in the final...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  page_limit:
+    value: 23 pages
+    evidence: Submitted papers (including resubmissions) must be at most 23 pages
+      using the template below.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 23 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers may use either numeric or author-year citations. In LaTeX, use
+      \citestyle{acmauthoryear} to select author-year citations; nothing needs to
+      be...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: No appendices are allowed on the main paper, instead, authors can upload
+      supplementary material with no page or content restrictions
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Submissions are expected to comply with the ACM Policies for Authorship.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  publication_venue:
+    value: PACMPL (OOPSLA)
+    evidence: The OOPSLA issue of the Proceedings of the ACM on Programming Languages
+      (PACMPL) welcomes papers focusing on all practical and theoretical...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: PACMPL (OOPSLA)
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors should also be aware of ACM’s Policy and Procedures on Plagiarism.
+      Submissions are expected to comply with the ACM Policies for Authorship.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Accepted papers that fail to provide an artifact will be requested to
+      explain the reason they cannot support replication.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: allowed_disclosure
+    evidence: Statically Contextualizing Large Language Models with Typed Holes OOPSLA
+      2024 Andrew Blinn University of Michigan , Xiang Li University of Michigan,...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed_disclosure
+    _conflict: true
+  conference_location:
+    value: Pasadena, California, United States
+    evidence: 'location: Pasadena, California, United States'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Pasadena, California, United States
+      llm_batch2:
+        value: Pasadena, California, United States
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Pasadena, California, United States
+  conference_format:
+    value: in-person
+    evidence: The conference will take place in person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Talks are scheduled for oral presentations.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: conf.researchr.org
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: conf.researchr.org
+  has_workshop_proposals:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Distinguished Paper Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true

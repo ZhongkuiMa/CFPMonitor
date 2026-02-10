@@ -1,0 +1,350 @@
+conference: MOBICOM
+year: 2026
+last_checked: '2026-02-16T11:23:21.192258+00:00'
+completeness:
+  known: 39
+  total: 40
+  percentage: 97.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 39
+rules:
+  submission_deadline:
+    value: September 3, 2025
+    evidence: 'Paper Submission: September 3, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 3, 2025
+  abstract_deadline:
+    value: August 27, 2025
+    evidence: 'Abstract Registration: August 27, 2025 23:59 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 27, 2025
+  notification_date:
+    value: November 24, 2025
+    evidence: 'Final Notifications: November 24, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 24, 2025
+  camera_ready_deadline:
+    value: August 18, 2026
+    evidence: ''
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 18, 2026
+  conference_dates:
+    value: October 26-30, 2026
+    evidence: Oct 26-30, 2026, Austin, Texas, USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 26-30, 2026
+  rebuttal_deadline:
+    value: November 11-14, 2025
+    evidence: 'Rebuttal Period: November 11th - 14th, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 11-14, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: August 18, 2026
+    evidence: ''
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 18, 2026
+  double_blind:
+    value: true
+    evidence: All submissions will be evaluated through double-blind reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: MobiCom will provide an opportunity for authors to respond to reviews
+      prior to the final consideration of the papers at the program committee meeting.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Abstracts and/or paper tiles such as “TBD” or similar will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: Contain no more than twelve (12) single-spaced and numbered pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Submissions may include appendices (following bibliography references)
+      and they will not count towards the 12 pages.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: You can visually inspect a page-by-page report of your paper format
+      using the same tool as the submission system via a separate online form .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: However, reviewers are not required to read appendices or consider them
+      in their review.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: All submissions must describe original research not published or currently
+      under review for another conference or journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: MobiCom strongly discourages advertising the preprint on social media,
+      or in the press while under submission to MobiCom.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: ACM
+    evidence: All accepted regular papers will be considered for the Best Paper Award
+      .
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: true
+    evidence: Please ensure that you and your co-authors obtain an ORCID ID , so you
+      can complete the publishing process for your accepted paper.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: The authors of accepted MobiCom 2026 papers will be invited to submit
+      supporting materials to the Artifact Evaluation process.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: Generative AI, foundation models and large language models (LLMs) for
+      mobile and wireless systems
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Austin, Texas, USA
+    evidence: Oct 26-30, 2026, Austin, Texas, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Austin, Texas, USA
+    normalized:
+      city: Austin
+      country: US
+      display: Austin, US
+      raw: Austin, Texas, USA
+  conference_format:
+    value: in-person
+    evidence: Oct 26-30, 2026, Austin, Texas, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: Call for Workshops and Tutorials is separate from the main conference
+      submission process
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: All paper submissions will be handled electronically at the MobiCom
+      2026 paper submission website .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: We solicit workshop and tutorial proposals on new and emerging topics
+      that broadly relate to mobile communications, wireless networking and mobile...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: All accepted regular papers will be considered for the Best Paper Award
+      .
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

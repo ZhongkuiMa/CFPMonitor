@@ -1,0 +1,334 @@
+conference: COLM
+year: 2026
+last_checked: '2026-02-16T11:21:23.808669+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: March 31, 2026
+    evidence: 'Full paper submission deadline: March 31, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 31, 2026
+  abstract_deadline:
+    value: March 26, 2026
+    evidence: 'Abstract deadline: Thursday, March 26, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 26, 2026
+  notification_date:
+    value: July 8, 2026
+    evidence: 'Decision notifications: July 8, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 8, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: October 6-9, 2026
+    evidence: 'Main conference: October 6-8, 2026 Workshops: October 9, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 6-9, 2026
+  rebuttal_deadline:
+    value: June 8, 2026
+    evidence: 'Rebuttal period: May 22 to June 8, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 8, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'Submissions will be double blind: reviewers and ACs cannot see author
+      names when conducting reviews, and authors cannot see reviewer and AC names.'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: You may also need to get an additional review if the current reviews
+      are particularly unhelpful, either in the existing pool or by inviting external...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: true
+    evidence: 'There are two reciprocal reviewing requirements: a ''per-submission''
+      requirement, and a ''per-reviewer'' requirement.'
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 9 pages
+    evidence: There is a strict upper limit of 9 pages for the main text of the submission,
+      with unlimited additional pages for citations.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors are required to follow the formatting directives of the template,
+      including the font specifications, title formatting, and margin settings.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: We encourage authors to submit a single file (paper + appendices + supplementary
+      text). Please mark the supplementary material clearly.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: COLM does not allow double submissions. All papers under the ARR process,
+      regardless of stage, are considered as under submission to ARR, and cannot...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Non-anonymous preprints (on arXiv, social media, websites, etc.) are
+      permitted.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: conference proceedings
+    evidence: ''
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: conference proceedings
+  statements:
+    value: true
+    evidence: All COLM participants, including authors, are required to adhere to
+      the COLM Code of Ethics (https://colmweb.org/CoE.html).
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: 'Source code and data submission: Source code and data associated with
+      a paper can be uploaded as part of the supplementary material.'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed_disclosure
+    evidence: Policy 1. Disclosure of LLM use in both research and reviewing. In research,
+      use of LLMs should be disclosed in the submitted paper, except for minor...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed_disclosure
+  conference_location:
+    value: San Francisco, USA
+    evidence: COLM 2026 will take place at the Hilton Union Square in San Francisco,
+      USA from October 6-9, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Francisco, USA
+    normalized:
+      city: San Francisco
+      country: US
+      display: San Francisco, US
+      raw: San Francisco, USA
+  conference_format:
+    value: in-person
+    evidence: COLM is an in-person conference only, and is unable to provide a virtual
+      attance option.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All papers will be presented as posters. A small number of papers will
+      be selected for oral presentations.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: We are making significant efforts that all authors can attend COLM,
+      including by providing early registration options to start the visa process
+      in...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: The reviews and author responses will not be public initially. Submissions
+      under review will be visible only to their assigned program committee.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be held in tandem with the 3rd
+      Conference on Language Modeling (COLM).
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: All papers will be presented as posters. A small number of papers will
+      be selected for oral presentations.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: COLM does not have a separate track, reviewing, or call for position
+      papers for the 2026 call.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: COLM does not have a separate track, reviewing, or call for position
+      papers for the 2026 call.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: We will notify the authors of papers selected for oral presentations
+      around mid September.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,291 @@
+conference: DCC
+year: 2024
+last_checked: '2026-02-16T07:56:26.737994+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: November 8, 2023
+    evidence: Submissions must be submitted electronically; by November 8, 11:59pm
+      U.S. Pacific Time (this date has been extended by 1 week from the original date...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 8, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: late December
+    evidence: Authors will be notified via email in late December of acceptance as
+      a paper, acceptance as a poster, or rejection.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: late December
+  camera_ready_deadline:
+    value: early January
+    evidence: Accepted manuscripts must be submitted electronically; the due date
+      will be in early January.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: early January
+  conference_dates:
+    value: March 19-22, 2024
+    evidence: Tuesday March 19 - Friday March 22, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 19-22, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: DCC reviewing is single-blind, where the identities of the reviewers
+      are anonymous, but the author names and affiliations are on the manuscript.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: DCC reviewing is single-blind, where the identities of the reviewers
+      are anonymous, but the author names and affiliations are on the manuscript.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Manuscripts may NOT be more than 10 pages TOTAL, including all references,
+      figures, tables, notes, and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Manuscripts may NOT be more than 10 pages TOTAL, including all references,
+      figures, tables, notes, and appendices.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'Manuscripts must be in PDF format, but here are some files that may
+      be useful for preparation: MS Word sample source file (.doc) LaTeX sample source...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Computer Society Press CPS Online
+    evidence: Proceedings published by IEEE Computer Society Press CPS Online.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Computer Society Press CPS Online
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Cliff Lodge, Snowbird, UT, USA
+    evidence: 'location: Cliff Lodge, Snowbird, UT, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Cliff Lodge, Snowbird, UT, USA
+    normalized:
+      city: Cliff Lodge
+      country: US
+      display: Cliff Lodge, US
+      raw: Cliff Lodge, Snowbird, UT, USA
+  conference_format:
+    value: in-person
+    evidence: The CLIC Challenge DCC 2024 will be the official venue of the Challenge
+      on Learned Image Compression (CLIC); submissions are open! In the context of...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions must be submitted electronically; by November 8, 11:59pm
+      U.S. Pacific Time (this date has been extended by 1 week from the original date...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Manuscripts submitted for consideration as poster only must still submit
+      a thorough description of the work for review (NOT a one page summary).
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

@@ -1,0 +1,276 @@
+conference: SETTA
+year: 2024
+last_checked: '2026-02-16T07:57:52.622429+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: August 28, 2024
+    evidence: 'Paper submission: Aug. 23, 2024 Aug. 28, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 28, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 30, 2024
+    evidence: 'Notification to authors: Sep. 30, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 30, 2024
+  camera_ready_deadline:
+    value: October 10, 2024
+    evidence: 'Camera-ready version: Oct. 10, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 10, 2024
+  conference_dates:
+    value: November 26-28, 2024
+    evidence: 'The 10th International Symposium on Dependable Software Engineering:
+      Theories, Tools and Applications (SETTA 2024), will be held in Hong Kong, China...'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 26-28, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The review process is single-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: The review process is single-blind.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages (excluding references)
+    evidence: Papers should not exceed 16 pages (excluding references) in LNCS format.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages (excluding references)
+  page_limit_exclusions:
+    value: true
+    evidence: Papers should not exceed 16 pages (excluding references) in LNCS format.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer's LNCS series
+    evidence: Papers will be published in the SETTA 2024 proceedings as a volume in
+      Springer's LNCS series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's LNCS series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hong Kong, China
+    evidence: 'The 10th International Symposium on Dependable Software Engineering:
+      Theories, Tools and Applications (SETTA 2024), will be held in Hong Kong, China...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hong Kong, China
+    normalized:
+      city: Hong Kong
+      country: China
+      display: Hong Kong, China
+      raw: Hong Kong, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers will have to be presented at the conference by one
+      of their authors.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers should be submitted electronically through the submission website
+      (https://setta2024.hotcrp.com/).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: Authors are invited to submit papers on original research, industrial
+      applications, or position papers proposing challenges in fundamental research...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

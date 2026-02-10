@@ -1,0 +1,392 @@
+conference: CHI
+year: 2026
+last_checked: '2026-02-16T10:35:22.579375+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: conference_dates
+    values:
+      llm_batch1: April 13 - 17, 2026
+      llm_batch2: April 13 - April 17, 2026
+  - field: desk_rejection
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: page_limit_exclusions
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: publication_venue
+    values:
+      llm_batch1: Proceedings of the ACM Conference on Human Factors in Computing
+        Systems
+      llm_batch2: ACM Digital Library
+  - field: conference_location
+    values:
+      llm_batch1: Centre de Convencions Internacional de Barcelona, Barcelona, Spain
+      llm_batch2: Barcelona, Spain
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: September 11, 2025
+    evidence: 'Thursday, September 11, 2025: Full paper deadline'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 11, 2025
+      llm_batch2:
+        value: September 11, 2025
+  abstract_deadline:
+    value: September 4, 2025
+    evidence: 'Thursday, September 4, 2025: Abstract/metadata deadline'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: September 4, 2025
+      llm_batch2:
+        value: September 4, 2025
+  notification_date:
+    value: January 15, 2026
+    evidence: 'Thursday, January 15, 2026: Decision Notification'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: January 15, 2026
+      llm_batch2:
+        value: January 15, 2026
+  camera_ready_deadline:
+    value: February 6, 2026
+    evidence: 'Friday, February 6, 2026: Publication-Ready deadline (including supplemental
+      materials and optional video previews):'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: February 6, 2026
+      llm_batch2:
+        value: February 6, 2026
+  conference_dates:
+    value: April 13 - April 17, 2026
+    evidence: 'date: April 13 - 17, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 13 - 17, 2026
+      llm_batch2:
+        value: April 13 - April 17, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must be stand-alone. You may use appendices and/or supplementary
+      materials to share additional information about your work. Still, all...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: CHI 2026 Papers will continue with a revise and resubmit phase for papers
+      above a certain threshold, where authors can respond to reviewer feedback...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Submissions above 12,000 words (two standard deviations above the average)
+      will be desk-rejected, except in circumstances where the authors can...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: There are two paper-length categories. The paper length should be counted,
+      excluding references, figure/table captions, and appendices. Short Papers:...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: There are two paper-length categories. The paper length should be counted,
+      excluding references, figure/table captions, and appendices.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  template_required:
+    value: true
+    evidence: Your submission must use the correct template; a single-column format
+      must be used for the reviewing phase.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Any non-video supplementary material should be submitted as a single
+      .zip file, including a README file with a description of the materials.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: If you have any concurrent submissions to CHI or other venues that are
+      closely related – i.e., are based on the same study, artifact, or dataset –...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Accepted papers will be distributed in the CHI Conference Proceedings
+      and will be available in the ACM Digital Library, where they will remain...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Proceedings of the ACM Conference on Human Factors in Computing Systems
+      llm_batch2:
+        value: ACM Digital Library
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors must review ACM’s publications policies. Please read this separate
+      page for them.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Submissions above 12,000 words (two standard deviations above the average)
+      will be desk-rejected, except in circumstances where the authors can...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Text generated from a large-scale language model (LLM), such as ChatGPT,
+      must be marked where such tools are used for purposes beyond editing the...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Barcelona, Spain
+    evidence: 'place: Centre de Convencions Internacional de Barcelona, Barcelona,
+      Spain'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Centre de Convencions Internacional de Barcelona, Barcelona, Spain
+      llm_batch2:
+        value: Barcelona, Spain
+    _conflict: true
+    normalized:
+      city: Barcelona
+      country: Spain
+      display: Barcelona, Spain
+      raw: Barcelona, Spain
+  conference_format:
+    value: in-person
+    evidence: 'Note: CHI 2026 has no hybrid or remote attendance.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: Precision Conference Submission Portal
+    evidence: Please submit papers through the Precision Conference Submission Portal.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Precision Conference Submission Portal
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

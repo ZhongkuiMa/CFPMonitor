@@ -1,0 +1,330 @@
+conference: SOCG
+year: 2025
+last_checked: '2026-02-16T09:04:01.699376+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: December 3, 2024
+    evidence: 'December 3, 2024 (Tuesday): Papers due (23:59 AoE (anywhere on Earth))'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 3, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 6, 2025
+    evidence: 'February 6, 2025 (Thursday): Notification of acceptance/rejection'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 6, 2025
+  camera_ready_deadline:
+    value: April 11, 2025
+    evidence: 'mid March 2025: Final versions of accepted papers due'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 11, 2025
+  conference_dates:
+    value: June 23-27, 2025
+    evidence: "June 23â\x80\x9327, 2025: Symposium"
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 23-27, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: SoCG will employ a lightweight double-blind reviewing process, and will
+      allow PC members (other than the PC chairs) to submit to the conference as...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Upon registering a submission, the authors will declare conflicts of
+      interest with PC members, as well as listing email address or domain level...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 500 lines
+    evidence: Submissions must not exceed 500 lines, excluding front matter (title),
+      references, and a clearly marked appendix (further described below), but...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 500 lines
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: "Authors are required to use the LaTeX class file socg-lipics-v2021.cls\
+      \ (V0.9, Sep 19, 2022), with the option â\x80\x9Canonymousâ\x80\x9D"
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supporting materials, including proofs of theoretical claims and experimental
+      details, that do not fit in the 500-line limit should be given in an...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: We encourage authors with further questions on double-blind reviewing
+      to contact the PC chairs, or to see the more detailed discussion in the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: LIPIcs
+    evidence: ''
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: LIPIcs
+  statements:
+    value: true
+    evidence: Authors are asked to avoid 'et al.' in citations in favor of an equal
+      mention of all authors' surnames. For instance, if the number of authors is...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Kanazawa, Japan
+    evidence: "The 41st International Symposium on Computational Geometry (SoCG 2025)\
+      \ is planned to be held in Kanazawa, Japan, June 23â\x80\x9327, 2025"
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kanazawa, Japan
+    normalized:
+      city: Kanazawa
+      country: Japan
+      display: Kanazawa, Japan
+      raw: Kanazawa, Japan
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: An author of each accepted paper is expected to attend the symposium
+      and present the paper (approximately 20 minutes)
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: "The 41st International Symposium on Computational Geometry (SoCG 2025)\
+      \ is planned to be held in Kanazawa, Japan, June 23â\x80\x9327, 2025, as part\
+      \ of the..."
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'SoCG 2025 HotCRP submission webpage: https://socg25.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: An accepted paper may be selected as the best paper. All papers are
+      eligible.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

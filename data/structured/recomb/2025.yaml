@@ -1,0 +1,305 @@
+conference: RECOMB
+year: 2025
+last_checked: '2026-02-16T09:43:21.837770+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: October 25, 2024
+    evidence: 'Full paper submission deadline : October 25, 2024 11:59 PM AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 25, 2024
+  abstract_deadline:
+    value: October 16, 2024
+    evidence: 'Abstract/paper registration deadline : October 16, 2024 11:59 PM AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 16, 2024
+  notification_date:
+    value: December 16, 2024
+    evidence: 'Author notification: Dec 16, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 16, 2024
+  camera_ready_deadline:
+    value: February 15, 2025
+    evidence: 'Final proceedings version of accepted papers due: February 15, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 15, 2025
+  conference_dates:
+    value: April 26–29, 2025
+    evidence: 'Main Conference: April 26–29, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 26–29, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: March 15, 2025
+    evidence: 'Early Bird Registration deadline: March 15 11:59 PM March 21, 2025,
+      KST'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 15, 2025
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 Letter pages
+    evidence: The maximum length is 10 Letter pages , including all figures/tables
+      and their captions, using a minimum font size of 10pt and 1-inch margins .
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 Letter pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: There is no specific template requirement beyond these guidelines, but
+      authors are encouraged to use the Springer Lecture Notes in Computer Science...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Optional Appendix: If necessary, an Appendix can be submitted as Supplementary
+      Material in a single PDF file.'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Preprint server submissions are allowed without restrictions.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag
+    evidence: Accepted abstracts will be published as a proceedings volume in the
+      Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag, which will
+      be...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag
+  statements:
+    value: true
+    evidence: Authors who prefer not to publish their papers in the LNBI proceedings,
+      must submit a final four-page extended abstract for inclusion in the Springer...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seoul, Korea
+    evidence: 'place: Seoul, Korea'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Seoul, Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, Korea
+  conference_format:
+    value: in-person
+    evidence: 'Main Conference: April 26–29, 2025'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Please submit your papers through EasyChair at https://easychair.org/conferences/?conf=recomb2025
+      .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

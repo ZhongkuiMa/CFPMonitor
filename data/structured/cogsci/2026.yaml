@@ -1,0 +1,337 @@
+conference: COGSCI
+year: 2026
+last_checked: '2026-02-16T11:48:37.169851+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: February 2, 2026
+    evidence: 'Submissions Close: February 2, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 2, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Early April, 2026
+    evidence: 'Notifications of Decision Sent: Early April, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Early April, 2026
+  camera_ready_deadline:
+    value: May 6, 2026
+    evidence: 'CAMERA-READY MAY 6: CAMERA-READY DEADLINE FOR ALL SUBMISSION TYPES'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 6, 2026
+  conference_dates:
+    value: July 22 – 25, 2026
+    evidence: July 22 – 25, 2026 CogSci2026 starts July 25, 2026 CogSci2026 ends
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 22 – 25, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: July 1, 2026
+    evidence: July 1, 2026 Housing deadline for CogSci2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 1, 2026
+  double_blind:
+    value: true
+    evidence: 6-page paper submissions and member abstract submissions follow a strict
+      double-blind submission policy.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: After the Notification of Decisions, authors of accepted papers will
+      have the opportunity to revise their submissions prior to the Final Form (camera...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: Submitted research papers may be no more than six pages long, with an
+      unlimited number of pages for references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: false
+    evidence: All paper submissions will be evaluated by peer reviewers who make recommendations
+      to the Program Committee. The final decision of acceptance is made...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: It is mandatory that all submitters adhere to the paper submission guidelines
+      by using the templates provided
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: For 6-page papers, appendices you wish to include in the paper must
+      fit within the 6-page limit. You can link to supplemental information, which...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: We will not consider any paper that substantially overlaps with another
+      paper which has been published in a journal or another conference at the time...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: For 6-page papers submitted to the cognitive science conference, you
+      are welcome to make a non-anonymized version of your paper available online
+      to...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Online proceedings
+    evidence: An online proceedings will be published by the Cognitive Science Society.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Online proceedings
+  statements:
+    value: true
+    evidence: All paper submissions will be evaluated by peer reviewers who make recommendations
+      to the Program Committee. The final decision of acceptance is made...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: Authors may use AI tools when developing their projects and preparing
+      their manuscripts, but such use must be described, transparently and in detail,...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Rio de Janeiro, Brazil
+    evidence: July 22 – 25, 2026 Rio de Janeiro, Brazil
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Rio de Janeiro, Brazil
+    normalized:
+      city: Rio De Janeiro
+      country: Brazil
+      display: Rio De Janeiro, Brazil
+      raw: Rio de Janeiro, Brazil
+  conference_format:
+    value: hybrid
+    evidence: The Cognitive Science Society plans to host a fully synchronous hybrid
+      conference for 2026 in Rio de Janeiro. Therefore, all accepted presenters will...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: Student authors are welcome at CogSci 2026. Students who are the first
+      authors of accepted research papers qualify to apply for travel grants awarded...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: The web-based submission system enables a distributed review process,
+      and lets you provide information that is valuable in helping to ensure that...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: Poster presentations are available for submissions of full-length papers
+      and for Member Abstracts, which are 150-word abstracts.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: Student authors are welcome at CogSci 2026. Students who are the first
+      authors of accepted research papers qualify to apply for travel grants awarded...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Several other honors will be awarded to select research papers with
+      students identified as the first author. These honors include the Marr Prize
+      for...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

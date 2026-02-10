@@ -1,0 +1,285 @@
+conference: KSEM
+year: 2025
+last_checked: '2026-02-16T09:15:11.960148+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: March 20, 2025
+    evidence: 'Paper Submission Due: 20 March, 2025 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 20, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 30, 2025
+    evidence: 'Notification of acceptance: 30 May, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 30, 2025
+  camera_ready_deadline:
+    value: June 15, 2025
+    evidence: 'Camera-ready copy: 15 June, 2025 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 15, 2025
+  conference_dates:
+    value: August 4-7, 2025
+    evidence: 'Conference date: 05-07 August, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 4-7, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 22, 2025
+    evidence: 'Author Registration / Early Registration Due: 22 June, 2025 AoE'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 22, 2025
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: max length of regular paper is 16 pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer
+    evidence: Accepted papers would be published by Springer and submitted to the
+      EI database.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: We invite submissions from academia, government and industry to present
+      novel research on all aspects of knowledge and AI.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Macao SAR, China
+    evidence: KSEM 2025 was successfully held in Wynn Palace , Macao SAR, China on
+      August 4-7, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Macao SAR, China
+    normalized:
+      city: Macao Sar
+      country: China
+      display: Macao Sar, China
+      raw: Macao SAR, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: 'Travel Grant Application: 12:00 at noon, 20 June, GMT+8'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Papers will be submitted through EasyChair at the following link: https://easychair.org/conferences?conf=ksem2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

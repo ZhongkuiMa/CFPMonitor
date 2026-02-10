@@ -1,0 +1,318 @@
+conference: UIST
+year: 2024
+last_checked: '2026-02-16T08:31:35.224888+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: Wednesday, April 3, 2024
+    evidence: Papers (paper PDF) due Wednesday, April 3, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Wednesday, April 3, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Saturday, June 29, 2024
+    evidence: Decisions sent to authors (conditional accept or reject) Saturday, June
+      29, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Saturday, June 29, 2024
+  camera_ready_deadline:
+    value: Wednesday, July 24, 2024
+    evidence: Camera-ready versions due Wednesday, July 24, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Wednesday, July 24, 2024
+  conference_dates:
+    value: October 13-16, 2024
+    evidence: 'In-Person Conference: October 13 – 16, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 13-16, 2024
+  rebuttal_deadline:
+    value: Wednesday, June 12, 2024
+    evidence: Rebuttals due Wednesday, June 12, 2024
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wednesday, June 12, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Paper submissions are anonymous. You are required to make a reasonable
+      effort to purge identifying information from your submission, remove all...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of papers have two weeks to submit a rebuttal if they feel that
+      the reviewers have made substantive or factual errors, to clarify concerns or...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: 'Desk Rejections: The primary reviewer may, upon conferring with the
+      secondary reviewer and the program chairs, recommend a paper be rejected without...'
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: UIST papers are of variable length. Paper length must be based on the
+      weight of the contribution. A new idea presented in a compact format is more...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: We strongly recommend submitting papers in the 2-column format , but
+      will accept papers for review as either 1- or 2-column paper format if you are...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Materials due incl. videos, supplementary materials, accessibility alt-text
+      and video subtitles Friday, April 5, 2024
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Concurrent submissions to another conference or journal are not allowed.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Accepted papers will be published in the ACM Digital Library and distributed
+      in digital form to conference attendees
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors should be careful not to make unsubstantiated claims for new
+      techniques, systems, or applications that have not been tested. In general,...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Please state previous poster venues and differences from previous posters
+      in the appropriate box in PCS.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Pittsburgh, Pennsylvania, USA
+    evidence: UIST 2024 will be held at the Westin Hotel , located in downtown Pittsburgh,
+      PA, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Pittsburgh, Pennsylvania, USA
+    normalized:
+      city: Pittsburgh
+      country: US
+      display: Pittsburgh, US
+      raw: Pittsburgh, Pennsylvania, USA
+  conference_format:
+    value: in-person
+    evidence: UIST is intended to be an in-person conference. There will be no separate
+      virtual attendance registration option; all registrations are for in-person...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Talk at the conference delivered by one or more authors of the paper
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Workshops provide an interactive forum in which organizers can discuss
+      a designated area of interest with fellow conference attendees during special...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: PCS
+    evidence: All required materials must be submitted electronically to PCS by the
+      abstract and paper deadline.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: PCS
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: true
+    evidence: Demos are one of the highlights of the UIST conference. Accepted authors
+      show implementations of novel and compelling interaction concepts,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: Posters provide an interactive forum in which authors can present their
+      work to conference attendees during special poster sessions.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: The UIST Doctoral Symposium provides a unique opportunity for Ph.D.
+      students to interact with established academic and industry researchers in the...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: The Findings track is not mentioned in any of the provided data sources
+      for this conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Award nomination deadline Monday, August 19, 2024, 11:59 PM AoE
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

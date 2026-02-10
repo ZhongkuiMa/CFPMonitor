@@ -1,0 +1,293 @@
+conference: ICPR
+year: 2024
+last_checked: '2026-02-16T08:29:23.576334+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: March 31, 2024
+    evidence: 'Paper submission deadline: March 31, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 31, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 30, 2024
+    evidence: 'Notification: Jun 30, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 30, 2024
+  camera_ready_deadline:
+    value: August 31, 2024
+    evidence: 'Camera-ready submission for the first and Second round: August 31,
+      2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 31, 2024
+  conference_dates:
+    value: December 1-5, 2024
+    evidence: 'ICPR-2024 Main conference date: December 2-5, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 1-5, 2024
+  rebuttal_deadline:
+    value: July 10, 2024
+    evidence: 'Revision/Rebuttal submission deadline for the first round: July 10,
+      2024 (Instructions for revision)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 10, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: August 31, 2024
+    evidence: One regular registration can cover up to two papers (these two papers
+      may be 2 main conference papers, OR 1 main conference paper and 1 workshop...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 31, 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: true
+    evidence: ICPR-2024 will follow a single-blind review process. Authors can include
+      their names and affiliations in the manuscript.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The portal to submit the rebuttal and revised manuscript is ready now.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: There is no minimum page limit. To take care of reviewers' comments,
+      one more page is allowed (without any charge) during revised/camera ready...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Springer LNCS paper formatting instructions and templates for ICPR-2024
+      are available here DOC and Latex
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: By the submission deadline, the authors may optionally submit additional
+      material that was ready at the time of paper submission but could not be...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Also, the authors can submit their arXiv papers in ICPR-2024
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer LNCS
+    evidence: ICPR-2024 proceeding will be published in Springer LNCS
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer LNCS
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Kolkata, India
+    evidence: ICPR is the 27th event of the series which will be held at Kolkata,
+      India during December 1-5, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kolkata, India
+    normalized:
+      city: Kolkata
+      country: India
+      display: Kolkata, India
+      raw: Kolkata, India
+  conference_format:
+    value: hybrid
+    evidence: ICPR 2024 will be held in hybrid mode. However the organizer of ICPR
+      encouraged the participants to attend the conference physically.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: ICPR-2024 will follow a single-blind review process. Authors can include
+      their names and affiliations in the manuscript. Also, the authors can submit...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

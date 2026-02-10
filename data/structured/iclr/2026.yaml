@@ -1,0 +1,342 @@
+conference: ICLR
+year: 2026
+last_checked: '2026-02-16T11:39:32.305733+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: September 24, 2025
+    evidence: The full paper submission deadline is September 24, 2025 AOE.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 24, 2025
+  abstract_deadline:
+    value: September 19, 2025
+    evidence: Authors must submit paper abstracts by the abstract submission deadline
+      of Sept 19, 2025 AOE.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 19, 2025
+  notification_date:
+    value: January 22, 2026
+    evidence: 'Jan 22 : Decision notification . Acceptance decisions will be made
+      and authors notified on Jan 22.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 22, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 23-27, 2026
+    evidence: ICLR 2026 April 23-27, 2026 Riocentro Convention and Event Center Rio
+      de Janeiro, Brazil
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 23-27, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ICLR 2026 is double blind, which means that all submitted papers should
+      be anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: You can upload revisions until the discussion period ends, but reviewers
+      and area chairs are not required to look at every revision.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Note that the deadlines are final and we cannot make any accommodations
+      for missing the abstract deadline or paper deadline. It is key that authors...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: true
+    evidence: Following ICLR 2025, there is a requirement for authors to serve as
+      reviewers based on the number of papers they submit.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 10 pages
+    evidence: The page limit will be increased to 10 pages to allow for new results/discussions.
+      This limit will be strictly enforced.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: The list of references does not count towards the page limit, and unlimited
+      additional pages are allowed for the bibliography/references.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'To prepare your submission to ICLR 2026, please use the LaTeX style
+      files provided at: https://github.com/ICLR/Master-Template/raw/master/iclr2026.zip'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Supplementary (text) submission: We encourage authors to submit a single
+      file (paper + supplementary text). Supplementary text should appear after...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Submissions that are identical (or substantially similar) to versions
+      that have been previously published, or accepted for publication, or that have...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: The use of LLMs is allowed as a general-purpose assist tool. However,
+      new this year, if LLMs played a significant role in research ideation and/or...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: true
+    evidence: All ICLR participants, including authors, are required to adhere to
+      the ICLR Code of Ethics ( https://iclr.cc/public/CodeOfEthics ). All authors
+      of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of LLMs is allowed as a general-purpose assist tool. However,
+      new this year, if LLMs played a significant role in research ideation and/or...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Riocentro Convention and Event Center Rio de Janeiro, Brazil
+    evidence: ICLR 2026 April 23-27, 2026 Riocentro Convention and Event Center Rio
+      de Janeiro, Brazil
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Riocentro Convention and Event Center Rio de Janeiro, Brazil
+    normalized:
+      city: Brazil
+      country: null
+      display: Brazil
+      raw: Riocentro Convention and Event Center Rio de Janeiro, Brazil
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Authors who registered to attend in-person AND offered an oral spot
+      will present oral in person. Authors who registered to attend will record a
+      5 min...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: Financial Assistance Application is Open until March 1
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ICLR 2026 - Call for Workshops Following the ICLR 2026 main conference,
+      two days of in-person workshops on a variety of current topics will be held...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'Abstracts and papers must be submitted using the conference submission
+      system at: https://openreview.net/group?id=ICLR.cc/2026/Conference'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: Workshops Call for Proposals 2026 ICLR 2026 - Call for Workshops Following
+      the ICLR 2026 main conference, two days of in-person workshops on a...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: All accepted papers will receive a recording link in an email from SlidesLive.
+      The SlidesLive recording link will also be available on your My Stuff...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

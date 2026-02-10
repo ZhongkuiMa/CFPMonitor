@@ -1,0 +1,302 @@
+conference: ICSOC
+year: 2025
+last_checked: '2026-02-16T10:30:03.090222+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: July 14, 2025
+    evidence: 'Regular paper submissions due: 14 July 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 14, 2025
+  abstract_deadline:
+    value: July 7, 2025
+    evidence: 'Regular paper abstract submissions due: 7 July 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 7, 2025
+  notification_date:
+    value: September 15, 2025
+    evidence: 'Final notification to authors: 15 September 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 15, 2025
+  camera_ready_deadline:
+    value: October 1, 2025
+    evidence: 'Camera-ready manuscripts due: 1 October 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 1, 2025
+  conference_dates:
+    value: December 1-4, 2025
+    evidence: ICSOC, the International Conference on Service-Oriented Computing, is
+      the premier international forum for academics, industry researchers,...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 1-4, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: September 30, 2025
+    evidence: 'Author registration: 30 September 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: September 30, 2025
+  double_blind:
+    value: true
+    evidence: ICSOC implements a double-blind reviewing process. Author names and
+      affiliations should not appear in the paper.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Submissions that violate these requirements will be desk rejected without
+      review.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: Submissions that violate these requirements will be desk rejected without
+      review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: All papers must not exceed 15 pages. The final submission should be
+      formatted according to Springer's LNCS Camera-ready instructions.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers should be formatted according to Springer's LNCS Formatting Guidelines.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: It should be noted that unformatted papers and papers beyond the page
+      limit will be desk rejected without reviewing.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Verlag in the Lecture Notes in Computer Science (LNCS) series
+    evidence: All accepted papers will be included in the Conference Proceedings published
+      by Springer Verlag in the Lecture Notes in Computer Science (LNCS)...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Verlag in the Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: true
+    evidence: Reproducibility Certification
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors of accepted main track papers are invited to submit a companion
+      artifact description paper to the special Artifact Evaluation track.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Shenzhen, China
+    evidence: ICSOC 2025, the 23rd event in this series, will take place in Shenzhen,
+      China from 1 to 4 December 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Shenzhen, China
+    normalized:
+      city: Shenzhen
+      country: China
+      display: Shenzhen, China
+      raw: Shenzhen, China
+  conference_format:
+    value: in-person
+    evidence: All accepted papers will be included in the Conference Proceedings published
+      by Springer Verlag in the Lecture Notes in Computer Science (LNCS)...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Each paper must be submitted on or before the provided deadlines. Authors
+      are kindly invited to respect the abstract submission deadline, which is...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

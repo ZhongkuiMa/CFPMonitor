@@ -1,0 +1,325 @@
+conference: SOSP
+year: 2026
+last_checked: '2026-02-16T10:59:05.290915+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: April 1, 2026
+    evidence: Submission deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 1, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 3rd, 2026
+    evidence: Author notification July 3rd, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 3rd, 2026
+  camera_ready_deadline:
+    value: August 28, 2026
+    evidence: Camera ready due August 28, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 28, 2026
+  conference_dates:
+    value: September 30, 2026
+    evidence: Conference September 30, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 30, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: SOSP will use double-blind reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: SOSP will provide an opportunity for authors to respond to reviews prior
+      to final consideration of the papers at the program committee meeting.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: Submissions may have at most 12 pages of technical content, including
+      all text, figures, tables, etc.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers will be submitted electronically in PDF format via the web submission
+      form(TBD).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Authors may optionally include supplementary material as a separate
+      document.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Prior or concurrent publication in non-peer-reviewed contexts, like
+      arXiv.org, technical reports, talks, and social media posts, is explicitly...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Papers of particular merit will be forwarded to the ACM Transactions
+      on Computer Systems (TOCS) and the Communications of the ACM's Research...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Submissions should contain original, unpublished material. Simultaneous
+      submission of the same work to multiple venues, submission of previously...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: SOSP will continue the successful tradition of running an optional Artifact
+      Evaluation process.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Clarion Congress Hotel Prague, Prague, Czechia
+    evidence: 'place: Clarion Congress Hotel Prague, Prague, Czechia'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Clarion Congress Hotel Prague, Prague, Czechia
+    normalized:
+      city: Prague
+      country: Czech Republic
+      display: Prague, Czech Republic
+      raw: Clarion Congress Hotel Prague, Prague, Czechia
+  conference_format:
+    value: in-person
+    evidence: The conference is held at a specific hotel in Prague.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers will be made available online in advance of the
+      conference. The official publication date will be the date the proceedings are...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: SOSP 2026, through generous donations from conference sponsors, will
+      offer scholarships to assist students attending the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: The workshops and tutorials are aimed to provide a forum for exchanging
+      opinions, presenting ideas, and discussing preliminary results with a diverse...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers will be submitted electronically in PDF format via the web submission
+      form(TBD).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Researchers and practitioners are invited to submit proposals for workshops
+      and tutorials in conjunction with the 32nd ACM Symposium on Operating...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: We are pleased to invite submissions for the poster session at SOSP
+      2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: SOSP will host its seventh ACM Student Research Competition (SRC) ,
+      sponsored by SIGOPS.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The first-place winners of the competition will be invited to participate
+      in the ACM Student Research Competition Grand Finals.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

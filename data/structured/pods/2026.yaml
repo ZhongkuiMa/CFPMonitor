@@ -1,0 +1,303 @@
+conference: PODS
+year: 2026
+last_checked: '2026-02-16T11:21:50.973462+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: January 17, 2025
+    evidence: 'January 17, 2025 : Paper submission'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 17, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 4, 2025
+    evidence: 'April 4, 2025: Notification of accept//reject/revision'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 4, 2025
+  camera_ready_deadline:
+    value: May 23, 2025
+    evidence: 'May 23, 2025: Final notification of accept/reject'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 23, 2025
+  conference_dates:
+    value: May 31 - June 05, 2026
+    evidence: The 2026 ACM SIGMOD/PODS Conference is to be held in Bengaluru, India,
+      on May 31-June 5, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 31 - June 05, 2026
+  rebuttal_deadline:
+    value: July 4, 2025
+    evidence: 'July 4, 2025: Notification of accept//reject/revision'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 4, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PODS will apply a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: With the author feedback, authors can suggest a revision plan before
+      a decision is reached. The proposed revision plan will be taken into account...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions must be at most 12 pages in length, plus an unlimited number
+      of pages for citations.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: LaTeX users must format their submission using the standard ACM 'acmsmall'
+      proceedings stylesheet
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: An appendix as a separate pdf can be submitted along with the paper.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of the ACM on Management of Data (PACMMOD)
+    evidence: Accepted papers will be published in issues of the Proceedings of the
+      ACM on Management of Data (PACMMOD)
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the ACM on Management of Data (PACMMOD)
+  statements:
+    value: true
+    evidence: 'Authors are encouraged to follow the tips and guidelines provided at:
+      https://dbdni.github.io/materials . Reviewers will be empowered to monitor and...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: SIGMOD strives to establish a culture where sharing research artifacts
+      (data, results, code, and scripts) is the norm rather than an exception.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: 'The guidelines note that: ''Generative AI tools and technologies, such
+      as ChatGPT, may not be listed as authors of an ACM published Work. The use of...'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Bengaluru, India
+    evidence: The 2026 ACM SIGMOD/PODS Conference is to be held in Bengaluru, India.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bengaluru, India
+    normalized:
+      city: Bengaluru
+      country: India
+      display: Bengaluru, India
+      raw: Bengaluru, India
+  conference_format:
+    value: in-person
+    evidence: The 2026 ACM SIGMOD/PODS Conference is to be held in Bengaluru, India,
+      on May 31-June 5, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    - spotlight
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'', ''spotlight'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2026 Conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: Submissions to the demonstration track are NOT subject to double blind
+      reviewing. The author name(s) and affiliation(s) must be present in the...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2026 Conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: SIGMOD 2026 CALL FOR TUTORIALS
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: SIGMOD 2026 Call for Demonstration Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: In the event that you are not able to submit your code, data, scripts,
+      and notebooks please explain in the text box provided in the submission form...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,370 @@
+conference: MODELS
+year: 2026
+last_checked: '2026-02-16T11:11:01.047506+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 7
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Thu 28 Jul 2025
+      llm_batch2: May 15, 2026
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Fri 25 Aug 2025
+      llm_batch2: June 30, 2026
+  - field: conference_dates
+    values:
+      llm_batch1: Tue 14 Oct 2025
+      llm_batch2: October 4 - October 9, 2026
+  - field: page_limit
+    values:
+      llm_batch1: 12 pages
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: Springer
+  - field: conference_location
+    values:
+      llm_batch1: Singapore
+      llm_batch2: Málaga, Spain
+  - field: has_awards
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: March 27, 2026
+    evidence: Research Papers Paper Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: March 27, 2026
+  abstract_deadline:
+    value: February 28, 2026
+    evidence: Research Papers Abstract Submission Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: February 28, 2026
+  notification_date:
+    value: May 15, 2026
+    evidence: Notification of Acceptance/Rejection
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 28 Jul 2025
+      llm_batch2:
+        value: May 15, 2026
+    _conflict: true
+  camera_ready_deadline:
+    value: June 30, 2026
+    evidence: Camera-ready submission deadline for Industry Track
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Fri 25 Aug 2025
+      llm_batch2:
+        value: June 30, 2026
+    _conflict: true
+  conference_dates:
+    value: October 4 - October 9, 2026
+    evidence: Conference Dates
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Tue 14 Oct 2025
+      llm_batch2:
+        value: October 4 - October 9, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Double-blind review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Double-blind review process
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Single-blind review process
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Maximum page limit for papers
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 12 pages
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: No mention of exclusions from page limit
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors are required to use the official template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: No mention of concurrent submission policy
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors are allowed to post on arXiv before/during review
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  publication_venue:
+    value: Springer
+    evidence: Publication venue is Springer LNCS/LNCS
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: Springer
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors of accepted papers are encouraged to make auxiliary material
+      (artifacts like source code, test data, etc.) available with their paper.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact evaluation is mandatory for papers
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: No specific policy on LLM usage
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Málaga, Spain
+    evidence: Conference location
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Singapore
+      llm_batch2:
+        value: Málaga, Spain
+    _conflict: true
+    normalized:
+      city: Málaga
+      country: Spain
+      display: Málaga, Spain
+      raw: Málaga, Spain
+  conference_format:
+    value: in-person
+    evidence: In-person conference format
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Oral presentations are the only mentioned format
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: No mention of workshops for main track
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submission system is EasyChair
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: No mention of workshop proposals for main track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: true
+    evidence: Industry Track is mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: No mention of doctoral consortium for main track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: MPLR does not hold its own poster session.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best paper awards are mentioned
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true

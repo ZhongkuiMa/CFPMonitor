@@ -1,0 +1,292 @@
+conference: PACT
+year: 2025
+last_checked: '2026-02-16T10:24:24.811218+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: April 25, 2025
+    evidence: 'Papers Due: April 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 25, 2025
+  abstract_deadline:
+    value: April 18, 2025
+    evidence: 'Abstracts Due: April 18, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 18, 2025
+  notification_date:
+    value: July 31, 2025
+    evidence: 'Author notification: July 31, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 31, 2025
+  camera_ready_deadline:
+    value: October 17, 2025
+    evidence: 'Camera-Ready Deadline: October 17, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 17, 2025
+  conference_dates:
+    value: November 3-6, 2025
+    evidence: PACT 2025 will be held in Irvine, California, USA, from November 3-6,
+      2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 3-6, 2025
+  rebuttal_deadline:
+    value: June 24-30, 2025
+    evidence: 'Rebuttal period: June 24-30, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 24-30, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'Double-Blind Review: The review process is double-blind to prevent
+      bias. Submissions must not include author names, affiliations, or self-references...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Rebuttal period: June 24-30, 2025'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Papers are limited to 10 pages (excluding references) in ACM 8.5” x
+      11” format, double-column, 9pt font (e.g., using the sigconf LaTeX template).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Templates are available on the ACM Author Gateway.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: A single anonymized PDF may be uploaded with additional proofs, results,
+      or datasets. Reviewers are not required to consult supplementary material.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library and IEEE Xplore
+    evidence: Accepted papers will be published in both the ACM Digital Library and
+      IEEE Xplore.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library and IEEE Xplore
+  statements:
+    value: true
+    evidence: Authors must declare all conflicts of interest with PC members and external
+      reviewers at submission time. Papers with undeclared or false conflicts...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: Artifacts are encouraged but not mandatory for evaluation.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: forbidden
+    evidence: Submissions must contain original material not previously published
+      or under review elsewhere. Material presented at workshops without copyrighted...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Irvine, California, USA
+    evidence: PACT 2025 will be held in Irvine, California, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Irvine, California, USA
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Irvine, California, USA
+  conference_format:
+    value: in-person
+    evidence: PACT 2025 will be held as an in-person event in Irvine, California,
+      USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The data focuses on the main conference track and does not mention any
+      workshops or tutorials.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions are due April 18, 2025, via the conference submission site
+      (https://pact25.hotcrp.com).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

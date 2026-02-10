@@ -1,0 +1,328 @@
+conference: GECCO
+year: 2026
+last_checked: '2026-02-16T11:09:58.426081+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: January 26, 2026
+    evidence: Full papers are due by the non-extensible deadline of January 26, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 26, 2026
+  abstract_deadline:
+    value: January 19, 2026
+    evidence: Mandatory abstract submissions of at most 200 words for full papers
+      are due by the non-extensible deadline of January 19, 2026; submissions of the...
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 19, 2026
+  notification_date:
+    value: March 20, 2026
+    evidence: 'Notification of acceptance/rejection: March 20, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 20, 2026
+  camera_ready_deadline:
+    value: April 10, 2026
+    evidence: 'Camera-ready deadline: April 10, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 10, 2026
+  conference_dates:
+    value: July 13-17, 2026
+    evidence: The Genetic and Evolutionary Computation Conference (GECCO 2026) will
+      be held in San JosÃ©, Costa Rica, from July 13 to July 17 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 13-17, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 11, 2026
+    evidence: Register at least one author before May 11, 2026 to attend the conference
+      (that is, register as an in-person or online presenter)
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 11, 2026
+  double_blind:
+    value: true
+    evidence: Each paper submitted to GECCO will be rigorously evaluated in a double-blind
+      review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Reviewers may use generative AI or tools with the sole purpose of improving
+      the quality and readability of reviewer reports for the author.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers that are deemed by the track chairs and/or the EiC to not be
+      a proper fit within the track they were submitted to nor any other track in
+      the...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Maximum number of pages: 8 (excluding references).'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Any content/appendix beyond the 8 pages limit (excluding references)
+      should be submitted as supplementary material.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'You MUST use this ACM template: LaTeX template , specifically the ACM
+      SigConf template.'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: It is possible to submit supplementary material (e.g., videos, a PDF
+      appendix, source code, data, mathematical proofs) in addition to the PDF of
+      the...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Simultaneously submitting work to another conference or journal that
+      is substantially similar to work also submitted to GECCO, is NOT ALLOWED.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted papers will be published in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are fully accountable for the originality, accuracy, and integrity
+      of all submitted material.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Under ACM's Authorship policy, generative AI tools and technologies
+      cannot be listed as authors of an ACM published Work. The use of generative
+      AI...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: San José, Costa Rica
+    evidence: The Genetic and Evolutionary Computation Conference (GECCO 2026) will
+      be held in San JosÃ©, Costa Rica
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San José, Costa Rica
+    normalized:
+      city: San José
+      country: Costa Rica
+      display: San José, Costa Rica
+      raw: San José, Costa Rica
+  conference_format:
+    value: hybrid
+    evidence: in a hybrid format
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted papers may be requested to submit a video version of their
+      talk, pending the final Hybrid format of the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The GECCO 2026 Program Committee invites the submission of technical
+      papers describing your best work in genetic and evolutionary computation.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: You must use the submission website to submit all kinds of contributions
+      to GECCO (including the abstract of full papers).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best paper nominations are decided upon per track and by the track chairs.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

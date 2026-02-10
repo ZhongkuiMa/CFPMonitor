@@ -1,0 +1,321 @@
+conference: ICDAR
+year: 2026
+last_checked: '2026-02-16T11:49:57.637138+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: February 27, 2026
+    evidence: 'Full Paper Deadline: 27 February 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 27, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 15, 2026
+    evidence: 'Acceptance Notification: 15 May 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2026
+  camera_ready_deadline:
+    value: June 15, 2026
+    evidence: 'Camera-ready Deadline: 15 June 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 15, 2026
+  conference_dates:
+    value: August 31 - September 2, 2026
+    evidence: 'Main Conference : Monday, August 31 – Wednesday, September 2, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 31 - September 2, 2026
+  rebuttal_deadline:
+    value: April 24, 2026
+    evidence: 'Rebuttal Deadline: 24 April 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 24, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 15, 2026
+    evidence: At least one author of each accepted paper MUST register the paper at
+      full-rate by the early registration deadline (i.e., a student registration will...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 15, 2026
+  double_blind:
+    value: true
+    evidence: ICDAR 2026 will follow a double blind review process . Authors should
+      not include their names, affiliations, or acknowledgements in submitted...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: ICDAR 2026 will follow a double blind review process . Authors should
+      not include their names, affiliations, or acknowledgements in submitted...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will be given the opportunity to respond to reviews in an author
+      response phase.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 17 pages
+    evidence: Authors are invited to submit full-length papers describing original
+      work of not more than 17 pages including figures and references .
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 17 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Manuscripts not adhering to the page limit (maximum 17 pages all included),
+      the formatting guidelines (Springer Lecture Notes format) or the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be formatted according to the instructions and style files
+      provided by Springer LNCS.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: By submitting a manuscript to ICDAR 2026, authors acknowledge that it
+      has not been previously published or accepted for publication in substantially...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors wishing to submit their manuscript to a pre-publication service
+      (such as, for example arXiv.org) may do so. Likewise, links to GitHub...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science
+    evidence: The ICDAR 2026 proceedings will be published under the Springer Lecture
+      Notes in Computer Science (LNCS) series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science
+  statements:
+    value: true
+    evidence: By submitting a manuscript to ICDAR 2026, authors agree to adhere the
+      IAPR Statement of Ethics.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: ICDAR 2026 will follow a double blind review process . Authors should
+      not include their names, affiliations, or acknowledgements in submitted...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Vienna, Austria
+    evidence: The 20th edition of this flagship conference will be held as an in person
+      event in Vienna, Austria, from August 30 to September 04, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vienna, Austria
+    normalized:
+      city: Vienna
+      country: Austria
+      display: Vienna, Austria
+      raw: Vienna, Austria
+  conference_format:
+    value: in-person
+    evidence: The 20th edition of this flagship conference will be held as an in person
+      event in Vienna, Austria, from August 30 to September 04, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Papers need to be presented in person at the conference to be included
+      in the published proceedings.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The Workshop Chairs of the 20th International Conference on Document
+      Analysis and Recognition (ICDAR 2026) invite proposals for affiliated workshops...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: 'Submit your paper here: Submission link'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: The Workshop Chairs of the 20th International Conference on Document
+      Analysis and Recognition (ICDAR 2026) invite proposals for affiliated workshops...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: The ICDAR 2026 Organizing Committee invites proposals for tutorials
+      to be held on August 30, 2026 before the main conference commences.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: The ICDAR 2026 Doctoral Consortium will take place during the poster
+      sessions of the main conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: Following the tradition of previous ICDARs, ICDAR 2026 will once again
+      feature a Journal Track , combining the rapid turnaround and wide visibility...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ICDAR 2026 will present awards for the best paper, the best student
+      paper, best poster paper, and the best industry paper presented at the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

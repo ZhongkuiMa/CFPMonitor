@@ -1,0 +1,310 @@
+conference: REFSQ
+year: 2026
+last_checked: '2026-02-16T13:30:34.584920+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: October 17, 2025
+    evidence: 'Paper submissions for Research track: Oct 10th, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 17, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 15, 2025
+    evidence: Dec 15, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 15, 2025
+  camera_ready_deadline:
+    value: January 19, 2026
+    evidence: Jan 19, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 19, 2026
+  conference_dates:
+    value: March 23-26, 2026
+    evidence: REFSQ 2026 will take place from the 23rd to 26th of March 2026 in Poznan,
+      Poland (live, in-person).
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 23-26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 15 pages incl. references
+    evidence: Technical design papers (15 pages incl. references) describe the design
+      of new artifacts, i.e., novel solutions for problems relevant to practice...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages incl. references
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word, available at...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer’s LNCS series
+    evidence: The REFSQ 2026 proceedings will be published in Springer’s LNCS series.
+      Proceedings of previous editions can be found at...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer’s LNCS series
+  statements:
+    value: true
+    evidence: To ensure that the research and artifacts are more accessible and that
+      the REFSQ 2026 Open Science Policy is followed, an explicit Data Availability...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'Upon submission: If you have additional material (an artefact) associated
+      with your submission, like data, code, and evaluation material, follow the...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: The REFSQ 2026 proceedings will be published in Springer’s LNCS series.
+      Proceedings of previous editions can be found at...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Poznań, Poland
+    evidence: REFSQ 2026 will take place from the 23rd to 26th of March 2026 in Poznan,
+      Poland (live, in-person).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Poznań, Poland
+    normalized:
+      city: Poznań
+      country: Poland
+      display: Poznań, Poland
+      raw: Poznań, Poland
+  conference_format:
+    value: in-person
+    evidence: REFSQ 2026 will take place from the 23rd to 26th of March 2026 in Poznan,
+      Poland (live, in-person).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The REFSQ Working Conference provide a forum for exchanging innovative
+      ideas and approaches to successful requirements engineering (RE) amongst...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Contributions should be submitted using EasyChair at: https://easychair.org/conferences/?conf=refsq2026'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: The 2026 REFSQ call for workshop proposals encourages researchers and
+      practitioners to organize events on the Monday of the conference to shed more...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: 'We welcome poster proposals that follow these criteria:'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: The REFSQ Working Conference provide a forum for exchanging innovative
+      ideas and approaches to successful requirements engineering (RE) amongst...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The conference attendees will be asked to vote for the best poster and
+      tool. The authors of the best poster or tool will earn a reserved time slot
+      in...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

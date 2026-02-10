@@ -1,0 +1,330 @@
+conference: FMCAD
+year: 2025
+last_checked: '2026-02-16T09:54:50.407427+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: May 5, 2025
+    evidence: 'Paper Submission Deadline: April 27, 2025 May 5, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 5, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 1, 2025
+    evidence: 'Author Notification: July 1, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 1, 2025
+  camera_ready_deadline:
+    value: August 15, 2025
+    evidence: 'Camera-ready submission: Friday, August 15, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 15, 2025
+  conference_dates:
+    value: October 6 - October 10, 2025
+    evidence: 'Conference Dates: October 6- October 10, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 6 - October 10, 2025
+  rebuttal_deadline:
+    value: June 17 - June 20, 2025
+    evidence: 'Author Response: June 17 - June 19, 2025 June 17 - June 20, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 17 - June 20, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: FMCAD employs a rigorous peer-review process and each submission will
+      be reviewed by at least four members of the program committee. The review...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: FMCAD employs a rigorous peer-review process and each submission will
+      be reviewed by at least four members of the program committee. The review...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The review process will incorporate a feedback and rebuttal period during
+      which authors will have the opportunity to formally respond to reviewer...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Both Regular and Tool & Case study papers can be either 8 pages (long)
+      or 4 pages (short) in length excluding references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Both Regular and Tool & Case study papers can be either 8 pages (long)
+      or 4 pages (short) in length excluding references.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers in both categories can be either 8 pages (long) or 4 pages (short)
+      in length excluding references. Short papers that describe emerging...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: FMCAD 2025 introduces optional artifact evaluation to enhance transparency
+      and the usability of research outcomes.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: TU Wien Academic Press
+    evidence: Accepted papers are published by TU Wien Academic Press under a Creative
+      Commons license (the authors retain the copyright) and distributed through...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: TU Wien Academic Press
+  statements:
+    value: true
+    evidence: 'Authors of accepted contributions will be required to sign the FMCAD
+      copyright transfer form found here: https://fmcad.or.at/pdf/copyright.pdf .
+      For...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: FMCAD 2025 introduces optional artifact evaluation to enhance transparency
+      and the usability of research outcomes.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Menlo Park, California, USA
+    evidence: 'Conference Location: SRI Headquarters, Menlo Park, California, US'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Menlo Park, California, USA
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Menlo Park, California, USA
+  conference_format:
+    value: in-person
+    evidence: FMCAD 2025 will be held in Menlo Park, California, USA ( get directions
+      ).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: Limited funds may be available to support travel and/or conference registration,
+      which will be reimbursed after the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: FMCAD 2025 is hosting a Student Forum that provides a platform for students
+      at any career stage to introduce their research to the wider Formal...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Easychair
+    evidence: 'Submissions must be made electronically in PDF format via Easychair:
+      https://easychair.org/conferences?conf=fmcad2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Easychair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: true
+    evidence: 'Verification Modulo Theories Systems Correctness Practices at AWS:
+      Leveraging Formal and Semi-formal Method Program Synthesis: Pre-LLM and Post-LLM'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: Each student will give a short presentation and present their poster
+      in the poster session.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: Continuing the tradition of the previous years, FMCAD 2025 is hosting
+      a Student Forum that provides a platform for students at any career stage to...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

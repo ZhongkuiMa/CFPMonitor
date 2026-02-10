@@ -1,0 +1,316 @@
+conference: IMC
+year: 2025
+last_checked: '2026-02-16T09:05:44.901795+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: November 21, 2024
+    evidence: 'Cycle 1 Deadline: Paper submission November 21, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 21, 2024
+  abstract_deadline:
+    value: November 14, 2024
+    evidence: 'Cycle 1 Deadline: Paper registration (with abstract) November 14, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 14, 2024
+  notification_date:
+    value: March 26, 2025
+    evidence: Notification Mar 26, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 26, 2025
+  camera_ready_deadline:
+    value: April 26, 2025
+    evidence: Camera-ready due Apr 26, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 26, 2025
+  conference_dates:
+    value: October 28-31, 2025
+    evidence: Conference Oct 28-31, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 28-31, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: IMC 2025 will use double blind submissions
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: IMC 2025 will use double blind submissions
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of submissions for which there is a consensus on rejection will
+      be notified early. This allows authors time to improve their work and submit...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Papers rejected cannot be resubmitted at the next deadline.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages for text and figures + unlimited pages for references and appendix
+    evidence: 'Page limits: Full papers: up to 13 pages for technical content + unlimited
+      pages for references and appendix'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages for text and figures + unlimited pages for references and
+          appendix
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must obey the following formatting requirements.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplementary material is not mentioned in the submission instructions.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: All accepted papers will be published in the Conference Proceedings
+      (online with ISSN), submitted for evaluation to the Conference Proceedings...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: true
+    evidence: Papers must include, in a clearly marked appendix section with the heading
+      “Ethics”, a statement about ethical issues; papers that do not include...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: While generative AI systems—such as large language models (LLMs)—are
+      powerful and useful tools, there remain open questions as to how and which data...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Madison, Wisconsin, USA
+    evidence: The ACM IMC 2025 conference will be held from October 28-31, 2025 in
+      Madison, WI, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Madison, Wisconsin, USA
+    normalized:
+      city: Madison
+      country: US
+      display: Madison, US
+      raw: Madison, Wisconsin, USA
+  conference_format:
+    value: in-person
+    evidence: IMC 2025 is an in-person event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The review process will have several reviewing rounds. To allow authors
+      time to improve their work and submit to other venues, authors of submissions...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: We are proud to announce that IMC 2025 will support conference attendance
+      with travel grants.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: IMC 2025 is soliciting proposals for workshops co-located with the conference.
+      However, this is not part of the main track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: For the first time, the 2025 Internet Measurement Conference is soliciting
+      proposals for workshops co-located with the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: The 2025 Internet Measurement Conference will include a poster session.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: The Student Workshop provides an interactive platform for graduate students
+      to engage, learn, and explore collaborations with each other and more...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The IMC 2025 PC will notify authors of acceptance/rejection decisions
+      by March 26, 2025. All accepted papers may be shepherded by members of the PC.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

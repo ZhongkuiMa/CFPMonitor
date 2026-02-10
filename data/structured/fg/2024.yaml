@@ -1,0 +1,301 @@
+conference: FG
+year: 2024
+last_checked: '2026-02-16T08:45:25.541182+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 5 March 2024
+    evidence: 'Notifications to authors: 5 March 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 5 March 2024
+  camera_ready_deadline:
+    value: April 22, 2024
+    evidence: 'Camera Ready (for all): April 22, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 22, 2024
+  conference_dates:
+    value: 28-30 May, 2024
+    evidence: 'Main conference: 28-30 May, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 28-30 May, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must be prepared in a double-blind format for the review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers can be desk-rejected before full review
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Ensure your paper has a maximum length of 8 pages for regular papers
+      (excluding references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be prepared in the IEEE conference format and use the provided
+      templates
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary material can be submitted as part of the submission process
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Papers must not have been posted on arXiv or any other public repository
+      prior to acceptance for publication in IEEE Xplore
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Proceedings will be published in the IEEE conference proceedings and
+      enrolled in IEEE Xplore
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: Ethics, broader impact, reproducibility checklist, and funding disclosure
+      are required for all submissions
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Papers must not use any form of AI or machine learning tools in the
+      writing process
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: SDKM, ITU Campus, Istanbul, Turkey
+    evidence: 27-31 May 2024 SDKM, ITU Campus, Istanbul, Turkey
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: SDKM, ITU Campus, Istanbul, Turkey
+    normalized:
+      city: Istanbul
+      country: Turkey
+      display: Istanbul, Turkey
+      raw: SDKM, ITU Campus, Istanbul, Turkey
+  conference_format:
+    value: in-person
+    evidence: IEEE FG 2024 will be held as a purely in-person conference
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: 'Papers accepted as Orals will be presented during a talk and as posters
+      . Researchers with papers accepted as Orals need to present their work: (1)...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshop, tutorials and competitions: 27 May and 31 May, 2024'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: Papers must be submitted through CMT system
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: 'Workshop proposals due: November 13, 2023, Notification of acceptance:
+      November 20, 2023.'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: Papers accepted as Posters will be presented orally during a Spotlight
+      Session and during one of the poster sessions
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best paper awards will be given at the conference
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,337 @@
+conference: ICML
+year: 2025
+last_checked: '2026-02-16T10:06:47.658532+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: January 30, 2025
+    evidence: 'Full paper submission deadline: January 30, 2025 AoE (Jan 31 2025 12
+      Noon UTC-0).'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 30, 2025
+  abstract_deadline:
+    value: January 23, 2025
+    evidence: 'Abstract submission deadline: January 23, 2025 AoE (Jan 24 2025 12
+      Noon UTC-0).'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 23, 2025
+  notification_date:
+    value: TBD
+    evidence: Notification of acceptance/rejection will be sent to authors by April
+      18, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: TBD
+  camera_ready_deadline:
+    value: June 5, 2025
+    evidence: 'Camera-Ready Papers and Post-Conference Revisions: The camera-ready
+      submission is due on June 5, 2025 (11:59pm AoE).'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 5, 2025
+  conference_dates:
+    value: July 13-19, 2025
+    evidence: ICML 2025 will be held in Vancouver, Canada, July 13–19.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 13-19, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must be anonymized and may not contain any information
+      with the intention or consequence of violating the double-blind reviewing...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: 'Reviewing for ICML 2025 is double-blind: reviewers will not know the
+      authors’ identities and vice versa.'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: After initial reviews, authors will have the opportunity to respond
+      to reviewer comments.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: true
+    evidence: 'New this year: Qualified authors are required to review for ICML, according
+      to the policies below.'
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 8 pages
+    evidence: Submitted papers are composed of a main body, which can be up to eight
+      pages long, followed by any number of pages for references and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: The submission PDF has a maximum size of 50MB while the camera ready
+      version will be limited to 20MB. The required format of the papers is specified...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: The camera-ready version should be prepared using the LaTeX style file
+      from https://media.icml.cc/Conferences/ICML2025/Styles/icml2025.zip with the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Supplementary Material: ICML 2025 supports the submission of two kinds
+      of supplementary material: supplementary manuscripts and code/data.'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Authors may not submit papers that are identical, or substantially similar,
+      to versions that have been previously published, accepted for...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors are allowed to post versions of their work on preprint servers
+      such as arXiv.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Proceedings of Machine Learning Research
+    evidence: Papers published at ICML are indexed in the Proceedings of Machine Learning
+      Research through the Journal of Machine Learning Research.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research
+  statements:
+    value: true
+    evidence: Authors are required to include a statement of the potential broader
+      impact of their work, including its ethical aspects and future societal...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors are allowed to use generative AI tools such as Large Language
+      Models (LLMs) to assist in writing or research.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Vancouver Convention Center, Vancouver, Canada
+    evidence: ICML 2025 will be held in Vancouver, Canada, July 13–19.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vancouver Convention Center, Vancouver, Canada
+    normalized:
+      city: Vancouver
+      country: Canada
+      display: Vancouver, Canada
+      raw: Vancouver Convention Center, Vancouver, Canada
+  conference_format:
+    value: in-person
+    evidence: In addition to the main conference sessions, the conference will include
+      tutorials , workshops , and an expo .
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The camera-ready version should be prepared using the LaTeX style file
+      from https://media.icml.cc/Conferences/ICML2025/Styles/icml2025.zip with the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ICML also solicits proposals for affinity workshops. The format and
+      aims of these workshops should be described by the workshop organizers,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'Abstracts and papers can be submitted through OpenReview: https://openreview.net/group?id=ICML.cc/2025/Conference'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: ICML also solicits proposals for affinity workshops.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: We invite the submission of position papers to be published at the ICML
+      2025 conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: We will review these as quickly as we can after the deadline. We may
+      combine activities, or suggest other modifications (such as suggesting...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

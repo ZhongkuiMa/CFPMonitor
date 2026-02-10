@@ -1,0 +1,312 @@
+conference: ETAPS
+year: 2024
+last_checked: '2026-02-16T08:28:43.983090+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: October 12, 2023
+    evidence: 'Submission deadline: 12 October 2023, 23:59 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 12, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 21, 2023
+    evidence: 'Paper notification: 21 December 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 21, 2023
+  camera_ready_deadline:
+    value: January 23, 2024
+    evidence: 'Paper final version: 23 January 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 23, 2024
+  conference_dates:
+    value: April 8-11, 2024
+    evidence: 'Main Conference: 8 – 11 April 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 8-11, 2024
+  rebuttal_deadline:
+    value: December 5-7, 2023
+    evidence: 'Rebuttal (ESOP, FoSSaCS, partially TACAS): Tuesday 5 December – Thursday
+      7 December 2023'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 5-7, 2023
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ESOP and FoSSaCS will use an author rebuttal phase . TACAS will use
+      rebuttal for selected submissions (those in the grey zone).
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: ESOP and FoSSaCS will use an author rebuttal phase . TACAS will use
+      rebuttal for selected submissions (those in the grey zone).
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 25 pages
+    evidence: 'ESOP: regular research papers of max. 25 pages, experience reports
+      of max. 15 pages, and fresh perspectives providing new insights on programming...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 25 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submitted papers must follow the formatting guidelines of Springer’s
+      LNCS (use the llncs.cls class) and be submitted electronically in pdf through...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submissions must be unpublished and not submitted for publication elsewhere.
+      In particular, simultaneous submission of the same contribution to...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer proceedings
+    evidence: The proceedings will be published in the Advanced Research in Computing
+      and Software Science (ARCoSS) subline of Springer’s LNCS series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer proceedings
+  statements:
+    value: true
+    evidence: All accepted papers will appear in Springer proceedings and have presentations
+      during the conference. A condition of submission is that, if the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: All ETAPS conferences support the EAPLS badging system . This includes
+      that the “Artifact Available” badge will be assigned to all papers that have
+      a...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Luxembourg City, Luxembourg
+    evidence: ETAPS 2024 will take place in Parc Alvisse Hotel 4, Luxembourg City,
+      Luxembourg.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Luxembourg City, Luxembourg
+    normalized:
+      city: Luxembourg City
+      country: Luxembourg
+      display: Luxembourg City, Luxembourg
+      raw: Luxembourg City, Luxembourg
+  conference_format:
+    value: in-person
+    evidence: We plan ETAPS 2024 as an on-site conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The strongest papers from the four conferences will be nominated for
+      the ETAPS best paper awards of EAPLS, EASST, and EATCS, and the SCP best tool...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

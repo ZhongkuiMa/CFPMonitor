@@ -1,0 +1,272 @@
+conference: PRICAI
+year: 2024
+last_checked: '2026-02-16T08:20:25.323788+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: June 12, 2024
+    evidence: 'Paper Submission Deadline: June 12th, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 12, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 7, 2024
+    evidence: 'Acceptance Notification: August 7th, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 7, 2024
+  camera_ready_deadline:
+    value: August 22, 2024
+    evidence: 'Camera-Ready Submission: August 22nd, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 22, 2024
+  conference_dates:
+    value: November 18-24, 2024
+    evidence: "ã\x83»Conference: November 18-24th, 2024"
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 18-24, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PRICAI reviewing follows a double-blind process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Regular papers may be up to 12 pages in length, including references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All papers should be submitted electronically using the conference management
+      tool in PDF format and formatted using the Springer LNAI template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer as a Lecture Notes in Artificial Intelligence (LNAI) proceedings
+      volume
+    evidence: Proceedings of PRICAI 2024 will be published by Springer as a Lecture
+      Notes in Artificial Intelligence (LNAI) proceedings volume.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer as a Lecture Notes in Artificial Intelligence (LNAI) proceedings
+          volume
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: "ã\x83»Large Language Models"
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Clock Tower Centennial Hall Kyoto University, Kyoto, Japan
+    evidence: Clock Tower Centennial Hall Kyoto Univer
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Clock Tower Centennial Hall Kyoto University, Kyoto, Japan
+    normalized:
+      city: Kyoto
+      country: Japan
+      display: Kyoto, Japan
+      raw: Clock Tower Centennial Hall Kyoto University, Kyoto, Japan
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: All papers should be submitted electronically using the conference management
+      tool in PDF format and formatted using the Springer LNAI template.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

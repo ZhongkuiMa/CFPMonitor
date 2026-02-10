@@ -1,0 +1,315 @@
+conference: ICDE
+year: 2026
+last_checked: '2026-02-16T11:34:43.948996+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: June 18, 2025
+    evidence: Submission due for Research Track Round 1 is June 18, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 18, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 18, 2025
+    evidence: Notification for authors (Accept/Revise/Reject) in the first round is
+      August 18, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 18, 2025
+  camera_ready_deadline:
+    value: February 23, 2026
+    evidence: Notification to authors (Accept/Reject) and Camera-ready copy due are
+      February 23, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 23, 2026
+  conference_dates:
+    value: May 5-8, 2026
+    evidence: ICDE 2026 will be held in Montreal from May 4 to 8, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 5-8, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: December 15, 2025
+    evidence: Registration for ICDE 2026 is now open on December 15, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 15, 2025
+  double_blind:
+    value: true
+    evidence: Submissions will be reviewed in a single-blind manner
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Authors must not change the set of authors or the title of the paper
+      after acceptance
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: ICDE research track submissions that don’t meet the following requirements
+      will be rejected without review (desk-reject)
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Research and EAB papers must not exceed 12 pages, excluding references
+      and the AI-generated content acknowledgement
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Manuscripts must be prepared in accordance with the IEEE format available
+      at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are expected to submit supplemental material, such as code,
+      data, and other implementation artifacts used to produce the results reported
+      in...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+    evidence: The best papers will be selected for submission as an extended version
+      to be published in the IEEE Transactions on Knowledge and Data Engineering...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  statements:
+    value: true
+    evidence: Inclusions and Diversity in Writing
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Experiment, Analysis, and Benchmark papers MUST provide all the artifacts
+      required to reproduce the results
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Generative AI tools and technologies, such as ChatGPT, may not be listed
+      as authors of a submission to ICDE 2026. The use of content generated by...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Montreal, Canada
+    evidence: ICDE 2026 will be held in Montreal from May 4 to 8, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Montreal, Canada
+    normalized:
+      city: Montreal
+      country: Canada
+      display: Montreal, Canada
+      raw: Montreal, Canada
+  conference_format:
+    value: in-person
+    evidence: ICDE 2026 will be held in Montreal from May 4 to 8, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop Proposals Call for Workshop Proposals is open
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'Mandatory conference presentation: IEEE reserves the right to exclude
+      a paper from distribution (e.g., remove it from IEEE Xplore) after the...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

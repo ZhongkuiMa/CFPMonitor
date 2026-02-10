@@ -1,0 +1,295 @@
+conference: NOMS
+year: 2024
+last_checked: '2026-02-16T08:08:54.112331+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: September 29, 2023
+    evidence: 'Paper Submission Deadline: Sep. 29, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 29, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 22, 2023
+    evidence: 'Notification of Acceptance: Dec. 22, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2023
+  camera_ready_deadline:
+    value: February 2, 2024
+    evidence: 'Final Camera Ready: Feb. 2, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 2, 2024
+  conference_dates:
+    value: May 6-10, 2024
+    evidence: IEEE Network Operations and Management Symposium (NOMS 2024) will be
+      held May 6-10, 2024 in Seoul, Korea.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 6-10, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: March 8, 2024
+    evidence: '- Author Registration: Mar. 8, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 8, 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Papers accepted as technical session full papers: 8 pages excluding
+      references'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Authors are invited to submit papers that fall into or are related
+      to the following topics of interest:'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted and presented papers will be published in the conference proceedings
+      and submitted to IEEE Xplore.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seoul, South Korea
+    evidence: IEEE Network Operations and Management Symposium (NOMS 2024) will be
+      held May 6-10, 2024 in Seoul, Korea.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Seoul, South Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, South Korea
+  conference_format:
+    value: in-person
+    evidence: Please be advised that NOMS 2024 will be an in-person only event, and
+      virtual presentation or attendance will not be available.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: NOMS 2024 will feature the following 9 co-located workshops, which will
+      be held immediately prior or after the main Technical Program, to further...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: JEMS3
+    evidence: All papers should be submitted through JEMS3 at https://jems3.sbc.org.br/noms2024.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: JEMS3
+  has_workshop_proposals:
+    value: true
+    evidence: NOMS 2024 will feature the following 9 co-located workshops
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Winners of Awards at NOMS 2024
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

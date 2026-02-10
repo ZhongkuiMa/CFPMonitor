@@ -1,0 +1,283 @@
+conference: ACNS
+year: 2026
+last_checked: '2026-02-16T11:27:32.336139+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 20, 2025 AoE
+    evidence: 'Cycle 1 Notification: November 20, 2025 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 20, 2025 AoE
+  camera_ready_deadline:
+    value: May 15, 2026 (hard deadline)
+    evidence: 'Submission of camera-ready papers for the proceedings: May 15, 2026
+      (hard deadline)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 15, 2026 (hard deadline)
+  conference_dates:
+    value: June 22–25, 2026
+    evidence: While taking place at Stony Brook, NY during June 22-25, 2026, the ACNS
+      2026 conference will have two cycles for paper submissions.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 22–25, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The main conference papers should be at most eight (8) pages long excluding
+      references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: The main conference papers should be at most eight (8) pages long excluding
+      references.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer's LNCS series
+    evidence: The proceedings of ACNS 2026 will be published as a part of Springer's
+      LNCS series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's LNCS series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: No mention of artifact evaluation or submission in the main conference
+      context.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: New York, United States
+    evidence: The 2026 edition of ACNS will be held at the Wang Center in Stony Brook.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: New York, United States
+    normalized:
+      city: New York
+      country: US
+      display: New York, US
+      raw: New York, United States
+  conference_format:
+    value: in-person
+    evidence: While taking place at Stony Brook, NY during June 22-25, 2026, the ACNS
+      2026 conference will have two cycles for paper submissions.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: No mention of poster or spotlight presentations in the main conference
+      context.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshop proposal submission due: October 24, 2025, AoE'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Workshop proposals should be submitted as a single PDF file online
+      via EasyChair at: https://easychair.org/conferences?conf=acns2026workshop.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Proposals are solicited for workshops to be held in conjunction with
+      ACNS 2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

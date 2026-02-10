@@ -1,0 +1,381 @@
+conference: APSEC
+year: 2024
+last_checked: '2026-02-16T08:06:33.315900+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: Fri 23 Aug 2024
+      llm_batch2: Sat 20 Jul 2024
+  - field: notification_date
+    values:
+      llm_batch1: Wed 25 Sep 2024
+      llm_batch2: Fri 13 Sep 2024
+  - field: page_limit
+    values:
+      llm_batch1: 5 pages for research, 2 pages for experience reports
+      llm_batch2: 10 pages
+  - field: publication_venue
+    values:
+      llm_batch1: CS Digital Library
+      llm_batch2: IEEE-CS Digital Library
+  - field: has_posters
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: Sat 20 Jul 2024
+    evidence: 'Submission Deadline: Sat 20 Jul 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Fri 23 Aug 2024
+      llm_batch2:
+        value: Sat 20 Jul 2024
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Fri 13 Sep 2024
+    evidence: 'Author Notification: Fri 13 Sep 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Wed 25 Sep 2024
+      llm_batch2:
+        value: Fri 13 Sep 2024
+    _conflict: true
+  camera_ready_deadline:
+    value: Sun 20 Oct 2024
+    evidence: 'Camera Ready Deadline: Sun 20 Oct 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Sun 20 Oct 2024
+      llm_batch2:
+        value: Sun 20 Oct 2024
+  conference_dates:
+    value: Tue 3 Dec - Fri 6 Dec 2024
+    evidence: Dates Tracks Plenary Program Display Configuration Time Zone The program
+      is currently displayed in (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Tue 3 Dec - Fri 6 Dec 2024
+      llm_batch2:
+        value: Tue 3 Dec - Fri 6 Dec 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Sun 20 Oct 2024
+    evidence: 'Camera Ready Deadline: 20 Oct 2024. If a submission is accepted, at
+      least one author of the paper is required to register for and attend the...'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Sun 20 Oct 2024
+  double_blind:
+    value: true
+    evidence: 'IMPORTANT : The APSEC 2024 technical research track will use a double-blind
+      reviewing process, which means that submissions must not reveal the...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Submissions will be evaluated by at least three program committee members.
+      The evaluation will focus on the novelty, originality, importance to the...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Technical research papers must not be more than 10 pages (including
+      references).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 5 pages for research, 2 pages for experience reports
+      llm_batch2:
+        value: 10 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All submissions must come in A4 paper size PDF format and conform, at
+      the time of submission, to the IEEE Conference Proceedings Formatting...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submissions will be evaluated by at least three program committee members.
+      The evaluation will focus on the novelty, originality, importance to the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE-CS Digital Library
+    evidence: All accepted papers will be included in the IEEE-CS Digital Library
+      as the APSEC 2024 conference proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: CS Digital Library
+      llm_batch2:
+        value: IEEE-CS Digital Library
+    _conflict: true
+  statements:
+    value: true
+    evidence: 'Evaluation Criteria: The evaluation will focus on the novelty, originality,
+      importance to the field, proper use of research methods, and presentation...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Chongqing, China
+    evidence: 'Venue: Ronghui Grand Hotel'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Chongqing, China
+      llm_batch2:
+        value: Chongqing, China
+    normalized:
+      city: Chongqing
+      country: China
+      display: Chongqing, China
+      raw: Chongqing, China
+  conference_format:
+    value: in-person
+    evidence: Dates Tracks Plenary Program Display Configuration Time Zone The program
+      is currently displayed in (GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: '14:00 - 15:30 Session (19) Technical Track / ERA - Early Research Achievements
+      at Room 2 (Xiangshan Ballroom) Chair(s): Ke Yu Chongqing University'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Tracks APSEC 2024 Keynotes Technical Track SEIP - Software Engineering
+      in Practice ERA - Early Research Achievements EDU - Software Engineering...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Papers must be submitted through EasyChair: https://easychair.org/conferences/?conf=apsec204'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: 14:00 - 17:30 Posters ERA - Early Research Achievements / Technical
+      Track at Grand Hall Foyer
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

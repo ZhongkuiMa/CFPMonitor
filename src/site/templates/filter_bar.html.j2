@@ -1,0 +1,108 @@
+<!-- Mobile filter toggle (hidden on desktop) -->
+<button id="filterToggle" class="filter-toggle" aria-label="Toggle filters" aria-expanded="false">
+    <svg class="filter-icon" width="20" height="20" fill="currentColor" viewBox="0 0 20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M3 3h14M3 7h10M3 11h6"/>
+    </svg>
+    <span>Filters</span>
+    <svg class="chevron" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M4.5 6l3.5 3.5L11.5 6"/>
+    </svg>
+</button>
+
+<!-- Filter Bar: Organized by filter type -->
+<div class="filter-bar" id="filterBar">
+    <!-- Row 1: Search + Dropdowns + Actions -->
+    <div class="filter-bar__row filter-bar__row--primary">
+        <!-- Search -->
+        <div class="filter-bar__search">
+            <input type="text" id="searchInput" placeholder="Search conferences...">
+            <button id="clearSearch" class="clear-btn" style="display:none">&times;</button>
+        </div>
+
+        <!-- Sort -->
+        <div class="filter-bar__sort">
+            <label>Sort:</label>
+            <select id="sortSelect">
+                <option value="date">Conference Date</option>
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="rank">Rank (Highest)</option>
+                <option value="completeness">Completeness</option>
+                <option value="updated">Last Updated</option>
+            </select>
+        </div>
+
+        <!-- Year Filter -->
+        <div class="filter-bar__sort">
+            <label>Year:</label>
+            <select id="yearSelect">
+                <option value="">All Years</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+            </select>
+        </div>
+
+        <!-- Month Filter -->
+        <div class="filter-bar__sort">
+            <label>Month:</label>
+            <select id="monthSelect">
+                <option value="">All Months</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+
+        <!-- Country Filter -->
+        <div class="filter-bar__sort">
+            <label>Country:</label>
+            <select id="countrySelect">
+                <option value="">All Countries</option>
+                <!-- Options populated dynamically via JavaScript -->
+            </select>
+        </div>
+
+        <!-- Result count + Clear -->
+        <div class="filter-bar__actions">
+            <span><strong id="resultCount">0</strong> results</span>
+            <button id="clearFilters">Clear</button>
+        </div>
+    </div>
+
+    <!-- Row 2: Category Pills -->
+    <div class="filter-bar__row filter-bar__row--pills">
+        <!-- Area pills -->
+        <div class="filter-bar__group">
+            <span class="filter-bar__label">Area:</span>
+            {% for area_code, area_name in areas.items() | sort %}
+            <label class="filter-pill"><input type="checkbox" name="area" value="{{ area_code }}"> {{ area_code }}</label>
+            {% endfor %}
+        </div>
+
+        <!-- Rank pills -->
+        <div class="filter-bar__group">
+            <span class="filter-bar__label">Rank:</span>
+            <label class="filter-pill"><input type="checkbox" name="rank" value="A"> A</label>
+            <label class="filter-pill"><input type="checkbox" name="rank" value="B"> B</label>
+            <label class="filter-pill"><input type="checkbox" name="rank" value="C"> C</label>
+        </div>
+
+        <!-- Review Policy Filters -->
+        <div class="filter-bar__group">
+            <span class="filter-bar__label">Review:</span>
+            <label class="filter-pill"><input type="checkbox" name="doubleBlind" id="doubleBlindFilter"> Double-Blind</label>
+            <label class="filter-pill"><input type="checkbox" name="rebuttal" id="rebuttalFilter"> Rebuttal</label>
+            <label class="filter-pill"><input type="checkbox" name="arxiv" id="arxivFilter"> arXiv</label>
+        </div>
+    </div>
+</div>

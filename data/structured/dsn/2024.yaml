@@ -1,0 +1,332 @@
+conference: DSN
+year: 2024
+last_checked: '2026-02-16T08:22:18.831400+00:00'
+completeness:
+  known: 34
+  total: 40
+  percentage: 85.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 34
+rules:
+  submission_deadline:
+    value: December 6, 2023
+    evidence: 'Dec. 6, 2023: Paper Submission Deadline'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 6, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 20, 2024
+    evidence: 'Mar. 20, 2024: Notification to Authors'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 20, 2024
+  camera_ready_deadline:
+    value: April 26, 2024
+    evidence: 'Apr. 26, 2024: Camera Ready Materials'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 26, 2024
+  conference_dates:
+    value: June 24-27, 2024
+    evidence: 'dates: Jun 24, 2024 - Jun 27, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 24-27, 2024
+  rebuttal_deadline:
+    value: February 15 - 28, 2024
+    evidence: 'Feb. 15 - 28, 2024: Author Rebuttal & Revision Period'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 15 - 28, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The program committee will perform double-blind reviewing of all submissions,
+      with help from outside referees.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: 'Awards: Distinguished Best Paper Award. The authors of all papers that
+      are invited for revision will be allowed one extra page to properly address...'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: The revised (and, if accepted, the final) versions of papers will be
+      allowed 12 pages for regular papers and 8 pages for practical experience reports...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must adhere to the IEEE Computer Society camera-ready format
+      (using a 10-point font on 12-point single-spaced leading) as implemented by...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: The first page is not a separate page, but is a part of the paper (and
+      thus has technical material in it). Thus, this page counts toward the total...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Computer Society
+    evidence: IEEE Computer Society will publish accepted contributions.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Computer Society
+  statements:
+    value: true
+    evidence: 'Ethical considerations: Submissions describing experiments with data
+      derived from human subjects or presenting results that might have ethical...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: All artifacts submitted will compete for a “Distinguished Artifact Award”
+      to be decided by that committee.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: DSN will continue to employ the Early Rejection Notification Policy.
+      Papers that are rejected in the first reviewing round will receive their...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Brisbane, Australia
+    evidence: 'DSN-2024: Call For Contributions'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Brisbane, Australia
+    normalized:
+      city: Brisbane
+      country: Australia
+      display: Brisbane, Australia
+      raw: Brisbane, Australia
+  conference_format:
+    value: in-person
+    evidence: The Annual IEEE/IFIP International Conference on Dependable Systems
+      and Networks (DSN) is devoted to the mission of ensuring that the computing...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers are submitted via the submission website: https://dsn2024.hotcrp.com/
+      .'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: DSN gives three Best Paper Awards and one of them, based on the quality
+      of the oral presentation, will also receive a Distinguished Best Paper Award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

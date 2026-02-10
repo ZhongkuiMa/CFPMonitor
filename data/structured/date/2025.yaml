@@ -1,0 +1,383 @@
+conference: DATE
+year: 2025
+last_checked: '2026-02-16T09:35:41.433465+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 8
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Tuesday, 19 November 2024 AoE
+      llm_batch2: February 10, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Friday, 17 January 2025 AoE
+      llm_batch2: March 14, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: 31 March - 2 April 2025
+      llm_batch2: April 31 - May 2, 2025
+  - field: registration_deadline
+    values:
+      llm_batch1: Friday, 17 January 2025 AoE
+      llm_batch2: December 15, 2024
+  - field: page_limit
+    values:
+      llm_batch1: 6 pages + 1 page for references
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: EDAA
+      llm_batch2: IEEE
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: has_industry_track
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: Sunday, 22 September 2024 AoE
+    evidence: 'Submission Instructions: The deadline to submit papers is Sunday, 15
+      September 2024 AoE. For a paper to be considered a valid submission, at least
+      a...'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sunday, 22 September 2024 AoE
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 10, 2025
+    evidence: 'Notification of acceptance: Friday, 10 January 2025 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Tuesday, 19 November 2024 AoE
+      llm_batch2:
+        value: February 10, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: March 14, 2025
+    evidence: 'Poster submission deadline: Friday , 1 4 March 202 5 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Friday, 17 January 2025 AoE
+      llm_batch2:
+        value: March 14, 2025
+    _conflict: true
+  conference_dates:
+    value: April 31 - May 2, 2025
+    evidence: 31 March - 2 April 2025, Lyon, France
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 31 March - 2 April 2025
+      llm_batch2:
+        value: April 31 - May 2, 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: December 15, 2024
+    evidence: Authors who get papers accepted in the main conference will need to
+      register by mid-December to have their paper published in the proceedings. Hence,...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Friday, 17 January 2025 AoE
+      llm_batch2:
+        value: December 15, 2024
+    _conflict: true
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The submission requires creating a single PDF file that should contain
+      both the extended abstract and the University-approved thesis...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 6 pages + 1 page for references
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Submissions need to contain: Full contact address with affiliation,
+      phone, e-mail'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: The submission requires creating a single PDF file that should contain
+      both the extended abstract and the University-approved thesis...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE
+    evidence: 'rank: ccf=B, core=B, thcpl=B'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: EDAA
+      llm_batch2:
+        value: IEEE
+    _conflict: true
+  statements:
+    value: true
+    evidence: Eligibility to win the PhD Forum Award
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Lyon, France
+    evidence: 31 March - 2 April 2025, Lyon, France
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Lyon, France
+      llm_batch2:
+        value: Lyon, France
+    normalized:
+      city: null
+      country: France
+      display: France
+      raw: Lyon, France
+  conference_format:
+    value: in-person
+    evidence: 31 March - 2 April 2025, Lyon, France
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The submission requires creating a single PDF file that should contain
+      both the extended abstract and the University-approved thesis...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Skip to main content
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: SoftConf
+    evidence: Submit this material to the DATE 20 25 online submission system at https://softconf.com/date25/phdforum/.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: SoftConf
+      llm_batch2:
+        value: SoftConf
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: University Fair
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  has_industry_track:
+    value: true
+    evidence: 'Young People Programme: Industry Careers Co-Chair Sara Vinco, Politecnico
+      di Torino, IT ypp-industry@date-conference.com'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: 'Young People Programme: PhD Forum Co-Chair Christian Pilato, Politecnico
+      di Milano, IT ypp-phd@date-conference.com'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Honoring the Innovators
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

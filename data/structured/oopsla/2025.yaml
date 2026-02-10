@@ -1,0 +1,284 @@
+conference: OOPSLA
+year: 2025
+last_checked: '2026-02-16T09:07:52.905850+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Fri 4 Jul 2025
+    evidence: 'Notification: July 04, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Fri 4 Jul 2025
+  camera_ready_deadline:
+    value: August 25, 2025
+    evidence: 'Camera Ready: August 25, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 25, 2025
+  conference_dates:
+    value: October 12-18, 2025
+    evidence: 'Date: October 12-18, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 12-18, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: false
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: Maximum length for technical papers is restricted to 12 pages, but short
+      papers (max. 6 pages) are also welcome.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Papers must be submitted online via HotCRP at: https://erlang2025.hotcrp.com'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplementary material should not be submitted as part of the main document;
+      instead, it should be uploaded as a separate PDF document or tarball.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: As with previous years, the accepted workshop papers will be published
+      by the ACM and will appear in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors of accepted papers are encouraged to make auxiliary material
+      (artifacts like source code, test data, etc.) available with their paper. They...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Papers must adhere to SIGPLAN’s republication policy (http://sigplan.org/Resources/Policies/Republication/)
+      and authors should be aware of ACM’s...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Singapore
+    evidence: 'Venue (Main Conference): Marina Bay Sands Convention Centre'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Singapore
+    normalized:
+      city: Singapore
+      country: Singapore
+      display: Singapore
+      raw: Singapore
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in Singapore.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted papers will be presented at the workshop by one of the authors,
+      but in special cases we may consider remote presentation.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The conference does not have any workshops or satellite events mentioned.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

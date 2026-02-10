@@ -1,0 +1,384 @@
+conference: INTERNETWARE
+year: 2025
+last_checked: '2026-02-16T10:26:05.919408+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 7
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Sun 30 Mar 2025
+      llm_batch2: April 7, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Sat 10 May 2025
+      llm_batch2: April 20, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: Fri 20 Jun - Sun 22 Jun 2025
+      llm_batch2: June 20-22, 2025
+  - field: double_blind
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: page_limit
+    values:
+      llm_batch1: 10 pages
+      llm_batch2: 4 pages
+  - field: publication_venue
+    values:
+      llm_batch1: Springer Empirical Software Engineering Journal (EMSE)
+      llm_batch2: Internetware
+  - field: has_demos
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: Mon 31 Mar 2025
+    evidence: All submissions must not exceed 10 pages for the main text, inclusive
+      of all figures, tables, appendices, etc. Two more pages containing only...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mon 31 Mar 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 7, 2025
+    evidence: 'Notification of Acceptance : April 7, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sun 30 Mar 2025
+      llm_batch2:
+        value: April 7, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: April 20, 2025
+    evidence: 'Camera-Ready Submission Deadline : April 20, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Sat 10 May 2025
+      llm_batch2:
+        value: April 20, 2025
+    _conflict: true
+  conference_dates:
+    value: June 20-22, 2025
+    evidence: Internetware 2025 Fri 20 - Sun 22 June 2025 Trondheim, Norway
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Fri 20 Jun - Sun 22 Jun 2025
+      llm_batch2:
+        value: June 20-22, 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Sat 10 May 2025
+    evidence: Sat 10 May 2025 Camera-Ready Version (will be extended)
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Sat 10 May 2025
+  double_blind:
+    value: false
+    evidence: The tool demonstration track does not follow a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  single_blind:
+    value: true
+    evidence: The tool demonstration track does not follow a double-blind review process.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: The tool demonstration track does not follow a double-blind review process.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: Submissions that do not comply with the above instructions will be desk
+      rejected without review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 4 pages
+    evidence: Submissions must not exceed 4 pages , including bibliography.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 10 pages
+      llm_batch2:
+        value: 4 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be written in English and submitted in PDF format
+      . Submissions must use the ACM Sigconf template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Papers must not exceed 4 pages , including bibliography.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Internetware
+    evidence: The Internetware 2025 Tool Demonstration Track provides a unique opportunity
+      to showcase innovative tools and artifacts at a well-established...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Springer Empirical Software Engineering Journal (EMSE)
+      llm_batch2:
+        value: Internetware
+    _conflict: true
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: To promote replicability and transparency, submissions must make associated
+      datasets publicly available. Tools should also be open-sourced whenever...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: none
+      llm_batch2:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: LLMs are blurring the line between human and machine-produced language,
+      thus can be successfully applied in ubiquitous computing in Internetware.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+  conference_location:
+    value: Trondheim, Norway
+    evidence: Internetware 2025 Fri 20 - Sun 22 June 2025 Trondheim, Norway
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Trondheim, Norway
+      llm_batch2:
+        value: Trondheim, Norway
+    normalized:
+      city: Trondheim
+      country: Norway
+      display: Trondheim, Norway
+      raw: Trondheim, Norway
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in person at Clarion Hotel Trondheim.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Authors are encouraged to provide their demonstration in an easily
+      accessible format, such as: Virtual machine images, software containers (e.g.,...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions must be submitted through the Internetware 2025 submission
+      site by the deadlines provided. Submission Link...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: The Internetware 2025 Tool Demonstration Track provides a unique opportunity
+      to showcase innovative tools and artifacts at a well-established...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The Internetware’25 Best Tool Demo Award will be presented to recognize
+      authors for their efforts in creating and sharing outstanding tool...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

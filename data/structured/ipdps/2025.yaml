@@ -1,0 +1,308 @@
+conference: IPDPS
+year: 2025
+last_checked: '2026-02-16T10:08:23.223262+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: October 9, 2025
+    evidence: Manuscripts must be submitted by October 9, 2025; to ensure fairness,
+      no extensions will be given.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 9, 2025
+  abstract_deadline:
+    value: October 2, 2025
+    evidence: Authors must register their paper and submit an abstract by Thursday,
+      October 2, 2025 .
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 2, 2025
+  notification_date:
+    value: February 2, 2026
+    evidence: Notification of final decisions will be sent by February 2, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 2, 2026
+  camera_ready_deadline:
+    value: February 20, 2026
+    evidence: Camera-ready papers are due on February 20, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 20, 2026
+  conference_dates:
+    value: May 25-29, 2026
+    evidence: 40th IEEE International Parallel & Distributed Processing Symposium
+      May 25-29, 2026 New Orleans, USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 25-29, 2026
+  rebuttal_deadline:
+    value: December 1 - 4, 2025
+    evidence: 'Author response/rebuttal to reviews: December 1 – 4, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 1 - 4, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The program committee will use a double-anonymous review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of papers in the “revise” category will have the opportunity
+      to submit a new version of their papers addressing reviewers’ comments.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 single-spaced double-column pages
+    evidence: Submitted manuscripts may not exceed ten (10) single-spaced double-column
+      pages using 10-point size font on 8.5x11-inch pages (IEEE conference...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 single-spaced double-column pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The IEEE conference style templates for MS Word and LaTeX provided by
+      IEEE eXpress Conference Publishing are available for download.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE
+    evidence: Proceedings will be published in the IEEE Xplore Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE
+  statements:
+    value: true
+    evidence: Authors are expected to follow the double-anonymous submission guidelines
+      even if a submitted paper is already on arXiv.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Accepted papers that include computational results will have to include
+      in their final version a mandatory Artifact Description appendix (AD) and a...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Tools like Grammarly, or other AI assistants may be used to improve
+      the submission presentation.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: in-person
+    evidence: The conference will take place in New Orleans, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Linklings
+    evidence: Files must be submitted by following the instructions at the IPDPS 2026
+      Submission Site (powered by Linklings).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Linklings
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

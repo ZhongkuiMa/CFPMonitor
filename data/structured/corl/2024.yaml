@@ -1,0 +1,306 @@
+conference: CORL
+year: 2024
+last_checked: '2026-02-16T07:58:41.002831+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: June 6, 2024
+    evidence: 'Paper submission deadline: June 6 , 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 6, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 4, 2024
+    evidence: Sept 4 , 2024, Paper acceptance notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 4, 2024
+  camera_ready_deadline:
+    value: October 15, 2024
+    evidence: 'Camera ready papers due: Oct 15, 2024, 23:59 Anytime on Earth (AoE).'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 15, 2024
+  conference_dates:
+    value: November 6-9, 2024
+    evidence: 'CoRL 2024 conference: Nov 6 , 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 6-9, 2024
+  rebuttal_deadline:
+    value: August 13, 2024
+    evidence: 'Rebuttals and revisions due: Aug 13, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 13, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: September 18, 2024
+    evidence: 'Before Sept 18 midnight EST: Complete Refund'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: September 18, 2024
+  double_blind:
+    value: true
+    evidence: CoRL is double-blind, which means all papers must be anonymized.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of regular paper submissions will have an opportunity to submit
+      a response to reviewers and update the papers during the rebuttal period.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: 'The paper can be desk rejected for one of the three reasons: formatting
+      issues, anonymity violation, or scope .'
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Page limit will be 8-pages for the main paper.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Acknowledgements, References and Appendix (optional) will not count
+      towards the page limit.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Please make sure to use “\usepackage[final]{corl_2024}”.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are encouraged to submit a supplementary file containing further
+      details, which the reviewers may decide to consult.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research
+    evidence: Accepted papers will appear in the Proceedings of Machine Learning Research
+      (formerly JMLR Workshop and Conference Proceedings).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research
+  statements:
+    value: true
+    evidence: Please sign the permission form for publication in PMLR (form available
+      here).
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors are encouraged to submit a supplementary file containing further
+      details, which the reviewers may decide to consult.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Munich, Germany
+    evidence: 'CoRL 2024 conference: Nov 6 , 2024, Munich, Germany'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Munich, Germany
+    normalized:
+      city: Munich
+      country: Germany
+      display: Munich, Germany
+      raw: Munich, Germany
+  conference_format:
+    value: in-person
+    evidence: All of the oral and poster presentations will be in-person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    - spotlight
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'', ''spotlight'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshops
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'All submissions should comply with the format and length indicated
+      below: The main paper submissions are due June 6, 2024 at 23:59 Anytime on Earth...'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop Proposals: Workshops are a vital part of CORL 2024, providing
+      a platform for focused discussions and in-depth exploration of specialized...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: All of the poster papers will be presented at a poster session after
+      the spotlight talk.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

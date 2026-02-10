@@ -1,0 +1,326 @@
+conference: IUI
+year: 2025
+last_checked: '2026-02-16T10:11:44.163267+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: March 27-31, 2025
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 27-31, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: For accepted papers, at least one author must attend the conference
+      to present the work. Full paper (anonymized 10 pages, references do not count...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: ACM IUI uses a double-blind review process. All submissions must be
+      appropriately anonymized according to the following guidelines
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: For accepted papers, at least one author must attend the conference
+      to present the work. Full paper (anonymized 10 pages, references do not count...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ACM IUI uses a double-blind review process. All submissions must be
+      appropriately anonymized according to the following guidelines
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: Full paper (anonymized 10 pages, references do not count toward the
+      page limit) should make substantial, novel, and relevant contribution to the...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Full paper (anonymized 10 pages, references do not count toward the
+      page limit) should make substantial, novel, and relevant contribution to the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors are required to include a proper classification for the paper
+      according to the ACM Classification System (CCS). Additional information on
+      how...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Accepted papers will appear in the ACM Digital Library and citation
+      indices. A selected set of accepted top quality full papers will be invited
+      to...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are required to include a proper classification for the paper
+      according to the ACM Classification System (CCS). Additional information on
+      how...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Aerial UTS Function Centre, Building 10, Level 7/235 Jones St, Ultimo NSW
+      2007, Australia
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Aerial UTS Function Centre, Building 10, Level 7/235 Jones St, Ultimo
+          NSW 2007, Australia
+    normalized:
+      city: Building 10
+      country: Australia
+      display: Building 10, Australia
+      raw: Aerial UTS Function Centre, Building 10, Level 7/235 Jones St, Ultimo NSW
+        2007, Australia
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Accepted papers will appear in the ACM Digital Library and citation
+      indices. A selected set of accepted top quality full papers will be invited
+      to...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: TAPS
+    evidence: After completing the eRights form, you will receive an email from tapsadmin@aptaracorp.awsapps.com
+      with a link through which you can access TAPS....
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: TAPS
+  has_workshop_proposals:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ACM Conference on Intelligent User Interfaces (IUI) 2025 is the 28th
+      annual meeting of the intelligent interfaces community and serves as a premier...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

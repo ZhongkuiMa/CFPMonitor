@@ -1,0 +1,288 @@
+conference: ICSE
+year: 2025
+last_checked: '2026-02-16T09:05:14.661601+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: August 02, 2024
+    evidence: Submission Form
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 02, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 01, 2024
+    evidence: wikicfp
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 01, 2024
+  camera_ready_deadline:
+    value: February 05, 2025
+    evidence: Questions? Use the CAIN Research and Experience Papers contact form.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 05, 2025
+  conference_dates:
+    value: April 27-28, 2025
+    evidence: wikicfp
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 27-28, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'All submissions must adhere to the following requirements: Page limit
+      is 10 pages plus 2 additional pages of references for long papers and 5 pages...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of rejected long papers may receive an acceptance as a short
+      paper if the PC chairs and reviewers agree that it better meets the criteria
+      for...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: 'Submissions must adhere to the following requirements: Page limit is
+      10 pages plus 2 additional pages of references for long papers and 5 pages plus...'
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: 'All submissions must adhere to the following requirements: Page limit
+      is 10 pages plus 2 additional pages of references for long papers and 5 pages...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: 'All submissions must adhere to the following requirements: Page limit
+      is 10 pages plus 2 additional pages of references for long papers and 5 pages...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must conform to the IEEE conference proceedings template,
+      specified in the IEEE Conference Proceedings Formatting Guidelines (title in...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: 'Submissions must adhere to the following requirements: Page limit is
+      10 pages plus 2 additional pages of references for long papers and 5 pages plus...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Digital Libraries
+    evidence: The official publication date is the date the proceedings are made available
+      in the ACM or IEEE Digital Libraries. This date may be up to two weeks...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Digital Libraries
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'Artifact Evaluation: Code/artifact/data submission policy (mandatory/optional/none)'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: 'DDPT: Diffusion Driven Prompt Tuning for Large Language Model Code
+      Generation Research and Experience Papers Jinyang Li, Sangwon Hyun, Muhammad
+      Ali...'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Ottawa, Canada
+    evidence: track-cain-2025-cain-2025-call-for-papers
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Ottawa, Canada
+    normalized:
+      city: Ottawa
+      country: Canada
+      display: Ottawa, Canada
+      raw: Ottawa, Canada
+  conference_format:
+    value: in-person
+    evidence: wikicfp
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The accepted full and short papers will be published in the ICSE Companion
+      proceedings.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: has_workshop_proposals
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

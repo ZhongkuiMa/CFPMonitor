@@ -1,0 +1,294 @@
+conference: WSDM
+year: 2025
+last_checked: '2026-02-16T10:19:03.013224+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: August 14, 2024
+    evidence: 'Abstract deadline: August 14, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 14, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 18, 2024
+    evidence: 'Notifications: December 18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 18, 2024
+  camera_ready_deadline:
+    value: March 10-14, 2025
+    evidence: 'Camera Ready: March 10-14, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 10-14, 2025
+  conference_dates:
+    value: March 10-14, 2025
+    evidence: WSDM 2025 will take place in Hannover, the capital of the German state
+      of Lower Saxony.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 10-14, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: December 17, 2025
+    evidence: At least one author of each accepted paper needs to register for the
+      conference (either 3-Day or 5-Day registration) by December 17, 2025.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 17, 2025
+  double_blind:
+    value: true
+    evidence: WSDM 2025 will use a combination of single-blind reviewing and double-blind
+      reviewing. The manuscripts will be double-blind to regular PC members,...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: WSDM 2025 will use a combination of single-blind reviewing and double-blind
+      reviewing. The manuscripts will be double-blind to regular PC members,...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Submissions should not exceed eight pages including any diagrams or
+      tables, plus up to two additional pages for references and discussion of ethical...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Submissions should not exceed eight pages including any diagrams or
+      tables, plus up to two additional pages for references and discussion of ethical...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Papers must be submitted in PDF according to the new ACM format published
+      in ACM guidelines (use documentclass[sigconf,anonymous,review]{acmart}).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Authors may submit supplementary material (up to 100MB compressed) containing
+      full theoretical proofs and derivations, detailed descriptions of...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Additionally, the ACM has a strict policy against plagiarism and self-plagiarism.
+      All prior work must appropriately cited. Please also see the ACM...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: WSDM proceedings are published in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Submitted manuscripts should include a section on the ethical implications
+      of the proposed research. This section will not be counted in the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: 'Foundation Models: Use of large language models (LLMs) and other foundation
+      models for web search and data mining, including but not limited to the...'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Hannover, Germany
+    evidence: WSDM 2025 will take place in Hannover, the capital of the German state
+      of Lower Saxony.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hannover, Germany
+    normalized:
+      city: Hannover
+      country: Germany
+      display: Hannover, Germany
+      raw: Hannover, Germany
+  conference_format:
+    value: in-person
+    evidence: WSDM 2025 is an in-person conference, with no provisions for remote
+      presentations.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Papers will go through a peer reviewed process and the accepted papers
+      would be presented as an oral or poster presentation during the WSDM Day....
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We are excited to announce the List of Accepted Workshops for WSDM 2025,
+      highlighting key topics in web search and data mining.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

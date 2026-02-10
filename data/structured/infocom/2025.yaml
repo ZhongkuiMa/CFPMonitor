@@ -1,0 +1,333 @@
+conference: INFOCOM
+year: 2025
+last_checked: '2026-02-16T09:38:19.894915+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: July 31, 2024
+    evidence: 'Full Paper Due: Wednesday, July 31, 2024 (11:59pm, PDT)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 31, 2024
+  abstract_deadline:
+    value: July 24, 2024
+    evidence: 'Abstract Due: Wednesday, July 24, 2024 (11:59pm, PDT)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 24, 2024
+  notification_date:
+    value: December 6, 2024
+    evidence: 'Notification of Acceptance: Friday, December 6, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 6, 2024
+  camera_ready_deadline:
+    value: January 10, 2025
+    evidence: 'Final Paper Submission to IEEE INFOCOM 2025: Final versions of accepted
+      papers must be uploaded to EDAS for inclusion in the conference proceedings...'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 10, 2025
+  conference_dates:
+    value: May 19-22, 2025
+    evidence: IEEE INFOCOM 2025 is scheduled to take place in London, United Kingdom.
+      This event will be conducted in person, allowing attendees to fully immerse...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 19-22, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: March 1, 2025
+    evidence: The presenting author must register for the workshop before submitting
+      the final paper. For multiple paper presentations, one author registration is...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 1, 2025
+  double_blind:
+    value: true
+    evidence: IEEE INFOCOM incorporates a rigorous double-blind review process. The
+      review assignment will be based on the view assignment system described in the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Revise Your Paper: Please read the reviews of your paper and follow
+      the reviewers'' recommendations for revising it and preparing the final version.'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Submitted papers must be written in English, with a maximum length limit
+      of 10 printed pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: The main text (including figures, tables, appendices, and any material
+      other than references) must be no more than 9 pages. Papers that do not comply...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'Use the standard IEEE Transactions templates for Microsoft Word or
+      LaTeX formats found at: https://www.ieee.org/conferences/publishing/templates.html'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Inclusion of additional material (e.g., a technical report containing
+      the detailed math proof through an anonymous Dropbox or OneDrive link) is not...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: 'Preprints Policy: The submitted manuscript or its title/abstract should
+      not be posted on a public website, such as arXiv.org, or transmitted via...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted and presented papers will be published in the IEEE INFOCOM
+      2025 Conference Proceedings and submitted to IEEE Xplore®.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: 'Conflict of Interest (CoI): Before submission, please update your CoIs
+      in the EDAS system. A CoI occurs when a person’s objective judgment is — or
+      is...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: London, United Kingdom
+    evidence: IEEE INFOCOM 2025 is scheduled to take place in London, United Kingdom.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: London, United Kingdom
+    normalized:
+      city: London
+      country: UK
+      display: London, UK
+      raw: London, United Kingdom
+  conference_format:
+    value: in-person
+    evidence: This event will be conducted in person, allowing attendees to fully
+      immerse themselves in the conference experience.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The paper must print clearly and legibly, including all the figures,
+      on standard black-and-white printers. Reviewers are not required to read your...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: IEEE INFOCOM 2025 Organizing Committee has received additional funding
+      from IEEE Communications Society (ComSoc) to support in-person participation...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: The goal of each workshop is to explore emerging research topics, and
+      to provide a forum for authors to present early research results on these...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EDAS
+    evidence: All papers must be submitted in the Portable Document Format (PDF) electronically
+      using EDAS. The submission website can be accessed by following...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: 'Call for Workshop Proposals: IEEE INFOCOM 2025 will be held in London,
+      United Kingdom on May 19-22, 2025. In addition to the main conference...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: IEEE INFOCOM 2025 invites submissions of technical demonstrations and
+      posters that exhibit innovative and original research. We seek contributions...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: true
+    evidence: IEEE INFOCOM 2025 invites submissions of technical demonstrations and
+      posters that exhibit innovative and original research. We seek contributions...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

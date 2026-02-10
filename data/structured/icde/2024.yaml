@@ -1,0 +1,282 @@
+conference: ICDE
+year: 2024
+last_checked: '2026-02-16T08:43:58.969247+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: November 24, 2023
+    evidence: 'Submission due: November 24, 2023 (Friday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 24, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 22, 2023
+    evidence: 'Notification for Authors (Accept/Revise/Reject): December 22, 2023
+      (Friday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2023
+  camera_ready_deadline:
+    value: January 19, 2024
+    evidence: 'Camera-ready copy due: January 19, 2024 (Friday)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 19, 2024
+  conference_dates:
+    value: April 16-19, 2024
+    evidence: 'dates: Apr 16, 2024 - Apr 19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 16-19, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions will be reviewed in a single-blind manner. Each submission
+      must include all author names and affiliations.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Submissions will be reviewed in a single-blind manner. Each submission
+      must include all author names and affiliations.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: A paper submitted to ICDE 2024 cannot be under review for any other
+      conference or journal during the entire time it is considered for ICDE 2024,
+      and...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Long papers must not exceed 12 pages plus unlimited space for references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Manuscripts must be prepared in accordance with the IEEE format, and
+      submitted to the ICDE 2024 Industrial Track submission website.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE
+    evidence: All accepted papers will appear in the proceedings. IEEE reserves the
+      right to exclude a paper from distribution after the conference (e.g., removal...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: We discourage submissions that do not articulate the innovative aspect
+      of a product or application project (including relevant open-source software),...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: We discourage submissions that do not articulate the innovative aspect
+      of a product or application project (including relevant open-source software),...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Utrecht, Netherlands
+    evidence: 'place: Utrecht, Netherlands'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Utrecht, Netherlands
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Utrecht, Netherlands
+  conference_format:
+    value: in-person
+    evidence: The conference will take place in Utrecht, the fourth largest city in
+      the Netherlands.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We discourage submissions that do not articulate the innovative aspect
+      of a product or application project (including relevant open-source software),...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: Submissions will be reviewed in a single-blind manner. Each submission
+      must include all author names and affiliations.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

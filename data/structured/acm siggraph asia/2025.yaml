@@ -1,0 +1,322 @@
+conference: ACM SIGGRAPH ASIA
+year: 2025
+last_checked: '2026-02-16T09:14:55.814776+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: August 23, 2025
+      llm_batch2: 30 June 2025, 23:59 AoE
+  - field: notification_date
+    values:
+      llm_batch1: September 28, 2025
+      llm_batch2: 20 August 2025
+  - field: conference_dates
+    values:
+      llm_batch1: December 16-18, 2025
+      llm_batch2: 16-18 December 2025
+  - field: page_limit
+    values:
+      llm_batch1: 3,500 words for Long Papers and 2,500 words for Short Papers
+      llm_batch2: 2 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: SIGGRAPH Asia website and ACM Digital Library
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: 30 June 2025, 23:59 AoE
+    evidence: 'Submission Deadline: 30 June 2025, 23:59 AoE (Closed)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 23, 2025
+      llm_batch2:
+        value: 30 June 2025, 23:59 AoE
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 20 August 2025
+    evidence: 'Notification: Submissions will be reviewed soon after the submission
+      deadline. Notification of acceptance or rejection will be sent via email on
+      20...'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 28, 2025
+      llm_batch2:
+        value: 20 August 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: December 15-18, 2025
+    evidence: 'Art Papers Theme: Entangled Agencies. The Art Paper Program accepts
+      articles in the following categories... Submit your Art Paper by 23 June 2025,...'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: December 15-18, 2025
+  conference_dates:
+    value: 16-18 December 2025
+    evidence: 'SIGGRAPH Asia 2025 Event Days: 16 – 18 December 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: December 16-18, 2025
+      llm_batch2:
+        value: 16-18 December 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: December 15-18, 2025
+    evidence: 'Art Papers Theme: Entangled Agencies. The Art Paper Program accepts
+      articles in the following categories... Submit your Art Paper by 23 June 2025,...'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: December 15-18, 2025
+  double_blind:
+    value: true
+    evidence: The review process will be double-blind and please make sure that all
+      your submitted materials have been anonymized.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 2 pages
+    evidence: A 1-2 pages document describing your work in PDF format is required.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 3,500 words for Long Papers and 2,500 words for Short Papers
+      llm_batch2:
+        value: 2 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The submitted PDF must be self-contained, formatted according to the
+      poster template described in the FAQs.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Up to three supplementary materials (OPTIONAL): Images: high-resolution
+      images in one of these formats: TIFF, JPEG. PNG, BMP, or GIF. Video: In...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: SIGGRAPH Asia website and ACM Digital Library
+    evidence: All work selected for the SIGGRAPH Asia Posters will be documented in
+      the SIGGRAPH Asia 2025 website and ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: SIGGRAPH Asia website and ACM Digital Library
+    _conflict: true
+  statements:
+    value: true
+    evidence: You have permission to use everything that is in your presentation.
+      This includes securing permission to use third-party material and providing...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: none
+    evidence: 'Art Papers Theme: Entangled Agencies. The Art Paper Program accepts
+      articles in the following categories... Submit your Art Paper by 23 June 2025,...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hong Kong
+    evidence: Games Chair Eric Liu from Hong Kong ACM SIGGRAPH Professional Chapter
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Hong Kong
+      llm_batch2:
+        value: Hong Kong
+    normalized:
+      city: Hong Kong
+      country: Hong Kong, China
+      display: Hong Kong, China
+      raw: Hong Kong
+  conference_format:
+    value: in-person
+    evidence: 'SIGGRAPH Asia 2025 Event Days: 16 – 18 December 2025'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

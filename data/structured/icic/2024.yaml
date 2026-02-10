@@ -1,0 +1,259 @@
+conference: ICIC
+year: 2024
+last_checked: '2026-02-16T08:46:10.949052+00:00'
+completeness:
+  known: 11
+  total: 40
+  percentage: 27.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 11
+rules:
+  submission_deadline:
+    value: April 1, 2024
+    evidence: 'submission deadline: Apr 1, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 1, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 10, 2024
+    evidence: 'notification: May 10, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 10, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: August 5-8, 2024
+    evidence: 'dates: Aug 5, 2024 - Aug 8, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 5-8, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Each newly submitted paper should be not shorter than 10 pages including
+      figures and references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Verlag, including Lecture Notes in Computer Sciences (LNCS)/Lecture
+      Notes in Artificial Intelligence (LNAI)/Lecture Notes in Bioinformatics (LNBI)
+    evidence: All accepted conference papers will be published by Springer Verlag
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Verlag, including Lecture Notes in Computer Sciences (LNCS)/Lecture
+          Notes in Artificial Intelligence (LNAI)/Lecture Notes in Bioinformatics
+          (LNBI)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Tianjin, China
+    evidence: 'place: Tianjin, China'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tianjin, China
+    normalized:
+      city: Tianjin
+      country: China
+      display: Tianjin, China
+      raw: Tianjin, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The ICIC 2024 Program Committee is inviting proposals for Special Sessions
+      (possibly Workshops).
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Online Electronic Submitting System
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Online Electronic Submitting System
+  has_workshop_proposals:
+    value: true
+    evidence: The ICIC 2024 Program Committee is inviting proposals for Special Sessions
+      (possibly Workshops).
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: not mentioned in any source
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,275 @@
+conference: RULEML+RR
+year: 2024
+last_checked: '2026-02-16T08:51:04.275082+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: June 15th, 2024
+    evidence: 'June 7th, 2024 , June 15th, 2024 : Paper submission deadline'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 15th, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 19th, 2024
+    evidence: 'July 19th, 2024: Notification of acceptance'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 19th, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: September 16th-18th, 2024
+    evidence: 'September 16th-18th, 2024: Conference'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 16th-18th, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: false
+    evidence: Submitted papers must not be anonymous
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: true
+    evidence: Submitted papers must not be anonymous
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: The conference proceedings will be published by Springer in the Lecture
+      Notes in Computer Science series (LNCS) after the conference. The best papers...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: false
+    evidence: Papers should be prepared in Springer's LNCS style (http://www.springer.com/comp/lncs/authors.html)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Papers put on arXiv are also allowed as long as they are not refereed
+      (i.e., formally reviewed by peers).
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer in the Lecture Notes in Computer Science series
+    evidence: The conference proceedings will be published by Springer in the Lecture
+      Notes in Computer Science series (LNCS) after the conference.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the Lecture Notes in Computer Science series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Bucharest, Romania
+    evidence: RuleML+RR 2024 the 8 th International Joint Conference on Rules and
+      Reasoning Bucharest , Romania
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bucharest, Romania
+    normalized:
+      city: Bucharest
+      country: Romania
+      display: Bucharest, Romania
+      raw: Bucharest, Romania
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Apart from the main track, it features the Rule Challenge, a Doctoral
+      Consortium, an Industry Track, and a Project Networking Session as associated...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: https://easychair.org/conferences/?conf=rulemlrr2024
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: true
+    evidence: The RuleML+RR industry track welcomes original work from all areas of
+      Rules and Reasoning based technologies specifically for solving real industry...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: The RuleML+RR 8th Doctoral Consortium 2024 (DC) is an initiative of
+      the RuleML+RR community to attract and promote student research in Artificial...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The best paper will be awarded the the RuleML+RR Harold Boley Distinguished
+      Paper Award 2024 and best student paper will be awarded the RuleML+RR...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

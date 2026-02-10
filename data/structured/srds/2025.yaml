@@ -1,0 +1,285 @@
+conference: SRDS
+year: 2025
+last_checked: '2026-02-16T09:53:51.088986+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: May 9, 2025
+    evidence: 'Full Paper Submission: May 2, 2025 May 9, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 9, 2025
+  abstract_deadline:
+    value: April 25, 2025
+    evidence: 'Abstract Submission: April 25th, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 25, 2025
+  notification_date:
+    value: June 27, 2025
+    evidence: 'Notification to Authors: June 27th, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 27, 2025
+  camera_ready_deadline:
+    value: July 31, 2025
+    evidence: 'Camera-Ready and author registration: July 31, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 31, 2025
+  conference_dates:
+    value: September 29 - October 2, 2025
+    evidence: 'Conference dates: September 29 – October 2, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 29 - October 2, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: July 31, 2025
+    evidence: 'Camera-Ready and author registration: July 31, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 31, 2025
+  double_blind:
+    value: true
+    evidence: All submitted papers will be judged based on their quality and relevance
+      through double-blind reviewing, where the identities of the authors are...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Submissions that do not conform to the above anonymization and formatting
+      guidelines (e.g., are too long, use fonts or line spacing smaller than what...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Research Papers, Practical Experience Reports, and Tool Papers should
+      be no longer than 10 pages, excluding references for which there is no page...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be written in English. Research Papers, Practical Experience
+      Reports, and Tool Papers should be no longer than 10 pages, following the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submissions that do not conform to the above anonymization and formatting
+      guidelines (e.g., are too long, use fonts or line spacing smaller than what...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Digital Library
+    evidence: Papers in this volume will be available in the IEEE Digital Library
+      (IEEE Xplore) where they will be indexed by all major bibliometry systems.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Porto, Portugal
+    evidence: 'place: Porto, Portugal'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Porto, Portugal
+    normalized:
+      city: Porto
+      country: Portugal
+      display: Porto, Portugal
+      raw: Porto, Portugal
+  conference_format:
+    value: in-person
+    evidence: The 44th International Symposium on Reliable Distributed Systems (SRDS
+      2025) is a forum for researchers and practitioners interested in distributed...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The first day of the conference, September 29 of 2025, will be dedicated
+      to the hosting of workshops proposed by the scientific and technical...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submissions site: https://hotcrp.inesctec.pt/srds25/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals accepted until May 9, 2025 May 16, 2025;
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Awards will be given to the best paper and the best student paper.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

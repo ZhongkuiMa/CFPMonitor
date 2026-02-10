@@ -1,0 +1,295 @@
+conference: FG
+year: 2026
+last_checked: '2026-02-16T11:36:01.703766+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: October 2nd, 2025
+    evidence: Thursday, October 2nd, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 2nd, 2025
+  abstract_deadline:
+    value: September 25th, 2025
+    evidence: Thursday, September 25th, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 25th, 2025
+  notification_date:
+    value: December 11th, 2025
+    evidence: Thursday, December 11th, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 11th, 2025
+  camera_ready_deadline:
+    value: April 21st, 2026
+    evidence: Camera Ready (for all) Tuesday, April 21st, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 21st, 2026
+  conference_dates:
+    value: May 25-29, 2026
+    evidence: FG 2026 will be held from May 25th to 29th, 2026, in Kyoto, Japan, as
+      an in-person event.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 25-29, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Authors should remove author and institutional identities from the title
+      and header areas of the paper.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Revised papers from Round 1 are re-evaluated based on the original reviews
+      and the authors’ response.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: 'Long papers: 8 pages + references'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: The main difference between the two is in the size of the contributions,
+      rather than in their importance or technical quality.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: 'Paper templates are available below: Overleaf LaTeX Template LateX
+      Template Word Template'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary materials are optional and can be submitted with your
+      paper (as pdf or zip).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: FG 2026 does not consider a paper on arXiv.org as a dual submission.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Papers presented at FG 2026 will be sent for inclusion into the IEEE
+      Xplore digital library, including workshop papers.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: FG 2026 requires authors to complete a checklist on their adherence
+      to ethical principles at the time of submission. An explicit ethics statement...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Kyoto, Japan
+    evidence: FG 2026 will be held from May 25th to 29th, 2026, in Kyoto, Japan, as
+      an in-person event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kyoto, Japan
+    normalized:
+      city: Kyoto
+      country: Japan
+      display: Kyoto, Japan
+      raw: Kyoto, Japan
+  conference_format:
+    value: in-person
+    evidence: FG 2026 will be held from May 25th to 29th, 2026, in Kyoto, Japan, as
+      an in-person event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Accepted papers will be published and indexed in IEEEXplore. Revised
+      papers from Round 1 are re-evaluated based on the original reviews and the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: We invite workshop proposals for the 2026 IEEE Conference on Automatic
+      Face and Gesture Recognition (FG 2026) in Kyoto, Japan.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,316 @@
+conference: MICCAI
+year: 2026
+last_checked: '2026-02-16T10:56:20.244786+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: February 26, 2026
+    evidence: 'Full manuscript, including supplementary material, submission deadline:
+      Thursday, February 26, 2026, 23:59 Pacific Time'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 26, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 7, 2026
+    evidence: Early Acceptance Notification; Reviews released to Authors EOD on May
+      7, 2026, Pacific Time
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 7, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: October 5 - 7, 2026
+    evidence: Main Conference Dates October 5 - 7, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 5 - 7, 2026
+  rebuttal_deadline:
+    value: May 8 - 14, 2026
+    evidence: Rebuttal Phase May 8 -14, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 8 - 14, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 26, 2026
+    evidence: Author Conference Registration Deadline Friday, June 26, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 26, 2026
+  double_blind:
+    value: true
+    evidence: The MICCAI Conference review process is double-blinded, i.e., the names
+      of the authors, reviewers, and Area Chairs are not revealed to each other.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors invited to submit rebuttals have one week to address reviewers'
+      comments.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Your paper will be desk-rejected if none of your co-authors signed up.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Manuscripts can be up to 8 pages (text, figures, tables, conclusion
+      and acknowledgement sections) plus up to 2 pages of references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: No modifications to the templates are permitted. The already anonymized
+      author section must not be modified or removed.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically in searchable PDF format using
+      the provided MICCAI 2026 LaTeX or MS Word templates.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary material is limited to multimedia content (e.g., videos)
+      as warranted by the technical application (e.g., robotics, surgery, ...).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: All MICCAI submissions must be original and cannot already be published
+      or considered for publication elsewhere.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: You can post your submitted version, the version before peer review,
+      on arXiv but you cannot post your camera-ready version to arXiv during the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer's Lecture Notes in Computer Science
+    evidence: MICCAI Proceedings are published in Springer's Lecture Notes in Computer
+      Science.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's Lecture Notes in Computer Science
+  statements:
+    value: true
+    evidence: Authors must declare the origin, license, and (when appropriate) ethics
+      application number for any public or private data used in the preparation of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of LLMs (such as but not limited to ChatGPT) is allowed as a
+      general-purpose writing assistance tool.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: ADNEC Centre, Abu Dhabi, U.A.E.
+    evidence: 'place: ADNEC Centre, Abu Dhabi, U.A.E.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: ADNEC Centre, Abu Dhabi, U.A.E.
+    normalized:
+      city: Abu Dhabi
+      country: UAE
+      display: Abu Dhabi, UAE
+      raw: ADNEC Centre, Abu Dhabi, U.A.E.
+  conference_format:
+    value: in-person
+    evidence: Main Conference Dates October 5 - 7, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers must be presented in person by an author registered
+      for physical, on-site participation at the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Grants will be made available to support the physical participation
+      by authors - especially students and early-career scientists - from...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: Satellite Events Workshop/Challenge/Tutorial LOI December 15, 2025
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: Satellite Events Workshop/Challenge/Tutorial LOI December 15, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: Whereas the data does not explicitly mention a Findings track for MICCAI
+      2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Final Paper Acceptance Decision Released
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,317 @@
+conference: MSR
+year: 2026
+last_checked: '2026-02-16T10:50:49.403090+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: October 20, 2025
+    evidence: 'Abstract Deadline: October 20, 2025 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 20, 2025
+  notification_date:
+    value: January 7, 2026
+    evidence: 'Author Notification: January 07, 2026 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 7, 2026
+  camera_ready_deadline:
+    value: January 26, 2026
+    evidence: 'Camera Ready Deadline: January 26, 2026 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 26, 2026
+  conference_dates:
+    value: April 13-14, 2026
+    evidence: MSR 2026 Mon 13 - Tue 14 April 2026 Rio de Janeiro, Brazil co-located
+      with ICSE 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 13-14, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The MSR 2026 Technical Track will employ a double-anonymous review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have a chance to see the reviews and respond to reviewer
+      comments before any decision about the submission is made.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: All submissions must not exceed 10 pages for the main text, inclusive
+      of all figures, tables, appendices, etc.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Two more pages containing only references are permitted
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Submissions to the Technical Track can be made via the submission site
+      by the submission deadline. However, we encourage authors to submit at least...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Contravention of this concurrent submission policy will be deemed a
+      serious breach of scientific ethics, and appropriate action will be taken in
+      all...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: While authors have the right to upload preprints on ArXiV or similar
+      sites, they must avoid specifying that the manuscript was submitted to MSR 2026.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM
+    evidence: All articles published by ACM will be made Open Access.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: true
+    evidence: Please ensure that you and your co-authors obtain an ORCID ID, so you
+      can complete the publishing process for your accepted paper. ACM and IEEE have...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of generative AI tools and technologies to create content is
+      permitted but must be fully disclosed in the Work.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Rio de Janeiro, Brazil
+    evidence: MSR 2026 Mon 13 - Tue 14 April 2026 Rio de Janeiro, Brazil co-located
+      with ICSE 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Rio de Janeiro, Brazil
+    normalized:
+      city: Rio De Janeiro
+      country: Brazil
+      display: Rio De Janeiro, Brazil
+      raw: Rio de Janeiro, Brazil
+  conference_format:
+    value: in-person
+    evidence: The MSR 2026 Technical Track will employ a double-anonymous review process.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: After acceptance, the list of paper authors can not be changed under
+      any circumstances and the list of authors on camera-ready papers must be...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The MSR 2026 Technical Track will employ a double-anonymous review process.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers must be submitted through HotCRP: https://msr2026.hotcrp.com'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

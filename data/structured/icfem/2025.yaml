@@ -1,0 +1,290 @@
+conference: ICFEM
+year: 2025
+last_checked: '2026-02-16T09:54:07.616585+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: June 15, 2025
+    evidence: 'Full Paper Submission: June 1 June 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 1, 2025
+    evidence: 'Acceptance Notification: August 1, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 1, 2025
+  camera_ready_deadline:
+    value: August 30, 2025
+    evidence: 'Camera-ready versions: August 20 August 30, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 30, 2025
+  conference_dates:
+    value: November 10–13, 2025
+    evidence: 'Conference dates: November 10–13, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 10–13, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions should not exceed 16 pages (excluding references and appendix)
+      in Springer's LNCS format. Each submission will undergo a rigorous...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: Papers should not exceed 16 pages (excluding references and appendix)
+      in Springer's LNCS format.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers should be written in English in the Springer's LNCS format. Formatting
+      style files and further guidelines for formatting can be found at the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: The paper has not been presented at, and is not under consideration
+      for, journal-first programs of other conferences.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science
+    evidence: As in previous years, the proceedings will be published in the Springer
+      Lecture Notes in Computer Science series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science
+  statements:
+    value: false
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  artifact_evaluation:
+    value: none
+    evidence: Even though there will be no artifact evaluation at ICFEM this year,
+      we encourage authors to upload their artifacts to an archive such as Zenodo
+      or...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hangzhou, China
+    evidence: The 25th International Conference on Formal Engineering Methods (ICFEM
+      2025) will be held at Run Run Shaw Science Building of Yuquan Campus, Zhejiang...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hangzhou, China
+    normalized:
+      city: Hangzhou
+      country: China
+      display: Hangzhou, China
+      raw: Hangzhou, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: Each submission will undergo a rigorous single-blind peer-review process
+      by at least three experts.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: EasyChair
+    evidence: Submission should be done through the ICFEM 2025 submission page. Please
+      select the appropriate track when submitting your paper.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'The Doctoral Symposium seeks students'' submissions in two categories:
+      2-page extended abstracts which will not be included in the proceedings; and...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

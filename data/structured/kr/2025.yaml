@@ -1,0 +1,308 @@
+conference: KR
+year: 2025
+last_checked: '2026-02-16T10:00:41.479889+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: May 12, 2025
+    evidence: 'Paper submission deadline: May 12, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 12, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 10, 2025
+    evidence: 'Notification of acceptance: July 10, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 10, 2025
+  camera_ready_deadline:
+    value: August 15, 2025
+    evidence: 'Camera-ready due: August 15, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 15, 2025
+  conference_dates:
+    value: November 11-17, 2025
+    evidence: 'Conference dates: November 11-17, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 11-17, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions should be anonymous and will be subject to double-blind
+      peer review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of papers may submit a separate PDF or ZIP file with additional
+      information supporting their claims (such as proof details, additional...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 9 pages
+    evidence: Contributions may be regular papers (up to 9 pages) or short papers
+      (up to 4 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be written in English and formatted using the style files
+      provided here .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors of papers may submit a separate PDF or ZIP file with additional
+      information supporting their claims (such as proof details, additional...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Proceedings
+    evidence: Accepted papers will be published in the KR 2025 proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: Papers must be written in English and formatted using the style files
+      provided here .
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Melbourne, Australia
+    evidence: 'place: Melbourne, Australia'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Melbourne, Australia
+    normalized:
+      city: Melbourne
+      country: Australia
+      display: Melbourne, Australia
+      raw: Melbourne, Australia
+  conference_format:
+    value: in-person
+    evidence: November 11-17, 2025 - Melbourne, Australia
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: At least one author of each accepted paper is required to participate
+      in the conference and present the work.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: A very limited number of student grants for attending KR 2025 are available.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Papers must be submitted through the EasyChair system: https://easychair.org/conferences/?conf=kr2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: The Doctoral Consortium (DC) is a student mentoring program bringing
+      together PhD students and senior researchers from the area of KR.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

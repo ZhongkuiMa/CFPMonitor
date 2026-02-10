@@ -1,0 +1,320 @@
+conference: EUROSYS
+year: 2026
+last_checked: '2026-02-16T10:44:09.579705+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: September 25, 2025
+    evidence: 'Full paper submissions due: Thursday, September 25, 2025 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 25, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 22, 2025
+    evidence: 'Notification to authors: Friday, August 22, 2025 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 22, 2025
+  camera_ready_deadline:
+    value: September 26, 2025
+    evidence: 'Camera-ready deadline: Friday, September 26, 2025 (AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 26, 2025
+  conference_dates:
+    value: April 27-30, 2026
+    evidence: EuroSys 2026 will be held from 27th (Monday) —30th (Thursday) April,
+      2026 in Edinburgh, UK.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 27-30, 2026
+  rebuttal_deadline:
+    value: August 1, 2025
+    evidence: 'Author responses due: Friday, August 1, 2025 (AoE)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 1, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: EuroSys is a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: 'Author responses due: Friday, August 1, 2025 (AoE)'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: EuroSys papers are limited to a maximum of eight (8) pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Authors must use the EuroSys paper template for submission.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary material is allowed and should be submitted as a single
+      PDF file.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Authors are not permitted to post their papers on arXiv or any other
+      pre-print server until after the conference.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: EuroSys proceedings will be published in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are required to submit a broader impact statement and a funding
+      disclosure form.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: All accepted papers must include an artifact evaluation section.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: EuroSys does not allow the use of LLMs in paper writing or as a co-author.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Edinburgh, UK
+    evidence: EuroSys 2026 will be held from 27th (Monday) —30th (Thursday) April,
+      2026 in Edinburgh, UK.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Edinburgh, UK
+    normalized:
+      city: Edinburgh
+      country: UK
+      display: Edinburgh, UK
+      raw: Edinburgh, UK
+  conference_format:
+    value: in-person
+    evidence: EuroSys 2026 will be held in person in Edinburgh, UK.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Papers are presented orally at the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions will be managed through EasyChair.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

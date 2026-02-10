@@ -1,0 +1,292 @@
+conference: ICDE
+year: 2025
+last_checked: '2026-02-16T10:12:25.939675+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: November 25, 2024
+    evidence: 'Submissions due: November 25, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 25, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 25, 2025
+    evidence: 'Notification to authors (Accept/Revise/Reject): January 21, 2025 Revisions
+      due: February 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 25, 2025
+  camera_ready_deadline:
+    value: April 8, 2025
+    evidence: 'Camera-ready copies due: April 8, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 8, 2025
+  conference_dates:
+    value: May 19-23, 2025
+    evidence: 41st IEEE International Conference on Data Engineering, Hong Kong SAR,
+      China – May 19-23, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 19-23, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions will be reviewed in a single-blind manner.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Desk Rejection Policy
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Research papers must not exceed 12 pages not including the references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Manuscripts must be prepared in accordance with the IEEE format available
+      at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+    evidence: The best papers (as judged by the ICDE 2025 PC) will be selected for
+      submission as an extended version to be published in the IEEE Transactions on...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  statements:
+    value: true
+    evidence: Inclusions and Diversity in Writing
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hong Kong SAR, China
+    evidence: 41st IEEE International Conference on Data Engineering, Hong Kong SAR,
+      China – May 19-23, 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hong Kong SAR, China
+    normalized:
+      city: Hong Kong Sar
+      country: China
+      display: Hong Kong Sar, China
+      raw: Hong Kong SAR, China
+  conference_format:
+    value: in-person
+    evidence: 41st IEEE International Conference on Data Engineering, Hong Kong SAR,
+      China – May 19-23, 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: Paper should be submitted using the Conference Management Tool https://cmt3.research.microsoft.com/ICDE2025
+      .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

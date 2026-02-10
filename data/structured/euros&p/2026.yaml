@@ -1,0 +1,316 @@
+conference: EUROS&P
+year: 2026
+last_checked: '2026-02-16T11:35:20.600404+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: November 20, 2025
+    evidence: 'Submission deadline: 20 November 2025 (Thursday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 20, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 5, 2026
+    evidence: 'Author notification: 5 March 2026 (Thursday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 5, 2026
+  camera_ready_deadline:
+    value: April 16, 2026
+    evidence: 'Camera-ready deadline (tentative): 16 April 2026 (Thursday)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 16, 2026
+  conference_dates:
+    value: July 6-10, 2026
+    evidence: Lisbon, Portugal 6 - 10 July 2026 (Monday to Friday)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 6-10, 2026
+  rebuttal_deadline:
+    value: February 16, 2026
+    evidence: 'Rebuttals: 11 February - 16 February 2026 (Wednesday to Monday)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 16, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: November 13, 2025
+    evidence: 'Registration deadline: 13 November 2025 (Thursday)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 13, 2025
+  double_blind:
+    value: true
+    evidence: Papers must be submitted in a form suitable for anonymous review
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The authors' response will be used to make the final decision in the
+      second round
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: In the first round, the program committee will reject submissions that
+      do not have a prospect of acceptance; the rest will proceed to the second...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages
+    evidence: Papers shall not exceed 13 pages of body text
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages
+  page_limit_exclusions:
+    value: true
+    evidence: unlimited additional pages for references and appendices
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Submissions must be in Portable Document Format (.pdf)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Papers shall not exceed 13 pages of body text
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Authors may choose to give talks about their work, post a preprint of
+      the paper to an archival repository such as arXiv, and disclose security...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE conference proceedings
+    evidence: Papers in this category will be accepted for publication in the proceedings
+      and presentation at the conference
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE conference proceedings
+  statements:
+    value: true
+    evidence: Proactive Prevention of Harm We expect authors to carefully consider
+      and address the potential harms associated with carrying out their research,
+      as...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed_disclosure
+    evidence: The use of AI-generated content (including but not limited to text,
+      figures, images, and code) shall be disclosed in the acknowledgments section
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed_disclosure
+  conference_location:
+    value: Lisbon, Portugal
+    evidence: Lisbon, Portugal
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lisbon, Portugal
+    normalized:
+      city: Lisbon
+      country: Portugal
+      display: Lisbon, Portugal
+      raw: Lisbon, Portugal
+  conference_format:
+    value: in-person
+    evidence: We are expecting to hold an in-person conference and that authors will
+      be able to travel to the conference to present their paper
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers are required to present both a short talk and a
+      poster.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Outstanding papers will be selected by the program committee for paper
+      awards.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

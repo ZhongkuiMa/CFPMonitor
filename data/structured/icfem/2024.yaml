@@ -1,0 +1,261 @@
+conference: ICFEM
+year: 2024
+last_checked: '2026-02-16T08:30:26.441744+00:00'
+completeness:
+  known: 13
+  total: 40
+  percentage: 32.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 13
+rules:
+  submission_deadline:
+    value: July 08, 2024
+    evidence: 'Full Paper Submissions: 8 July, 2024 (strict)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 08, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 09, 2024
+    evidence: 'Acceptance / Rejection Notification: 9 September, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 09, 2024
+  camera_ready_deadline:
+    value: September 27, 2024
+    evidence: 'Camera-ready Papers: 27 September, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 27, 2024
+  conference_dates:
+    value: December 02-06, 2024
+    evidence: 'ICFEM 2024 dates: Dec 2, 2024 - Dec 6, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 02-06, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Authors are invited to submit high quality technical papers describing
+      original and unpublished work in all aspects of formal engineering methods for...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: proceedings
+    evidence: The goal of this conference is to bring together industrial, academic,
+      and government experts in both formal methods and software engineering to help...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hiroshima, Japan
+    evidence: ICFEM 2024 will take place in International Conference Center Hiroshima
+      .
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hiroshima, Japan
+    normalized:
+      city: Hiroshima
+      country: Japan
+      display: Hiroshima, Japan
+      raw: Hiroshima, Japan
+  conference_format:
+    value: in-person
+    evidence: ICFEM 2024 will take place in International Conference Center Hiroshima.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshop/Tutorial Proposals: 5 July, 2024'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Full Paper Submissions: 8 July, 2024 (strict)'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop/Tutorial Proposals: 5 July, 2024'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

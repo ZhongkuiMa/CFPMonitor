@@ -1,0 +1,326 @@
+conference: RULEML+RR
+year: 2026
+last_checked: '2026-02-16T11:43:11.486426+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: May 15, 2026
+    evidence: 'May 15th, 2026 (AoE): Paper Submission'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 26, 2026
+    evidence: 'June 26th, 2026 (AoE): Notification of Acceptance'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 26, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: August 24-26, 2026
+    evidence: '24 - 26 August 2026: Conference'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 24-26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: false
+    evidence: Submitted papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: true
+    evidence: Submitted papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Papers should be self-contained
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: The best papers will be considered for special issues of the Theory
+      and Practice of Logic Programming or the Transactions on Graph Data and Knowledge...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Long papers (up to 15 pages in LNCS style excluding references, plus
+      2 additional pages for references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Long papers should present original and significant research and/or
+      development results. Short papers should concisely describe general results
+      or...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All submissions must be prepared in Springer's LNCS style ( http://www.springer.com/comp/lncs/authors.html
+      )
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: can have additional material included as an external report (appendices
+      to the submission are not permitted and a paper should be self-contained)
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Papers put on arXiv are also allowed as long as they are not refereed
+      (i.e., formally reviewed by peers).
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer in the Lecture Notes in Computer Science series (LNCS)
+    evidence: The conference proceedings will be published by Springer in the Lecture
+      Notes in Computer Science series (LNCS) after the conference.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the Lecture Notes in Computer Science series (LNCS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Submitted papers must not substantially overlap with papers that have
+      been published or that are simultaneously submitted to a journal or a...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: The best papers will be considered for special issues of the Theory
+      and Practice of Logic Programming or the Transactions on Graph Data and Knowledge...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Vilnius, Lithuania
+    evidence: '24 - 26 August 2026: Conference ( add to your calendar)'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vilnius, Lithuania
+    normalized:
+      city: Vilnius
+      country: Lithuania
+      display: Vilnius, Lithuania
+      raw: Vilnius, Lithuania
+  conference_format:
+    value: in-person
+    evidence: '24 - 26 August 2026: Conference ( add to your calendar)'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: 'RuleML+RR 2026 features following associated events in addition to
+      the main track: Rule Challenge, Doctoral Consortium, Industry Track, Project...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: 'Papers should be written in English and be submitted through Microsoft
+      CMT using the following link: cmt3.research.microsoft.com/DAI2026/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: The RuleML+RR industry track welcomes papers describing original industrial
+      advances and application achievements in all areas of Rules and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: The RuleML+RR 10th Doctoral Consortium 2026 (DC) is an initiative of
+      the RuleML+RR community to attract and promote student research in Artificial...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The best paper will be awarded the RuleML+RR Harold Boley Distinguished
+      Paper Award 2026 and best student paper will be awarded the RuleML+RR Best...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

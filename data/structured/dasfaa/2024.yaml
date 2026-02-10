@@ -1,0 +1,307 @@
+conference: DASFAA
+year: 2024
+last_checked: '2026-02-16T08:17:34.993074+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: October 27, 2023
+    evidence: The submitted papers must be no longer than 16 pages (including references,
+      appendices, etc.) in LNCS format and must be submitted electronically...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 27, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 19, 2024
+    evidence: The notification of acceptance/rejection will be sent to all authors
+      by January 19, 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 19, 2024
+  camera_ready_deadline:
+    value: April 16, 2024
+    evidence: Camera-ready versions are due on April 16, 2024.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 16, 2024
+  conference_dates:
+    value: May 13-16, 2024
+    evidence: The dates of the conference are May 13-16, 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 13-16, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: DASFAA-2024 will employ a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are encouraged to respond to the reviewers' comments during
+      the rebuttal period.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers that do not follow the guidelines mentioned above, or otherwise
+      potentially reveal the identity of the authors, are subject to immediate...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: All paper submissions will be handled electronically. Any submitted
+      paper violating the length, file type, or formatting requirements will be...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: true
+    evidence: All papers must be submitted electronically through the paper submission
+      system in PDF only.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Please use one of the following templates for the LNCS (Lecture Notes
+      in Computer Science) format:...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Papers that do not follow the guidelines mentioned above, or otherwise
+      potentially reveal the identity of the authors, are subject to immediate...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Submissions having unrefereed pre-prints such as arXiv are allowed.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer
+    evidence: Accepted papers will be published in the conference proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: We do not have any specific artifact evaluation policy mentioned for
+      this track.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: Submissions having unrefereed pre-prints such as arXiv are allowed.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Gifu, Japan
+    evidence: The dates of the conference are May 13-16, 2024. The location is Gifu,
+      Japan.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Gifu, Japan
+    normalized:
+      city: null
+      country: Japan
+      display: Japan
+      raw: Gifu, Japan
+  conference_format:
+    value: in-person
+    evidence: The dates of the conference are May 13-16, 2024. The location is Gifu,
+      Japan.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Authors of full research papers are given the opportunity to present
+      their work in oral sessions, and they also have the option to present in poster...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: https://cmt3.research.microsoft.com/DASFAA2024
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

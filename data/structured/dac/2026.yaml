@@ -1,0 +1,300 @@
+conference: DAC
+year: 2026
+last_checked: '2026-02-16T11:36:45.313276+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: November 18, 2025
+    evidence: The manuscript (up to 6 pages plus an additional 1 page for references
+      only) is due by November 18, 2025 (5:00pm US Pacific Time).
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 18, 2025
+  abstract_deadline:
+    value: November 11, 2025
+    evidence: A title, abstract (approximately 100 words), and a list of all co-authors
+      must be submitted by November 11, 2025 (5:00pm US Pacific Time).
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 11, 2025
+  notification_date:
+    value: March 9, 2026
+    evidence: March 9, 2026 - Accept/Reject Notifications Sent
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 9, 2026
+  camera_ready_deadline:
+    value: April 14, 2026
+    evidence: April 14, 2026 - Proceedings Manuscript Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 14, 2026
+  conference_dates:
+    value: July 26-29, 2026
+    evidence: The conference takes place from July 26-29, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 26-29, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 14, 2026
+    evidence: April 14, 2026 - Presenter Registration Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 14, 2026
+  double_blind:
+    value: true
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages + 1 page for references
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages + 1 page for references
+  page_limit_exclusions:
+    value: false
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: The manuscript must leave enough space to include authors, acknowledgements,
+      and other identifying information for the final version without...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Note, however, that the authors are expected to follow all reasonable
+      efforts to ensure that the DAC submission is compliant with the double-blind...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Starting January 1, 2026, ACM will fully transition to Open Access.
+      All ACM publications, including those from ACM-sponsored conferences, will be...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: The manuscript must not disclose the author(s) by their name(s) or affiliation(s)
+      anywhere in the manuscript or abstract. Submissions that reveal the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of AI software tools (such as ChatGPT, Jasper, AI Write, Lex,
+      for example) is permitted, subject to the following requirements.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Long Beach, CA
+    evidence: The conference takes place from July 26-29, 2026 in Long Beach, CA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Long Beach, CA
+    normalized:
+      city: Long Beach
+      country: US
+      display: Long Beach, US
+      raw: Long Beach, CA
+  conference_format:
+    value: in-person
+    evidence: The conference takes place from July 26-29, 2026 in Long Beach, CA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Each accepted paper requires a unique registration. One author of each
+      accepted submission is required to: Prepare and submit the final version of...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: The submission deadline remains extended to 5:00 PM PST on November
+      19, 2025. No further extensions will be provided.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

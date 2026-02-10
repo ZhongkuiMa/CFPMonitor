@@ -1,0 +1,411 @@
+conference: CHI
+year: 2024
+last_checked: '2026-02-16T07:47:35.867259+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 8
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: Thursday, September 14, 2023
+      llm_batch2: September 14, 2023
+  - field: abstract_deadline
+    values:
+      llm_batch1: Thursday, September 7, 2023
+      llm_batch2: September 7, 2023
+  - field: notification_date
+    values:
+      llm_batch1: Friday, January 19, 2024
+      llm_batch2: January 19, 2024
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Thursday, February 22, 2024
+      llm_batch2: February 22, 2024
+  - field: page_limit
+    values:
+      llm_batch1: 8-12 pages
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: Proceedings of the ACM Conference on Human Factors in Computing
+        Systems
+      llm_batch2: ACM Digital Library
+  - field: conference_format
+    values:
+      llm_batch1: hybrid
+      llm_batch2: in-person
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'', ''poster'']'
+      llm_batch2: '[''oral'']'
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: September 14, 2023
+    evidence: 'Full paper deadline: Thursday, September 14, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thursday, September 14, 2023
+      llm_batch2:
+        value: September 14, 2023
+    _conflict: true
+  abstract_deadline:
+    value: September 7, 2023
+    evidence: 'Abstract deadline (title, abstract, authors, subcommittee choices,
+      and other metadata): Thursday, September 7, 2023'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Thursday, September 7, 2023
+      llm_batch2:
+        value: September 7, 2023
+    _conflict: true
+  notification_date:
+    value: January 19, 2024
+    evidence: 'Reviews Released: Friday, January 19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Friday, January 19, 2024
+      llm_batch2:
+        value: January 19, 2024
+    _conflict: true
+  camera_ready_deadline:
+    value: February 22, 2024
+    evidence: 'Publication-Ready deadline (including supplemental materials and optional
+      video previews): Thursday, February 22, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Thursday, February 22, 2024
+      llm_batch2:
+        value: February 22, 2024
+    _conflict: true
+  conference_dates:
+    value: May 11-16, 2024
+    evidence: 'date: May 11 - May 16, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: May 11-16, 2024
+      llm_batch2:
+        value: May 11-16, 2024
+  rebuttal_deadline:
+    value: Tuesday, December 12, 2023
+    evidence: 'Revise Papers: Tuesday, November 7 – Tuesday, December 12, 2023'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Tuesday, December 12, 2023
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Your submission must be anonymized; please ensure that your submission
+      conforms to the Anonymization Policy.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Your submission must be anonymized; please ensure that your submission
+      conforms to the Anonymization Policy.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: 'We recommend that authors read the following two policies before submitting:
+      The April 2023 ACM Policy on Authorship and use of large language models...'
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: CHI 2024 Papers will continue with a revise and resubmit phase for papers
+      above a certain threshold, where authors have the opportunity to respond to...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Submissions of 12,000 words or more will be considered excessively long,
+      given additional scrutiny for whether the contribution is commensurate with...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Submissions of 5000 words or less are strongly encouraged. Standard
+      Length Papers: Submissions between 5000 and 12000 words are considered standard...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8-12 pages
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: 'Excessive Length Considerations: Submissions of 12,000 words or more
+      will be considered excessively long, given additional scrutiny for whether the...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: "Authors are encouraged to submit a paper of length proportional to\
+      \ its contribution. The average length of CHI papers is approximately 7,000â\x80\
+      \x938,000..."
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: All video and supplementary material must be anonymized. Non-anonymized
+      supplemental materials will result in desk rejection of the entire submission.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: "If you have any concurrent submissions to CHI that are closely related\
+      \ â\x80\x93 i.e., are based on the same study, artefact, or dataset â\x80\x93\
+      \ you must..."
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: 'Accepted papers may come from any area of HCI activity: academia or
+      industry; science, engineering, or craft; analysis or design. Acceptance is...'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Proceedings of the ACM Conference on Human Factors in Computing Systems
+      llm_batch2:
+        value: ACM Digital Library
+    _conflict: true
+  statements:
+    value: true
+    evidence: "Authors are encouraged to submit a paper of length proportional to\
+      \ its contribution. The average length of CHI papers is approximately 7,000â\x80\
+      \x938,000..."
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Where relevant, authors are strongly encouraged to provide supplementary
+      materials to support practices around research reproducibility as much as...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Text generated from a large-scale language model (LLM) such as ChatGPT
+      must be clearly marked where such tools are used for purposes beyond editing...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Honolulu, Hawaii, USA
+    evidence: 'place: Honolulu, Hawaii, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Honolulu, Hawaii, USA
+      llm_batch2:
+        value: Honolulu, Hawaii, USA
+    normalized:
+      city: Honolulu
+      country: US
+      display: Honolulu, US
+      raw: Honolulu, Hawaii, USA
+  conference_format:
+    value: in-person
+    evidence: The workshop ought to address timely topics and phenomena; therefore,
+      it depends on the year which topics are considered particularly relevant and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: hybrid
+      llm_batch2:
+        value: in-person
+    _conflict: true
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Accepted papers may come from any area of HCI activity: academia or
+      industry; science, engineering, or craft; analysis or design. Acceptance is...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: The workshop ought to address timely topics and phenomena; therefore,
+      it depends on the year which topics are considered particularly relevant and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: Precision Conference System (PCS)
+    evidence: Make your submission. Authors may submit and edit their materials via
+      Precision Conference until the submission deadline. The submission system will...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: Precision Conference System (PCS)
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: The workshop ought to address timely topics and phenomena; therefore,
+      it depends on the year which topics are considered particularly relevant and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

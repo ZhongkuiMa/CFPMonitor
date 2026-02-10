@@ -1,0 +1,306 @@
+conference: SENSYS
+year: 2026
+last_checked: '2026-02-16T13:36:16.347139+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: November 13, 2025
+    evidence: 'Full Paper Submission: November 13, 2025, 23:59 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 13, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 29, 2026
+    evidence: 'Notification: January 29, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 29, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 11-14, 2026
+    evidence: May 11, 2026 - May 14, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 11-14, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions must be fully anonymized; violations will be desk-rejected.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: A more detailed response to the reviewers' concerns should be provided
+      after that, by clearly indicating the concern addressed and the reviewer(s)...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers rejected in one cycle can be resubmitted to the next, but only
+      with a strong statement justifying in detail how the revised version addresses...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: 'Full papers : ≤12 pages; Short papers (Experiences only) : ≤6 pages'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: No appendices are allowed (except for resubmission from the first deadline,
+      which are allowed to have an appendix)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Please prepare your final version using the official ACM templates (LaTeX
+      or Word), which automatically set the required 9-point font used in all ACM...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: No appendices are allowed (except for resubmission from the first deadline,
+      which are allowed to have an appendix)
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Preprints (e.g., arXiv) allowed; reviewers are instructed not to search
+      for them
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Accepted papers will appear in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Ethical statement required for research with human participants (use
+      generic, non-identifying wording during review)
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Preprints (e.g., arXiv) allowed; reviewers are instructed not to search
+      for them
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Saint-Malo, France
+    evidence: May 11-14, 2026, Saint-Malo, France
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Saint-Malo, France
+    normalized:
+      city: Saint-Malo
+      country: France
+      display: Saint-Malo, France
+      raw: Saint-Malo, France
+  conference_format:
+    value: in-person
+    evidence: 'In-person presentation required : At least one author of each accepted
+      paper must attend the conference in person and present the work.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Each accepted paper must be covered by one full (non-student) registration,
+      and at least one author must attend and present in person. Camera-ready...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: SenSys 2026 is still pending the final approval of ACM and IEEE. Regular
+      technical papers will be published in the ACM conference proceedings, while...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: SenSys 2026 is still pending the final approval of ACM and IEEE. Regular
+      technical papers will be published in the ACM conference proceedings, while...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: SenSys 2026 is still pending the final approval of ACM and IEEE. Regular
+      technical papers will be published in the ACM conference proceedings, while...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: SenSys 2026 is still pending the final approval of ACM and IEEE. Regular
+      technical papers will be published in the ACM conference proceedings, while...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: SenSys 2026 is still pending the final approval of ACM and IEEE. Regular
+      technical papers will be published in the ACM conference proceedings, while...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

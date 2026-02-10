@@ -1,0 +1,302 @@
+conference: IMC
+year: 2024
+last_checked: '2026-02-16T07:50:19.318732+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: May 15, 2024
+    evidence: Paper submission (including invited papers to Replicability Track) May
+      15th, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2024
+  abstract_deadline:
+    value: May 8, 2024
+    evidence: Paper registration (with abstract, including invited papers to Replicability
+      Track) May 8th, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 8, 2024
+  notification_date:
+    value: July 31, 2024
+    evidence: Notification July 31st, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 31, 2024
+  camera_ready_deadline:
+    value: September 11, 2024
+    evidence: Camera-ready due Sep 11th, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 11, 2024
+  conference_dates:
+    value: November 4-6, 2024
+    evidence: The ACM IMC 2024 conference will be held in Madrid, Spain on November
+      4 - 6, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 4-6, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: IMC will use double blind submissions
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages for text and figures + unlimited pages for references and appendix
+    evidence: 'Full papers: up to 13 pages for technical content + unlimited pages
+      for references and appendix'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages for text and figures + unlimited pages for references and
+          appendix
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The paper body must include some statement about ethical considerations
+      in an appendix section titled Ethics.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM SIGCOMM Computer Communication Review (CCR) for Replicability Track;
+      IMC proceedings
+    evidence: The remaining accepted papers will be published in the ACM SIGCOMM Computer
+      Communication Review (CCR). The papers are also reviewed by the same TPC,...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM SIGCOMM Computer Communication Review (CCR) for Replicability Track;
+          IMC proceedings
+  statements:
+    value: true
+    evidence: All submissions must include, in a clearly marked appendix section with
+      the heading “Ethics”, a statement about ethical issues; papers that do not...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: While generative AI systems—such as large language models (LLMs)—are
+      powerful and useful tools, there remain open questions as to how and which data...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Madrid, Spain
+    evidence: The ACM IMC 2024 conference will be held in Madrid, Spain on November
+      4 - 6, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Madrid, Spain
+    normalized:
+      city: Madrid
+      country: Spain
+      display: Madrid, Spain
+      raw: Madrid, Spain
+  conference_format:
+    value: in-person
+    evidence: The ACM IMC 2024 conference will be held in Madrid, Spain on November
+      4 - 6, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The review process will have several reviewing rounds. To allow authors
+      time to improve their work and submit to other venues, authors of submissions...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: We are proud to announce that IMC 2024 will support conference attendance
+      with travel grants.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: The 2024 Internet Measurement Conference will include a poster session.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'IMC takes a broad view of contributions that are considered in scope
+      for improving the practice of network measurement, including, but not limited
+      to:'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

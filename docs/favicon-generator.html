@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Favicon ICO</title>
+</head>
+<body>
+    <h2>Favicon Generator</h2>
+    <canvas id="canvas" width="32" height="32"></canvas>
+    <p><a id="download" download="favicon.ico">Click to Download favicon.ico</a></p>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Background gradient
+        const gradient = ctx.createLinearGradient(0, 0, 32, 32);
+        gradient.addColorStop(0, '#667eea');
+        gradient.addColorStop(1, '#764ba2');
+
+        // Background circle
+        ctx.fillStyle = gradient;
+        ctx.beginPath();
+        ctx.arc(16, 16, 15, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Document
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+        ctx.fillRect(10, 8, 11, 14);
+
+        // Lines
+        ctx.strokeStyle = '#667eea';
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(11, 11);
+        ctx.lineTo(19, 11);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(11, 14);
+        ctx.lineTo(20, 14);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(11, 17);
+        ctx.lineTo(19, 17);
+        ctx.stroke();
+
+        // Checkmark
+        ctx.strokeStyle = '#764ba2';
+        ctx.lineWidth = 1.5;
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+        ctx.beginPath();
+        ctx.moveTo(12, 19);
+        ctx.lineTo(14, 21);
+        ctx.lineTo(19, 16);
+        ctx.stroke();
+
+        // Create download link
+        canvas.toBlob(function(blob) {
+            const url = URL.createObjectURL(blob);
+            document.getElementById('download').href = url;
+        });
+    </script>
+</body>
+</html>

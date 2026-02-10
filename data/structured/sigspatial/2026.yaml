@@ -1,0 +1,341 @@
+conference: SIGSPATIAL
+year: 2026
+last_checked: '2026-02-16T10:55:44.331666+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: Friday, May 29th, 2026, 11:59 PM Pacific Time
+    evidence: 'Paper Submission: Friday, May 29th, 2026, 11:59 PM Pacific Time'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, May 29th, 2026, 11:59 PM Pacific Time
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Wednesday, Aug 5th, 2026, 11:59 PM Pacific Time
+    evidence: 'Notification of Accept/Reject: Wednesday, Aug 5th, 2026, 11:59 PM Pacific
+      Time'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Wednesday, Aug 5th, 2026, 11:59 PM Pacific Time
+  camera_ready_deadline:
+    value: Wednesday, August 19th, 2026, 11:59 PM Pacific Time
+    evidence: 'Camera-ready: Wednesday, August 19th, 2026, 11:59 PM Pacific Time'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Wednesday, August 19th, 2026, 11:59 PM Pacific Time
+  conference_dates:
+    value: November 3-7, 2026
+    evidence: The thirty-fourth ACM SIGSPATIAL International Conference on Advances
+      in Geographic Information Systems 2026 (ACM SIGSPATIAL 2026) will be held in...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 3-7, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Wednesday, August 19th, 2026, 11:59 PM Pacific Time
+    evidence: Each accepted paper must have a separate paid author registration (i.e.,
+      an author cannot pay a single registration for more than one paper), and one...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Wednesday, August 19th, 2026, 11:59 PM Pacific Time
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: true
+    evidence: ACM SIGSPATIAL is a single-blind conference; therefore, the names and
+      affiliations of the authors should be listed in the submitted version.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: false
+    evidence: ACM SIGSPATIAL is a single-blind conference; therefore, the names and
+      affiliations of the authors should be listed in the submitted version.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers that do not follow the page limit requirements will be desk-rejected
+      without technical reviews.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ACM SIGSPATIAL is a single-blind conference; therefore, the names and
+      affiliations of the authors should be listed in the submitted version.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 10 pages excluding references
+    evidence: 'Regular Research Papers: up to 10 pages excluding references Experiment,
+      Benchmark & Experience Papers: up to 10 pages excluding references'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages excluding references
+  page_limit_exclusions:
+    value: true
+    evidence: Submissions that do not follow the page limit requirements will be desk-rejected
+      without technical reviews.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Manuscripts should be submitted in PDF format and formatted using the
+      ACM camera-ready templates available at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: ACM Publications cannot be used to propagate political or religious
+      views or denigrate individuals or groups of people.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Proceedings of the 34th ACM International Conference on Advances in Geographic
+      Information Systems
+    evidence: Papers accepted for ACM SIGSPATIAL 2026 will be published in the ACM
+      Digital Library under the Proceedings of the 34th ACM International Conference...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the 34th ACM International Conference on Advances in
+          Geographic Information Systems
+  statements:
+    value: true
+    evidence: Authors should review and follow the ACM Policy on Authorship , which
+      includes guidelines on the use of generative AI software tools for manuscript...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Generative AI tools and technologies, such as ChatGPT, may not be listed
+      as authors of an ACM-published work. The use of generative AI tools and...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Riverside, California, USA
+    evidence: The thirty-fourth ACM SIGSPATIAL International Conference on Advances
+      in Geographic Information Systems 2026 (ACM SIGSPATIAL 2026) will be held in...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Riverside, California, USA
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Riverside, California, USA
+  conference_format:
+    value: in-person
+    evidence: Each accepted paper must have a separate paid author registration (i.e.,
+      an author cannot pay a single registration for more than one paper), and one...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Each accepted paper must have a separate paid author registration (i.e.,
+      an author cannot pay a single registration for more than one paper), and one...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: The ACM SIGSPATIAL International Conference on Advances in Geographic
+      Information Systems (ACM SIGSPATIAL) traditionally holds a day of co-located...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'All papers should be submitted through EasyChair using the following
+      link: https://easychair.org/conferences/?conf=acmsigspatial2026vis'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: The ACM SIGSPATIAL International Conference on Advances in Geographic
+      Information Systems (ACM SIGSPATIAL) traditionally holds a day of co-located...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Papers accepted for ACM SIGSPATIAL 2026 will be published in the ACM
+      Digital Library under the Proceedings of the 34th ACM International Conference...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

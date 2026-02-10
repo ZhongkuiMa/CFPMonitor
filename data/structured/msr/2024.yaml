@@ -1,0 +1,425 @@
+conference: MSR
+year: 2024
+last_checked: '2026-02-16T08:01:49.245178+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 6
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch2: December 11, 2023
+      llm_batch3: November 17, 2023 AoE
+  - field: notification_date
+    values:
+      llm_batch1: Friday 12th January 2024
+      llm_batch2: January 19, 2024
+      llm_batch3: January 12, 2024 AoE
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Sunday 28th January 2024
+      llm_batch2: January 28, 2024
+      llm_batch3: January 28, 2024 AoE
+  - field: page_limit
+    values:
+      llm_batch1: 8 pages
+      llm_batch2: 4 pages plus 1 additional page of references
+      llm_batch3: 10 pages
+  - field: publication_venue
+    values:
+      llm_batch1: conference’s electronic proceedings
+      llm_batch2: Proceedings of the International Conference on Mining Software Repositories
+        (MSR 2024)
+      llm_batch3: ACM Digital Library
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'', ''poster'']'
+      llm_batch2: '[''oral'']'
+      llm_batch3: '[''oral'']'
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: November 17, 2023 AoE
+    evidence: 'Paper Deadline: November 17, 2023 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: December 11, 2023
+      llm_batch3:
+        value: November 17, 2023 AoE
+    _conflict: true
+  abstract_deadline:
+    value: November 14, 2023 AoE
+    evidence: 'Abstract Deadline: November 14, 2023 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch3:
+        value: November 14, 2023 AoE
+  notification_date:
+    value: January 12, 2024 AoE
+    evidence: 'Author Notification: January 12, 2024 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Friday 12th January 2024
+      llm_batch2:
+        value: January 19, 2024
+      llm_batch3:
+        value: January 12, 2024 AoE
+    _conflict: true
+  camera_ready_deadline:
+    value: January 28, 2024 AoE
+    evidence: 'Camera Ready Deadline: January 28, 2024 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Sunday 28th January 2024
+      llm_batch2:
+        value: January 28, 2024
+      llm_batch3:
+        value: January 28, 2024 AoE
+    _conflict: true
+  conference_dates:
+    value: April 15-16, 2024
+    evidence: The 21st International Conference on Mining Software Repositories will
+      be held on April 15-16, 2024, in Lisbon, Portugal.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 15-16, 2024
+      llm_batch2:
+        value: April 15-16, 2024
+      llm_batch3:
+        value: April 15-16, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The MSR 2024 Technical Track will employ a double-anonymous review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: The MSR 2024 Technical Track will employ a double-anonymous review process.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have a chance to see the reviews and respond to reviewer
+      comments before any decision about the submission is made.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Submissions that do not comply with these requirements are likely to
+      be desk rejected by the PC Chairs without further review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch3:
+        value: 'False'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: All submissions must not exceed 10 pages for the main text, inclusive
+      of all figures, tables, appendices, etc.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 4 pages plus 1 additional page of references
+      llm_batch3:
+        value: 10 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: true
+    evidence: Two more pages containing only references are permitted.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch3:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Submissions must strictly conform to the ACM conference proceedings
+      formatting instructions specified above.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: All submissions must not exceed 10 pages for the main text, inclusive
+      of all figures, tables, appendices, etc.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Papers submitted for consideration should not have been published elsewhere
+      and should not be under review or submitted for review elsewhere for the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: While authors have the right to upload preprints on ArXiV or similar
+      sites, they must avoid specifying that the manuscript was submitted to MSR 2024.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The official publication date is the date the proceedings are made available
+      in the ACM or IEEE Digital Libraries.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: conference’s electronic proceedings
+      llm_batch2:
+        value: Proceedings of the International Conference on Mining Software Repositories
+          (MSR 2024)
+      llm_batch3:
+        value: ACM Digital Library
+    _conflict: true
+  statements:
+    value: true
+    evidence: Please provide a supporting statement on the data availability, per
+      the Open Science policy below.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The MSR conference actively supports the adoption of open science principles.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: allowed
+      llm_batch3:
+        value: allowed
+  conference_location:
+    value: Lisbon, Portugal
+    evidence: The 21st International Conference on Mining Software Repositories will
+      be held on April 15-16, 2024, in Lisbon, Portugal.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Lisbon, Portugal
+      llm_batch2:
+        value: Lisbon, Portugal
+      llm_batch3:
+        value: Lisbon, Portugal
+    normalized:
+      city: Lisbon
+      country: Portugal
+      display: Lisbon, Portugal
+      raw: Lisbon, Portugal
+  conference_format:
+    value: in-person
+    evidence: The 21st International Conference on Mining Software Repositories will
+      be held on April 15-16, 2024, in Lisbon, Portugal.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch3:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted contributions will be published in the electronic proceedings
+      of the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'']'
+      llm_batch3:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'EXCEPTION: For fields starting with ''has_'', report whether that track/event
+      is mentioned anywhere in the data (true/false).'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers must be submitted through HotCRP: https://msr2024-challenge.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Day closing Closing session MSR Awards Diomidis Spinellis Athens University
+      of Economics and Business & Delft University of Technology , Olga Baysal
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

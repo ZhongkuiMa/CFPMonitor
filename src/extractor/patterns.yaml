@@ -1,0 +1,1209 @@
+# Extraction patterns for CFP fields
+# Direct field name mapping - no pattern_group indirection
+
+# ============================================
+# DEADLINES
+# ============================================
+
+submission_deadline:
+  cleaner: clean_deadline_date
+  patterns:
+    # Existing patterns (4) - UPDATED: Added negative lookbehind to exclude camera-ready, final, revised
+    - name: submission_deadline_date
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!camera\sready\s)(?<!final\s)(?<!revised\s)((?:paper\s+)?submission\s+deadline\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: papers_due_date
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?<!revised\s)(papers?\s+due\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: deadline_date
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!camera\sready\s)(?<!final\s)(?<!revised\s)(?<!rebuttal\s)(?<!withdrawal\s)(?<!registration\s)(?<!abstract\s)(deadline\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: submission_deadline_all_papers
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(submission\s+deadline\s+\(all\s+papers[^)]*\)\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+    # New patterns for Batch 1 (+8) - UPDATED: Added negative lookbehind
+    - name: submission_month_year
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!camera\sready\s)(?<!final\s)(?<!revised\s)(?:paper\s+)?submission\s+deadline\s*:?\s*([A-Z][a-z]+\s+\d{4})'
+    - name: submission_season
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?:paper\s+)?submission\s+(?:deadline|due)\s*:?\s*((?:Spring|Summer|Fall|Winter|Autumn)\s+\d{4})'
+    - name: submission_abbrev_month
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?:paper\s+)?submission\s*:?\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4})'
+    - name: submission_table_format
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?:paper\s+)?submission\s*[|]\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: submit_papers_by
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?<!revised\s)submit\s+papers?\s+by\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: manuscript_deadline
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?<!revised\s)manuscript\s+deadline\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: submission_tbd
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?:paper\s+)?submission\s+deadline\s*:?\s*(TBD|TBA|To\s+be\s+announced|Coming\s+soon)'
+    - name: submission_day_only
+      regex: '(?i)(?<!camera[- ]ready\s)(?<!final\s)(?:paper\s+)?submission\s+deadline\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?)'
+
+notification_date:
+  cleaner: clean_notification_date
+  patterns:
+    # Existing patterns (2)
+    - name: notification_date_explicit
+      regex: '(?i)(notification\s+(?:date|of\s+acceptance)\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: decisions_announced
+      regex: '(?i)(decisions?\s+announced\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+    # New patterns for Batch 1 (+8)
+    - name: decisions_announced_season
+      regex: '(?i)(?:acceptance\s+)?decisions?\s+(?:announced|sent|released)\s*:?\s*((?:Spring|Summer|Fall|Winter|Autumn)\s+\d{4})'
+    - name: notification_month_year
+      regex: '(?i)notification\s+(?:date|of\s+acceptance)?\s*:?\s*([A-Z][a-z]+\s+\d{4})'
+    - name: authors_notified
+      regex: '(?i)authors?\s+(?:will\s+be\s+)?notified\s+(?:by|in)\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: notification_abbrev
+      regex: '(?i)notification\s*:?\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},?\s+\d{4})'
+    - name: notification_tbd
+      regex: '(?i)notification\s+(?:date)?\s*:?\s*(TBD|TBA|To\s+be\s+announced)'
+    - name: acceptance_notification
+      regex: '(?i)acceptance\s+notification\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: notification_table
+      regex: '(?i)notification\s*[|]\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: notification_season_only
+      regex: '(?i)notification\s*:?\s*((?:Early|Late|Mid)?\s*(?:Spring|Summer|Fall|Winter|Autumn))'
+
+camera_ready_deadline:
+  patterns:
+    # Existing patterns (2) - UPDATED: Added submission to optional part
+    - name: camera_ready_due
+      regex: '(?i)(camera[- ]ready\s+(?:papers?\s+|submission\s+)?(?:deadline|due)\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: final_version_due
+      regex: '(?i)(final\s+version\s+due\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+    # New patterns for Batch 1 (+5)
+    - name: camera_ready_table
+      regex: '(?i)camera[- ]ready\s*[|]\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: publication_ready
+      regex: '(?i)publication[- ]ready\s+(?:deadline|due)\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: final_submission_deadline
+      regex: '(?i)final\s+submission\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: camera_ready_month_year
+      regex: '(?i)camera[- ]ready\s*:?\s*([A-Z][a-z]+\s+\d{4})'
+    - name: accepted_papers_due
+      regex: '(?i)accepted\s+papers?\s+due\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+
+conference_dates:
+  patterns:
+    # Format: "Conference Dates: July 27 to August 1, 2025" (with explicit label)
+    - name: conference_dates_explicit
+      regex: '(?i)conference\s+dates?\s*:[\s\n]*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s+(?:to|-|–|through)\s+(?:[A-Za-z]+\s+)?\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+
+    # Format: "July 13 through July 19, 2025" (standalone date range with "through")
+    - name: date_through_date
+      regex: '(?i)(?<![a-z])([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s+through\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})(?![a-z])'
+
+    # Format: "July 27 to August 1, 2025" or "July 27-August 1, 2025" (standalone)
+    - name: month_day_to_month_day
+      regex: '(?i)(?<![a-z])([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s+(?:to|-|–)\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})(?![a-z])'
+
+    # Format: "July 13-19, 2025" or "July 13–19, 2025" (compact dash format)
+    - name: month_day_dash_day
+      regex: '(?i)(?<![a-z])([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s*[-–]\s*\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})(?![a-z])'
+
+    # Format: "Main Conference: July 28 - 30, 2025"
+    - name: main_conference_dates
+      regex: '(?i)(?:main|full)\s+conference(?:\s+dates?)?\s*:[\s\n]*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s*(?:-|–|to)\s*\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+
+    # Format: "held from July 27 to August 1, 2025" (extracting only the date part)
+    - name: held_from_date_to_date
+      regex: '(?i)(?:will\s+be\s+)?held\s+(?:from\s+)?([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s+(?:to|-|–|through)\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+
+    # Format: "takes place July 27 to August 1, 2025"
+    - name: takes_place_dates
+      regex: '(?i)takes?\s+place\s+(?:from\s+|in\s+)?([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?\s+(?:to|-|–|through)\s+[A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+
+abstract_deadline:
+  patterns:
+    # Existing patterns (2)
+    - name: abstract_due
+      regex: '(?i)(abstract\s+(?:submission\s+)?deadline\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: abstract_registration
+      regex: '(?i)(abstract\s+registration\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+    # New patterns for Batch 1 (+4)
+    - name: abstracts_due
+      regex: '(?i)abstracts?\s+due\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: title_and_abstract
+      regex: '(?i)title\s+and\s+abstract\s*:?\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: abstract_table_format
+      regex: '(?i)abstract\s*[|]\s*([A-Z][a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4})'
+    - name: abstract_month_year
+      regex: '(?i)abstract\s+deadline\s*:?\s*([A-Z][a-z]+\s+\d{4})'
+
+rebuttal_deadline:
+  patterns:
+    - name: rebuttal_due
+      regex: '(?i)(rebuttal\s+(?:deadline|due)\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: author_response_deadline
+      regex: '(?i)(author\s+response\s+(?:deadline|due|period)\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: author_response_period
+      regex: '(?i)(author\s+response\s+period\s+([A-Za-z]+\s+\d{1,2}\s+to\s+[A-Za-z]+\s+\d{1,2},?\s+\d{4}))'
+
+withdrawal_deadline:
+  patterns:
+    - name: withdrawal_deadline_explicit
+      regex: '(?i)(withdrawal\s+deadline\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+registration_deadline:
+  patterns:
+    - name: registration_deadline_explicit
+      regex: '(?i)(registration\s+deadline\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+    - name: commitment_deadline
+      regex: '(?i)(commitment\s+deadline(?:\s+for\s+[A-Z]+\s+\d{4})?\s*:\s*([A-Za-z]+\s+\d{1,2}(?:st|nd|rd|th)?,?\s+\d{4}))'
+
+# ============================================
+# REVIEW PROCESS
+# ============================================
+
+double_blind:
+  positive_keywords:
+    - double-blind
+    - double blind
+    - anonymized
+    - anonymous
+  negative_keywords:
+    - not double-blind
+    - single-blind
+    - single blind
+  patterns:
+    # Direct double-blind mentions
+    - name: double_blind_review
+      regex: '(?i)(double[- ]blind\s+review(?:ing)?)'
+    - name: review_process_double_blind
+      regex: '(?i)(review(?:ing)?(?:\s+(?:process|policy))?\s+(?:is|will\s+be)\s+double[- ]blind)'
+    - name: double_blind_peer_review
+      regex: '(?i)(undergo\s+double[- ]blind\s+peer\s+review)'
+    - name: reviewed_double_blind_manner
+      regex: '(?i)(reviewed?\s+in\s+a\s+double[- ]blind\s+(?:manner|fashion))'
+    - name: double_blind_procedure
+      regex: '(?i)((?:follow|use)s?\s+(?:a\s+)?double[- ]blind\s+procedure)'
+    - name: employ_double_blind
+      regex: '(?i)(employ\s+(?:a\s+)?double[- ]blind\s+review)'
+
+    # Anonymous submission requirements
+    - name: submissions_anonymous
+      regex: '(?i)(submissions?\s+(?:must|should|will)\s+be\s+anonym(?:ized|ous|ised))'
+    - name: papers_anonymous
+      regex: '(?i)(papers?\s+(?:must|should|will)\s+be\s+anonym(?:ized|ous|ised))'
+    - name: anonymous_submission_required
+      regex: '(?i)(anonym(?:ous|ized|ised)\s+submission\s+(?:is\s+)?required)'
+    - name: author_names_removed
+      regex: '(?i)((?:remove|do\s+not\s+include)\s+author\s+(?:names?|information))'
+    - name: author_identifying_information
+      regex: '(?i)((?:remove|exclude)\s+(?:all\s+)?(?:author[- ])?identifying\s+information)'
+    - name: papers_should_not_include_authors
+      regex: '(?i)(papers?\s+should\s+not\s+include\s+author\s+(?:names?|information))'
+
+    # Negative patterns
+    - name: not_double_blind
+      regex: '(?i)((?:not|no)\s+double[- ]blind)'
+    - name: single_blind_mention
+      regex: '(?i)(single[- ]blind)'
+
+    # New patterns for Batch 3 (+4)
+    - name: both_reviewers_authors_anonymous
+      regex: '(?i)((?:both\s+)?(?:reviewers?|authors?)\s+and\s+(?:authors?|reviewers?)\s+(?:are|remain)\s+anonymous)'
+    - name: mutual_anonymity
+      regex: '(?i)(mutual\s+anonymity|reciprocal\s+anonymity)'
+    - name: fully_anonymous_review
+      regex: '(?i)(fully\s+anonymous\s+(?:review|submission))'
+    - name: identities_hidden_both_sides
+      regex: '(?i)(identit(?:y|ies)\s+(?:of\s+)?(?:both|all)\s+(?:parties|sides|authors?\s+and\s+reviewers?))'
+
+    # Catch-all patterns for broader coverage (+4)
+    - name: be_double_blind
+      regex: '(?i)((?:is|are|be)\s+double[- ]blind)'
+    - name: double_blind_conference
+      regex: '(?i)(double[- ]blind\s+(?:conference|venue|event|workshop|symposium))'
+    - name: reviewed_double_blind
+      regex: '(?i)(reviewed?\s+(?:in\s+(?:a\s+)?)?double[- ]blind)'
+    - name: adopt_double_blind
+      regex: '(?i)((?:adopt|follow|implement|practice|conduct|maintain)s?\s+(?:a\s+)?double[- ]blind)'
+
+single_blind:
+  positive_keywords:
+    - single-blind
+    - single blind
+    - reviewers anonymous
+  negative_keywords:
+    - double-blind
+    - double blind
+    - not single-blind
+  patterns:
+    # Existing positive patterns (5)
+    - name: single_blind_review
+      regex: '(?i)(single[- ]blind\s+review(?:ing)?)'
+    - name: review_process_single_blind
+      regex: '(?i)(review(?:ing)?(?:\s+(?:process|policy))?\s+(?:is|will\s+be)\s+single[- ]blind)'
+    - name: reviewers_anonymous
+      regex: '(?i)(reviewers?\s+(?:are|remain)\s+anonym(?:ized|ous))'
+    - name: reviewers_identities_hidden
+      regex: '(?i)(reviewers?\s+identities\s+(?:are\s+)?(?:hidden|not\s+revealed))'
+    - name: authors_known_reviewers_anonymous
+      regex: '(?i)(authors?\s+(?:are\s+)?known.*reviewers?\s+(?:are\s+)?anonymous)'
+
+    # New patterns for Batch 2 (+4)
+    - name: reviewers_remain_anonymous
+      regex: '(?i)(reviewers?\s+(?:will\s+)?remain\s+anonymous)'
+    - name: reviewer_anonymity
+      regex: '(?i)(reviewer\s+anonymity(?:\s+is\s+maintained)?)'
+    - name: authors_visible_reviewers_hidden
+      regex: '(?i)(author\s+(?:identit(?:y|ies)|names?)\s+(?:are\s+)?(?:visible|known|revealed).*reviewer)'
+    - name: not_double_blind
+      regex: '(?i)(not\s+double[- ]blind|single[- ]blind\s+not\s+double)'
+
+rebuttal_allowed:
+  positive_keywords:
+    - rebuttal
+    - author response
+    - response
+    - opportunity
+  patterns:
+    # Existing positive patterns (7)
+    - name: rebuttal_phase
+      regex: '(?i)((?:author\s+)?rebuttal\s+(?:phase|period|process))'
+    - name: author_response_period
+      regex: '(?i)(author\s+response\s+(?:phase|period))'
+    - name: authors_opportunity_respond
+      regex: '(?i)(authors?\s+(?:will\s+)?(?:have|be\s+given)\s+(?:the\s+)?opportunity\s+to\s+respond)'
+    - name: response_to_reviews
+      regex: '(?i)(response\s+to\s+reviews?)'
+    - name: can_respond_to_reviews
+      regex: '(?i)((?:can|may)\s+respond\s+to\s+(?:reviewer\s+)?(?:comments?|reviews?))'
+    - name: rebuttal_submission
+      regex: '(?i)(rebuttal\s+submission)'
+    - name: authors_rebut
+      regex: '(?i)(authors?\s+(?:can|may)\s+rebut)'
+
+    # New negative patterns for Batch 2 (+6)
+    - name: no_rebuttal
+      regex: '(?i)(no\s+(?:author\s+)?rebuttal)'
+    - name: rebuttal_not_allowed
+      regex: '(?i)(rebuttal\s+(?:is\s+)?not\s+(?:allowed|permitted|supported))'
+    - name: no_author_response
+      regex: '(?i)(no\s+author\s+response\s+(?:phase|period)?)'
+    - name: without_rebuttal
+      regex: '(?i)(without\s+(?:author\s+)?rebuttal)'
+    - name: will_not_have_rebuttal
+      regex: '(?i)((?:will|does)\s+not\s+have\s+(?:a\s+)?rebuttal)'
+    - name: cannot_respond
+      regex: '(?i)(authors?\s+cannot\s+respond\s+to\s+reviews?)'
+
+    # Schedule-based patterns implying rebuttal allowed (+5)
+    - name: author_response_period_schedule
+      regex: '(?i)((?:author|rebuttal)\s+response\s+period)'
+    - name: rebuttal_response_date
+      regex: '(?i)(rebuttal\s+(?:response|phase)\s*:\s*[A-Z])'
+    - name: rebuttal_period
+      regex: '(?i)(rebuttal\s+(?:period|phase|stage|round))'
+    - name: rebuttal_deadline
+      regex: '(?i)(rebuttal\s+deadline\s*:)'
+    - name: author_response_deadline
+      regex: '(?i)(author\s+response\s+(?:deadline|due)\s*:)'
+
+desk_rejection:
+  patterns:
+    # Existing patterns (2)
+    - name: anonymity_period_days
+      regex: '(?i)(anonymity\s+period\s+of\s+\d+\s+days?)'
+    - name: submission_anonymity_window
+      regex: '(?i)(\d+[- ]day\s+anonymity\s+period)'
+
+    # New patterns for Batch 2 (+4)
+    - name: anonymity_window_days
+      regex: '(?i)(anonymity\s+window\s+(?:of\s+)?\d+\s+days?)'
+    - name: days_anonymity_period
+      regex: '(?i)(\d+\s+days?\s+anonymity\s+(?:period|window|phase))'
+    - name: anonymity_phase_days
+      regex: '(?i)(anonymity\s+phase\s+(?:of\s+)?\d+\s+days?)'
+    - name: n_day_period_before_submission
+      regex: '(?i)(\d+[- ]day\s+(?:period|window)\s+before\s+submission)'
+
+desk_rejection:
+  positive_keywords:
+    - desk
+    - reject
+    - administrative
+  patterns:
+    - name: desk_rejection_policy
+      regex: '(?i)(desk\s+reject(?:ion|ed)?)'
+    - name: administrative_rejection
+      regex: '(?i)(administrative(?:ly)?\s+reject(?:ion|ed)?)'
+    - name: may_be_desk_rejected
+      regex: '(?i)(may\s+be\s+desk\s+reject(?:ed)?)'
+    - name: will_be_desk_rejected
+      regex: '(?i)(will\s+be\s+desk\s+reject(?:ed)?)'
+    - name: subject_to_desk_rejection
+      regex: '(?i)(subject\s+to\s+desk\s+reject(?:ion)?)'
+    - name: rejected_without_review
+      regex: '(?i)(reject(?:ed)?\s+without\s+(?:full\s+)?review)'
+
+reciprocal_review:
+  positive_keywords:
+    - reciprocal
+    - review
+    - required
+    - must
+  patterns:
+    - name: reciprocal_reviewing
+      regex: '(?i)(reciprocal\s+review(?:ing)?(?:\s+(?:requirement|policy))?)'
+    - name: mandatory_reviewing
+      regex: '(?i)(mandatory\s+review(?:ing)?)'
+    - name: authors_required_review
+      regex: '(?i)(authors?\s+(?:are\s+)?required\s+to\s+(?:serve\s+as\s+)?review(?:ers?)?)'
+    - name: must_agree_to_review
+      regex: '(?i)(must\s+agree\s+to\s+(?:serve\s+as\s+)?review)'
+    - name: reviewing_requirement
+      regex: '(?i)(review(?:ing)?\s+requirement)'
+    - name: authors_commit_reviewing
+      regex: '(?i)(authors?\s+(?:must\s+)?commit\s+to\s+review(?:ing)?)'
+
+open_review:
+  positive_keywords:
+    - OpenReview.net
+    - public reviews
+    - open peer review
+    - publicly visible
+  negative_keywords:
+    - call for
+    - submission
+    - deadline
+    - papers
+  patterns:
+    # OpenReview.net platform (strongest indicator)
+    - name: openreview_platform
+      regex: '(?i)(OpenReview\.net|submissions?\s+(?:via|through|on)\s+OpenReview(?:\s+platform)?)'
+
+    # Explicit open review process mentions
+    - name: open_peer_review
+      regex: '(?i)(open\s+peer\s+review(?:\s+process)?)'
+    - name: open_review_process
+      regex: '(?i)(reviews?\s+(?:will\s+be|are)\s+open(?:\s+to\s+the\s+public)?)'
+
+    # Public visibility of reviews
+    - name: reviews_publicly_visible
+      regex: '(?i)(reviews?\s+(?:will\s+be|are)\s+(?:made\s+)?publicly\s+(?:visible|available|accessible))'
+    - name: reviews_made_public
+      regex: '(?i)(reviews?\s+(?:will\s+be\s+)?made\s+public)'
+    - name: public_reviews_policy
+      regex: '(?i)((?:policy\s+of|commitment\s+to)\s+public\s+reviews?)'
+
+    # Transparent review process
+    - name: transparent_review
+      regex: '(?i)(transparent\s+review(?:\s+process)?)'
+    - name: publicly_accessible_reviews
+      regex: '(?i)((?:publicly|community)\s+accessible\s+reviews?)'
+    - name: transparent_review_process
+      regex: '(?i)(transparent\s+review(?:ing)?\s+(?:process|system))'
+    - name: reviews_visible_to_public
+      regex: '(?i)(reviews?\s+(?:will\s+be\s+)?(?:visible|available)\s+to\s+(?:the\s+)?public)'
+    - name: open_reviewing_system
+      regex: '(?i)(open\s+review(?:ing)?\s+system)'
+    - name: public_comment_period
+      regex: '(?i)(public\s+comment(?:ing)?\s+period)'
+    - name: reviewing_not_anonymous
+      regex: '(?i)(review(?:ing)?\s+(?:is|will\s+be)\s+not\s+anonymous)'
+    - name: reviews_published_online
+      regex: '(?i)(reviews?\s+(?:will\s+be\s+)?published\s+online)'
+
+    # Broader submission/review platform patterns (+2)
+    - name: submitted_through_openreview
+      regex: '(?i)((?:submit|submitted|submission)\s+(?:through|via|on|to)\s+OpenReview)'
+    - name: reviews_public
+      regex: '(?i)(reviews?\s+(?:are|will\s+be|is)\s+(?:public|publicly\s+(?:available|visible)))'
+
+# ============================================
+# SUBMISSION REQUIREMENTS
+# ============================================
+
+page_limit:
+  extractor: extract_page_number
+  patterns:
+    - name: long_short_papers_format
+      regex: '(?i)(Long\s+Papers\s+\((\d+)\s+pages?\)\s+and\s+Short\s+Papers\s+\((\d+)\s+pages?\))'
+    - name: papers_in_parens
+      regex: '(?i)((?:long|short|full)\s+papers?\s+\((\d+)\s+pages?\))'
+    - name: pages_for_main_paper
+      regex: '(?i)((?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\s+(?:content\s+)?pages?\s+for\s+the\s+main\s+paper)'
+    - name: limited_to_pages
+      regex: '(?i)(limited\s+to\s+(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\s+(?:content\s+)?pages?)'
+    - name: not_exceed_pages
+      regex: '(?i)((?:must\s+)?not\s+exceed\s+\d+\s+pages?)'
+    - name: maximum_pages
+      regex: '(?i)(maximum\s+(?:of\s+)?\d+\s+pages?)'
+    - name: up_to_pages
+      regex: '(?i)(up\s+to\s+\d+\s+pages?)'
+    - name: papers_must_be_pages
+      regex: '(?i)(papers?\s+(?:must|should)\s+be\s+\d+\s+pages?)'
+    - name: page_limit_exact
+      regex: '(?i)(\d+[- ]page\s+limit)'
+    - name: page_limit_is
+      regex: '(?i)(page\s+limit\s+(?:is\s+)?\d+\s+pages?)'
+    - name: page_range_between
+      regex: '(?i)(between\s+(\d+)\s+and\s+(\d+)\s+pages?)'
+    - name: page_range_dash
+      regex: '(?i)((\d+)\s*-\s*(\d+)\s+pages?)'
+    - name: page_range_to
+      regex: '(?i)((\d+)\s+to\s+(\d+)\s+pages?)'
+    - name: approximately_pages
+      regex: '(?i)(approximately\s+(\d+)\s+pages?)'
+    - name: around_pages
+      regex: '(?i)(around\s+(\d+)\s+pages?)'
+
+    # New patterns for Batch 4 (+4)
+    - name: submissions_limited_to
+      regex: '(?i)(submissions?\s+(?:are\s+)?limited\s+to\s+(\d+)\s+pages?)'
+    - name: papers_should_not_exceed
+      regex: '(?i)(papers?\s+should\s+not\s+exceed\s+(\d+)\s+pages?)'
+    - name: length_restricted_to
+      regex: '(?i)((?:paper\s+)?length\s+(?:is\s+)?restricted\s+to\s+(\d+)\s+pages?)'
+    - name: manuscripts_up_to
+      regex: '(?i)(manuscripts?\s+(?:of\s+)?up\s+to\s+(\d+)\s+pages?)'
+
+    # New patterns for Batch 6 (+13)
+    - name: no_longer_than_pages
+      regex: '(?i)(no\s+(?:longer|more)\s+than\s+\d+\s+pages?)'
+    - name: at_most_pages
+      regex: '(?i)((?:be\s+)?at\s+most\s+\d+\s+pages?)'
+    - name: max_n_pages
+      regex: '(?i)((?:max\.?|maximum)\s+\d+\s+pages?)'
+    - name: should_not_exceed_pages
+      regex: '(?i)(should\s+not\s+exceed\s*\d+\s*pages?)'
+    - name: n_page_maximum
+      regex: '(?i)(\d+[- ]page\s+maximum)'
+    - name: paper_type_colon_pages
+      regex: '(?i)((?:regular|full|research|long|short)\s+papers?\s*:\s*\d+\s+pages?)'
+    - name: n_pages_plus_references
+      regex: '(?i)(\d+\s+pages?\s+(?:\([^)]*\)\s+)?(?:plus|\+)\s+(?:up\s+to\s+)?\d*\s*(?:pages?\s+(?:for|of)\s+)?references)'
+    - name: must_be_n_pages
+      regex: '(?i)(must\s+be\s+(?:at\s+most\s+)?(?:between\s+)?\d+(?:\s+(?:to|-)\s+\d+)?\s+pages?)'
+    - name: up_to_word_parens_pages
+      regex: '(?i)(up\s+to\s+\w+\s+\(\d+\)\s+(?:printed\s+)?pages?)'
+    - name: maximum_length_of_pages
+      regex: '(?i)(maximum\s+length\s+(?:of\s+)?(?:\w+\s+(?:\(\d+\)\s+)?)?\d+\s+pages?)'
+    - name: submission_length_pages
+      regex: '(?i)(submission\s+length\s*:\s*\d+\s+pages?)'
+    - name: limited_to_maximum_of_pages
+      regex: '(?i)(limited\s+to\s+(?:a\s+)?maximum\s+(?:of\s+)?(?:\w+\s+(?:\(\d+\)\s+)?)?\d+\s+pages?)'
+    - name: longer_than_pages_rejected
+      regex: '(?i)(submissions?\s+longer\s+than\s+\d+\s+pages?\s+will\s+be\s+rejected)'
+
+page_limit_exclusions:
+  positive_keywords:
+    - excluding references
+    - references excluded
+    - unlimited references
+    - references do not count
+  patterns:
+    # Reference exclusion patterns
+    - name: excluding_references
+      regex: '(?i)(exclud(?:ing|ed)\s+references)'
+    - name: unlimited_references
+      regex: '(?i)((?:with\s+)?unlimited\s+(?:pages?\s+for\s+)?references)'
+    - name: references_not_count
+      regex: '(?i)(references?\s+(?:do\s+)?not\s+count)'
+    - name: not_including_references
+      regex: '(?i)(not\s+includ(?:ing|e)\s+references)'
+    - name: plus_unlimited_references
+      regex: '(?i)(plus\s+unlimited\s+(?:pages?\s+for\s+)?references)'
+    - name: references_separate
+      regex: '(?i)(references?\s+(?:are\s+)?(?:listed\s+)?separately?)'
+    - name: additional_pages_references
+      regex: '(?i)(additional\s+pages?\s+for\s+references)'
+    - name: references_beyond_page_limit
+      regex: '(?i)(references?\s+beyond\s+(?:the\s+)?page\s+limit)'
+    - name: references_outside_limit
+      regex: '(?i)(references?\s+(?:are\s+)?outside\s+(?:the\s+)?(?:page\s+)?limit)'
+    - name: unlimited_for_references
+      regex: '(?i)(unlimited\s+(?:space\s+)?for\s+references)'
+    - name: references_in_addition
+      regex: '(?i)(references?\s+in\s+addition\s+to\s+(?:the\s+)?page\s+limit)'
+    - name: page_limit_not_include_references
+      regex: '(?i)(page\s+limit\s+(?:does\s+)?not\s+include\s+references)'
+    - name: unrestricted_space_references
+      regex: '(?i)(unrestricted\s+(?:space|pages?)\s+(?:for\s+)?references)'
+    - name: plus_n_pages_for_references
+      regex: '(?i)(plus\s+(?:up\s+to\s+)?\d+\s+pages?\s+(?:for\s+|of\s+)?references)'
+    - name: no_limit_on_references
+      regex: '(?i)(no\s+(?:page\s+)?limit\s+(?:on|for)\s+references)'
+    - name: excluding_bibliography
+      regex: '(?i)(exclud(?:ing|e|ed)\s+(?:the\s+)?bibliograph(?:y|ies))'
+    - name: not_counting_references
+      regex: '(?i)(not\s+count(?:ing)?\s+(?:the\s+)?(?:list\s+of\s+)?references)'
+    - name: n_pages_plus_references_ref
+      regex: '(?i)(\d+\s+pages?\s+plus\s+(?:unlimited\s+)?(?:pages?\s+(?:for\s+|of\s+)?)?references)'
+    - name: bibliography_not_included_in
+      regex: '(?i)((?:bibliography|references?)\s+(?:is|are)\s+not\s+included\s+in)'
+    - name: not_including_bibliography
+      regex: '(?i)(not\s+includ(?:ing|e)\s+(?:the\s+)?bibliograph(?:y|ies))'
+    - name: references_not_count_toward
+      regex: '(?i)((?:bibliography|references?)\s+(?:do(?:es)?\s+)?not\s+count\s+toward)'
+    - name: references_are_unlimited
+      regex: '(?i)(references?\s+(?:and\s+appendices?\s+)?(?:are\s+)?unlimited)'
+
+    # Appendix/section exclusion patterns (merged from page_limit_excludes)
+    - name: excludes_appendices
+      regex: '(?i)(exclud(?:ing|ed)\s+(?:appendices|appendix))'
+    - name: excludes_supplementary
+      regex: '(?i)(exclud(?:ing|ed)\s+supplementary\s+material)'
+    - name: not_including_appendices
+      regex: '(?i)(not\s+includ(?:ing|ed)\s+(?:appendices|appendix))'
+    - name: optional_appendix
+      regex: '(?i)(optional\s+(?:appendix|appendices))'
+    - name: unlimited_appendices
+      regex: '(?i)(unlimited\s+(?:pages?\s+(?:for\s+)?)?(?:appendix|appendices))'
+    - name: appendix_beyond_page_limit
+      regex: '(?i)((?:appendix|appendices)\s+(?:is\s+|are\s+)?(?:beyond|outside)\s+(?:the\s+)?page\s+limit)'
+    - name: does_not_count_toward_page_limit
+      regex: '(?i)(does\s*not\s*count\s+toward\s+(?:the\s+)?(?:paper\s+)?page\s+limit)'
+    - name: not_included_in_page_limit
+      regex: '(?i)(not\s+includ(?:ed|ing)\s+in\s+(?:the\s+)?(?:\d+[- ])?page\s+(?:limit|count))'
+    - name: no_appendix_allowed
+      regex: '(?i)(no\s+(?:appendix|appendices)\s+(?:is\s+)?allowed)'
+    - name: section_does_not_count
+      regex: '(?i)((?:impact\s+statement|acknowledgments?|ethics\s+(?:statement|section)|checklist)\s+(?:does\s+)?not\s+count)'
+
+template_required:
+  positive_keywords:
+    - must use template
+    - template required
+    - required format
+    - style file
+  patterns:
+    # Existing patterns (6)
+    - name: template_must_use
+      regex: '(?i)((?:must|should)\s+use\s+(?:the\s+)?(?:provided\s+)?template)'
+    - name: required_format
+      regex: '(?i)(required\s+format)'
+    - name: style_files
+      regex: '(?i)((?:latex|word)\s+style\s+files?)'
+    - name: follow_required_format
+      regex: '(?i)((?:must\s+)?follow\s+(?:the\s+)?required\s+format)'
+    - name: formatting_requirements
+      regex: '(?i)(formatting\s+requirements)'
+    - name: specified_in_template
+      regex: '(?i)(specified\s+in\s+the\s+(?:latex|word|template))'
+
+    # New patterns for Batch 3 (+6)
+    - name: mandatory_template
+      regex: '(?i)((?:use\s+of\s+)?(?:the\s+)?template\s+(?:is\s+)?mandatory)'
+    - name: required_to_use_template
+      regex: '(?i)(required\s+to\s+use\s+(?:the\s+)?(?:provided\s+)?template)'
+    - name: template_is_required
+      regex: '(?i)(template\s+(?:is\s+)?required)'
+    - name: must_conform_to_format
+      regex: '(?i)((?:must|should)\s+conform\s+to\s+(?:the\s+)?(?:required\s+)?format)'
+    - name: prepare_using_template
+      regex: '(?i)(prepare\s+(?:your\s+)?(?:submission|paper|manuscript)\s+using\s+(?:the\s+)?template)'
+    - name: submissions_must_use_format
+      regex: '(?i)(submissions?\s+must\s+(?:be\s+prepared\s+)?us(?:e|ing)\s+(?:the\s+)?(?:required\s+)?(?:format|template))'
+
+    # New patterns for Batch 6 (+8)
+    - name: formatted_according_to_guidelines
+      regex: '(?i)(formatted\s+according\s+to\s+(?:the\s+)?(?:\w+\s+)*?(?:guidelines?|instructions?|format))'
+    - name: must_adhere_to_template
+      regex: '(?i)(must\s+adhere\s+to\s+(?:the\s+)?(?:\w+\s+)?(?:template|format|style|guidelines?))'
+    - name: acm_conference_format
+      regex: '(?i)((?:in\s+(?:the\s+)?)?(?:current\s+)?ACM\s+(?:two[- ]column\s+)?(?:conference\s+)?format)'
+    - name: ieee_conference_format
+      regex: '(?i)((?:in\s+(?:the\s+)?)?IEEE\s+(?:conference\s+)?format)'
+    - name: templates_available_from
+      regex: '(?i)((?:overleaf|LaTeX|Word)\s+templates?\s+(?:are\s+)?(?:available|provided))'
+    - name: in_lncs_springer_format
+      regex: '(?i)(in\s+(?:the\s+)?(?:LNCS|Springer|Lecture\s+Notes)\s+format)'
+    - name: formatted_in_acm
+      regex: '(?i)((?:formatted|prepared|written)\s+(?:in|using)\s+(?:the\s+)?(?:current\s+)?ACM)'
+    - name: formatted_in_ieee
+      regex: '(?i)((?:formatted|prepared|written)\s+(?:in|using)\s+(?:the\s+)?IEEE)'
+
+supplementary_material_allowed:
+  positive_keywords:
+    - supplementary
+    - option
+    - supports
+    - submit
+    - upload
+  patterns:
+    # Existing patterns (5)
+    - name: option_to_upload_supplementary
+      regex: '(?i)((?:have\s+the\s+)?option\s+(?:of\s+)?(?:to\s+)?(?:upload|submit)(?:ing)?\s+(?:extra\s+files\s+as\s+)?supplementary)'
+    - name: supports_supplementary
+      regex: '(?i)(supports?\s+(?:the\s+)?submission\s+of\s+supplementary)'
+    - name: supplementary_allowed_explicit
+      regex: '(?i)(supplementary\s+material\s+(?:is\s+)?(?:allowed|optional|permitted))'
+    - name: may_submit_supplementary
+      regex: '(?i)(may\s+(?:also\s+)?(?:be\s+)?submit(?:ted)?\s+(?:separately\s+)?(?:as\s+)?supplementary)'
+    - name: can_submit_supplementary
+      regex: '(?i)((?:authors\s+)?(?:can|may)\s+(?:also\s+)?submit\s+supplementary)'
+
+    # New patterns for Batch 3 (+5)
+    - name: optional_supplementary
+      regex: '(?i)((?:optional\s+)?supplementary\s+(?:material|files?)\s+(?:may\s+be\s+)?(?:submitted|provided|uploaded))'
+    - name: authors_may_include_supplementary
+      regex: '(?i)(authors?\s+may\s+(?:also\s+)?include\s+supplementary)'
+    - name: additional_material_allowed
+      regex: '(?i)(additional\s+(?:supporting\s+)?material\s+(?:is\s+)?(?:allowed|permitted))'
+    - name: optional_appendix_materials
+      regex: '(?i)(optional\s+(?:appendix|supplementary)\s+materials?)'
+    - name: encouraged_to_submit_supplementary
+      regex: '(?i)((?:are\s+)?encouraged\s+to\s+submit\s+supplementary)'
+
+    # New patterns for Batch 6 (+11)
+    - name: submit_supplementary_material
+      regex: '(?i)(submit\s+(?:up\s+to\s+)?\d*\s*(?:MB\s+(?:of\s+)?)?supplementary\s+material)'
+    - name: supplementary_material_deadline
+      regex: '(?i)(supplementary\s+material\s+(?:(?:is\s+)?due|deadline|submission)(?:\s*:))'
+    - name: supplementary_material_date
+      regex: '(?i)(supplementary\s+(?:material|files?)\s*:?\s*[A-Z][a-z]+\s+\d{1,2})'
+    - name: no_separate_deadline_supplementary
+      regex: '(?i)(no\s+separate\s+deadline\s+(?:for\s+)?(?:the\s+)?(?:submission\s+(?:of\s+)?)?supplementary)'
+    - name: supplementary_can_be_submitted
+      regex: '(?i)(supplementary\s+materials?\s+(?:can|may)\s+(?:be\s+)?(?:submitted|uploaded|included))'
+    - name: submit_single_file_supplementary
+      regex: '(?i)(submit\s+(?:a\s+)?single\s+file\s+(?:of\s+)?(?:additional\s+)?supplementary)'
+    - name: supplementary_material_such_as
+      regex: '(?i)(supplementary\s+material\s*,?\s*(?:such\s+as|including|e\.?g\.?))'
+    - name: appendix_can_be_submitted
+      regex: '(?i)((?:appendix|appendices)\s+(?:should|can|may)\s+be\s+(?:submitted|uploaded))'
+    - name: reviewers_no_obligation_supplementary
+      regex: '(?i)(reviewers?\s+(?:are\s+)?(?:not|under\s+no)\s+obligation\s+(?:to\s+)?(?:examine|review|read)\s+(?:the\s+)?supplementary)'
+    - name: supplementary_material_due
+      regex: '(?i)((?:additional|supplementary)\s+(?:material|materials)\s+(?:deadline|due))'
+    - name: upload_supplementary_material
+      regex: '(?i)(upload\s+(?:additional\s+|extra\s+)?supplementary\s+(?:material|files?))'
+    - name: supplementary_materials_deadline_label
+      regex: '(?i)(Supplementary\s+Materials?\s+Deadline)'
+
+    # Supplementary material limit patterns (merged from supplementary_material_limit)
+    - name: supplementary_page_limit
+      regex: '(?i)(supplementary\s+material\s+limited\s+to\s+\d+\s+pages?)'
+    - name: appendix_page_limit
+      regex: '(?i)(appendix\s+limited\s+to\s+\d+\s+pages?)'
+    - name: supplementary_size_limit_mb
+      regex: '(?i)((?:up\s+to\s+)?\d+\s*MB\s+(?:of\s+)?supplementary)'
+    - name: supplementary_single_file_limit
+      regex: '(?i)((?:a\s+)?single\s+file\s+(?:of\s+)?(?:additional\s+)?supplementary)'
+
+# ============================================
+# PUBLICATION POLICIES
+# ============================================
+
+concurrent_submission:
+  positive_keywords:
+    - concurrent allowed
+    - simultaneous allowed
+  negative_keywords:
+    - concurrent not allowed
+    - simultaneous not allowed
+    - dual submission policy
+    - may not submit
+  patterns:
+    # Existing patterns (6)
+    - name: concurrent_allowed
+      regex: '(?i)((?:concurrent|simultaneous)\s+submissions?\s+(?:are\s+)?(?:allowed|permitted))'
+    - name: concurrent_not_allowed
+      regex: '(?i)((?:concurrent|simultaneous)\s+submissions?\s+(?:are\s+)?(?:not\s+)?(?:allowed|permitted|prohibited))'
+    - name: dual_submission_policy
+      regex: '(?i)(dual\s+submission\s+policy)'
+    - name: may_not_submit_parallel
+      regex: '(?i)(may\s+not\s+submit\s+papers?\s+(?:that\s+are\s+)?(?:identical|substantially\s+similar))'
+    - name: submitted_in_parallel
+      regex: '(?i)(submitted?\s+in\s+parallel\s+to\s+other)'
+    - name: violate_dual_submission
+      regex: '(?i)(violate\s+(?:our\s+)?dual\s+submission)'
+
+    # New patterns for Batch 4 (+6)
+    - name: multiple_submissions_prohibited
+      regex: '(?i)(multiple\s+submissions?\s+(?:are\s+)?(?:not\s+)?(?:allowed|permitted|prohibited))'
+    - name: previously_published_elsewhere
+      regex: '(?i)((?:not\s+)?(?:previously\s+)?published\s+(?:or\s+)?(?:submitted\s+)?elsewhere)'
+    - name: concurrent_submission_prohibited
+      regex: '(?i)(concurrent\s+submission\s+(?:is\s+)?prohibited)'
+    - name: under_review_elsewhere
+      regex: '(?i)((?:not\s+)?(?:currently\s+)?under\s+review\s+elsewhere)'
+    - name: simultaneous_conference_submission
+      regex: '(?i)(simultaneous\s+submission\s+to\s+(?:other\s+)?conferences?)'
+    - name: parallel_submission_other_venues
+      regex: '(?i)(parallel\s+submission\s+to\s+other\s+venues?)'
+
+arxiv_preprint:
+  positive_keywords:
+    - arxiv
+    - allowed
+    - preprint
+    - will not result in rejection
+  negative_keywords:
+    - not allowed
+  patterns:
+    # Existing patterns (5)
+    - name: arxiv_allowed_explicit
+      regex: '(?i)(arXiv\s+(?:submission|posting|preprint)\s+(?:is\s+)?(?:allowed|permitted))'
+    - name: allowed_to_post_arxiv
+      regex: '(?i)(allowed\s+to\s+post\s+(?:versions?\s+of\s+their\s+work\s+on\s+)?(?:preprint\s+servers?\s+such\s+as\s+)?arXiv)'
+    - name: preprints_not_result_rejection
+      regex: '(?i)((?:existence\s+of\s+)?(?:non-?anonymous\s+)?preprints?\s+(?:\(on\s+arXiv[^)]*\)\s+)?will\s+not\s+result\s+in\s+rejection)'
+    - name: preprint_servers_allowed
+      regex: '(?i)(post\s+(?:versions?\s+of\s+their\s+work\s+)?on\s+preprint\s+servers)'
+    - name: arxiv_not_allowed
+      regex: '(?i)(arXiv\s+(?:submission|posting)\s+(?:is\s+)?(?:not\s+)?(?:allowed|permitted))'
+
+    # New patterns for Batch 4 (+7)
+    - name: having_papers_on_arxiv_allowed
+      regex: '(?i)(having\s+papers?\s+on\s+arXiv\s+(?:is\s+)?allowed)'
+    - name: arXiv_preprints_permitted
+      regex: '(?i)(arXiv\s+preprints?\s+(?:are\s+)?permitted)'
+    - name: papers_may_be_on_arxiv
+      regex: '(?i)(papers?\s+may\s+(?:already\s+)?be\s+(?:available\s+)?on\s+arXiv)'
+    - name: preprint_policy_allows_arxiv
+      regex: '(?i)(preprint\s+policy\s+allows?\s+arXiv)'
+    - name: tech_reports_arxiv_allowed
+      regex: '(?i)((?:technical\s+)?reports?\s+(?:and|or)\s+arXiv\s+(?:are\s+)?allowed)'
+    - name: posting_to_arxiv_permitted
+      regex: '(?i)(posting\s+to\s+arXiv\s+(?:is\s+)?permitted)'
+    - name: per_dual_submission_policy_arxiv
+      regex: '(?i)((?:per|following)\s+(?:the\s+)?dual\s+submission\s+policy.*arXiv)'
+
+    # Broader preprint/arXiv policy patterns (+6)
+    - name: arxiv_posting_allowed
+      regex: '(?i)((?:posting|post)\s+(?:on\s+)?(?:arXiv|preprint\s+servers?)\s+(?:is\s+)?(?:allowed|permitted|encouraged))'
+    - name: preprints_allowed
+      regex: '(?i)(preprints?\s+(?:are|is)\s+(?:allowed|permitted|acceptable|encouraged))'
+    - name: arxiv_preprint_not_allowed
+      regex: '(?i)((?:arXiv|preprint)\s+(?:posting|submission|version)s?\s+(?:(?:are|is)\s+)?(?:not\s+(?:allowed|permitted)|prohibited|forbidden))'
+    - name: arxiv_not_prior_publication
+      regex: '(?i)((?:posting|preprint)s?\s+(?:on|to)\s+arXiv\s+(?:does\s+not|do\s+not)\s+constitute\s+(?:a\s+)?prior\s+publication)'
+    - name: arxiv_not_considered_publication
+      regex: '(?i)(arXiv\s+(?:posting|preprint)s?\s+(?:are|is)\s+not\s+considered\s+(?:prior\s+)?publications?)'
+    - name: preprint_servers_not_prior_pub
+      regex: '(?i)((?:posting|submission)\s+to\s+preprint\s+servers?\s+(?:such\s+as\s+arXiv\s+)?(?:does\s+not|is\s+not)\s+constitute\s+prior\s+publication)'
+    - name: no_arxiv_preprint
+      regex: '(?i)((?:no|do\s+not)\s+(?:post|submit|upload)\s+(?:to\s+)?(?:arXiv|preprint))'
+    - name: authors_allowed_preprint
+      regex: '(?i)(authors?\s+(?:are|is)\s+(?:allowed|permitted|free|encouraged)\s+to\s+(?:post|submit|upload))'
+    - name: preprint_policy
+      regex: '(?i)(preprint\s+policy\s*:\s*(?:allowed|no\s+restriction|permitted))'
+
+publication_venue:
+  cleaner: clean_publication_venue
+  patterns:
+    # Existing patterns (7)
+    - name: published_through_pmlr
+      regex: '(?i)(published?\s+.*?(?:through|in)\s+(?:the\s+)?(?:Proceedings\s+of\s+(?:the\s+)?Machine\s+Learning\s+Research|PMLR))'
+    - name: indexed_in_pmlr
+      regex: '(?i)(indexed\s+in\s+(?:the\s+)?(?:Proceedings\s+of\s+(?:the\s+)?Machine\s+Learning\s+Research|PMLR))'
+    - name: published_in_acm
+      regex: '(?i)(published?\s+.*?(?:in|through|via)\s+(?:the\s+)?ACM\s+Digital\s+Library)'
+    - name: published_by_ieee
+      regex: '(?i)(published?\s+.*?(?:in|by|through)\s+IEEE(?:\s+Xplore)?)'
+    - name: published_by_springer
+      regex: '(?i)(published?\s+.*?(?:in|by)\s+Springer)'
+    - name: lncs_proceedings
+      regex: '(?i)((?:published?\s+.*?(?:in|as)\s+)?(?:Lecture\s+Notes\s+in\s+Computer\s+Science|LNCS))'
+    - name: proceedings_published_general
+      regex: '(?i)(proceedings\s+(?:will\s+be\s+)?published\s+(?:in|by|through)\s+([A-Z][A-Za-z\s]{2,30}))'
+
+    # New patterns for Batch 4 (+3)
+    - name: published_in_acl_anthology
+      regex: '(?i)(published?\s+.*?(?:in|through)\s+(?:the\s+)?ACL\s+Anthology)'
+    - name: published_by_cvf
+      regex: '(?i)(published?\s+.*?(?:in|by)\s+(?:the\s+)?(?:Computer\s+Vision\s+Foundation|CVF)(?:\s+Open\s+Access)?)'
+    - name: published_in_jmlr
+      regex: '(?i)(published?\s+.*?(?:in|through)\s+(?:the\s+)?(?:Journal\s+of\s+Machine\s+Learning\s+Research|JMLR))'
+
+# ============================================
+# ETHICS REPRODUCIBILITY
+# ============================================
+
+artifact_evaluation:
+  cleaner: clean_artifact_evaluation
+  allowed_values:
+    - required
+    - optional
+    - not_mentioned
+  positive_keywords:
+    - artifact
+    - artifacts
+    - code submission
+    - reproducibility
+  patterns:
+    # CRITICAL: Basic artifact evaluation patterns (support plural!)
+    - name: artifacts_evaluation_basic
+      regex: '(?i)(artifacts?\s+evaluation)'
+    - name: artifact_evaluation_committee
+      regex: '(?i)(artifacts?\s+evaluation\s+(?:committee|chair|co-chair|reviewers?|process))'
+    - name: artifact_evaluation_track_explicit
+      regex: '(?i)(artifact\s+evaluation\s+track)'
+
+    # Artifact patterns
+    - name: artifact_submission
+      regex: '(?i)(artifact\s+submission)'
+    - name: artifact_track
+      regex: '(?i)(artifact\s+track)'
+    - name: submit_artifacts
+      regex: '(?i)((?:may\s+)?submit\s+(?:research\s+)?artifacts?)'
+    - name: reproducibility_artifacts
+      regex: '(?i)(reproducibility\s+artifacts?)'
+    - name: artifact_review
+      regex: '(?i)(artifacts?\s+review(?:ing)?)'
+    - name: artifact_optional
+      regex: '(?i)(artifacts?\s+(?:are\s+)?optional)'
+    - name: artifact_evaluation_badge
+      regex: '(?i)(artifacts?\s+evaluation\s+(?:badge|available|functional|required))'
+    - name: submit_artifact_evaluation
+      regex: '(?i)(submit\s+(?:their\s+)?artifacts?\s+for\s+evaluation)'
+    - name: artifact_evaluation_expected
+      regex: '(?i)((?:expected|required|encouraged)\s+to\s+submit\s+(?:their\s+)?artifacts?)'
+
+    # Code submission patterns
+    - name: code_submission_required
+      regex: '(?i)(code\s+submission\s+(?:is\s+)?(?:required|mandatory))'
+    - name: code_submission_encouraged
+      regex: '(?i)(code\s+submission\s+(?:is\s+)?(?:encouraged|optional))'
+    - name: must_submit_code
+      regex: '(?i)((?:must|should)\s+submit\s+(?:the\s+)?code)'
+    - name: code_availability_required
+      regex: '(?i)(code\s+availability\s+(?:is\s+)?required)'
+    - name: encouraged_to_submit_code
+      regex: '(?i)((?:are\s+)?encouraged\s+to\s+(?:submit|provide)\s+code)'
+    - name: code_release_encouraged
+      regex: '(?i)(code\s+release\s+(?:is\s+)?encouraged)'
+    - name: authors_provide_code
+      regex: '(?i)(authors?\s+(?:should\s+)?provide\s+(?:their\s+)?code)'
+    - name: reproducibility_code_submission
+      regex: '(?i)(reproducibility.*code\s+submission|code\s+submission.*reproducibility)'
+
+    # Code and data patterns
+    - name: code_and_data_submission
+      regex: '(?i)(code\s+and\s+data\s+submission)'
+    - name: code_data_available
+      regex: '(?i)(code\s+(?:and\s+)?data\s+(?:made\s+)?available|code\s+availability)'
+
+    # General patterns
+    - name: reproducibility_checklist
+      regex: '(?i)(reproducibility\s+checklist)'
+    - name: supplementary_materials_required
+      regex: '(?i)(supplementary\s+materials?\s+(?:including\s+)?(?:code|artifacts|data)\s+(?:are\s+)?(?:required|recommended))'
+    - name: open_science_commitment
+      regex: '(?i)(open\s+science|open\s+source|source\s+code\s+(?:availability|sharing))'
+    - name: material_submission_required
+      regex: '(?i)((?:submit|provide|include)\s+(?:source|research\s+)?materials?(?:\s+(?:code|data|artifacts))?)'
+
+llm_policy:
+  cleaner: clean_llm_policy
+  allowed_values:
+    - allowed
+    - discouraged
+    - prohibited
+    - must_disclose
+  positive_keywords:
+    - LLM
+    - ChatGPT
+    - AI-generated
+    - generative AI
+    - language model
+  negative_keywords:
+    - paper about
+    - research on
+    - conference topic
+    - call for papers on
+    - workshop on
+  patterns:
+    # Core policy patterns - explicit policies
+    - name: llm_policy_explicit
+      regex: '(?i)((?:LLM|AI\s+tool|language\s+model|ChatGPT)\s+(?:usage\s+)?policy)'
+    - name: llm_guidelines
+      regex: '(?i)((?:LLM|AI|language\s+model|ChatGPT)\s+(?:usage\s+)?(?:guidelines|rules|policy))'
+    - name: generative_ai_policy
+      regex: '(?i)(generative\s+(?:AI|artificial\s+intelligence)\s+(?:usage\s+)?policy)'
+
+    # Disclosure patterns - must disclose usage
+    - name: llm_disclosure_required
+      regex: '(?i)((?:LLM|AI|language\s+model|ChatGPT|GPT|Copilot)\s+(?:usage|use|assistance)\s+(?:must|should|is\s+required\s+to)\s+be\s+(?:disclosed|reported|acknowledged))'
+    - name: disclose_ai_usage
+      regex: '(?i)((?:disclose|report|acknowledge)\s+(?:any\s+)?(?:use|usage)\s+of\s+(?:AI|LLM|language\s+model|ChatGPT)s?)'
+    - name: llm_usage_disclosure_explicit
+      regex: '(?i)((?:LLM|large\s+language\s+model|AI\s+tool)\s+usage\s+(?:must\s+be\s+)?disclosed?)'
+    - name: genai_disclosure
+      regex: '(?i)(generative\s+AI\s+(?:disclosure|must\s+be\s+disclosed))'
+
+    # Generated content patterns
+    - name: ai_generated_content
+      regex: '(?i)(AI[- ]generated\s+(?:content|text|writing)(?:\s+(?:policy|not\s+allowed|prohibited|must\s+be\s+disclosed))?)'
+    - name: llm_generated_text
+      regex: '(?i)((?:LLM|AI|machine)[- ]generated\s+(?:text|content)(?:\s+(?:policy|disclosure|prohibited))?)'
+    - name: ai_assisted_writing
+      regex: '(?i)((?:AI|LLM)[- ]assisted\s+(?:writing|text)(?:\s+(?:policy|must\s+be\s+disclosed))?)'
+
+    # Tool-specific patterns
+    - name: chatgpt_policy_explicit
+      regex: '(?i)(ChatGPT\s+(?:usage\s+)?(?:policy|not\s+allowed|prohibited|must\s+be\s+disclosed))'
+    - name: ai_tools_policy
+      regex: '(?i)((?:use|usage)\s+of\s+(?:AI|LLM)\s+tools?(?:\s+(?:policy|must\s+be\s+disclosed|is\s+(?:allowed|prohibited|discouraged))))'
+
+    # Prohibition patterns
+    - name: ai_prohibited
+      regex: '(?i)((?:AI|LLM|ChatGPT|language\s+model)\s+(?:usage\s+)?(?:is\s+)?(?:not\s+allowed|prohibited|forbidden|banned))'
+    - name: no_ai_generated
+      regex: '(?i)((?:do\s+not|must\s+not|cannot)\s+use\s+(?:AI|LLM|ChatGPT|language\s+models?))'
+
+    # Permission patterns
+    - name: ai_allowed_with_disclosure
+      regex: '(?i)((?:AI|LLM|ChatGPT)\s+(?:usage\s+)?(?:is\s+)?allowed(?:\s+(?:if|with)\s+disclosure)?)'
+    - name: may_use_ai
+      regex: '(?i)((?:may|can)\s+use\s+(?:AI|LLM|ChatGPT|language\s+models?)(?:\s+(?:if|but|with))?)'
+
+statements:
+  positive_keywords:
+    - ethics
+    - statement
+    - required
+    - checklist
+    - limitations
+  patterns:
+    # Core ethics statement patterns
+    - name: ethics_statement_required
+      regex: '(?i)(ethics\s+statement\s+(?:is\s+)?required)'
+    - name: ethics_statement_mandatory
+      regex: '(?i)((?:must|should)\s+include\s+(?:an\s+)?ethics\s+statement)'
+    - name: ethics_section_required
+      regex: '(?i)(ethics\s+section\s+(?:is\s+)?required)'
+    - name: ethical_considerations_required
+      regex: '(?i)(ethical\s+considerations?\s+(?:section\s+)?(?:is\s+)?required)'
+
+    # Ethics policy patterns (NEW - catches "Ethics Policy")
+    - name: ethics_policy
+      regex: '(?i)(ethics\s+policy(?:\s+including)?)'
+    - name: ethics_guidelines
+      regex: '(?i)(ethics\s+(?:guidelines|rules|requirements))'
+    - name: ethical_guidelines_required
+      regex: '(?i)(ethical\s+(?:guidelines|standards)\s+(?:must\s+be\s+)?(?:followed|met|addressed))'
+
+    # Checklist patterns (NEW - broader patterns)
+    - name: ethics_checklist
+      regex: '(?i)(ethics\s+(?:review\s+)?checklist)'
+    - name: responsible_research_checklist
+      regex: '(?i)(responsible\s+(?:research|AI|NLP)\s+(?:research\s+)?checklist)'
+    - name: checklist_required
+      regex: '(?i)((?:ethics|responsible\s+research|reproducibility)\s+checklist\s+(?:is\s+)?required)'
+
+    # Limitations section (NEW - ACL has this)
+    - name: limitations_section_required
+      regex: '(?i)(limitations\s+(?:section\s+)?(?:is\s+)?required)'
+    - name: must_include_limitations
+      regex: '(?i)((?:must|should)\s+include\s+(?:a\s+)?limitations\s+(?:section|discussion))'
+
+    # Review and committee patterns
+    - name: ethics_review_required
+      regex: '(?i)(ethics\s+review\s+(?:is\s+)?required)'
+    - name: ethics_review_process
+      regex: '(?i)((?:ethics|responsible\s+AI)\s+review\s+(?:process|committee|board))'
+    - name: flagged_for_ethics_review
+      regex: '(?i)(flagged\s+(?:for|to)\s+(?:an?\s+)?ethics\s+(?:review|committee))'
+    - name: ethics_committee
+      regex: '(?i)(ethics\s+(?:review\s+)?committee)'
+
+    # Broader ethics patterns
+    - name: must_address_ethics
+      regex: '(?i)((?:must|should)\s+address\s+ethical\s+(?:considerations?|concerns?))'
+    - name: responsible_research_statement
+      regex: '(?i)(responsible\s+(?:AI|research)\s+statement)'
+    - name: ethics_appendix_required
+      regex: '(?i)(ethics\s+appendix\s+(?:is\s+)?required)'
+    - name: broader_impact_ethics_required
+      regex: '(?i)((?:ethics|broader\s+impact)\s+(?:statement|section)\s+(?:is\s+)?(?:required|mandatory))'
+    - name: must_include_ethics
+      regex: '(?i)((?:must|should|required\s+to)\s+include\s+(?:an?\s+)?(?:ethics|broader\s+impact)\s+(?:statement|section|discussion))'
+
+    # Impact statement patterns
+    - name: broader_impact_statement
+      regex: '(?i)(broader\s+impact\s+statement)'
+    - name: impact_statement_required
+      regex: '(?i)(impact\s+statement\s+(?:is\s+)?required)'
+    - name: broader_impact_required
+      regex: '(?i)(broader\s+impact\s+(?:statement\s+)?(?:is\s+)?required)'
+    - name: societal_impact_required
+      regex: '(?i)(societal\s+impact\s+(?:statement\s+)?(?:is\s+)?required)'
+    - name: must_include_impact_statement
+      regex: '(?i)((?:must|should)\s+include\s+(?:an?\s+)?impact\s+statement)'
+    - name: impact_section_required
+      regex: '(?i)(impact\s+section\s+(?:is\s+)?required)'
+    - name: broader_impact_section
+      regex: '(?i)(broader\s+impact\s+section)'
+    - name: societal_consequences_required
+      regex: '(?i)(societal\s+consequences?\s+(?:statement\s+)?(?:is\s+)?required)'
+    - name: impact_discussion_required
+      regex: '(?i)(impact\s+discussion\s+(?:is\s+)?required)'
+    - name: must_discuss_impact
+      regex: '(?i)((?:must|should)\s+discuss\s+(?:potential\s+)?(?:societal\s+)?impact)'
+
+    # Reproducibility statement patterns (+4)
+    - name: reproducibility_statement_required
+      regex: '(?i)(reproducibility\s+statement\s+(?:is\s+)?required)'
+    - name: reproducibility_checklist_required
+      regex: '(?i)(reproducibility\s+checklist\s+(?:is\s+)?(?:required|mandatory))'
+    - name: code_data_availability_statement
+      regex: '(?i)((?:code|data)\s+availability\s+statement\s+(?:is\s+)?required)'
+    - name: open_science_statement
+      regex: '(?i)(open\s+science\s+statement)'
+
+    # IRB and human subjects patterns (+3)
+    - name: irb_approval_required
+      regex: '(?i)(IRB\s+approval\s+(?:is\s+)?required)'
+    - name: human_subjects_statement
+      regex: '(?i)(human\s+subjects?\s+(?:statement|approval|review))'
+    - name: institutional_review_board
+      regex: '(?i)(institutional\s+review\s+board\s+(?:approval|review))'
+
+    # Funding and conflict of interest (+3)
+    - name: funding_disclosure_required
+      regex: '(?i)(funding\s+disclosure\s+(?:is\s+)?required)'
+    - name: conflict_of_interest_statement
+      regex: '(?i)(conflict\s+of\s+interest\s+statement)'
+    - name: must_disclose_funding
+      regex: '(?i)((?:must|should)\s+disclose\s+(?:any\s+)?funding)'
+
+    # Paper checklist patterns (merged from paper_checklist_required)
+    - name: checklist_required
+      regex: '(?i)((?:paper\s+)?checklist\s+(?:is\s+)?required)'
+    - name: reproducibility_checklist_mandatory
+      regex: '(?i)(reproducibility\s+checklist\s+(?:is\s+)?(?:required|mandatory))'
+    - name: checklist_must_complete
+      regex: '(?i)((?:must|should)\s+complete\s+(?:the\s+)?(?:paper\s+)?checklist)'
+    - name: checklist_part_of_submission
+      regex: '(?i)(checklist\s+(?:forms?\s+)?part\s+of\s+(?:the\s+)?(?:paper\s+)?submission)'
+    - name: authors_required_complete_checklist
+      regex: '(?i)(authors?\s+(?:are\s+)?required\s+to\s+complete\s+(?:a\s+)?checklist)'
+    - name: submission_checklist
+      regex: '(?i)(submission\s+checklist\s+(?:is\s+)?(?:required|mandatory))'
+    - name: checklist_must_accompany
+      regex: '(?i)(checklist\s+must\s+accompany\s+(?:the\s+)?submission)'
+    - name: authors_complete_checklist
+      regex: '(?i)(authors?\s+(?:must\s+)?complete\s+(?:a\s+)?checklist)'
+    - name: mandatory_checklist
+      regex: '(?i)(mandatory\s+(?:submission\s+)?checklist)'
+
+    # Funding/COI disclosure patterns (merged from funding_disclosure_required)
+    - name: funding_disclosure_required
+      regex: '(?i)(funding\s+disclosure\s+(?:is\s+)?required)'
+    - name: must_disclose_funding
+      regex: '(?i)((?:must|should)\s+disclose\s+funding)'
+    - name: funding_sources_disclosed
+      regex: '(?i)(funding\s+sources?\s+(?:must\s+be\s+)?disclosed?)'
+    - name: conflict_of_interest_required
+      regex: '(?i)(conflict\s+of\s+interest\s+(?:statement\s+)?(?:is\s+)?required)'
+    - name: coi_disclosure
+      regex: '(?i)((?:COI|conflict)\s+disclosure)'
+    - name: financial_support_disclosed
+      regex: '(?i)(financial\s+support\s+(?:must\s+be\s+)?disclosed?)'
+
+# ============================================
+# CONFERENCE LOGISTICS
+# ============================================
+
+presentation_formats:
+  patterns:
+    - name: poster_presentation
+      regex: '(?i)(poster\s+presentation)'
+    - name: oral_presentation
+      regex: '(?i)(oral\s+presentation)'
+    - name: spotlight_presentation
+      regex: '(?i)(spotlight)'
+
+financial_aid_available:
+  positive_keywords:
+    - travel grants
+    - financial aid
+  patterns:
+    - name: travel_grants
+      regex: '(?i)(travel\s+grants?)'
+    - name: financial_support
+      regex: '(?i)(financial\s+(?:aid|support|assistance))'
+
+conference_location:
+  patterns:
+    # Format: "Philadelphia, Pennsylvania" with | separator (limit city name to 3 words max)
+    - name: city_state_pipe_date
+      regex: '([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*\|'
+
+    # Format: "San Diego, CA" with state abbreviation before date (city max 3 words)
+    - name: city_state_abbrev_before_date
+      regex: '(?<![A-Za-z])([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+[A-Z]{2})(?=\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|\d))'
+
+    # Format: "Vienna, Austria June 16" (city max 3 words, country max 2 words)
+    - name: city_country_before_date
+      regex: '(?<![A-Za-z])([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)(?=\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|\d))'
+
+    # Format: "held in Rotterdam, the Netherlands"
+    - name: held_in_city_the_country
+      regex: '(?i)(?:will\s+be\s+)?held\s+in\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+the\s+[A-Z][a-z]+)'
+
+    # Format: "held in Vienna, Austria" or "held at Bergen, Norway"
+    - name: held_in_city_country
+      regex: '(?i)(?:will\s+be\s+)?held\s+(?:in|at)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+[A-Z][a-z]+)(?=\s*(?:from|on|during|at|,|\.|$))'
+
+    # Format: "takes place in Abu Dhabi, UAE" (city max 3 words)
+    - name: takes_place_city_country
+      regex: '(?i)takes?\s+place\s+in\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2},\s+[A-Z]{2,})(?=\s*(?:from|on|during|at|,|\.|$))'
+
+conference_format:
+  allowed_values:
+    - in-person
+    - virtual
+    - hybrid
+  patterns:
+    - name: hybrid_format
+      regex: '(?i)(hybrid\s+(?:conference|format))'
+    - name: virtual_format
+      regex: '(?i)(virtual\s+(?:conference|format))'
+    - name: in_person_format
+      regex: '(?i)(in[- ]person\s+(?:conference|format))'
+
+    # Author attendance patterns (merged from author_attendance_required)
+    - name: at_least_one_author
+      regex: '(?i)(at\s+least\s+one\s+author\s+(?:must|should|is\s+required\s+to)\s+attend)'
+    - name: attendance_required
+      regex: '(?i)((?:author\s+)?attendance\s+(?:is\s+)?(?:required|mandatory))'
+    - name: one_author_must_attend
+      regex: '(?i)(one\s+author\s+(?:must|should)\s+attend)'
+    - name: authors_expected_attend
+      regex: '(?i)(authors?\s+(?:are\s+)?(?:expected|required)\s+to\s+attend)'
+    - name: in_person_attendance_required
+      regex: '(?i)(in[- ]person\s+attendance\s+(?:is\s+)?required)'
+    - name: presenting_author_attend
+      regex: '(?i)(presenting\s+author\s+(?:must|should)\s+attend)'
+
+workshops:
+  positive_keywords:
+    - workshops
+    - satellite events
+  patterns:
+    - name: workshops_colocated
+      regex: '(?i)(workshops?(?:\s+(?:and|&)\s+tutorials?)?)'
+    - name: satellite_events
+      regex: '(?i)(satellite\s+events?)'
+
+# ============================================
+# PUBLICATION DETAILS
+# ============================================
+
+submission_system:
+  cleaner: clean_system_name
+  allowed_values:
+    - OpenReview
+    - EasyChair
+    - CMT
+    - SoftConf
+    - HotCRP
+  patterns:
+    - name: openreview
+      regex: '(?i)(OpenReview(?:\.net)?)'
+    - name: easychair
+      regex: '(?i)(EasyChair)'
+    - name: cmt
+      regex: '(?i)(CMT|Microsoft\s+CMT)'
+    - name: softconf
+      regex: '(?i)(SoftConf|START\s+system)'
+    - name: hotcrp
+      regex: '(?i)(HotCRP)'
+

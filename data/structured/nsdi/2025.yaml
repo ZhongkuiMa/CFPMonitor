@@ -1,0 +1,320 @@
+conference: NSDI
+year: 2025
+last_checked: '2026-02-16T09:49:17.966423+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: May 7, 2024
+    evidence: 'Full paper submissions due: Tuesday, May 7, 2024, 11:59 pm US EDT'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 7, 2024
+  abstract_deadline:
+    value: April 30, 2024
+    evidence: 'Paper titles and abstracts due: Tuesday, April 30, 2024, 11:59 pm US
+      EDT'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 30, 2024
+  notification_date:
+    value: July 24, 2024
+    evidence: 'Notification to authors: Wednesday, July 24, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 24, 2024
+  camera_ready_deadline:
+    value: October 15, 2024
+    evidence: 'Final paper files due: Tuesday, October 15, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 15, 2024
+  conference_dates:
+    value: April 28-30, 2025
+    evidence: The 22nd USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '25) will be held on April 28–30, 2025, in Philadelphia, PA, USA.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 28-30, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: NSDI '25 is double-blind, meaning that authors should make a good faith
+      effort to anonymize papers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors given a one-shot-revision decision will be sent, within a few
+      days of the decision, detailed instructions about how to resubmit.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Papers rejected from one of these deadlines cannot be submitted to the
+      immediate next deadline.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions—as well as final papers—must be no longer than 12 pages,
+      including footnotes, figures, and tables.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Submissions may include as many additional pages as needed for references
+      and for supplementary material in appendices.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All papers must be submitted via the submission form . Please do not
+      email submissions.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Submissions may include as many additional pages as needed for references
+      and for supplementary material in appendices.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Simultaneous submission of the same work to multiple venues, submission
+      of previously published work, or plagiarism constitutes dishonesty or fraud.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: NSDI allows submissions to be simultaneously stored online as technical
+      reports, e.g., at arXiv, provided that the authors change the title and...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: USENIX
+    evidence: The 22nd USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '25) will be held on April 28–30, 2025, in Philadelphia, PA, USA.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: USENIX
+  statements:
+    value: true
+    evidence: Authors must, as part of the submission process, attest that their work
+      complies with all applicable ethical standards of their home institution(s),...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: While we acknowledge that generative AI is seamlessly included in many
+      editing packages, e.g., Grammarly, and thus often hard to detect, authors must...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Philadelphia, PA, USA
+    evidence: The 22nd USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '25) will be held on April 28–30, 2025, in Philadelphia, PA, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Philadelphia, PA, USA
+    normalized:
+      city: Philadelphia
+      country: US
+      display: Philadelphia, US
+      raw: Philadelphia, PA, USA
+  conference_format:
+    value: in-person
+    evidence: The 22nd USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '25) will be held on April 28–30, 2025, in Philadelphia, PA, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted papers will be shepherded through an editorial review process
+      by a member of the Program Committee. Based on initial feedback from the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: NSDI '25 also solicits papers that describe the design, implementation,
+      analysis, and experience with large-scale, operational systems and networks.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: All papers must be submitted via the submission form . Please do not
+      email submissions.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: NSDI '25 Call for Posters, USENIX
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best Paper Awards Awards will be given for the best paper(s) at the
+      conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

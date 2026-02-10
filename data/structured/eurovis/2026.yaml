@@ -1,0 +1,315 @@
+conference: EUROVIS
+year: 2026
+last_checked: '2026-02-16T10:44:26.750920+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: 03 Dec 2025
+    evidence: Full paper deadline is 03 Dec 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 03 Dec 2025
+  abstract_deadline:
+    value: 26 Nov 2025
+    evidence: Abstract deadline is 26 Nov 2025.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 26 Nov 2025
+  notification_date:
+    value: 18 Mar 2026
+    evidence: Final notification is on 18 Mar 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 18 Mar 2026
+  camera_ready_deadline:
+    value: 15 April 2026
+    evidence: Camera-ready deadline is 15 April 2026.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 15 April 2026
+  conference_dates:
+    value: 08-12 June 2026
+    evidence: Conference dates are 08-12 June 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 08-12 June 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: 29 Apr 2026
+    evidence: Early Bird Registration Deadline is on 29 Apr 2026.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 29 Apr 2026
+  double_blind:
+    value: false
+    evidence: Double-blind reviewing is optional but not required.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'False'
+  single_blind:
+    value: true
+    evidence: Reviewing process does not consider anonymity as a factor.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors have the option to submit their papers anonymously.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Concurrent, plagiarized, and AI-generated submissions will be desk-rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: The maximum length for submitted papers to the full papers track is
+      10 pages (in Computer Graphics Forum (CGF) style, including all images and...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All contributions are submitted as a PDF file using the Eurovis 2026
+      LaTeX2e Style template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary materials, such as videos and supporting data, are encouraged.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Computer Graphics Forum
+    evidence: All accepted full papers will be published in a special issue of Computer
+      Graphics Forum.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Computer Graphics Forum
+  statements:
+    value: true
+    evidence: Authors are encouraged to use supplementary documents to provide extra
+      content.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Generative AI tools may not be used to generate scientific content or
+      text.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Historic Nottingham, Home of Robin Hood
+    evidence: Eurovis - Historic Nottingham, Home of Robin Hood
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Historic Nottingham, Home of Robin Hood
+    normalized:
+      city: Historic Nottingham
+      country: Home Of Robin Hood
+      display: Historic Nottingham, Home Of Robin Hood
+      raw: Historic Nottingham, Home of Robin Hood
+  conference_format:
+    value: in-person
+    evidence: Conference dates are 08-12 June 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted full papers will be presented orally at the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Workshop proposals include:...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: PCS
+    evidence: 'All contributions are submitted using the Precision Conference Submission
+      System: https://new.precisionconference.com.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: PCS
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals include:...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

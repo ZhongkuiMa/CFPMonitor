@@ -1,0 +1,250 @@
+conference: ICNP
+year: 2025
+last_checked: '2026-02-16T10:10:53.111150+00:00'
+completeness:
+  known: 11
+  total: 40
+  percentage: 27.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 11
+rules:
+  submission_deadline:
+    value: May 16, 2025
+    evidence: 'Full paper submission: May 16, 2025 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 16, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 25, 2025
+    evidence: 'Notification of acceptance: July 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 25, 2025
+  camera_ready_deadline:
+    value: August 18, 2025
+    evidence: 'Camera ready version: August 18, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 18, 2025
+  conference_dates:
+    value: September 22-25, 2025
+    evidence: ICNP 2025, the 33rd annual edition of the IEEE International Conference
+      on Network Protocols, is the premier conference covering all aspects of...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 22-25, 2025
+  rebuttal_deadline:
+    value: July 7-10, 2025
+    evidence: 'Rebuttal: July 7-10, 2025 (AoE)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 7-10, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers submitted to the conference will be reviewed through a double-blind
+      review process, where the identities of the authors are withheld from the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: New this year is a rebuttal phase, where authors will have the opportunity
+      to respond to the preliminary reviews.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Submitted papers must be written in English and have no more than ten
+      (10) pages in double-column format with standard margins and a 10 point font.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All papers must be formatted for printing on US LETTER (8.5
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

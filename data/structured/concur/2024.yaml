@@ -1,0 +1,275 @@
+conference: CONCUR
+year: 2024
+last_checked: '2026-02-16T08:39:41.482811+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: April 30, 2024
+    evidence: 'Submission deadline : Tuesday Apr 30, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 30, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 21, 2024
+    evidence: 'Notification: June 21, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 21, 2024
+  camera_ready_deadline:
+    value: July 12, 2024
+    evidence: 'Camera Ready: July 12, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 12, 2024
+  conference_dates:
+    value: September 9-13, 2024
+    evidence: 'Conference(s): September 9-13, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 9-13, 2024
+  rebuttal_deadline:
+    value: June 4-6, 2024
+    evidence: 'Rebuttal Response: June 4-6, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 4-6, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must not exceed 14 pages (excluding references and clearly marked
+      appendices) using the LIPIcs style.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: The paper may be supplemented with a clearly marked appendix, which
+      will be reviewed at the discretion of the program committee.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: Papers must not exceed 14 pages (excluding references and clearly marked
+      appendices) using the LIPIcs style.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Papers must not exceed 14 pages (excluding references and clearly marked
+      appendices) using the LIPIcs style.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically as PDF files via HotCRP.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: LIPIcs
+    evidence: The CONCUR 2024 proceedings will be published by LIPIcs.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: LIPIcs
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Calgary, Canada
+    evidence: September 9-13, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Calgary, Canada
+    normalized:
+      city: Calgary
+      country: Canada
+      display: Calgary, Canada
+      raw: Calgary, Canada
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshops: Co-located with CONFEST (see the website for more info)'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers must be submitted electronically as PDF files via HotCRP.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: In 2024, CONCUR Test-of-Time and best paper awards will be given for
+      the fourth time.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,294 @@
+conference: CRYPTO
+year: 2026
+last_checked: '2026-02-16T10:42:21.135691+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: February 12, 2026
+    evidence: Submission deadline at 23:59 US Pacific time
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 12, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 7, 2026
+    evidence: Apr 7, 2026 First round notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 7, 2026
+  camera_ready_deadline:
+    value: June 8, 2026
+    evidence: Jun 8, 2026 Final versions due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 8, 2026
+  conference_dates:
+    value: August 17-20, 2026
+    evidence: Crypto 2026 will take place in Santa Barbara, US on August 17-20, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 17-20, 2026
+  rebuttal_deadline:
+    value: April 13, 2026
+    evidence: Apr 13, 2026 Rebuttal deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 13, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions must be anonymous with no author names, affiliations, or
+      obvious references.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The program committee will reject some submissions; the rest will proceed
+      to the second round. At the end of the first round, the authors will be...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 30 pages
+    evidence: The main body of the submission must be at most 30 pages long, excluding
+      bibliography.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 30 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be prepared in LaTeX using the LNCS format and
+      submitted electronically in PDF format.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Any amount of clearly marked supplemental material may be supplied,
+      either as an appendix to the main body of the paper or in separate files.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer's Lecture Notes in Computer Science (LNCS) series
+    evidence: The proceedings will be published in Springer's Lecture Notes in Computer
+      Science (LNCS) series and will be available online.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed_disclosure
+    evidence: Authors are strongly encouraged to read the call for papers first, then
+      follow the detailed instructions below for submitting papers. There are...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed_disclosure
+  conference_location:
+    value: Santa Barbara, USA
+    evidence: Crypto 2026 will take place in Santa Barbara, US on August 17-20, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Santa Barbara, USA
+    normalized:
+      city: Santa Barbara
+      country: US
+      display: Santa Barbara, US
+      raw: Santa Barbara, USA
+  conference_format:
+    value: hybrid
+    evidence: Authors of accepted papers will not be required to travel to Santa Barbara
+      to attend Crypto in person. Authors may choose to present their work in...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: A limited number of stipends are available to those unable to obtain
+      funding to attend the conference. Students, whose papers are accepted and who...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Paper Submission Since May 2025, the IACR has implemented a policy on
+      the use of AI tools by authors.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The program committee may choose one or more papers to receive awards
+      for overall Best Paper or Best Paper Authored by Early Career Researchers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

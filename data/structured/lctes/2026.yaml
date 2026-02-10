@@ -1,0 +1,374 @@
+conference: LCTES
+year: 2026
+last_checked: '2026-02-16T10:33:36.394958+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 3
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: April 17, 2026
+      llm_batch2: May 1, 2026
+  - field: conference_dates
+    values:
+      llm_batch1: June 15–16, 2026
+      llm_batch2: June 15-16, 2026
+  - field: conference_location
+    values:
+      llm_batch1: Boulder, Colorado
+      llm_batch2: Boulder, Colorado, United States
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: March 13, 2026
+    evidence: 'Paper Submission: March 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: March 13, 2026
+      llm_batch2:
+        value: March 13, 2026
+  abstract_deadline:
+    value: March 6, 2026
+    evidence: 'Abstract Submission: March 6, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: March 6, 2026
+  notification_date:
+    value: May 1, 2026
+    evidence: 'notification: May 1, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 17, 2026
+      llm_batch2:
+        value: May 1, 2026
+    _conflict: true
+  camera_ready_deadline:
+    value: May 1, 2026
+    evidence: Author Notification Submission Link https://lctes26.hotcrp.com/
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: May 1, 2026
+  conference_dates:
+    value: June 15-16, 2026
+    evidence: 'Conference Dates: June 15–16, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 15–16, 2026
+      llm_batch2:
+        value: June 15-16, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The submissions are double blind (the uploaded PDFs must not contain
+      your name or any other identifying information).
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Double-Blind Reviewing
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Double-Blind Reviewing
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will be given several days to compose a written response to
+      the reviews received in the first round – e.g., to correct errors and clarify...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: 'Full paper: 10 pages presenting original work. References and appendixes
+      are not counted towards the page limit'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 10 pages
+      llm_batch2:
+        value: 10 pages
+  page_limit_exclusions:
+    value: true
+    evidence: References and appendixes are not counted towards the page limit
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Submissions must be in ACM SIGPLAN subformat of the acmart format (available
+      at and explained in more detail at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary Material
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Double-Blind Reviewing
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  publication_venue:
+    value: ACM
+    evidence: Accepted papers in both categories will appear in the proceedings published
+      by ACM.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM
+      llm_batch2:
+        value: ACM
+  statements:
+    value: true
+    evidence: Authors of accepted papers will be required to sign an ACM copyright
+      release.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Boulder, Colorado, United States
+    evidence: 'location: Boulder, Colorado, United States'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Boulder, Colorado
+      llm_batch2:
+        value: Boulder, Colorado, United States
+    _conflict: true
+    normalized:
+      city: Boulder
+      country: US
+      display: Boulder, US
+      raw: Boulder, Colorado, United States
+  conference_format:
+    value: in-person
+    evidence: 'Venue: Limelight Boulder'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Authors who need financial assistance for travel to the conferences
+      should apply for a grant from the SIGPLAN Professional Activities Committee
+      (PAC)...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: papers can be submitted to https://lctes2026.hotcrp.com/
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'Three students from each category (graduate and undergraduate) will
+      be selected as winners. Winners will receive a cash prize: $500, $300, and $200...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

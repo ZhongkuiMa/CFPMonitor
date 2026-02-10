@@ -1,0 +1,287 @@
+conference: CONLL
+year: 2025
+last_checked: '2026-02-16T09:37:20.362744+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: March 14, 2025
+    evidence: 'Direct submission deadline: Friday, March 14 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 14, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 23, 2025
+    evidence: 'Notification of acceptance: Friday, May 23 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 23, 2025
+  camera_ready_deadline:
+    value: June 25, 2025
+    evidence: 'Camera ready papers due: Wednesday, June 25 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 25, 2025
+  conference_dates:
+    value: July 31 - August 1, 2025
+    evidence: CoNLL 2025 will be held in-person, along with ACL in Vienna, Austria.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 31 - August 1, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submitted papers must be anonymous and use the same template as the
+      ACL 2025.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Submitted papers may consist of up to 8 pages of content plus unlimited
+      space for references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: The appendix should be submitted as a separate PDF file (reviewers are
+      not required to consider the materials in the appendix so it should not...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submitted papers must use the same template as the ACL 2025.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Optional anonymized supplementary materials and a PDF appendix are allowed.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: CoNLL 2025 will refuse papers that are currently under submission, or
+      that will be submitted to other meetings or publications, including ACL.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACL
+    evidence: 'Camera ready papers due: Wednesday, June 25 2025'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACL
+  statements:
+    value: false
+    evidence: "However, the submissionsâ\x80\x99 relevance to the conferenceâ\x80\x99\
+      s focus on theoretically, cognitively and scientifically motivated approaches\
+      \ will play an..."
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Vienna, Austria
+    evidence: CoNLL 2025 will be held in-person, along with ACL in Vienna, Austria.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vienna, Austria
+    normalized:
+      city: Vienna
+      country: Austria
+      display: Vienna, Austria
+      raw: Vienna, Austria
+  conference_format:
+    value: in-person
+    evidence: CoNLL 2025 will be held in-person, along with ACL in Vienna, Austria.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Submission will be via OpenReview.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Thursday, July 31, 2025 - Poster session 1; Friday, August 1, 2025 -
+      Poster session 2
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

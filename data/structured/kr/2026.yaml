@@ -1,0 +1,295 @@
+conference: KR
+year: 2026
+last_checked: '2026-02-16T11:23:39.032392+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: February 13, 2026
+    evidence: 'Paper submission deadline: February 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 13, 2026
+  abstract_deadline:
+    value: February 8, 2026
+    evidence: 'Submission of title and abstract: February 8, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 8, 2026
+  notification_date:
+    value: April 13, 2026
+    evidence: 'Notification of acceptance: April 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 13, 2026
+  camera_ready_deadline:
+    value: May 3, 2026
+    evidence: 'Camera-ready due: May 3, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 3, 2026
+  conference_dates:
+    value: July 20-23, 2026
+    evidence: 'Conference dates: July 20-23, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 20-23, 2026
+  rebuttal_deadline:
+    value: March 24-28, 2026
+    evidence: 'Author response period: March 24-28, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 24-28, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions should be anonymous and will be subject to double-blind
+      peer review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Author response period: March 24-28, 2026'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: Contributions may be regular papers (up to 9 pages) or short papers
+      (up to 4 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be written in English and formatted using the style files
+      provided at https://kr.org/KR2026/files/KR26_authors_kit.zip
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may submit a separate PDF or ZIP file with additional information
+      supporting their claims (such as proof details, additional experimental...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings
+    evidence: Accepted papers will be published in the KR 2026 proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: All submissions will be treated confidentially until the publication
+      date.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Generative AI models do not satisfy the criteria for authorship of papers
+      published in KR 2026.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Lisbon, Portugal
+    evidence: The KR conference series is the leading forum for timely, in-depth presentation
+      of progress in the theory and practice of the representation and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lisbon, Portugal
+    normalized:
+      city: Lisbon
+      country: Portugal
+      display: Lisbon, Portugal
+      raw: Lisbon, Portugal
+  conference_format:
+    value: in-person
+    evidence: The KR conference will be held as part of the Federated Logic Conference
+      (FLoC 2026) in Lisbon, Portugal, from July 20 to July 23, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers and supplementary materials must be submitted in the HotCRP system
+      using the link https://submissions.floc26.org/kr/
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: 'KR Pavlos Peppas Distinguished Service Award: Call for Nominations
+      KR Early Career Award: Call for Nominations'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

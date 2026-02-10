@@ -1,0 +1,331 @@
+conference: IPDPS
+year: 2026
+last_checked: '2026-02-16T11:31:17.524129+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: October 9, 2025
+    evidence: 'Abstract submissions: October 2, 2025 Full manuscript submissions (double-anonymous):
+      October 9, 2025 - FIRM DEADLINE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 9, 2025
+  abstract_deadline:
+    value: October 2, 2025
+    evidence: 'Abstract submissions: October 2, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 2, 2025
+  notification_date:
+    value: February 2, 2026
+    evidence: 'First round decisions: December 18, 2025 Notification of final decisions
+      will be sent by February 2, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 2, 2026
+  camera_ready_deadline:
+    value: February 20, 2026
+    evidence: 'Camera-ready versions due: February 20, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 20, 2026
+  conference_dates:
+    value: May 25-29, 2026
+    evidence: 40th IEEE International Parallel & Distributed Processing Symposium
+      May 25-29, 2026 New Orleans, USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 25-29, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 6, 2026
+    evidence: Registration Deadline (for Early Bird fees) April 6, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 6, 2026
+  double_blind:
+    value: true
+    evidence: Submitted manuscripts may not exceed ten (10) single-spaced double-column
+      pages using 10-point size font on 8.5x11-inch pages (IEEE conference...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have the opportunity to respond to the reviewers’ questions
+      and provide clarifications before the first-round decisions are made.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Submitted manuscripts may not exceed ten (10) single-spaced double-column
+      pages using 10-point size font on 8.5x11-inch pages (IEEE conference...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: The IEEE conference style templates for MS Word and LaTeX provided by
+      IEEE eXpress Conference Publishing are available for download.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submitted manuscripts must NOT have appeared in or be under consideration
+      for another conference, workshop, or journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore Digital Library
+    evidence: Post conference, the two volumes of proceedings will be submitted to
+      IEEE for inclusion in the IEEE Xplore Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore Digital Library
+  statements:
+    value: true
+    evidence: Authors are encouraged to use preventive measures to reduce the chances
+      of accidental breach of anonymity (e.g., use a different title in the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: In an effort to produce a standardized, long lasting impact, IPDPS is
+      introducing a computational result reproducibility appendix. This appendix aims...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: New Orleans, USA
+    evidence: 40th IEEE International Parallel & Distributed Processing Symposium
+      May 25-29, 2026 New Orleans, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: New Orleans, USA
+    normalized:
+      city: New Orleans
+      country: US
+      display: New Orleans, US
+      raw: New Orleans, USA
+  conference_format:
+    value: in-person
+    evidence: IPDPS 2026 and all associated events, including workshops, are scheduled
+      to be held in person between the dates of May 25-29, 2026, in New Orleans,...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Authors must register their paper and submit an abstract by Thursday,
+      October 2, 2025 . Authors must then submit full versions of registered papers...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: SEE ACM AD FOR 2026 WORKSHOPS HERE
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Linklings
+    evidence: Files must be submitted by following the instructions at the IPDPS 2026
+      Submission Site (powered by Linklings). Authors must select a “primary” track...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Linklings
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: IPDPS 2026 Call for Tutorials (CLOSED)
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The program committee will select a small set of papers as Best Paper
+      finalists. One paper will be named the Best Paper.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

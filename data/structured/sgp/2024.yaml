@@ -1,0 +1,299 @@
+conference: SGP
+year: 2024
+last_checked: '2026-02-16T08:44:39.677846+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: April 12, 2024
+    evidence: 'Paper submission: April 12, 2024, 23:59 UTC'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 12, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 27, 2024
+    evidence: 'Notification of acceptance: May 27, 2024, 23:59 UTC'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 27, 2024
+  camera_ready_deadline:
+    value: June 14, 2024
+    evidence: 'Camera ready due: June 14, 2024, 23:59 UTC'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 14, 2024
+  conference_dates:
+    value: June 24-26, 2024
+    evidence: 'Conference: June 24-26, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 24-26, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Review is based on a dual-anonymous reviewing process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Computer Graphics Forum and SGP recommend that research papers be up
+      to 10 pages (including all images, but excluding references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Papers should only be as long as their content would justify. Reviewers
+      might rate a submission lower if it is perceived as being unnecessarily long.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Articles must be submitted, in electronic pdf format, using the Submission
+      and Review Management (SRMv2) system
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: We are adopting the same policy as SIGGRAPH (which is similar to CVPR)
+      on preprints, including those shared via arXiv.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Following this policy almost verbatim, we recognize that prepublications
+      and talks have become part of the scientific discourse, and SGP allows these...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Computer Graphics Forum
+    evidence: The SGP proceedings will appear as a regular electronic issue of Computer
+      Graphics Forum, the International Journal of the EUROGRAPHICS Association
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Computer Graphics Forum
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Cambridge, MA, USA
+    evidence: SGP 2024 will be held at MIT in Cambridge, MA, USA (near Boston)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Cambridge, MA, USA
+    normalized:
+      city: Cambridge
+      country: US
+      display: Cambridge, US
+      raw: Cambridge, MA, USA
+  conference_format:
+    value: in-person
+    evidence: SGP 2024 will be held at MIT in Cambridge, MA, USA (near Boston)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The SGP proceedings will appear as a regular electronic issue of Computer
+      Graphics Forum, the International Journal of the EUROGRAPHICS Association
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite authors to submit proposals for poster presentations that
+      highlight innovative research, preliminary findings, novel ideas, ongoing...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SRMv2
+    evidence: Articles must be submitted, in electronic pdf format, using the Submission
+      and Review Management (SRMv2) system
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SRMv2
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: We invite authors to submit proposals for poster presentations that
+      highlight innovative research, preliminary findings, novel ideas, ongoing...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Following its traditions, SGP 2024 will attribute three best paper awards,
+      a software award recognising the authors of an open-source software that...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

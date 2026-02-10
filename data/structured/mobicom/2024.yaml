@@ -1,0 +1,293 @@
+conference: MOBICOM
+year: 2024
+last_checked: '2026-02-16T08:35:35.830475+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: August 7, 2023
+    evidence: 'Summer deadline: August 7, 2018'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 7, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: October 15, 2018
+    evidence: 'Summer author notification date (tentative): October 15, 2018'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 15, 2018
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: November 18-22, 2024
+    evidence: Nov. 18-22, 2024, Washington, D.C., USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 18-22, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Not explicitly stated
+    evidence: '[Novermber 15, 2024] - Registration sold out! We do NOT have onsite
+      registration available.'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Not explicitly stated
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: 'The review decisions will be one of the following: Accept, Reject,
+      One-Shot-Revision'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'MobiCom conferences have been held in locations around the world:'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: Sponsored by ACM SIGMOBILE
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Best Artifact Awards, Best Artifact Awards Runner-up
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Washington, D.C., USA
+    evidence: Nov. 18-22, 2024, Washington, D.C., USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Washington, D.C., USA
+    normalized:
+      city: Washington
+      country: US
+      display: Washington, US
+      raw: Washington, D.C., USA
+  conference_format:
+    value: in-person
+    evidence: '[Novermber 15, 2024] - Registration sold out! We do NOT have onsite
+      registration available.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: false
+    evidence: '[August 8, 2024] - Travel grant application announced!'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: ACM MobiCom 2024 is the thirtieth in a series of annual conferences
+      sponsored by ACM SIGMOBILE
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Starting from the 25th MobiCom conference in 2019, we will adopt multiple
+      deadlines and add a one-shot review process to enhance the timeliness and...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best Paper Award, Best Community Paper Award, Best Artifact Awards,
+      Best Poster Awards, Best Demo Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

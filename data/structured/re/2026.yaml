@@ -1,0 +1,338 @@
+conference: RE
+year: 2026
+last_checked: '2026-02-16T11:51:03.460623+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 4
+  conflicts:
+  - field: conference_dates
+    values:
+      llm_batch1: Tue 14 Oct 2025
+      llm_batch2: Mon 17 - Fri 21 August 2026
+  - field: page_limit
+    values:
+      llm_batch1: 12 pages
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: ACM
+  - field: conference_location
+    values:
+      llm_batch1: Singapore
+      llm_batch2: Montreal, Canada
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Thu 28 Jul 2025
+    evidence: Mon 28 Jul 2025 Author Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 28 Jul 2025
+  camera_ready_deadline:
+    value: Fri 25 Aug 2025
+    evidence: 'Camera Ready for Papers: August 25, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Fri 25 Aug 2025
+  conference_dates:
+    value: Mon 17 - Fri 21 August 2026
+    evidence: Requirements Engineering 2026 (RE 2026) conference dates are Mon 17
+      - Fri 21 August 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Tue 14 Oct 2025
+      llm_batch2:
+        value: Mon 17 - Fri 21 August 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: RE 2026 is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: RE 2026 is not single-blind.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors can respond to reviewer comments in RE 2026.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: RE 2026 does not mention desk rejection.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: RE 2026 has a page limit of 8 pages for main papers.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 12 pages
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: RE 2026 does not exclude references, appendices, or other sections from
+      the page limit.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: RE 2026 requires submissions to use an official template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplementary material is not allowed in RE 2026.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: RE 2026 proceedings will be published by ACM.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: ACM
+    _conflict: true
+  statements:
+    value: true
+    evidence: Ethics and broader impact statements are required in RE 2026.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: LLM/AI usage is forbidden in RE 2026.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: forbidden
+  conference_location:
+    value: Montreal, Canada
+    evidence: RE 2026 will take place in Montreal, Canada.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Singapore
+      llm_batch2:
+        value: Montreal, Canada
+    _conflict: true
+    normalized:
+      city: Montreal
+      country: Canada
+      display: Montreal, Canada
+      raw: Montreal, Canada
+  conference_format:
+    value: in-person
+    evidence: RE 2026 is an in-person conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: RE 2026 accepts oral presentations.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: RE 2026 does not mention workshops or satellite events.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: conf.researchr.org
+    evidence: RE 2026 uses the conf.researchr.org submission management system.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: conf.researchr.org
+  has_workshop_proposals:
+    value: false
+    evidence: RE 2026 does not mention soliciting workshop proposals.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: RE 2026 does not mention a doctoral consortium.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: RE 2026 does not have a Findings track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best paper awards are mentioned for RE 2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'

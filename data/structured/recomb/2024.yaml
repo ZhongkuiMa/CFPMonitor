@@ -1,0 +1,303 @@
+conference: RECOMB
+year: 2024
+last_checked: '2026-02-16T08:19:13.966477+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: November 3, 2023
+    evidence: 'Full paper submission deadline : October 20, 2023 AoE November 3, 2023
+      AoE (updates to registered abstracts only)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 3, 2023
+  abstract_deadline:
+    value: October 16, 2023
+    evidence: 'Abstract/paper registration deadline : October 16, 2023 AoE October
+      23, 2023 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 16, 2023
+  notification_date:
+    value: December 22, 2023
+    evidence: 'Author notification: December 18, 2023 December 22, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2023
+  camera_ready_deadline:
+    value: February 15, 2024
+    evidence: 'Final proceedings version of accepted papers due: January 26, 2024
+      February 15, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 15, 2024
+  conference_dates:
+    value: April 29 - May 2, 2024
+    evidence: 'Conference: April 29 - May 2, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 29 - May 2, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 19, 2024
+    evidence: 'Late Registration deadline: 11:59 PM, April 19, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 19, 2024
+  double_blind:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 Letter pages
+    evidence: The maximum length is 10 Letter pages , including all figures/tables
+      and their captions, using a minimum font size of 10pt and 1-inch margins .
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 Letter pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag
+    evidence: Accepted papers will be published as a proceedings volume as part of
+      the Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag, which...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Bioinformatics (LNBI) series from Springer-Verlag
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

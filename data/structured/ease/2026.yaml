@@ -1,0 +1,285 @@
+conference: EASE
+year: 2026
+last_checked: '2026-02-16T10:34:06.800074+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: Mon 2 Mar 2026
+    evidence: 'Submission Deadline: 2 March 2026, AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Mon 2 Mar 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Mon 6 Apr 2026
+    evidence: 'Notification Deadline: Mon 6 Apr 2026, AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Mon 6 Apr 2026
+  camera_ready_deadline:
+    value: Mon 20 Apr 2026
+    evidence: 'Camera Ready Deadline: Mon 20 Apr 2026, AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Mon 20 Apr 2026
+  conference_dates:
+    value: Tue 9 - Fri 12 June 2026
+    evidence: EASE 2026 Tue 9 - Fri 12 June 2026 Glasgow, United Kingdom
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Tue 9 - Fri 12 June 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Mon 24 Apr 2026
+    evidence: 'Early Registration Deadline: April 24, 2026, AoE'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Mon 24 Apr 2026
+  double_blind:
+    value: true
+    evidence: EASE 2026 will employ a double-anonymous review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers submitted must not have been published elsewhere and must not
+      be under review or submitted for review elsewhere during the review process.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Submissions must not exceed 10 pages for the main text, including all
+      figures, tables, appendices, etc. Up to 2 additional pages containing ONLY...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions should use the official ACM Primary Article Template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted papers and extended abstracts will be published in the
+      conference electronic proceedings and appear in the ACM digital library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: The dataset(s) and AI model(s) must be made available at the time of
+      submission of the paper for review; otherwise, the paper will be desk-rejected.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ACM has introduced a new open access publishing model for the International
+      Conference Proceedings Series (ICPS).
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Glasgow, Scotland
+    evidence: 'Venue: Glasgow, Scotland'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Glasgow, Scotland
+    normalized:
+      city: Glasgow
+      country: UK
+      display: Glasgow, UK
+      raw: Glasgow, Scotland
+  conference_format:
+    value: in-person
+    evidence: EASE 2026 Tue 9 - Fri 12 June 2026 Glasgow, United Kingdom
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: Following the tradition of previous conferences, EASE 2026 will host
+      a number of workshops, during the day after the main conference (Friday, 12...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: EasyChair
+    evidence: All papers must be submitted in PDF format through EasyChair for EASE
+      2026.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: 'Submit your workshop proposal electronically in PDF using the ACM Proceedings
+      Format through email to: ovais.ahmad@kau.se and mahum.adil@glasgow.ac.uk'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: We invite submissions to EASE 2026 Posters and Vision Track that align
+      with the conference topics and fall into one of the following categories.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

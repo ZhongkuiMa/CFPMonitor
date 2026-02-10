@@ -1,0 +1,330 @@
+conference: WSDM
+year: 2026
+last_checked: '2026-02-16T11:40:58.031373+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: August 14, 2025
+    evidence: Submissions to WSDM2026 are now open via EasyChair (https://easychair.org/conferences/?conf=wsdm2026
+      ). Authors are invited to submit their abstracts...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 14, 2025
+  abstract_deadline:
+    value: August 7, 2025
+    evidence: 'Abstract Deadline: August 7, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 7, 2025
+  notification_date:
+    value: October 23, 2025
+    evidence: 'Notification: October 23, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 23, 2025
+  camera_ready_deadline:
+    value: December 17, 2025
+    evidence: 'Camera-ready: December 17, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 17, 2025
+  conference_dates:
+    value: February 22-26, 2026
+    evidence: The 19th ACM International WSDM Conference will take place in Boise,
+      Idaho, USA, from February 22 to February 26, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 22-26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: WSDM 2026 will use a combination of single-blind reviewing and double-blind
+      reviewing. The manuscripts will be double-blind to regular PC members and...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: At least one author of each accepted paper must register for the conference
+      (either 3-day or 5-day) to present the paper at the conference in person....
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers not related to the conference main theme and topics will be desk-rejected
+      without review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: Submissions should not exceed 9 pages including diagrams, tables, appendices,
+      etc. plus unrestricted space for references and an ethical...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: 'The PDF files submitted to WSDM 2026 must be anonymized: the submitted
+      document should not include the author information and should not include...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Manuscripts must be submitted in PDF according to the new ACM format
+      published in ACM guidelines (use documentclass...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Authors may include references to external repositories containing resources
+      and methods, full theoretical proofs and derivations, detailed...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Submissions must represent new and original work. Concurrent submissions
+      to other venues are not allowed.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: However, submissions that are available online (e.g., on a preprint
+      server such as Arxiv) and/or have been previously presented orally or as posters...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Papers accepted to WSDM will be published in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Submitted manuscripts should include a section on the ethical implications
+      of the proposed research. This section will not be counted toward the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: ACM has a strict policy against plagiarism and self-plagiarism. All
+      prior work must be appropriately cited. Please also see the ACM guide...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Boise, Idaho, USA
+    evidence: The 19th ACM International WSDM Conference will take place in Boise,
+      Idaho, USA, from February 22 to February 26, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Boise, Idaho, USA
+    normalized:
+      city: Boise
+      country: US
+      display: Boise, US
+      raw: Boise, Idaho, USA
+  conference_format:
+    value: in-person
+    evidence: WSDM 2026 will be an in-person conference, with no provisions for remote
+      presentations.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: At least one author of each accepted paper must register for the conference
+      (either 3-day or 5-day) to present the paper at the conference in person....
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The WSDM 2026 organizing committee invites proposals for full-day and
+      half-day workshops to be held at the WSDM conference on February 26, 2026. The...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions to WSDM2026 are now open via EasyChair (https://easychair.org/conferences/?conf=wsdm2026
+      ).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: The WSDM 2026 organizing committee invites proposals for full-day and
+      half-day workshops to be held at the WSDM conference on February 26, 2026.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorial Proposals is not mentioned in any source.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: Call for Demonstrations – WSDM26 is not mentioned in any source.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: Call for Short Papers and Call for WSDM Day Presentations are the only
+      calls for short submissions, but they do not mention poster presentations.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: Call for Industry Day Talks is mentioned, but it does not indicate an
+      industry track for main conference papers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: Call for WSDM Doctoral Consortium is mentioned.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: No mention of a Findings track in any source.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

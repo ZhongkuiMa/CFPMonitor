@@ -1,0 +1,320 @@
+conference: NETYS
+year: 2024
+last_checked: '2026-02-16T08:34:05.753022+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: March 18, 2026
+    evidence: Paper submission deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 18, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 22, 2026
+    evidence: Author notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 22, 2026
+  camera_ready_deadline:
+    value: June 10, 2026
+    evidence: 'Netys Conference dates: June 10-12, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 10, 2026
+  conference_dates:
+    value: June 10-12, 2026
+    evidence: 'Netys Conference dates: June 10-12, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 10-12, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must follow the LNCS template and be written in English.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: All submissions must follow the LNCS template and be written in English.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors who use generative AI tools should append a declaration explaining
+      how these tools have been used in their research methodology and in...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Full papers are allowed a maximum of 15 pages in the LNCS format
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: false
+    evidence: A clearly marked appendix can be included for supplementary materials
+      but the appendix will be read at the discretion of the reviewers; therefore,...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All submissions must follow the LNCS template and be written in English.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: It is required that each accepted paper be presented at the conference
+      by one of its authors.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer’s LNCS
+    evidence: 'The Conference proceedings of the previous editions are available on
+      the following links : NETYS 2013 , NETYS 2014 , NETYS 2015 , NETYS 2016, NETYS...'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer’s LNCS
+  statements:
+    value: true
+    evidence: Authors who use generative AI tools should append a declaration explaining
+      how these tools have been used in their research methodology and in...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors are allowed to use generative AI tools such as Large Language
+      Models (LLMs) to assist in writing or research.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Rabat, Morocco
+    evidence: NETYS 2026, The International Conference on NETworked sYStems, Rabat,
+      Morocco
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Rabat, Morocco
+    normalized:
+      city: Rabat
+      country: Morocco
+      display: Rabat, Morocco
+      raw: Rabat, Morocco
+  conference_format:
+    value: in-person
+    evidence: 'Netys Conference dates: June 10-12, 2026'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: NETYS will provide a forum to report on best practices, novel algorithms,
+      results, and techniques on networked systems.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Easychair
+    evidence: 'Submission of papers is via Easychair: Submission Link'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Easychair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards will be given to the best paper and the best student paper.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,319 @@
+conference: IEEE VR
+year: 2024
+last_checked: '2026-02-16T08:52:37.324401+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: October 4, 2023
+    evidence: Submissions due
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 4, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 17, 2024
+    evidence: 'January 17 Wednesday, 2024 : Revised submissions due'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 17, 2024
+  camera_ready_deadline:
+    value: January 31, 2024
+    evidence: 'January 31 Wednesday, 2024 : Camera-ready materials due'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 31, 2024
+  conference_dates:
+    value: March 16-21, 2024
+    evidence: Important Dates - All deadlines are Anywhere on Earth (AoE)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 16-21, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: IEEE VR uses a DOUBLE-BLIND review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: false
+    evidence: Review Cycle II (Initial notification to Final decision)
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: IEEE VR uses a DOUBLE-BLIND review process
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Each paper should include an evaluation of its contributions, such as
+      user studies, benchmarking and/or comparison with existing...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All paper submissions must be formatted using the IEEE Computer Society
+      VGTC conference format (...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Videos submitted with papers will automatically be considered for possible
+      inclusion in the video proceedings (video submissions may also be made...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Submitted manuscripts must not have been previously published. A manuscript
+      is considered to have been previously published if it has appeared in a...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: Pre-dissemination through public online repositories. Uploading the
+      submitted manuscript to an online repository (e.g., arXiv) before the end of
+      the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore Digital Library
+    evidence: Accepted papers and posters will have to be formatted by the authors
+      according to the relevant camera-ready guidelines. Accepted papers and posters...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore Digital Library
+  statements:
+    value: true
+    evidence: All submissions describing research experiments with human participants
+      must follow the appropriate ethical guidelines required by the authors’...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: IEEE VR uses a DOUBLE-BLIND review process AI-generated Text. Large-scale
+      language models (LLMs) such as ChatGPT can only be used by the authors to...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Orlando, Florida USA
+    evidence: Important Dates - All deadlines are Anywhere on Earth (AoE)
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Orlando, Florida USA
+    normalized:
+      city: Orlando
+      country: US
+      display: Orlando, US
+      raw: Orlando, Florida USA
+  conference_format:
+    value: in-person
+    evidence: 'Presentation at the Conference: All accepted submissions must be presented
+      orally at the conference. An in-person presentation is expected, and...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Presentation at the Conference: All accepted submissions must be presented
+      orally at the conference. An in-person presentation is expected, and...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite individuals or teams interested in organizing such a workshop
+      to submit proposals that will work at the conference venue for IEEE VR 2024....
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Precision Conference Solutions
+    evidence: Submissions will be accepted through Precision Conference Solutions
+      this year. https://new.precisionconference.com/vr
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Precision Conference Solutions
+  has_workshop_proposals:
+    value: true
+    evidence: 'December 1, 2023 : Proposals and CFPs due'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: Call for Posters
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: Call for Doctoral Consortium
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

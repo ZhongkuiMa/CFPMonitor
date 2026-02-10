@@ -1,0 +1,276 @@
+conference: SOCG
+year: 2024
+last_checked: '2026-02-16T07:48:22.171755+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: December 1, 2023
+    evidence: Papers due (23:59 AoE (anywhere on Earth))
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 1, 2023
+  abstract_deadline:
+    value: November 24, 2023
+    evidence: Abstracts due (23:59 AoE (anywhere on Earth))
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 24, 2023
+  notification_date:
+    value: February 5, 2024
+    evidence: Notification of acceptance/rejection
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 5, 2024
+  camera_ready_deadline:
+    value: March 20, 2024
+    evidence: Final versions of accepted papers due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 20, 2024
+  conference_dates:
+    value: June 11-14, 2024
+    evidence: Symposium
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 11-14, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: This year's SoCG will employ a lightweight double-blind reviewing process...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 500 lines
+    evidence: Submissions must not exceed 500 lines...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 500 lines
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors must use the LaTeX class file socg-lipics-v2021.cls (use the
+      one updated in 2022; version 0.9)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supporting materials... that do not fit in the 500-line limit should
+      be given in an appendix.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: LIPIcs
+    evidence: Final proceedings versions of accepted papers must respect the same
+      formatting constraints as the submissions (LIPIcs proceedings format...)
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: LIPIcs
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Athens, Greece
+    evidence: SoCG 2024 is planned to be held in Athens, Greece
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Athens, Greece
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Athens, Greece
+  conference_format:
+    value: in-person
+    evidence: "SoCG 2024 is planned to be held... June 11â\x80\x9314 2024"
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'SoCG 2024 HotCRP submission webpage: https://socg24.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards will be given for the best paper and for the best student presentation.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,309 @@
+conference: NAACL
+year: 2024
+last_checked: '2026-02-16T08:38:04.662990+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: December 15, 2023
+    evidence: Papers submitted to ARR no later than December 15, 2023 will have reviews
+      and meta-reviews by February 15, 2024, in time for the NAACL 2024...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 15, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 15, 2024
+    evidence: 'Notification of acceptance: March 15, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 15, 2024
+  camera_ready_deadline:
+    value: April 1, 2024
+    evidence: 'Deadline for accepted papers to upload of final version for NAACL 2024
+      or Findings of NAACL 2024: April 1, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 1, 2024
+  conference_dates:
+    value: June 16-21, 2024
+    evidence: 'Main conference, including industry track: June 16-21, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 16-21, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: April 1, 2024
+    evidence: 'Deadline for accepted papers to withdraw from NAACL 2024 or Findings
+      of NAACL 2024: April 1, 2024'
+    category: deadlines
+    priority: low
+    _sources:
+      llm:
+        value: April 1, 2024
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The reviewing process will continue to be double-blind. Reviewers will
+      not see authors nor will authors see reviewers and reviews on ARR will not be...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: However, authors will be given the option through ARR to make their
+      anonymized submitted articles publicly visible.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Both long and short paper submissions should follow all of the ARR
+      submission requirements , including:'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Optional Supplementary Materials
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: NAACL 2024 proceedings
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: NAACL 2024 proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Optional Supplementary Materials
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: However, authors will be given the option through ARR to make their
+      anonymized submitted articles publicly visible.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Mexico City, Mexico
+    evidence: 'NAACL 2024: The Annual Conference of the North American Chapter of
+      the Association for Computational Linguistics - NAACL-HLT 2024'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Mexico City, Mexico
+    normalized:
+      city: Mexico City
+      country: Mexico
+      display: Mexico City, Mexico
+      raw: Mexico City, Mexico
+  conference_format:
+    value: hybrid
+    evidence: The conference will include both in-person and virtual presentation
+      options.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

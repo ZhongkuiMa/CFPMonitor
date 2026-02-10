@@ -1,0 +1,292 @@
+conference: ACL
+year: 2025
+last_checked: '2026-02-16T10:27:37.546750+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: February 15, 2025
+    evidence: 'Submission deadline (all papers are submitted to ARR) : February 15,
+      2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 15, 2025
+    evidence: 'Notification of acceptance : May 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2025
+  camera_ready_deadline:
+    value: May 30, 2025
+    evidence: 'Camera-ready papers due : May 30, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 30, 2025
+  conference_dates:
+    value: July 28 - 30, 2025
+    evidence: 'Main Conference : July 28-30, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 28 - 30, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: May 30, 2025
+    evidence: 'Withdrawal deadline : May 30, 2025'
+    category: deadlines
+    priority: low
+    _sources:
+      llm:
+        value: May 30, 2025
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The reviewing process will continue to be double-blind. Reviewers will
+      not see authors, nor will authors see reviewers, and reviews on ARR will not...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: However, authors will be given the option through ARR to make their
+      anonymized submitted articles publicly visible.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: The reviewing process will continue to be double-blind. Reviewers will
+      not see authors, nor will authors see reviewers, and reviews on ARR will not...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Long Papers (8 pages) and Short Papers (4 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be in PDF format and must conform to the official
+      style guidelines, which are contained in these template files. The review...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Accepted papers will be given one additional page of content (up to
+      9 pages) to address reviewers’ comments.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACL Anthology
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACL Anthology
+  statements:
+    value: true
+    evidence: Authors are required to honor the ethical code set out in the ACL Code
+      of Ethics. The consideration of the ethical impact of our research, use of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: While Large Language Models (LLMs) significantly enhance the generalization
+      of NLP models, what are the key limitations of LLMs in this regard?
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Vienna, Austria
+    evidence: 'Conference: July 27 to August 1, 2025 Location : Vienna, Austria'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vienna, Austria
+    normalized:
+      city: Vienna
+      country: Austria
+      display: Vienna, Austria
+      raw: Vienna, Austria
+  conference_format:
+    value: hybrid
+    evidence: The conference will include both in-person and virtual presentation
+      options.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: ACL 2025 is providing D&I subsidies for registration, caregiving, bandwidth,
+      travel, and VPN subsidies.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

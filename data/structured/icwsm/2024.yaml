@@ -1,0 +1,380 @@
+conference: ICWSM
+year: 2024
+last_checked: '2026-02-16T08:35:24.636590+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 7
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: January 18, 2012
+      llm_batch2: January 15, 2024
+  - field: notification_date
+    values:
+      llm_batch1: February 27, 2012
+      llm_batch2: March 15, 2024
+      llm_batch3: February 2, 2007
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: March 12, 2012
+      llm_batch3: February 16, 2007
+  - field: conference_dates
+    values:
+      llm_batch1: June 5-7, 2012
+      llm_batch2: June 8-10, 2024
+      llm_batch3: March 26-28, 2007
+  - field: publication_venue
+    values:
+      llm_batch1: conference proceedings
+      llm_batch2: AAAI
+      llm_batch3: AAAI
+  - field: conference_location
+    values:
+      llm_batch1: Dublin, Ireland
+      llm_batch2: Virtual
+      llm_batch3: Boulder, Colorado, U.S.A.
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'', ''poster'']'
+      llm_batch3: '[''poster'', ''demo'']'
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: January 15, 2024
+    evidence: 'Full Paper Submission Site: The submission will be marked complete
+      when you have entered all the required fields, but you will still be able make...'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: January 18, 2012
+      llm_batch2:
+        value: January 15, 2024
+    _conflict: true
+  abstract_deadline:
+    value: January 13, 2012
+    evidence: 'Abstract Submission : January 13, 2012'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: January 13, 2012
+  notification_date:
+    value: February 2, 2007
+    evidence: 'Acceptance Notifications: Friday, February 2, 2007'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 27, 2012
+      llm_batch2:
+        value: March 15, 2024
+      llm_batch3:
+        value: February 2, 2007
+    _conflict: true
+  camera_ready_deadline:
+    value: February 16, 2007
+    evidence: 'Camera Ready Copies: Friday, February 16, 2007'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: March 12, 2012
+      llm_batch3:
+        value: February 16, 2007
+    _conflict: true
+  conference_dates:
+    value: March 26-28, 2007
+    evidence: 'Conference: March 26-28, 2007'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 5-7, 2012
+      llm_batch2:
+        value: June 8-10, 2024
+      llm_batch3:
+        value: March 26-28, 2007
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 7, 2024
+    evidence: 'Registration: Early registration: May 7, 2021, Late registration: May
+      28, 2021'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: May 7, 2024
+  double_blind:
+    value: true
+    evidence: 'Detailed Guidelines for Paper Submission: Anonymity: ICWSM-2021 review
+      is double-blind. Therefore, please anonymize your submission: do not put the...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Detailed Guidelines for Paper Submission: Authors who receive the ''Accept''
+      recommendation will have the opportunity to respond to reviewer...'
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: People interested in participating should submit through the conference
+      website a technical paper (up to 8 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+      llm_batch3:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All papers must be submitted as PDF documents.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Detailed Guidelines for Paper Submission: Authors who receive the ''Accept''
+      recommendation will have the opportunity to respond to reviewer...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: AAAI
+    evidence: ICWSM is endored by the IW3C2 ( http://www.iw3c2.org/ ) and AAAI ( http://www.aaai.org
+      ).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: conference proceedings
+      llm_batch2:
+        value: AAAI
+      llm_batch3:
+        value: AAAI
+    _conflict: true
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'Artifact Evaluation: Artifact evaluation is a mandatory part of the
+      submission process for papers that include significant computational or empirical...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Boulder, Colorado, U.S.A.
+    evidence: March 26-28, 2007 Boulder, Colorado, U.S.A.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Dublin, Ireland
+      llm_batch2:
+        value: Virtual
+      llm_batch3:
+        value: Boulder, Colorado, U.S.A.
+    _conflict: true
+    normalized:
+      city: Boulder
+      country: US
+      display: Boulder, US
+      raw: Boulder, Colorado, U.S.A.
+  conference_format:
+    value: virtual
+    evidence: 'Attending ICWSM-2021: The main conference will be held on 8th, 9th,
+      and 10th June between 9:00 am - 3:00 pm Eastern Standard Time (2:00 pm to 8:00
+      pm...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: virtual
+  presentation_formats:
+    value:
+    - poster
+    - demo
+    evidence: People interested in participating should submit through the conference
+      website a technical paper (up to 8 pages), a short paper (up to 4 pages), or...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+      llm_batch3:
+        value: '[''poster'', ''demo'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Continuing the tradition from the WWE'06 workshop, we are once again
+      offering a large blog dataset to conference participants.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_tutorials:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_demos:
+    value: true
+    evidence: People interested in participating should submit through the conference
+      website a technical paper (up to 8 pages), a short paper (up to 4 pages), or...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  has_posters:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

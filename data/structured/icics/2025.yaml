@@ -1,0 +1,284 @@
+conference: ICICS
+year: 2025
+last_checked: '2026-02-16T09:33:39.720895+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: February 28, 2025
+    evidence: 'Paper Submission Deadline: February 28, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 28, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 9, 2025
+    evidence: 'Notification of the first round submission: March 9, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 9, 2025
+  camera_ready_deadline:
+    value: April 28, 2025
+    evidence: 'Camera-ready version due: April 28, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 28, 2025
+  conference_dates:
+    value: October 29-31, 2025
+    evidence: The 2025 International Conference on Information and Communications
+      Security (ICICS 2025) is the 27th edition of a series of a highly successful...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 29-31, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: July 21, 2025
+    evidence: 'Notification of the second round submission: July 21, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 21, 2025
+  double_blind:
+    value: true
+    evidence: All submitted papers must be anonymous , with no author names, affiliations,
+      acknowledgements, or obvious references, for double blind reviews .
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 18 pages
+    evidence: Papers should not exceed 18 pages in LNCS style including the bibliography,
+      but excluding well-marked appendices (no more than 20 pages in total).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 18 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Papers should not exceed 18 pages in LNCS style including the bibliography,
+      but excluding well-marked appendices (no more than 20 pages in total).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: All submitted papers must be anonymous , with no author names, affiliations,
+      acknowledgements, or obvious references, for double blind reviews .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Authors are invited to submit original papers not previously published
+      nor submitted in parallel for publication to any other conference, workshop
+      or...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in its Lecture Notes in Computer Science series
+    evidence: Accepted papers will be presented at ICICS 2025 and included in the
+      conference's post-proceeding published by Springer in its Lecture Notes in...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in its Lecture Notes in Computer Science series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: All submitted papers must be anonymous , with no author names, affiliations,
+      acknowledgements, or obvious references, for double blind reviews .
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Nanjing, China
+    evidence: The 2025 International Conference on Information and Communications
+      Security (ICICS 2025) is the 27th edition of a series of a highly successful...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Nanjing, China
+    normalized:
+      city: Nanjing
+      country: China
+      display: Nanjing, China
+      raw: Nanjing, China
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Papers should be submitted via EasyChair system: https://easychair.org/conferences/?conf=icics20250'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Springer sponsors ICICS 2025 with 1000 EUR for a Best Paper Award and
+      a Best Student Paper Award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

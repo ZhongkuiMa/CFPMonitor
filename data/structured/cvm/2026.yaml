@@ -1,0 +1,284 @@
+conference: CVM
+year: 2026
+last_checked: '2026-02-16T10:47:13.040038+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: October 13, 2025
+    evidence: 'Full papers submission: October 13, 2025.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 13, 2025
+  abstract_deadline:
+    value: October 10, 2025
+    evidence: 'Abstract submission: October 10, 2025.'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 10, 2025
+  notification_date:
+    value: December 22, 2025
+    evidence: 'Acceptance notification: December 15, 2025 December 22, 2025.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 10-12, 2026
+    evidence: 'Conference days: April 10-12, 2026.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 10-12, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The paper should be anonymous . Please remove any information that may
+      disclose your personal information, including but not limited to name, email...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 14 pages
+    evidence: The paper length should not exceed 14 pages (including references),
+      except for review articles.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please use the latest LaTex template (choosing "cvmpaper_for_review.tex"
+      for anonymous submission) to prepare for the manuscript of your paper.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Each submission is allowed to upload supplementary materials within
+      50 MB.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Visualization and Computer Graphics, Journal of Computer
+      Science and Technology (Springer), Computational Visual Media (IEEE Xplore)
+    evidence: Accepted full papers will undergo a revision round before being published
+      in prestigious journals, including IEEE Transactions on Visualization and...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Visualization and Computer Graphics, Journal of
+          Computer Science and Technology (Springer), Computational Visual Media (IEEE
+          Xplore)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Technical briefs will not be formally published but will be compiled
+      into electronic proceedings for conference attendees and showcased as posters
+      at...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seoul, South Korea
+    evidence: CVM 2026 will be held in Seoul, South Korea , on April 10 - 12, 2026
+      .
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Seoul, South Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, South Korea
+  conference_format:
+    value: in-person
+    evidence: CVM 2026 will be held in Seoul, South Korea , on April 10 - 12, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Please create an account and submit your work via: https://iccvm.org/conference/.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

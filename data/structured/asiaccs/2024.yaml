@@ -1,0 +1,287 @@
+conference: ASIACCS
+year: 2024
+last_checked: '2026-02-16T08:37:28.866407+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: January 28, 2024
+    evidence: 'Paper submission deadline : Jan 28, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 28, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 3, 2024
+    evidence: 'Author notification: Apr 3, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 3, 2024
+  camera_ready_deadline:
+    value: September 5, 2024
+    evidence: 'Camera-ready deadline: September 5, 2024, 23:59:59 (AoE, or UTC -12)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 5, 2024
+  conference_dates:
+    value: October 14-18, 2024
+    evidence: 'date: October 14-18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 14-18, 2024
+  rebuttal_deadline:
+    value: March 22, 2024
+    evidence: 'Rebuttal deadline: Mar 22, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 22, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must be received by 11:59 PM AoE (UTC-12) on the day
+      of the corresponding deadline. Submitted papers must not substantially overlap...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Author rebuttal period: Mar 18-22, 2024'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: All submitted papers will be evaluated based on their merits, particularly
+      their importance to practical aspects of computer and communications...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must be a PDF file in double-column ACM format
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Submissions whose claimed contributions do not rely on artifacts do
+      not need to submit artifacts. An anonymous link to a resource on the web is...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Each workshop will also have online proceedings through the ACM Digital
+      Library, with a separate ISBN
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: For papers that might raise ethical concerns, authors are expected to
+      convince reviewers that proper procedures (such as IRB approval or responsible...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: All authors of accepted papers (including shepherd approved and minor
+      revisions) are encouraged to submit artifacts for AE
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Salt Lake City, U.S.A
+    evidence: 'place: Salt Lake City, U.S.A'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Salt Lake City, U.S.A
+    normalized:
+      city: Salt Lake City
+      country: US
+      display: Salt Lake City, US
+      raw: Salt Lake City, U.S.A
+  conference_format:
+    value: in-person
+    evidence: Poster sessions will be held in presence.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions for the first review cycle go to https://ccs2024a.hotcrp.com/
+      . Submissions for the second review cycle go to...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop Proposals are solicited for workshops to be held in conjunction
+      with ACM CCS 2024
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,294 @@
+conference: ICVRV
+year: 2025
+last_checked: '2026-02-16T09:58:18.257739+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: August 22, 2025
+    evidence: Paper Due
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 22, 2025
+  abstract_deadline:
+    value: August 15, 2025
+    evidence: Abstracts Due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 15, 2025
+  notification_date:
+    value: September 22, 2025
+    evidence: Author Notification September 15, 2025 September 22, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 22, 2025
+  camera_ready_deadline:
+    value: October 15, 2025
+    evidence: Camera-ready Paper Upolad
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 15, 2025
+  conference_dates:
+    value: December 19-21, 2025
+    evidence: Conference Dates
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 19-21, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: November 1, 2025
+    evidence: Registration By
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 1, 2025
+  double_blind:
+    value: true
+    evidence: Reviewing is double-blind
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: Papers must be at least 4 pages and no longer than 6 pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: MUST be prepared in ICVRV Review Formatin PDF format. Download word
+      template and latex template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are strongly encouraged to submit supplementary materials (videos,
+      codes, data, more figures, and etc.) of their work as part of their...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of ICVRV 2025
+    evidence: All accepted ICVRV papers will appear in the Proceedings of ICVRV 2025
+      and will be submitted for inclusion to the IEEE Xplore Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of ICVRV 2025
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Please note that all camera-ready submissions must be prepared using
+      Latex template.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: Submissions for ICVRV 2025 MUST NOT be in English, and MUST be prepared
+      in ICVRV Review Formatin PDF format.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Bogota, Colombia
+    evidence: ICVRV 2025 will be held in Bogota, Colombia, from December 19-21, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bogota, Colombia
+    normalized:
+      city: Bogota
+      country: Colombia
+      display: Bogota, Colombia
+      raw: Bogota, Colombia
+  conference_format:
+    value: in-person
+    evidence: All accepted submissions MUST be registered and presented orally at
+      ICVRV 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Online Submission System
+    evidence: Electronic Submissions for ICVRV 2025 is mandatory and MUST be conducted
+      using the Online Submission System.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Online Submission System
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Authors are required to prepare a poster using the official template
+      and provide a pre-recorded 8-minute presentation video.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: From all accepted and presented papers, an international jury will select
+      the best papers. The best paper will receive the Best Paper Award,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,305 @@
+conference: TCC
+year: 2024
+last_checked: '2026-02-16T08:27:44.647866+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: May 20, 2024
+    evidence: Submission deadline at 8pm CEST
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 20, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Aug 27, 2024
+    evidence: Aug 27, 2024 Final notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Aug 27, 2024
+  camera_ready_deadline:
+    value: Sep 23, 2024
+    evidence: Sep 23, 2024 Final version due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Sep 23, 2024
+  conference_dates:
+    value: Dec 2-6, 2024
+    evidence: The 22nd Theory of Cryptography Conference 2024 will take place in Milan,
+      Italy on December 2-6, 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Dec 2-6, 2024
+  rebuttal_deadline:
+    value: Jul 26, 2024
+    evidence: Jul 26, 2024 Rebuttal period ends
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Jul 26, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Nov 20, 2024
+    evidence: available through November 20th (AoE)
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Nov 20, 2024
+  double_blind:
+    value: true
+    evidence: Submissions must be anonymized and should not contain any identifying
+      information.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: At least one author of each accepted paper is required to present the
+      paper in person at the conference.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: The paper should be intelligible by reviewers who are not required to
+      read past the 15th page of the Springer format
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically through the submission webpage
+      (see button at the top of this page). The authors are allowed to revise the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submissions must not substantially duplicate work that was published
+      elsewhere, or work that any of the authors has submitted in parallel to any...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Lecture Notes in Computer Science (LNCS)
+    evidence: Proceedings will be published in Lecture Notes in Computer Science (LNCS)
+      with Springer.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Lecture Notes in Computer Science (LNCS)
+  statements:
+    value: false
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Milan, Italy
+    evidence: The 22nd Theory of Cryptography Conference 2024 will take place in Milan,
+      Italy on December 2-6, 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Milan, Italy
+    normalized:
+      city: Milan
+      country: Italy
+      display: Milan, Italy
+      raw: Milan, Italy
+  conference_format:
+    value: in-person
+    evidence: At least one author of each accepted paper is required to present the
+      paper in person at the conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: At least one author of each accepted paper is required to present the
+      paper in person at the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: There is also hotel information available now
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Papers must be submitted electronically through the submission webpage
+      (see button at the top of this page).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best Young Researcher Paper Award
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

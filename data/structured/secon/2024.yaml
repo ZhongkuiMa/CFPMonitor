@@ -1,0 +1,304 @@
+conference: SECON
+year: 2024
+last_checked: '2026-02-16T08:56:09.428152+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: August 30, 2024
+    evidence: 'Paper Submission: August 30, 2024 (firm)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 30, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: October 18, 2024
+    evidence: 'Paper Acceptance Notification: October 18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 18, 2024
+  camera_ready_deadline:
+    value: November 14, 2024
+    evidence: 'Paper Camera Ready: November 14, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 14, 2024
+  conference_dates:
+    value: December 2-4, 2024
+    evidence: 'Conference: 2-4 December 2024 (Monday-Wednesday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 2-4, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: November 8, 2024
+    evidence: 'Registration deadline authors of the main conference: November 8, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 8, 2024
+  double_blind:
+    value: true
+    evidence: All submitted papers will be judged based on their quality and relevance
+      through double-blind reviewing, where the identities of the authors are...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Papers that do not conform to our double-blind submission policies will
+      be rejected without review.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: 'Maximum Length (Pages): 9'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Use the standard IEEE Transactions templates for Microsoft Word or LaTeX
+      formats at https://www.ieee.org/conferences/publishing/templates.html.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted and presented papers will be published in the IEEE SECON 2024
+      conference proceedings and submitted to IEEE XploreÂ® as well as other...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Phoenix, AZ, USA
+    evidence: 2–4 December 2024 // Phoenix, AZ, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Phoenix, AZ, USA
+    normalized:
+      city: Phoenix
+      country: US
+      display: Phoenix, US
+      raw: Phoenix, AZ, USA
+  conference_format:
+    value: in-person
+    evidence: 'Conference: 2-4 December 2024 (Monday-Wednesday)'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: true
+    evidence: Workshop proposals are solicited for the main conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: EDAS
+    evidence: 'Submit your papers via EDAS at: https://edas.info/N32699'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: The 21st annual IEEE SECON conference will provide a unique forum to
+      exchange innovative research ideas, present recent results, and share...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: The IEEE SECON 2024 demo session solicits the submission of research,
+      platform, and product demonstrations and exhibits from both academia and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: true
+    evidence: IEEE SECON 2024 will include a poster session to provide a unique forum
+      to exchange innovative research ideas, recent results, and share experiences...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

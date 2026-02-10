@@ -1,0 +1,603 @@
+conference: APSEC
+year: 2025
+last_checked: '2026-02-16T09:26:13.918858+00:00'
+completeness:
+  known: 35
+  total: 40
+  percentage: 87.5
+quality:
+  conflict_count: 4
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: September 20, 2025
+      llm_batch2: September 20, 2025 (Extended)
+      llm_batch3: September 20, 2025
+      llm_batch4: September 20, 2025
+      llm_batch5: September 20, 2025
+      llm_batch6: September 20, 2025
+      llm_batch7: September 20, 2025
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'False'
+      llm_batch3: 'False'
+      llm_batch4: 'False'
+      llm_batch5: 'False'
+      llm_batch6: 'False'
+      llm_batch7: 'True'
+  - field: has_demos
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'False'
+      llm_batch5: 'True'
+      llm_batch6: 'False'
+  - field: has_awards
+    values:
+      llm_batch1: 'False'
+      llm_batch3: 'False'
+      llm_batch4: 'True'
+      llm_batch6: 'False'
+  source_coverage:
+    llm: 35
+rules:
+  submission_deadline:
+    value: July 20, 2025
+    evidence: 'Submission Deadline (Optional): July 13, 2025 (Extended) Paper Deadline:
+      July 20, 2025 (Extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: July 20, 2025
+      llm_batch2:
+        value: July 20, 2025
+      llm_batch3:
+        value: July 20, 2025
+      llm_batch4:
+        value: July 20, 2025
+      llm_batch5:
+        value: July 20, 2025
+      llm_batch6:
+        value: July 20, 2025
+      llm_batch7:
+        value: July 20, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 20, 2025
+    evidence: 'Author Notification: September 20, 2025 (Extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 20, 2025
+      llm_batch2:
+        value: September 20, 2025 (Extended)
+      llm_batch3:
+        value: September 20, 2025
+      llm_batch4:
+        value: September 20, 2025
+      llm_batch5:
+        value: September 20, 2025
+      llm_batch6:
+        value: September 20, 2025
+      llm_batch7:
+        value: September 20, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: October 20, 2025
+    evidence: 'Camera Ready Deadline: October 20, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: October 20, 2025
+      llm_batch2:
+        value: October 20, 2025
+      llm_batch3:
+        value: October 20, 2025
+      llm_batch4:
+        value: October 20, 2025
+      llm_batch5:
+        value: October 20, 2025
+      llm_batch6:
+        value: October 20, 2025
+      llm_batch7:
+        value: October 20, 2025
+  conference_dates:
+    value: December 2-5, 2025
+    evidence: 'date: December 2-5, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: December 2-5, 2025
+      llm_batch2:
+        value: December 2-5, 2025
+      llm_batch3:
+        value: December 2-5, 2025
+      llm_batch4:
+        value: December 2-5, 2025
+      llm_batch5:
+        value: December 2-5, 2025
+      llm_batch6:
+        value: December 2-5, 2025
+      llm_batch7:
+        value: December 2-5, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: November 2, 2025
+    evidence: 'Author Registration Deadline : November 2, 2025, 12:59 PM (AoE) (Extended)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: November 2, 2025
+  double_blind:
+    value: true
+    evidence: "The APSEC 2025 technical research track will use a double-blind reviewing\
+      \ process, which means that submissions must not reveal the authorsâ\x80\x99\
+      ..."
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+      llm_batch4:
+        value: 'True'
+      llm_batch5:
+        value: 'True'
+      llm_batch6:
+        value: 'True'
+      llm_batch7:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch4:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are encouraged to provide a rebuttal in response to the reviews
+      of their papers.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch4:
+        value: 'True'
+      llm_batch5:
+        value: 'True'
+      llm_batch6:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch6:
+        value: 'False'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch4:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: Technical research papers must not exceed 12 pages (including references).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 12 pages
+      llm_batch2:
+        value: 12 pages
+      llm_batch3:
+        value: 12 pages
+      llm_batch4:
+        value: 12 pages
+      llm_batch5:
+        value: 12 pages
+      llm_batch6:
+        value: 12 pages
+      llm_batch7:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must be submitted electronically in PDF before the due date
+      via HotCRP.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+      llm_batch4:
+        value: 'True'
+      llm_batch5:
+        value: 'True'
+      llm_batch6:
+        value: 'True'
+      llm_batch7:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch4:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Submissions will be evaluated by at least three program committee members.
+      The evaluation will focus on the novelty, originality, importance to the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: To ensure a fair and unbiased double-blind review process, authors submitting
+      papers to APSEC 2025 must comply with the following guidelines...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  publication_venue:
+    value: IEEE Digital Library
+    evidence: All accepted papers will be included in the IEEE Digital Library as
+      the APSEC 2025 conference proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: IEEE Digital Library
+      llm_batch2:
+        value: IEEE Digital Library
+      llm_batch3:
+        value: IEEE Digital Library
+      llm_batch4:
+        value: IEEE Digital Library
+      llm_batch5:
+        value: IEEE Digital Library
+      llm_batch6:
+        value: IEEE Digital Library
+      llm_batch7:
+        value: IEEE Digital Library
+  statements:
+    value: true
+    evidence: 'Evaluation Criteria: The evaluation will focus on the novelty, originality,
+      importance to the field, proper use of research methods, and presentation...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch4:
+        value: 'True'
+      llm_batch5:
+        value: 'True'
+      llm_batch6:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Macao SAR, China
+    evidence: 'place: Macao SAR, China'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Macao SAR, China
+      llm_batch2:
+        value: Macao SAR, China
+      llm_batch3:
+        value: Macao SAR, China
+      llm_batch4:
+        value: Macao SAR, China
+      llm_batch5:
+        value: Macao SAR, China
+      llm_batch6:
+        value: Macao SAR, China
+      llm_batch7:
+        value: Macao SAR, China
+    normalized:
+      city: Macao Sar
+      country: China
+      display: Macao Sar, China
+      raw: Macao SAR, China
+  conference_format:
+    value: in-person
+    evidence: "The APSEC 2025 technical research track will use a double-blind reviewing\
+      \ process, which means that submissions must not reveal the authorsâ\x80\x99\
+      ..."
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+      llm_batch3:
+        value: in-person
+      llm_batch4:
+        value: in-person
+      llm_batch5:
+        value: in-person
+      llm_batch6:
+        value: in-person
+      llm_batch7:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+      llm_batch3:
+        value: '[''oral'']'
+      llm_batch4:
+        value: '[''oral'']'
+      llm_batch5:
+        value: '[''oral'']'
+      llm_batch6:
+        value: '[''oral'']'
+      llm_batch7:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+      llm_batch4:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+      llm_batch7:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Papers must be submitted through HotCRP: https://apsec25.hotcrp.com'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch3:
+        value: HotCRP
+      llm_batch4:
+        value: HotCRP
+      llm_batch5:
+        value: HotCRP
+      llm_batch6:
+        value: HotCRP
+      llm_batch7:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop Proposal Submission: September 5, 2025 (Extended)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+      llm_batch4:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+      llm_batch7:
+        value: 'True'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch5:
+        value: 'True'
+      llm_batch6:
+        value: 'False'
+    _conflict: true
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: APSEC 2025 - Student Research Competition - APSEC 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+      llm_batch4:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+      llm_batch5:
+        value: 'False'
+      llm_batch6:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+      llm_batch4:
+        value: 'True'
+      llm_batch6:
+        value: 'False'
+    _conflict: true

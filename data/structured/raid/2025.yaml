@@ -1,0 +1,281 @@
+conference: RAID
+year: 2025
+last_checked: '2026-02-16T10:04:39.119002+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: April 24, 2025
+    evidence: 'Submission Deadline: Thursday April 17th April 24th 2025 , 11:59:59pm
+      Anywhere on earth (UTC-12)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 24, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 9, 2025
+    evidence: 'Notification to Authors: Wednesday July 9th 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 9, 2025
+  camera_ready_deadline:
+    value: August 14, 2025
+    evidence: 'Camera-ready Deadline: Thursday Aug 14th 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 14, 2025
+  conference_dates:
+    value: October 19-22, 2025
+    evidence: 'Conference Dates: October 19th - October 22nd 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 19-22, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Reviewing will be double-blind, meaning the authors’ identities will
+      be hidden from the reviewers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions must be a PDF file, and should follow the IEEE 8.5″ x 11″
+      two-column format using 10pt fonts and the IEEE Conference template...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must be a PDF file, and should follow the IEEE 8.5″ x 11″
+      two-column format using 10pt fonts and the IEEE Conference template...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Simultaneous submission of the same work to multiple venues, submission
+      of previously published work, and plagiarism constitute dishonesty or fraud.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Conference Publishing Services CPS
+    evidence: Papers that have been formally reviewed and accepted will be presented
+      at RAID 2025 and published in conference proceedings by Conference Publishing...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Conference Publishing Services CPS
+  statements:
+    value: true
+    evidence: Human Subjects and Ethical Considerations
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Gold Coast, Australia
+    evidence: 'place: Gold Coast, Australia'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Gold Coast, Australia
+    normalized:
+      city: Gold Coast
+      country: Australia
+      display: Gold Coast, Australia
+      raw: Gold Coast, Australia
+  conference_format:
+    value: in-person
+    evidence: The conference is known for the quality and thoroughness of the reviews
+      of the papers submitted, the desire to build a bridge between research...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'The submission site is available here: https://raid2025.hotcrp.com/
+      .'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Call for Posters
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

@@ -1,0 +1,311 @@
+conference: ICLR
+year: 2024
+last_checked: '2026-02-16T08:47:16.622595+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: September 28, 2023
+    evidence: 'Submission date: 11:59pm, Sept 28'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 28, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 15, 2024
+    evidence: 'Final decisions: Jan 15, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 15, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 7-11, 2024
+    evidence: "The planned dates are as follow (all times are UTC-12h, aka â\x80\x9C\
+      Anywhere on Earthâ\x80\x9D): Abstract submission: 11:59pm, Sept 23 (Note: this\
+      \ date was..."
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 7-11, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'Submissions will be double blind: reviewers cannot see author names
+      when conducting reviews, and authors cannot see reviewer names.'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: true
+    evidence: Official reviews are anonymous and publicly visible. During the public
+      discussion phase, anybody who is logged in can post comments that are publicly...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors can revise their paper as many times as needed up to the paper
+      submission deadline. Changes to the paper will not be allowed while the paper...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: There will be a strict upper limit of 9 pages for the main text of the
+      submission, with unlimited additional pages for citations.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Authors may use as many pages of appendices (after the bibliography)
+      as they wish, but reviewers are not required to read the appendix.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'To prepare your submission to ICLR 2024, please use the LaTeX style
+      files provided at: https://github.com/ICLR/Master-Template/raw/master/iclr2024.zip'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary material is due at the same time as the main paper.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: To allow citation of papers that are under review at ICLR2024, OpenReview
+      provides BibTeX entries that do not list the authors, but does give the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: true
+    evidence: All ICLR participants, including authors, are required to adhere to
+      the ICLR Code of Ethics (https://iclr.cc/public/CodeOfEthics). All authors of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of LLMs is allowed as a general-purpose writing assist tool.
+      Authors should understand that they take full responsibility for the contents
+      of...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Vienna, Austria
+    evidence: Messe Wien Exhibition and Congress Center , Vienna Austria May 7th,
+      2024 to May 11th, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Vienna, Austria
+    normalized:
+      city: Vienna
+      country: Austria
+      display: Vienna, Austria
+      raw: Vienna, Austria
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: The program will include oral presentations and posters of accepted
+      papers.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: false
+    evidence: In general, there are travel grants associated with every ICLR, prioritizing
+      applicants with published papers, workshop organizers, volunteers,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: As in past years, workshops will have their own organization and call
+      for contributions.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'Abstracts and papers must be submitted using the conference submission
+      system at: https://openreview.net/group?id=ICLR.cc/2024/Conference'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: The program will include oral presentations and posters of accepted
+      papers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Papers that are not accepted will be considered non-archival, and may
+      be submitted elsewhere (modified or not), although the OpenReview site will...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

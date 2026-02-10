@@ -1,0 +1,280 @@
+conference: GROUP
+year: 2025
+last_checked: '2026-02-16T09:26:24.081115+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: May 8, 2024
+    evidence: 'Submission Deadline: May 8, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 8, 2024
+  abstract_deadline:
+    value: May 1, 2024
+    evidence: 'Abstract and Title Submission: May 1, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1, 2024
+  notification_date:
+    value: July 24, 2024
+    evidence: '1st Round Reviews and Notifications: July 24, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 24, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: January 12-15, 2025
+    evidence: 'dates: Jan 12, 2025 - Jan 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 12-15, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers are subject to anonymous review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers that clearly violate the anonymization policy, including within
+      the supplemental materials, will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: between 4,000 and 10,000 words
+    evidence: 'Papers have no fixed minimum or maximum number of pages. Paper length
+      should be commensurate with contribution, and typical submissions are:'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: between 4,000 and 10,000 words
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: See below for a list of important dates.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: GROUP does not have a policy against uploading preprints to SSRN or
+      arXiv before they are submitted for review at the conference.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Proceedings of the ACM on Human-Computer Interaction (PACMHCI)
+    evidence: Papers will be published in the Group track of Proceedings of the ACM
+      on Human-Computer Interaction (PACMHCI).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the ACM on Human-Computer Interaction (PACMHCI)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Papers that clearly violate the anonymization policy, including within
+      the supplemental materials, will be desk rejected.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Hilton Head Island, South Carolina, USA
+    evidence: 'location: Hilton Head Island, South Carolina, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hilton Head Island, South Carolina, USA
+    normalized:
+      city: Hilton Head Island
+      country: US
+      display: Hilton Head Island, US
+      raw: Hilton Head Island, South Carolina, USA
+  conference_format:
+    value: in-person
+    evidence: Remote presentation will not be possible, authors who are not planning
+      to attend the conference will be required to pay a publication fee.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Precision Conference Systems (PCS)
+    evidence: All submissions must be submitted online via the GROUP 2025 selection
+      in Precision Conference Systems (PCS):...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Precision Conference Systems (PCS)
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

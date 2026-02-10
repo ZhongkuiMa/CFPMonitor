@@ -1,0 +1,321 @@
+conference: EUROCRYPT
+year: 2024
+last_checked: '2026-02-16T08:57:09.084017+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 2 2024
+    evidence: Final notification (artifact submissions)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 2 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 26-30, 2024
+    evidence: Eurocrypt 2024 will take place in Zurich, Switzerland on May 26-30,
+      2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 26-30, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions must be anonymous with no author names, affiliations, or
+      obvious references.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: 'The artifact review process will be single-blinded: the authors of
+      the paper and artifact are not anonymous, but the reviewers will be anonymous.'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: The authors of the selected submissions are invited to submit a text-based
+      rebuttal letter to the questions/request for clarification they received...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 27 pages
+    evidence: Submissions must be at most 27 pages long excluding references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 27 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: It is mandatory that the submission be processed in LaTeX2e and use
+      the latest version of Springer's LNCS format according to the instructions given...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Any amount of clearly marked supplementary material may be supplied,
+      following the main body of the paper or in separate files; however, reviewers...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Submissions must not substantially duplicate published work or work
+      that has been submitted in parallel to any other journal or conference/workshop...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer in the LNCS series
+    evidence: The proceedings will be published by Springer in the LNCS series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer in the LNCS series
+  statements:
+    value: true
+    evidence: For papers that are accepted, the length of the proceedings version
+      will be at most 30 pages using Springer’s standard fonts, font sizes, and...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Eurocrypt 2024 aims to support open and reproducible research within
+      the field of cryptography.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Zurich, Switzerland
+    evidence: Eurocrypt 2024 will take place in Zurich, Switzerland on May 26-30,
+      2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Zurich, Switzerland
+    normalized:
+      city: Zurich
+      country: Switzerland
+      display: Zurich, Switzerland
+      raw: Zurich, Switzerland
+  conference_format:
+    value: in-person
+    evidence: Eurocrypt 2024 will take place in Zurich, Switzerland on May 26-30,
+      2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The final published version of an accepted paper should have at most
+      30 pages in total.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: A limited number of stipends are available to those unable to obtain
+      funding to attend the conference. Students in under-represented groups are...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: Call for Affiliated Events
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: IACR is soliciting proposals for affiliated events to be held in conjunction
+      with Eurocrypt 2024, on Saturday, May 25, and/or Sunday, May 26, hosted...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The Program Committee may choose one or more papers to receive an overall
+      Best Paper Award. In a continuing effort to promote independent work by...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

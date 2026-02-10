@@ -1,0 +1,303 @@
+conference: HSCC
+year: 2026
+last_checked: '2026-02-16T11:00:59.301069+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: November 13, 2025
+    evidence: 'Submission Deadline: November 13, 2025 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 13, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 29, 2026
+    evidence: Acceptance/rejection notifications January 29, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 29, 2026
+  camera_ready_deadline:
+    value: March 31, 2026
+    evidence: 'Camera ready: March 31, 2026 (AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 31, 2026
+  conference_dates:
+    value: May 11-14, 2026
+    evidence: 'Conference dates: May 11-14, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 11-14, 2026
+  rebuttal_deadline:
+    value: January 7-11, 2026
+    evidence: Rebuttal phase January 7-11, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: January 7-11, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: HSCC/ICCPS 2026 will employ light double-blind reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Authors’ rebuttal process : The rebuttal process allows authors to
+      respond to reviewers’ comments, clarify misunderstandings, and provide additional...'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: 'Maximum 10 pages (excluding references): Full technical contributions
+      with comprehensive evaluation.'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All submissions must use the ACM two column conference submission format.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: 'Selected papers will be invited to submit extended versions to: ACM Transactions
+      on Cyber-Physical Systems, Non-Linear Analysis : Hybrid Systems (details to
+      be finalized)'
+    evidence: Publication Venues
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: 'Selected papers will be invited to submit extended versions to: ACM
+          Transactions on Cyber-Physical Systems, Non-Linear Analysis : Hybrid Systems
+          (details to be finalized)'
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors of accepted papers are encouraged to participate in artifact
+      evaluation. Papers passing this process will receive appropriate badges.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Saint Malo, France
+    evidence: 'HSCC/ICCPS 2026 – 29th ACM International Conference on Hybrid Systems:
+      Computation and Control and 17th International Conference on Cyber-Physical...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Saint Malo, France
+    normalized:
+      city: Saint Malo
+      country: France
+      display: Saint Malo, France
+      raw: Saint Malo, France
+  conference_format:
+    value: in-person
+    evidence: 'HSCC/ICCPS 2026 – 29th ACM International Conference on Hybrid Systems:
+      Computation and Control and 17th International Conference on Cyber-Physical...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    - spotlight
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'', ''spotlight'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: All papers will be submitted through the hotcrp conference management
+      system – submission link .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: true
+    evidence: The joint HSCC/ICCPS 2026 seeks high-quality posters and demos
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: true
+    evidence: The joint HSCC/ICCPS 2026 seeks high-quality posters and demos
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The following award categories will be considered
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

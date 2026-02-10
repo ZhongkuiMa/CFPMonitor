@@ -1,0 +1,380 @@
+conference: SIGKDD
+year: 2026
+last_checked: '2026-02-16T11:27:06.226961+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 4
+  conflicts:
+  - field: supplementary_material_allowed
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: artifact_evaluation
+    values:
+      llm_batch1: optional
+      llm_batch2: mandatory
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'', ''poster'']'
+      llm_batch2: '[''oral'']'
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: February 8, 2026
+    evidence: 'Paper Deadline: Feb 8, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 8, 2026
+      llm_batch2:
+        value: February 8, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 16, 2026
+    evidence: 'Notification: May 16, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: May 16, 2026
+      llm_batch2:
+        value: May 16, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: August 9-13, 2026
+    evidence: The conference will take place from August 9 to 13, 2026, in Jeju, Korea.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 9-13, 2026
+      llm_batch2:
+        value: August 9-13, 2026
+  rebuttal_deadline:
+    value: April 4-18, 2026
+    evidence: 'Author Rebuttal Period: Apr 4-17, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: April 4-18, 2026
+      llm_batch2:
+        value: April 4-18, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The review process for the research track will be double-blind . The
+      submitted document should omit any author names, affiliations, or other...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: true
+    evidence: Due to the nature of the Applied Data Science (ADS) track, the review
+      process will be single-blind — author names and affiliations should be listed.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have the chance to provide a response to each review during
+      the rebuttal period.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: An incomplete OpenReview profile is sufficient ground for desk rejection.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Submissions must be a single PDF file: 8 (eight) content pages as main
+      paper, followed by references and an optional Appendix that has no page limits.'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must adhere to the ACM template and format (also available
+      in Overleaf); Word users may use the Word Interim Template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are encouraged to make their code and data publicly available.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: The ACM has a strict policy against plagiarism, misrepresentation, and
+      falsification that applies to all publications.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Accepted papers will be allowed the same maximum page length in the
+      proceedings (12 pages, of which 9 are content pages), which will be published
+      by...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors are encouraged to include a section on the ethical use of data
+      and/or informed consent of research subjects in their paper, when appropriate.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Upon acceptance, authors are strongly encouraged to make their code
+      and data publicly available. We are promoting the use of the “Artifacts...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: optional
+      llm_batch2:
+        value: mandatory
+    _conflict: true
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Jeju, Korea
+    evidence: The conference will take place from August 9 to 13, 2026, in Jeju, Korea.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Jeju, Korea
+      llm_batch2:
+        value: Jeju, Korea
+    normalized:
+      city: null
+      country: South Korea
+      display: South Korea
+      raw: Jeju, Korea
+  conference_format:
+    value: in-person
+    evidence: Every accepted paper must be presented at the conference. No-show papers
+      may be withdrawn from the proceedings.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: true
+    evidence: All accepted applicants will receive some financial support towards
+      attending the conference, in exchange for volunteering a few hours of their
+      time...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: The KDD 2026 organizing committee solicits proposals for full-day and
+      half-day workshops to be held in conjunction with the main conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: We will use OpenReview to manage the submissions and reviewing.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'

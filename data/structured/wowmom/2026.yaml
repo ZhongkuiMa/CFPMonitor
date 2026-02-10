@@ -1,0 +1,341 @@
+conference: WOWMOM
+year: 2026
+last_checked: '2026-02-16T11:48:03.400938+00:00'
+completeness:
+  known: 36
+  total: 40
+  percentage: 90.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 36
+rules:
+  submission_deadline:
+    value: December 15, 2025
+    evidence: 'Papers due (upload pdf): December 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 19, 2026
+    evidence: 'Acceptance notification: February 19, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 19, 2026
+  camera_ready_deadline:
+    value: April 18, 2026
+    evidence: 'Camera-ready version due: April 18, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 18, 2026
+  conference_dates:
+    value: June 16-19, 2026
+    evidence: Welcome to the 27th IEEE International Symposium on a World of Wireless,
+      Mobile and Multimedia Networks (WoWMoM) , the conference for researchers and...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 16-19, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: WoWMoM 2026 will adopt a double-blind review process. Refer to the details
+      under Paper Submission for the requirements to double-blind submissions.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: WoWMoM 2026 will adopt a double-blind review process. Refer to the details
+      under Paper Submission for the requirements to double-blind submissions.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 10 pages
+    evidence: Regular papers' submissions may be up to max 10 pages in length (including
+      figures and references), formatted in two-column IEEE conference style...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Only PDF files will be accepted for the review process, and all submissions
+      must be made electronically through EDAS. Click here to register your...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: For regular papers, up to max 2 additional pages can be obtained with
+      per-page extra charge, only after the acceptance, in case the reviewers will...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Non-anonymous preprints (on arXiv or other preprint servers) will not
+      lead to the rejection of your paper.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: All conference proceedings must meet IEEE's quality standards, and IEEE
+      reserves the right not to publish any proceedings that do not meet these...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: WoWMoM 2026 will adopt a double-blind review process. Refer to the details
+      under Paper Submission for the requirements to double-blind submissions.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Bologna, Italy
+    evidence: Welcome to the 27th IEEE International Symposium on a World of Wireless,
+      Mobile and Multimedia Networks (WoWMoM) , the conference for researchers and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bologna, Italy
+    normalized:
+      city: Bologna
+      country: Italy
+      display: Bologna, Italy
+      raw: Bologna, Italy
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: true
+    evidence: The IEEE International Symposium on a World of Wireless, Mobile and
+      Multimedia Networks (IEEE WoWMoM 2026) is a premier forum for networking,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: EDAS
+    evidence: Click here to register your paper now! Paper submission Link (opens
+      in new window).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EDAS
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshops (Proposals): Proposals due: January 31, 2026 Extended: February
+      10, 2026'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: All accepted regular papers will be considered for the Best Paper Award.
+      A committee will select three best paper candidates based on the reviews...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

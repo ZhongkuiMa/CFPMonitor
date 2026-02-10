@@ -1,0 +1,331 @@
+conference: SOSP
+year: 2025
+last_checked: '2026-02-16T09:32:13.361881+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: April 17, 2025
+    evidence: Submission deadline (no extensions) April 17, 2025; 23:59 PT
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 17, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 15, 2025
+    evidence: Author notification July 15, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 15, 2025
+  camera_ready_deadline:
+    value: September 1, 2025
+    evidence: Camera ready due September 1, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 1, 2025
+  conference_dates:
+    value: October 13-16, 2025
+    evidence: Conference October 13-16, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 13-16, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: SOSP will use double-blind reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Author Response Period SOSP will provide an opportunity for authors
+      to respond to reviews prior to final consideration of the papers at the program...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: Papers will be submitted electronically in PDF format. Submissions may
+      have at most 12 pages of technical content, including all text, figures,...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Most of these rules are automatically applied when using the official
+      SIGPLAN LaTeX or MS Word templates from the ACM, available from the ACM...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary Material Authors may optionally include supplementary
+      material as a separate document.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Papers of particular merit will be forwarded to the ACM Transactions
+      on Computer Systems (TOCS) and the Communications of the ACM's Research...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Papers of particular merit will be forwarded to the ACM Transactions
+      on Computer Systems (TOCS) and the Communications of the ACM's Research...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: For papers of particular merit, ethics, broader impact, reproducibility
+      checklist, or funding disclosure is required.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Accepted Papers Papers selected by the program committee will receive
+      conditional acceptance, with the final acceptance subject to revisions and...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: SOSP will use double-blind reviewing. Please make a good faith attempt
+      to anonymize your submission. Avoid identifying yourself or your institution...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Lotte Hotel World, Seoul, Republic of Korea
+    evidence: 'Date: October 13 - 16, 2025 place: Lotte Hotel World, Seoul, Republic
+      of Korea'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lotte Hotel World, Seoul, Republic of Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Lotte Hotel World, Seoul, Republic of Korea
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: SOSP 2025, through generous donations from conference sponsors, will
+      offer grants to assist participants attending the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: The workshops and tutorials are aimed to provide a forum for exchanging
+      opinions, presenting ideas, and discussing preliminary results with a diverse...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submissions will be judged on novelty, significance, interest, clarity,
+      relevance, and correctness. A good paper will: Motivate a significant...'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: We are pleased to invite submissions for the poster session at SOSP
+      2025.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: SOSP will host its sixth ACM Student Research Competition (SRC) , sponsored
+      by SIGOPS.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The first-place winners of the competition will be invited to participate
+      in the ACM Student Research Competition Grand Finals.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

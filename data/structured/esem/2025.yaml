@@ -1,0 +1,436 @@
+conference: ESEM
+year: 2025
+last_checked: '2026-02-16T09:48:48.949152+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: abstract_deadline
+    values:
+      llm_batch1: May 16, 2025
+      llm_batch2: April 18, 2025
+      llm_batch3: May 16, 2025
+  - field: notification_date
+    values:
+      llm_batch1: July 4, 2025
+      llm_batch2: June 16, 2025
+      llm_batch3: July 4, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: July 25, 2025
+      llm_batch2: June 27, 2025
+      llm_batch3: July 25, 2025
+  - field: page_limit
+    values:
+      llm_batch1: 8 pages
+      llm_batch2: 10 pages
+      llm_batch3: 6 pages (plus one page with references)
+  - field: page_limit_exclusions
+    values:
+      llm_batch1: 'True'
+      llm_batch3: 'False'
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: April 25, 2025
+    evidence: 'Submission: Apr. 25th, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch2:
+        value: April 25, 2025
+  abstract_deadline:
+    value: May 16, 2025
+    evidence: 'Abstract: May 16, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: May 16, 2025
+      llm_batch2:
+        value: April 18, 2025
+      llm_batch3:
+        value: May 16, 2025
+    _conflict: true
+  notification_date:
+    value: July 4, 2025
+    evidence: 'Notification: July 04, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: July 4, 2025
+      llm_batch2:
+        value: June 16, 2025
+      llm_batch3:
+        value: July 4, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: July 25, 2025
+    evidence: 'Camera-ready: July 25, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: July 25, 2025
+      llm_batch2:
+        value: June 27, 2025
+      llm_batch3:
+        value: July 25, 2025
+    _conflict: true
+  conference_dates:
+    value: September 28 - October 3, 2025
+    evidence: 'date: September 29 - October 3, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 28 - October 3, 2025
+      llm_batch2:
+        value: September 28 - October 3, 2025
+      llm_batch3:
+        value: September 28 - October 3, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The ESEM 2025 Emerging Results, Vision and Reflection Papers track will
+      employ a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+      llm_batch3:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Submissions must include an additional section, a Lay Abstract: a 250-word
+      summary of the paper written in plain English, intended to be read not by...'
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Any papers that are outside the scope of the symposium, exceed the maximum
+      number of pages for the respective category, or do not follow the...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch3:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: Reciprocal review is not mentioned in any source
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 6 pages (plus one page with references)
+    evidence: Submissions to this track are limited to 6 pages (plus one page with
+      references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 10 pages
+      llm_batch3:
+        value: 6 pages (plus one page with references)
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch3:
+        value: 'False'
+    _conflict: true
+  template_required:
+    value: true
+    evidence: All submissions must be formatted according to the standard IEEE template
+      in conference mode
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Submissions must include an additional section, a Lay Abstract: a 250-word
+      summary of the paper written in plain English, intended to be read not by...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: The review committee members’ bidding information may be used to assess
+      what is considered out of scope.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  publication_venue:
+    value: IEEE
+    evidence: All submissions will undergo the same review process independent of
+      whether or not they disclose their tools, data, and code
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: IEEE
+      llm_batch2:
+        value: IEEE
+      llm_batch3:
+        value: IEEE
+  statements:
+    value: true
+    evidence: 'Submissions must include an additional section, a Lay Abstract: a 250-word
+      summary of the paper written in plain English, intended to be read not by...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'Open Science Policy: Openness in science is key to fostering progress
+      via transparency, reproducibility, and replicability.'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch3:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ESEM - Technical Track / ESEM - Emerging Results and Vision Track
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch3:
+        value: allowed
+  conference_location:
+    value: Honolulu, Hawai, USA
+    evidence: 'place: Honolulu, Hawai, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Honolulu, Hawai, USA
+      llm_batch2:
+        value: Honolulu, Hawai, USA
+      llm_batch3:
+        value: Honolulu, Hawai, USA
+    normalized:
+      city: Honolulu
+      country: US
+      display: Honolulu, US
+      raw: Honolulu, Hawai, USA
+  conference_format:
+    value: in-person
+    evidence: The conference will take place in Honolulu, Hawaii, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+      llm_batch3:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Your Program: Oral presentations, posters, and demonstrations are welcome.'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+      llm_batch3:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions to this track are limited to 6 pages (plus one page with
+      references) and must be submitted through EasyChair by selecting the track...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: EasyChair
+      llm_batch3:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+      llm_batch3:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

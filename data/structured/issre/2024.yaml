@@ -1,0 +1,284 @@
+conference: ISSRE
+year: 2024
+last_checked: '2026-02-16T08:46:03.393630+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: May 15, 2024
+    evidence: 'Paper submission deadline: May 15th, 2024 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 26, 2024
+    evidence: 'Notification to authors: July 26th, 2024 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 26, 2024
+  camera_ready_deadline:
+    value: August 23, 2024
+    evidence: 'Camera ready papers: August 23rd, 2024 (AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 23, 2024
+  conference_dates:
+    value: October 28-31, 2024
+    evidence: 'date: October 28-31, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 28-31, 2024
+  rebuttal_deadline:
+    value: July 5-8, 2024
+    evidence: 'Author rebuttal period: July 5th-July 8th, 2024 (AoE)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 5-8, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Anonymizing Rules
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Review Process and Author Response
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages (including references) for REG; 12 pages (including references)
+      for PER; 6 - 10 pages (including references) for TAR
+    evidence: Papers that exceed the number of pages for that submission category
+      will be rejected without review.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages (including references) for REG; 12 pages (including references)
+          for PER; 6 - 10 pages (including references) for TAR
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must adhere to the IEEE Computer Society Format Guidelines
+      as implemented by the following LaTeX/Word templates
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Papers presented at the conference will be submitted for inclusion into
+      IEEE Xplore and to all of the A&I (abstracting and indexing) partners
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: The ISSRE conference encourages authors of research papers to follow
+      the principles of transparency, reproducibility, and replicability.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: At least one author of every accepted paper is required to submit artifacts
+      to the Artifact Evaluation (AE) track
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Tsukuba, Japan
+    evidence: Tsukuba, Japan, October 28th - 31st, 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tsukuba, Japan
+    normalized:
+      city: Tsukuba
+      country: Japan
+      display: Tsukuba, Japan
+      raw: Tsukuba, Japan
+  conference_format:
+    value: in-person
+    evidence: The conference will take place at the Tsukuba International Congress
+      Center.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Papers are submitted via Easychair at the following URL: https://easychair.org/conferences/?conf=issre2024'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Best Research Paper Award
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

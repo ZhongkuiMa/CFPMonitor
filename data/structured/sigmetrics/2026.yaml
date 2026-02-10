@@ -1,0 +1,303 @@
+conference: SIGMETRICS
+year: 2026
+last_checked: '2026-02-16T11:20:58.194560+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: January 13, 2026
+    evidence: 'Paper submission: January 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 13, 2026
+  abstract_deadline:
+    value: January 6, 2026
+    evidence: 'Registration of abstract: January 6, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 6, 2026
+  notification_date:
+    value: March 13, 2026
+    evidence: 'Notification: March 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 13, 2026
+  camera_ready_deadline:
+    value: July 11, 2026
+    evidence: 'SRC Camera Ready: July 11, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 11, 2026
+  conference_dates:
+    value: June 8-12, 2026
+    evidence: The 2026 ACM SIGMETRICS conference will be held at the University of
+      Michigan, Ann Arbor, USA from June 8-12, 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 8-12, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Reviewing is double anonymous (also known as double blind); please do
+      NOT include your name or affiliation on the submission.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors can respond to reviewer comments in the shepherding process.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: 'The Operational Systems Track has a slightly different policy: if needed,
+      it may reveal the name of the deploying organization or the deployed system.'
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 20 pages
+    evidence: Papers may have up to 20 pages, in single-column acmsmall template format
+      , for technical content (including all tables and figures), plus unlimited...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: false
+    evidence: No changes to margins, spacing, or font sizes are allowed from those
+      specified by the style files.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically in printable pdf form via the
+      submission site posted on this page.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: It is ACM policy not to allow simultaneous submissions , where the same
+      paper is concurrently submitted to more than one conference/journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Publication of a pre-submission version of the submission on your personal
+      website, institutional archive, or the arXiv is allowed.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+      (POMACS)
+    evidence: The journal publication of accepted papers will appear in the issue
+      of POMACS immediately following acceptance; i.e., papers that are accepted for...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+          (POMACS)
+  statements:
+    value: true
+    evidence: Authors must truthfully declare all conflicts with program committee
+      members on the submission page.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors are allowed to make light use of Large Language Models (LLMs),
+      to improve presentation (e.g., editing, grammar, or figures), but not as part...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Ann Arbor, Michigan, USA
+    evidence: The 2026 ACM SIGMETRICS conference will be held at the University of
+      Michigan, Ann Arbor, USA from June 8-12, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Ann Arbor, Michigan, USA
+    normalized:
+      city: Ann Arbor
+      country: US
+      display: Ann Arbor, US
+      raw: Ann Arbor, Michigan, USA
+  conference_format:
+    value: in-person
+    evidence: The 2026 ACM SIGMETRICS conference will be held at the University of
+      Michigan, Ann Arbor, USA from June 8-12, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Papers invited to present at the SIGMETRICS conference are journal papers
+      accepted to the Proceedings of the ACM on Measurement and Analysis of...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The conference presents papers that have been accepted to appear in
+      the Proceedings of the ACM on Measurement and Analysis of Computing Systems...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers must be submitted electronically in printable pdf form via the
+      submission site posted on this page.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

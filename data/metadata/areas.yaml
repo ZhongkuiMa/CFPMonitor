@@ -1,0 +1,15 @@
+# Conference Research Areas
+# Extracted from conference_metadata.yaml
+# Defines the 10 major research areas for computer science conferences
+
+areas:
+  AI: Artificial Intelligence
+  CG: Computer Graphics & Multimedia
+  CT: Computing Theory
+  DB: Databases & Data Mining
+  DS: Computer Architecture & Parallel Computing
+  HI: Human-Computer Interaction
+  MX: Interdisciplinary & Emerging
+  NW: Computer Networks
+  SC: Security & Cryptography
+  SE: Software Engineering

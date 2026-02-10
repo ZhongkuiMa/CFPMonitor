@@ -1,0 +1,366 @@
+conference: DATE
+year: 2024
+last_checked: '2026-02-16T08:13:22.113364+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 6
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: Sunday, 10 September 2023 AoE
+      llm_batch2: September 17, 2023
+  - field: notification_date
+    values:
+      llm_batch1: Tuesday, 14 November 2023 AoE
+      llm_batch2: December 20, 2023
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Wednesday, 17 January 2024 AoE
+      llm_batch2: January 17, 2024
+  - field: registration_deadline
+    values:
+      llm_batch1: Wednesday, 17 January 2024 AoE
+      llm_batch2: mid-December 2023
+  - field: page_limit
+    values:
+      llm_batch1: 6 pages
+      llm_batch2: 8 pages
+  - field: publication_venue
+    values:
+      llm_batch1: EDAA
+      llm_batch2: proceedings
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: September 17, 2023
+    evidence: All papers must be registered by Sunday, 10 September 2023 AoE (title,
+      abstract and co-authors), the final submission of the paper to be submitted
+      by...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sunday, 10 September 2023 AoE
+      llm_batch2:
+        value: September 17, 2023
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 20, 2023
+    evidence: 'notification: Dec 20, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Tuesday, 14 November 2023 AoE
+      llm_batch2:
+        value: December 20, 2023
+    _conflict: true
+  camera_ready_deadline:
+    value: January 17, 2024
+    evidence: 'camera_ready: Jan 17, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Wednesday, 17 January 2024 AoE
+      llm_batch2:
+        value: January 17, 2024
+    _conflict: true
+  conference_dates:
+    value: March 25-27, 2024
+    evidence: 'dates: Mar 25, 2024 - Mar 27, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: March 25-27, 2024
+      llm_batch2:
+        value: March 25-27, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: mid-December 2023
+    evidence: Authors who get papers accepted in the main conference will need to
+      register by mid-December to have their paper published in the proceedings
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Wednesday, 17 January 2024 AoE
+      llm_batch2:
+        value: mid-December 2023
+    _conflict: true
+  double_blind:
+    value: true
+    evidence: DATE follows a double-blind review process. To support it, submissions
+      must not include authors' names.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: All papers must be registered by Sunday, 10 September 2023 AoE (title,
+      abstract and co-authors), the final submission of the paper to be submitted
+      by...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 6 pages
+      llm_batch2:
+        value: 8 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All papers will be evaluated with regard to their suitability for the
+      conference, originality and technical soundness. The programme committee...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: proceedings
+    evidence: The organisation of user group meetings, fringe meetings, a Young People
+      Programme, vendor presentations and social events offers a wide variety of...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: EDAA
+      llm_batch2:
+        value: proceedings
+    _conflict: true
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: The organisation of user group meetings, fringe meetings, a Young People
+      Programme, vendor presentations and social events offers a wide variety of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Valencia, Spain
+    evidence: 'place: Valencia, Spain'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Valencia, Spain
+      llm_batch2:
+        value: Valencia, Spain
+    normalized:
+      city: Valencia
+      country: Spain
+      display: Valencia, Spain
+      raw: Valencia, Spain
+  conference_format:
+    value: in-person
+    evidence: 'dates: Mar 25, 2024 - Mar 27, 2024'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The organisation of user group meetings, fringe meetings, a Young People
+      Programme, vendor presentations and social events offers a wide variety of...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The organisation of user group meetings, fringe meetings, a Young People
+      Programme, vendor presentations and social events offers a wide variety of...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: SoftConf
+    evidence: All papers must be registered by Sunday, 10 September 2023 AoE (title,
+      abstract and co-authors), the final submission of the paper to be submitted
+      by...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: SoftConf
+      llm_batch2:
+        value: SoftConf
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: The organisation of user group meetings, fringe meetings, a Young People
+      Programme, vendor presentations and social events offers a wide variety of...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

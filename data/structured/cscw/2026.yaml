@@ -1,0 +1,382 @@
+conference: CSCW
+year: 2026
+last_checked: '2026-02-16T10:53:49.760746+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 3
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: August 19, 2025
+      llm_batch2: August 19, 2025 AoE
+  - field: llm_policy
+    values:
+      llm_batch1: forbidden
+      llm_batch2: allowed
+  - field: submission_system
+    values:
+      llm_batch1: Precision Conference System (PCS) 2.0
+      llm_batch2: Manuscript Central
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: May 14, 2025
+    evidence: 'May 14, 2025: New paper submissions due 12:00 Eastern Daylight Time
+      (EDT)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: May 14, 2025
+      llm_batch2:
+        value: May 14, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 19, 2025 AoE
+    evidence: 'Expected notification date: August 19, 2025, AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 19, 2025
+      llm_batch2:
+        value: August 19, 2025 AoE
+    _conflict: true
+  camera_ready_deadline:
+    value: January 13, 2026
+    evidence: 'January 13, 2026: Resubmission of papers that received a Major Revision
+      recommendation due 23:59 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: January 13, 2026
+  conference_dates:
+    value: October 10-14, 2026
+    evidence: 'date: October 10-14, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: October 10-14, 2026
+      llm_batch2:
+        value: October 10-14, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers are subject to anonymous reviewing. Submissions must have authors'
+      names and affiliations removed...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Submissions that receive this decision are ready or nearly ready for
+      publication, though they may require a few small changes.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: ACM permits both desk (or bench) rejects and
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12,000 words
+    evidence: Papers that use a completely different template will be desk rejected.
+      Small variance on font styles, which is possible when authors do not have...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 12,000 words
+      llm_batch2:
+        value: 12,000 words
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Because CSCW papers are published in PACM HCI, authors need to use the
+      old interim ACM Small template...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are encouraged to submit supplementary material when possible
+      and when aligned with their methods.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of the ACM on Human-Computer Interaction (PACM HCI) Journal
+    evidence: Accepted papers are published in the Proceedings of the ACM on Human-Computer
+      Interaction (PACM HCI) Journal.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Proceedings of the ACM on Human-Computer Interaction (PACM HCI) Journal
+      llm_batch2:
+        value: Proceedings of the ACM on Human-Computer Interaction (PACM HCI) Journal
+  statements:
+    value: true
+    evidence: 'SCOPE STATEMENT: Please read the SCOPE section above carefully...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: CSCW employs the following policy on the use of Large Language Models
+      in paper writing.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: forbidden
+      llm_batch2:
+        value: allowed
+    _conflict: true
+  conference_location:
+    value: Salt Lake City, Utah, USA
+    evidence: 'place: Salt Lake City, Utah, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Salt Lake City, Utah, USA
+      llm_batch2:
+        value: Salt Lake City, Utah, USA
+    normalized:
+      city: Salt Lake City
+      country: US
+      display: Salt Lake City, US
+      raw: Salt Lake City, Utah, USA
+  conference_format:
+    value: in-person
+    evidence: CSCW 2026 will be held in the USA in October 2026. Presenting at the
+      conference is strongly recommended but not required.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: Manuscript Central
+    evidence: CSCW Rolling submissions will be managed through Manuscript Central
+      (not PCS).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Precision Conference System (PCS) 2.0
+      llm_batch2:
+        value: Manuscript Central
+    _conflict: true
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'

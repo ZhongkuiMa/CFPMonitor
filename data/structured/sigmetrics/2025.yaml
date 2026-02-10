@@ -1,0 +1,302 @@
+conference: SIGMETRICS
+year: 2025
+last_checked: '2026-02-16T09:56:18.724617+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: January 22, 2025
+    evidence: 'Paper submission: January 22, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 22, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 18, 2025
+    evidence: 'Author notification: March 18, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 18, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: June 9-13, 2025
+    evidence: The main conference will run from Tuesday to Thursday
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 9-13, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Reviewing is double anonymous (also known as double blind)
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors may respond to reviewer comments during the shepherd process
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 20 pages
+    evidence: The submission may have up to 20 pages, in single-column acmsmall template
+      format
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: false
+    evidence: No changes to margins, spacing, or font sizes are allowed from those
+      specified by the style files
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically in printable pdf form via the
+      submission site posted on this page
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: ACM policy not to allow simultaneous submissions, where the same paper
+      is concurrently submitted to more than one conference/journal
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Papers describing experiments with users or user data (e.g., network
+      traffic, passwords, social network information), should follow the basic...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+      (POMACS)
+    evidence: The journal publication of accepted papers will appear in the issue
+      of POMACS immediately following acceptance
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the ACM on Measurement and Analysis of Computing Systems
+          (POMACS)
+  statements:
+    value: true
+    evidence: 'Ethical Considerations: Authors must, as part of the submission process,
+      attest that their work complies with all applicable ethical standards of...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Papers describing experiments with users or user data (e.g., network
+      traffic, passwords, social network information), should follow the basic...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Stony Brook, New York, USA
+    evidence: The conference will be held at the Charles B. Wang Center at Stony Brook
+      University in Stony Brook, New York.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Stony Brook, New York, USA
+    normalized:
+      city: Stony Brook
+      country: US
+      display: Stony Brook, US
+      raw: Stony Brook, New York, USA
+  conference_format:
+    value: in-person
+    evidence: The main conference will run from Tuesday to Thursday
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Papers invited to present at the SIGMETRICS conference are journal papers
+      accepted to the Proceedings of the ACM on Measurement and Analysis of...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Travel grant applications for students are now open here
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: This list is being updated as new workshops are added. Please check
+      back for updates.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: We invite students to present their work in the Student Poster Session
+      at ACM SIGMETRICS 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: Student Posters - SIGMETRICS 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Best Paper Finalists are now announced
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

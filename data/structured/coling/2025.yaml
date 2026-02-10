@@ -1,0 +1,306 @@
+conference: COLING
+year: 2025
+last_checked: '2026-02-16T09:34:00.623687+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: September 16, 2024
+    evidence: Deadline for direct submissions September 16, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 16, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 29, 2024
+    evidence: Notification of acceptance for COLING 2025 November 29, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 29, 2024
+  camera_ready_deadline:
+    value: December 15, 2024
+    evidence: Camera-ready papers due December 15, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 15, 2024
+  conference_dates:
+    value: January 21-24, 2025
+    evidence: Main Conference January 21-24, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 21-24, 2025
+  rebuttal_deadline:
+    value: October 30 - November 1, 2024
+    evidence: Author rebuttal phase (for direct submissions) October 30 - November
+      1, 2024
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: October 30 - November 1, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: November 30, 2024
+    evidence: Registration opens Friday November 30, 2024
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 30, 2024
+  double_blind:
+    value: true
+    evidence: The review process will be double-blind. Reviewers will not see authors,
+      authors will not see reviewers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have the opportunity to provide a short rebuttal to clarify
+      any misunderstandings.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Submissions that violate these requirements will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: COLING 2025 invites the submission of long papers of up to eight pages
+      and short papers of up to four pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers deviating from the provided style files will be rejected without
+      review.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Each COLING 2025 submission can be accompanied by a single .tgz or .zip
+      archive containing supplementary materials
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings
+    evidence: Accepted papers will be given one additional page of content (up to
+      7 pages; ethical considerations, acknowledgements and references do not count...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: Papers need to include a mandatory section discussing the limitations
+      of the work and, optionally, a section discussing ethical considerations.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: NLP and LLM Applications (such as Education, Healthcare, Finance, Legal
+      NLP, Computational Social Science, etc.)
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Abu Dhabi, UAE
+    evidence: The 31st International Conference on Computational Linguistics (COLING)
+      will take place in Abu Dhabi, UAE, January 19-24 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Abu Dhabi, UAE
+    normalized:
+      city: Abu Dhabi
+      country: UAE
+      display: Abu Dhabi, UAE
+      raw: Abu Dhabi, UAE
+  conference_format:
+    value: in-person
+    evidence: The main conference is in-person only, not hybrid
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SoftConf/START
+    evidence: 'Papers should be submitted through Softconf/START using the following
+      link: https://softconf.com/coling2025/papers/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SoftConf/START
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

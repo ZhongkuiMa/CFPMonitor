@@ -1,0 +1,38 @@
+# Copy to config.yaml and edit. config.yaml is gitignored.
+
+# SSH tunnel to remote Ollama server (auto-managed)
+ssh_tunnel:
+  enabled: true
+  host: "YOUR_SERVER_IP"
+  port: 22
+  username: "YOUR_USERNAME"
+  remote_host: "localhost"
+  remote_port: 11434
+  local_port: 11434
+
+ollama:
+  host: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  keep_alive: "30m"              # How long to keep model in GPU after last request
+  options:
+    temperature: 0.1
+    num_predict: 4096
+    num_ctx: 32768
+
+extraction:
+  max_input_chars: 24000
+  timeout_seconds: 120
+  retry_count: 2
+  retry_delay_seconds: 5
+  priority_files:
+    - "CallForPapers"
+    - "cfp"
+    - "call"
+    - "submission"
+    - "author"
+  skip_files:
+    - "Press"
+    - "Photos"
+    - "hackathon"
+    - "job-fair"
+    - "lunch"

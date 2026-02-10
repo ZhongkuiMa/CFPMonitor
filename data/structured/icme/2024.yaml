@@ -1,0 +1,292 @@
+conference: ICME
+year: 2024
+last_checked: '2026-02-16T08:39:32.527894+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: December 30, 2023
+    evidence: 'Submission portal: https://cmt3.research.microsoft.com/ICME2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 30, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 12, 2024
+    evidence: 'Notification: Mar 12, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 12, 2024
+  camera_ready_deadline:
+    value: May 31, 2024
+    evidence: 'Authors Registration Deadline: 31 May 2024 11:59pm Pacific Time'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 31, 2024
+  conference_dates:
+    value: July 15-19, 2024
+    evidence: 'date: July 15-19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 15-19, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 31, 2024
+    evidence: 'Authors Registration Deadline: 31 May 2024 11:59pm Pacific Time'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 31, 2024
+  double_blind:
+    value: true
+    evidence: ICME 2024 reviewing is double blind, which means that authors cannot
+      know the names of the reviewers of their papers, and reviewers cannot know the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: 'Length: Papers must be no longer than 6 pages, including all text,
+      figures, and references.'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions, with the exception of Student Program submissions,
+      must be formatted according to the instructions in the Example Paper.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Supplemental material: Authors may optionally upload supplemental material.'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: All papers in the proceedings of the regular program and proceedings
+      of the workshops, industry/application short papers, demo track, and grand...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Back to Top
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Niagara Falls, Canada
+    evidence: 'place: Niagra Falls, Canada'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Niagara Falls, Canada
+    normalized:
+      city: Niagara Falls
+      country: Canada
+      display: Niagara Falls, Canada
+      raw: Niagara Falls, Canada
+  conference_format:
+    value: in-person
+    evidence: The conference will showcase high quality oral and poster presentations,
+      as well as feature Workshops sponsored by IEEE societies.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Workshop Proposals: https://2024.ieeeicme.org/workshop-proposals/'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: 'Submission portal: https://cmt3.research.microsoft.com/ICME2024'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop Proposals: https://2024.ieeeicme.org/workshop-proposals/'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: 'Tutorial Proposals: The ICME 2024 organising committee invites proposals
+      for tutorials.'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: Demonstrations – 2024 IEEE International Conference on Multimedia and
+      Expo
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: Industry/Application Papers – 2024 IEEE International Conference on
+      Multimedia and Expo
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ICME 2024 will also nominate prestigious awards for exceptional papers
+      and contributors.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

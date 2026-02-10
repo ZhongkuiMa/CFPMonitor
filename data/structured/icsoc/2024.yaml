@@ -1,0 +1,321 @@
+conference: ICSOC
+year: 2024
+last_checked: '2026-02-16T08:58:34.948193+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: July 24, 2024
+    evidence: 'Regular paper submissions due: 24 July 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 24, 2024
+  abstract_deadline:
+    value: July 10, 2024
+    evidence: 'Regular paper abstract submissions due: 10 July 2024 (firm deladline)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 10, 2024
+  notification_date:
+    value: September 21, 2024
+    evidence: 'Final notification to authors: 21 September 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 21, 2024
+  camera_ready_deadline:
+    value: October 10, 2024
+    evidence: 'Camera ready manuscripts due: 10 October 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 10, 2024
+  conference_dates:
+    value: December 3-6, 2024
+    evidence: ICSOC 2024, the 22nd event in this series, will take place in Tunis,
+      Tunisia from 3 to 6 December 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 3-6, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: October 10, 2024
+    evidence: 'Author registration: 28 September 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: October 10, 2024
+  double_blind:
+    value: true
+    evidence: ICSOC implements a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: 'Open Science : Authors are urged to share all research artefacts—like
+      datasets, source code, and supplementary materials—via reputable public...'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: An early submitted paper that is rejected can be still revised and submitted
+      to the normal submission round by the given deadline. If the authors of...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: It should be noted that unformatted papers and papers beyond the page
+      limit may not be reviewed. Research in each area will be considered strictly
+      in...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: All papers must not exceed 15 pages. The limit length of accepted papers
+      should be 15 pages (including abstract, figures and references).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers should be formatted according to Springer’s LNCS Formatting Guidelines.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: 'Open Science : Authors are urged to share all research artefacts—like
+      datasets, source code, and supplementary materials—via reputable public...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: 'Open Science : Authors are urged to share all research artefacts—like
+      datasets, source code, and supplementary materials—via reputable public...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer
+    evidence: All accepted papers will be included in the Conference Proceedings published
+      by Springer Verlag in the Lecture Notes in Computer Science (LNCS)...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer
+  statements:
+    value: true
+    evidence: 'Open Science : Authors are urged to share all research artefacts—like
+      datasets, source code, and supplementary materials—via reputable public...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: 'Topics that are part of this focus area, as they relate to service-oriented
+      computing, may include but are not limited to: Generative AI and LLM'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Tunis, Tunisia
+    evidence: ICSOC 2024, the 22nd event in this series, will take place in Tunis,
+      Tunisia from 3 to 6 December 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tunis, Tunisia
+    normalized:
+      city: Tunis
+      country: Tunisia
+      display: Tunis, Tunisia
+      raw: Tunis, Tunisia
+  conference_format:
+    value: in-person
+    evidence: ICSOC 2024, the 22nd event in this series, will take place in Tunis,
+      Tunisia from 3 to 6 December 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: For each accepted paper, at least one author must attend the conference
+      and present the paper.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: ICSOC is inviting applicants to submit proposals for high-quality workshops
+      contributing to the scientific program of the main conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: EasyChair
+    evidence: 'All paper submissions will be handled through the EasyChair conference
+      management system: https://easychair.org/conferences/?conf=icsoc2024'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop proposals shall include the following information: Workshop
+      title, if relevant the number of previous editions, Name, affiliation, postal,...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: The 22nd International Conference on Service-Oriented Computing ICSOC’2024
+      continues the effort of the ICSOC community to showcase innovative tools...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Distinguished and Best papers
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

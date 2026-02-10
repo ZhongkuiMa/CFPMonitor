@@ -1,0 +1,283 @@
+conference: ICWS
+year: 2025
+last_checked: '2026-02-16T10:31:19.766313+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: March 10, 2025
+    evidence: 'Full Conference – Paper Submission Deadline: March 3, 2025 Extended
+      and Firm March 10, 2025 (11pm AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 10, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 6, 2025
+    evidence: 'Acceptance Notifications: Extended May 12, 2025 May 6, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 6, 2025
+  camera_ready_deadline:
+    value: May 30, 2025
+    evidence: 'Camera-ready and registration (for all papers): Extended June 6, 2025
+      May 30, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 30, 2025
+  conference_dates:
+    value: July 7-12, 2025
+    evidence: The International Conference on Web Services (ICWS) has been a prime
+      international forum for both researchers and industry practitioners to exchange...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-12, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 30, 2025
+    evidence: 'Camera-ready and registration (for all papers): Extended June 6, 2025
+      May 30, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 30, 2025
+  double_blind:
+    value: true
+    evidence: All conferences affiliated with IEEE SERVICES implement a double-blind
+      reviewing process. Author names and affiliations should not appear in the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Manuscripts that violate any of the rules will regretfully be desk rejected
+      without review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 7 to 10 pages
+    evidence: Every “Regular Paper” manuscript can include 7 to 10 pages for the main
+      contents (including all text, footnotes, figures, tables and appendices) with...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 7 to 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please download the paper template in WORD, LaTeX or Overleaf.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Computer Society Press
+    evidence: Accepted and presented papers will appear in the conference proceedings
+      published by the IEEE Computer Society Press.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Computer Society Press
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: optional
+    evidence: 'All topics relevant to Internet/Web based services are of interest.
+      ICWS will organize refereed paper reviews in 9 research areas (themes):'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Helsinki, Finland
+    evidence: The International Conference on Web Services (ICWS) has been a prime
+      international forum for both researchers and industry practitioners to exchange...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Helsinki, Finland
+    normalized:
+      city: Helsinki
+      country: Finland
+      display: Helsinki, Finland
+      raw: Helsinki, Finland
+  conference_format:
+    value: in-person
+    evidence: The 2025 IEEE World Congress on SERVICES is solely sponsored by the
+      IEEE Computer Society under the auspice of the Technical Community on Services...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The double-blind policy does not apply to symposium/workshop paper submissions.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: All submitted manuscripts will be peer-reviewed by at least three members
+      of the program committee. Accepted papers with confirmed registration and...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Award certificates and IEEE TCSVC cash prizes will be provided to “Best
+      Paper” or “Best Student Paper” winners.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,304 @@
+conference: DAC
+year: 2025
+last_checked: '2026-02-16T10:14:52.118938+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: November 19, 2025
+    evidence: The manuscript (up to 6 pages plus an additional 1 page for references
+      only) is due by November 19, 2025 (5:00pm US Pacific Time).
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 19, 2025
+  abstract_deadline:
+    value: November 11, 2025
+    evidence: A title, abstract (approximately 100 words), and a list of all co-authors
+      must be submitted by November 11, 2025 (5:00pm US Pacific Time).
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 11, 2025
+  notification_date:
+    value: March 9, 2026
+    evidence: March 9, 2026 - Accept/Reject Notifications Sent
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 9, 2026
+  camera_ready_deadline:
+    value: April 14, 2026
+    evidence: April 14, 2026 - Proceedings Manuscript Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 14, 2026
+  conference_dates:
+    value: July 26, 2026
+    evidence: June 22-25, 2025 (dates are incorrect, corrected to July 26, 2026)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 14, 2026
+    evidence: April 14, 2026 - Author Registration Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 14, 2026
+  double_blind:
+    value: true
+    evidence: The submission must not disclose the author(s) by their name(s) or affiliation(s)
+      anywhere in the manuscript or abstract. Submissions that reveal the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Your manuscript will be reviewed as a finished manuscript. Preliminary
+      submissions will be at a disadvantage.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: Submissions that reveal the authors’ identities will be desk-rejected
+      and will not be reviewed by the TPC.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages + 1 page for references
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages + 1 page for references
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: The manuscript must be within 6 pages, excluding references, double-columned,
+      9 or 10-pt font, in PDF format only, be a readable file and follow the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: DAC adheres to strict rules regarding double and/or simultaneous submissions.
+      No new technical content should be under review during any time...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: The DAC publication policy does allow for papers published on arXiv
+      to be submitted to DAC.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Publication in IEEE Xplore and ACM Digital Library is contingent on
+      registration for the conference and presentation at the poster session.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: We follow ACM/IEEE policy on AI/LLMs/ChatGPT. In brief, the use of AI
+      software tools (such as ChatGPT, Jasper, AI Write, Lex, for example) is...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Moscone Center West in San Francisco, CA
+    evidence: 62 DAC will be held June 22-25, 2025 at Moscone Center West in San Francisco,
+      CA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Moscone Center West in San Francisco, CA
+    normalized:
+      city: Ca
+      country: null
+      display: Ca
+      raw: Moscone Center West in San Francisco, CA
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: The submission site is now operational. The submission deadline remains
+      extended to 5:00 PM PST on November 19, 2025.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

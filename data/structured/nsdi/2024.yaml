@@ -1,0 +1,285 @@
+conference: NSDI
+year: 2024
+last_checked: '2026-02-16T08:26:11.162257+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: May 4, 2023
+    evidence: 'Paper submissions due: Thursday, May 4, 2023, 8:59 pm US PDT'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 4, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 21, 2023
+    evidence: 'Notification to authors: Friday, July 21, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 21, 2023
+  camera_ready_deadline:
+    value: October 12, 2023
+    evidence: 'Final paper files due: Thursday, October 12, 2023'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 12, 2023
+  conference_dates:
+    value: April 16-18, 2024
+    evidence: The 21st USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '24) will be held on April 16–18, 2024, in Santa Clara, CA, USA.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 16-18, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: NSDI '24 is double-blind, meaning that authors should make a good faith
+      effort to anonymize papers.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors given a one-shot-revision decision will be sent, within a few
+      days of the decision, detailed instructions about how to resubmit. These...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions must be no longer than 12 pages, including footnotes, figures,
+      and tables.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Submissions may include as many additional pages as needed for references
+      and for supplementary material in appendices.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All papers must be submitted via the submission form. Please do not
+      email submissions.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Papers rejected from one of these deadlines cannot be submitted to the
+      immediate next deadline.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings
+    evidence: Accepted papers will be shepherded through an editorial review process
+      by a member of the Program Committee. Based on initial feedback from the...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: Authors must, as part of the submission process, attest that their work
+      complies with all applicable ethical standards of their home institution(s),...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Santa Clara, CA, USA
+    evidence: The 21st USENIX Symposium on Networked Systems Design and Implementation
+      (NSDI '24) will be held on April 16–18, 2024, in Santa Clara, CA, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Santa Clara, CA, USA
+    normalized:
+      city: Santa Clara
+      country: US
+      display: Santa Clara, US
+      raw: Santa Clara, CA, USA
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted papers will be shepherded through an editorial review process
+      by a member of the Program Committee. Based on initial feedback from the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: NSDI '24 also solicits papers that describe the design, implementation,
+      analysis, and experience with large-scale, operational systems and networks....
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: submission form
+    evidence: All papers must be submitted via the submission form.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: submission form
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,383 @@
+conference: LCTES
+year: 2025
+last_checked: '2026-02-16T09:00:51.832615+00:00'
+completeness:
+  known: 32
+  total: 40
+  percentage: 80.0
+quality:
+  conflict_count: 2
+  conflicts:
+  - field: page_limit
+    values:
+      llm_batch1: 20 pages
+      llm_batch2: 10 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: ACM
+  source_coverage:
+    llm: 32
+rules:
+  submission_deadline:
+    value: March 21, 2025
+    evidence: 'Paper Submission: March 21, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mar 21, 2025
+      llm_batch2:
+        value: March 21, 2025
+  abstract_deadline:
+    value: March 14, 2025
+    evidence: 'Abstract Submission: March 14, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: March 14, 2025
+  notification_date:
+    value: April 21, 2025
+    evidence: 'Paper Notification: April 21, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Apr 21, 2025
+      llm_batch2:
+        value: April 21, 2025
+  camera_ready_deadline:
+    value: May 12, 2025
+    evidence: 'Camera-Ready Submission: May 12, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: May 12, 2025
+      llm_batch2:
+        value: May 12, 2025
+  conference_dates:
+    value: June 16-17, 2025
+    evidence: 'Conference Dates: June 16-17, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 16-17, 2025
+      llm_batch2:
+        value: June 16-17, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All metadata except the artifact itself should be submitted. Artifact
+      registration gives more time to authors, since bidding can start before the...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will be given several days to compose a written response to
+      the reviews received in the first round – e.g., to correct errors and clarify...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: 'Full paper: 10 pages presenting original work (at most 2 additional
+      pages for references and appendix)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 20 pages
+      llm_batch2:
+        value: 10 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Use the acmart template file ( overleaf template , latex template ).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Please create a Zenodo ( https://zenodo.org/ ) repository.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Concurrent submissions to other conferences, workshops, journals, or
+      similar venues of publication are disallowed.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: Accepted papers in both categories will appear in the proceedings published
+      by ACM.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: ACM
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors of accepted papers are encouraged to make their artifacts publicly
+      available upon publication of the proceedings, by including them as...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact evaluation is optional, but highly encouraged, and authors
+      may choose to submit their artifact for evaluation only after their paper has...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seoul, South Korea
+    evidence: 'location: Seoul, South Korea'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Seoul, South Korea
+      llm_batch2:
+        value: Seoul, South Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, South Korea
+  conference_format:
+    value: in-person
+    evidence: The Westin Josun Seoul
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: 'Submission site: https://lctes2025.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Distinguished Paper awards selected from accepted papers to recognize
+      the outstanding work among all papers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

@@ -1,0 +1,308 @@
+conference: ICDCS
+year: 2024
+last_checked: '2026-02-16T07:48:03.061852+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: January 19, 2024
+    evidence: 'Full Paper Submission: January 19, 2024 (23:59, UTC-5, EST)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 19, 2024
+  abstract_deadline:
+    value: January 12, 2024
+    evidence: 'Abstract Submission: January 12, 2024 (23:59, UTC-5, EST)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 12, 2024
+  notification_date:
+    value: April 12, 2024
+    evidence: 'Notification of Acceptance: April 12, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 12, 2024
+  camera_ready_deadline:
+    value: May 10, 2024
+    evidence: 'Camera-ready Paper Submission: May 10, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 10, 2024
+  conference_dates:
+    value: July 16-19, 2024
+    evidence: The conference will be held in July 2024 in Jersey City, New Jersey,
+      USA.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 16-19, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The full paper review process is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Each submission can have up to 11 pages (including figures, tables,
+      appendices, and references).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: "All paper submissions should follow the IEEE 8.5â\x803 x 11â\x803 two-column\
+      \ format using 10pt fonts and the IEEE Conference template (downloadable by..."
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Papers must be original and unpublished, and must not be submitted concurrently
+      for publication elsewhere.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: While authors can upload their paper to institutional or other preprint
+      repositories such as arXiv.org before reviewing is complete, we generally...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: All accepted poster papers (up to 2 pages) and demonstration papers
+      (up to 4 pages) will be included in the conference proceedings and will be...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: No specific artifact evaluation policy mentioned for main track.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: While authors can upload their paper to institutional or other preprint
+      repositories such as arXiv.org before reviewing is complete, we generally...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Jersey City, New Jersey, USA
+    evidence: The conference will be held in July 2024 in Jersey City, New Jersey,
+      USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Jersey City, New Jersey, USA
+    normalized:
+      city: Jersey City
+      country: US
+      display: Jersey City, US
+      raw: Jersey City, New Jersey, USA
+  conference_format:
+    value: in-person
+    evidence: ICDCS will provide travel grants for students and junior researchers
+      to compensate part of the costs in attending the conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: ICDCS will provide travel grants for students and junior researchers
+      to compensate part of the costs in attending the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Paper submission website: https://easychair.org/conferences/?conf=icdcs2024
+      .'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

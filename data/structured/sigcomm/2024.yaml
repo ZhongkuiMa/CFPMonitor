@@ -1,0 +1,332 @@
+conference: SIGCOMM
+year: 2024
+last_checked: '2026-02-16T08:33:27.540498+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: Friday February 2, 2024 23:59 UTC
+    evidence: Paper submission deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday February 2, 2024 23:59 UTC
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Tuesday, May 7, 2024
+    evidence: Paper acceptance notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Tuesday, May 7, 2024
+  camera_ready_deadline:
+    value: August 12, 2024
+    evidence: Aug 12 20, 2024 Reviews available Aug 13–27 Aug 20 - Sep 3, 2024 Author
+      response period Sept 12, 2024 Notification to authors
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 12, 2024
+  conference_dates:
+    value: August 4 - 8, 2024
+    evidence: The SIGCOMM 2024 conference will be held in Sydney, Australia during
+      August 4-8, 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 4 - 8, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submitted papers will be judged based on their quality and relevance
+      through double-blind reviewing, where the identities of the authors are...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of accepted papers should plan to interact with their shepherds
+      immediately after notification, and to budget sufficient time between...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: true
+    evidence: The PC must be able to display and print your submission exactly as
+      we receive it using only standard tools and printers, so we strongly suggest
+      that...
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: 12 pages
+    evidence: Paper bodies (all content before references and appendices) must be
+      no more than twelve (12) single–spaced pages , including figures and tables,...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: You should ensure that the paper prints well on black-and-white printers,
+      not color printers. Explicitly using grayscale colors will provide best...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Under no circumstances, except where noted below, should authors submit
+      previously-published work, submit the same work simultaneously to multiple...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The official publication date affects the deadline for any patent filings
+      related to published work. (For those rare conferences whose proceedings...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: All papers must include, in the main body of the paper, a statement
+      about ethical issues; papers that don’t include such a statement may be rejected.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Sydney, Australia
+    evidence: The SIGCOMM 2024 conference will be held in Sydney, Australia during
+      August 4-8, 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Sydney, Australia
+    normalized:
+      city: Sydney
+      country: Australia
+      display: Sydney, Australia
+      raw: Sydney, Australia
+  conference_format:
+    value: in-person
+    evidence: SIGCOMM 2024 plans to be an in-person event
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Travel support has been provided from several different supporting organizations.
+      Still, resources are limited, thus, most probably, only part of the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions and final papers may include appendices (following references,
+      not counting against the 12 pages). Reviewers are not required to read...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

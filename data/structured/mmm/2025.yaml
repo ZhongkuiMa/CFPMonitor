@@ -1,0 +1,309 @@
+conference: MMM
+year: 2025
+last_checked: '2026-02-16T09:11:03.792856+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: August 19, 2024
+    evidence: 19 August 2024 (Extended)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 19, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 24, 2024
+    evidence: September 24, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 24, 2024
+  camera_ready_deadline:
+    value: October 23, 2024
+    evidence: October 23, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 23, 2024
+  conference_dates:
+    value: January 8-10, 2025
+    evidence: January 8 - 10, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 8-10, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: January 7, 2025
+    evidence: 'Late: until 17:00 on January 10 (Fri), 2025 [JST = UTC+9]'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: January 7, 2025
+  double_blind:
+    value: true
+    evidence: Regular and special session paper submissions (unless explicitly stated
+      otherwise in the call text for a specific special session) will be...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Please keep in mind that you can use the rebuttal period to clarify
+      any points raised by reviewers and to address any issues with your paper. We...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Limited to 12 content pages, including all figures, tables, and appendices,
+      in the Springer LNCS style. Additional 2 pages containing only cited...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All final camera-ready papers must be uploaded on the MMM 2025 Conftool
+      site by 23 October 2024. These papers must adhere to the Springer Guidelines...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer LNCS
+    evidence: All final camera-ready papers must be uploaded on the MMM 2025 Conftool
+      site by 23 October 2024. These papers must adhere to the Springer Guidelines...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer LNCS
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: Papers do not need to be focused on applying AI techniques to multimedia
+      data. Our research community is rich and diverse, and papers addressing many...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Nara, Japan
+    evidence: The main venue will be at Nara Kasugano International Forum 甍 IRAKA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Nara, Japan
+    normalized:
+      city: null
+      country: Japan
+      display: Japan
+      raw: Nara, Japan
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

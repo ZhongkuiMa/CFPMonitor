@@ -1,0 +1,285 @@
+conference: ALT
+year: 2025
+last_checked: '2026-02-16T10:24:48.022505+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: October 1, 2024, 6 PM ET
+    evidence: 'Paper submission deadline: October 1, 2024, 6 PM ET.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 1, 2024, 6 PM ET
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 20, 2024
+    evidence: 'Author notification: December 20, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 20, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: February 24-27, 2025
+    evidence: ALT 2025 will be held over 4 days.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 24-27, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Nevertheless, authors should not list their names and affiliations in
+      their submissions so that reviewers will not see them.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: The reviewing process is not fully double-blind, as the authors’ names
+      will be known to the area chair overseeing the paper’s review.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: This year there will be a rebuttal phase during the review process.
+      Authors will have an opportunity to provide a short response to the initial...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Submissions should include all proofs and technical details necessary
+      to understand the results. However, content (not including references) beyond...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'Submissions should be formatted according to the instructions on the
+      following page: http://www.jmlr.org/format/format.html and use the ALT 2025...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research
+    evidence: All accepted papers will be published as a volume in the Proceedings
+      of Machine Learning Research series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Milan, Italy
+    evidence: ALT 2025 will be held in Milan, Italy on February 24-27, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Milan, Italy
+    normalized:
+      city: Milan
+      country: Italy
+      display: Milan, Italy
+      raw: Milan, Italy
+  conference_format:
+    value: in-person
+    evidence: The conference will be in-person and will not be hybrid. At least one
+      author of each accepted paper will be required to present their paper in-person...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Submission and reviewing will be on OpenReview , although all submissions,
+      reviews, and discussion will remain private throughout the review process.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Awards may be given to outstanding papers. Primary authors who are full-time
+      students are eligible for student paper awards, and they should indicate...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

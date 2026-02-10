@@ -1,0 +1,271 @@
+conference: APLAS
+year: 2024
+last_checked: '2026-02-16T08:51:52.446181+00:00'
+completeness:
+  known: 15
+  total: 40
+  percentage: 37.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 15
+rules:
+  submission_deadline:
+    value: May 24, 2024
+    evidence: Submission deadline for extended abstracts is May 24, 2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 24, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Aug 2, 2024
+    evidence: 'Notification: Aug 2, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Aug 2, 2024
+  camera_ready_deadline:
+    value: Aug 31, 2024
+    evidence: 'camera_ready: Aug 31, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Aug 31, 2024
+  conference_dates:
+    value: Oct 22-24, 2024
+    evidence: APLAS 2024 aims to bring together programming language researchers,
+      practitioners and implementors worldwide, to present and discuss the latest...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Oct 22-24, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The reviewing process is light double-blind, with a rebuttal phase to
+      address factual errors and minor misunderstandings.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The reviewing process is light double-blind, with a rebuttal phase to
+      address factual errors and minor misunderstandings.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 17 pages
+    evidence: Submissions should not exceed 17 pages, excluding bibliography, in the
+      Springer LNCS format.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 17 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer as part of Lecture Notes in Computer Science (LNCS)
+    evidence: Proceedings of APLAS 2024 will be published by Springer as part of Lecture
+      Notes in Computer Science (LNCS).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer as part of Lecture Notes in Computer Science (LNCS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Kyoto, Japan
+    evidence: 'Venue: Shirankaikan (Kyoto University medical school area)'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Kyoto, Japan
+    normalized:
+      city: Kyoto
+      country: Japan
+      display: Kyoto, Japan
+      raw: Kyoto, Japan
+  conference_format:
+    value: in-person
+    evidence: APLAS 2024 is co-located with the 22nd International Symposium on Automated
+      Technology for Verification and Analysis (ATVA).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submission Link https://easychair.org/conferences/?conf=aplas2024srcposters
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: The associated poster session also welcomes contributions from the entire
+      community (not restricted to students).
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: APLAS 2024 continues the tradition of the best paper award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

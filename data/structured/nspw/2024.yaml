@@ -1,0 +1,271 @@
+conference: NSPW
+year: 2024
+last_checked: '2026-02-16T08:07:05.374331+00:00'
+completeness:
+  known: 15
+  total: 40
+  percentage: 37.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 15
+rules:
+  submission_deadline:
+    value: April 28, 2024
+    evidence: 'Submission deadline: April 12 Extended to April 28, 2024 23:59 (UTC
+      -11)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 28, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 14, 2024
+    evidence: 'Notification of acceptance: June 14, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 14, 2024
+  camera_ready_deadline:
+    value: October 25, 2024
+    evidence: 'Final version: October 25, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 25, 2024
+  conference_dates:
+    value: September 16-19, 2024
+    evidence: 'Workshop: September 16 - 19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 16-19, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions should blind author identity where possible.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6-15 pages
+    evidence: Submissions must be made in PDF format, 6-15 pages, ACM "sigconf" formatting
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6-15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions should blind author identity where possible. The LaTeX document
+      option anonymous=true provides a minimum level of protection; however,...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: NSPW does not accept previously published or concurrently submitted
+      papers.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Workshop proceedings
+    evidence: Accepted papers are shepherded and revised before the workshop; this
+      revised version is then presented and discussed in an hour-long session. After...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Workshop proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: Submissions must be made in PDF format, 6-15 pages, ACM "sigconf" formatting
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: NSPW does not accept previously published or concurrently submitted
+      papers.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Omni Bedford Springs, Pennsylvania, USA
+    evidence: NSPW 2024 is scheduled to be held in the Omni Bedford Springs, Bedford,
+      PA, United States
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Omni Bedford Springs, Pennsylvania, USA
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Omni Bedford Springs, Pennsylvania, USA
+  conference_format:
+    value: in-person
+    evidence: The workshop itself is invitation-only, with typically 30-35 participants
+      consisting of authors of about 10-12 accepted papers, panelists, program...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,282 @@
+conference: COCOON
+year: 2025
+last_checked: '2026-02-16T09:34:36.799483+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: March 5, 2025
+    evidence: 'Submission: March 5, 2025, 23:59 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 5, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 5, 2025
+    evidence: 'Notification: May 5, 2025 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 5, 2025
+  camera_ready_deadline:
+    value: May 20, 2025
+    evidence: 'Camera-ready: May 20, 2024 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 20, 2025
+  conference_dates:
+    value: August 15 - August 17, 2025
+    evidence: 'Conference: August 15 – August 17, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 15 - August 17, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 30, 2025
+    evidence: 'Early Registration: June 30, 2025 (AoE)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 30, 2025
+  double_blind:
+    value: true
+    evidence: The submitted papers will be reviewed in a double-blind peer review
+      manner.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: The length of the submission should not exceed 12 pages in LNCS style
+      (including references, but excluding the optional appendix).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please delete the author information on your manuscript.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer-Verlag in the Lecture Notes in Computer Science (LNCS) series
+    evidence: The proceedings of the conference will be published by Springer-Verlag
+      in the Lecture Notes in Computer Science (LNCS) series, and will be available...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer-Verlag in the Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: For code and data, authors can provide anonymous download links or refer
+      to an anonymized GitHub repository. The Program Committee (PC) will review...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Chengdu, China
+    evidence: The conference will be held in the Crowne Plaza Chengdu West by IHG
+      hotel (成都新希望高新皇冠假日酒店).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Chengdu, China
+    normalized:
+      city: Chengdu
+      country: China
+      display: Chengdu, China
+      raw: Chengdu, China
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in the Crowne Plaza Chengdu West by IHG
+      hotel (成都新希望高新皇冠假日酒店).
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Easychair
+    evidence: All submissions must be submitted electronically through Easychair.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Easychair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards will be given to the best paper and the best student paper.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

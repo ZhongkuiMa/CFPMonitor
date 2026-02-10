@@ -1,0 +1,295 @@
+conference: SCAM
+year: 2025
+last_checked: '2026-02-16T10:31:47.892580+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: June 10, 2025
+    evidence: 'deadline: 2025-06-09 23:59:59'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 10, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 15, 2025
+    evidence: 'Notification of acceptance/rejection: July 15, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 15, 2025
+  camera_ready_deadline:
+    value: August 18, 2025
+    evidence: 'Camera-ready version due: August 18, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 18, 2025
+  conference_dates:
+    value: September 7-12, 2025
+    evidence: 'date: September 7-12, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 7-12, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Double-blind review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Single-blind review process
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: No public reviews will be provided
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are allowed to respond to reviewer comments during rebuttal
+      period
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: No reciprocal review requirement
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: Maximum of 8 pages for the main paper (excluding references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: References are excluded from page limit
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Authors must use the provided template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: No supplementary material is allowed
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Preprints on arXiv are not allowed during the review process
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE
+    evidence: Proceedings will be published by IEEE
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE
+  statements:
+    value: true
+    evidence: Authors must include ethics, broader impact, and reproducibility checklist
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: No use of LLMs in the paper writing process is allowed
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Auckland, New Zealand
+    evidence: 'place: Auckland, New Zealand'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Auckland, New Zealand
+    normalized:
+      city: Auckland
+      country: New Zealand
+      display: Auckland, New Zealand
+      raw: Auckland, New Zealand
+  conference_format:
+    value: in-person
+    evidence: In-person conference with no remote participation option
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Oral presentations only
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'has_workshop_proposals: false'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submission via EasyChair
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: 'has_workshop_proposals: false'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: 'has_doctoral_consortium: false'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: 'has_findings: false'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

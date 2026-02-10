@@ -1,0 +1,405 @@
+conference: AAAI
+year: 2025
+last_checked: '2026-02-16T10:09:51.991912+00:00'
+completeness:
+  known: 35
+  total: 40
+  percentage: 87.5
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: page_limit
+    values:
+      llm_batch1: 8 pages
+      llm_batch2: 7 pages of technical content plus additional pages solely for references
+  - field: arxiv_preprint
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: publication_venue
+    values:
+      llm_batch1: AAAI Press
+      llm_batch2: Proceedings
+  - field: llm_policy
+    values:
+      llm_batch1: forbidden
+      llm_batch2: allowed
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'', ''poster'']'
+  source_coverage:
+    llm: 35
+rules:
+  submission_deadline:
+    value: August 15, 2024
+    evidence: August 15, 2024 Full papers due at 11:59 PM UTC-12
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 15, 2024
+      llm_batch2:
+        value: August 15, 2024
+  abstract_deadline:
+    value: August 7, 2024
+    evidence: August 7, 2024 Abstracts due at 11:59 PM UTC-12
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: August 7, 2024
+  notification_date:
+    value: December 9, 2024
+    evidence: December 9, 2024 Notification of final acceptance or rejection (Main
+      Technical Track)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: December 9, 2024
+      llm_batch2:
+        value: December 9, 2024
+  camera_ready_deadline:
+    value: December 19, 2024
+    evidence: December 19, 2024 Submission of camera-ready files (Main Technical Track)
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: December 19, 2024
+      llm_batch2:
+        value: December 19, 2024
+  conference_dates:
+    value: February 27 – March 2, 2025
+    evidence: February 27 – March 2, 2025 AAAI-25 Conference
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 27 – March 2, 2025
+      llm_batch2:
+        value: February 27 – March 2, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers must be formatted in AAAI two-column, camera-ready style; see
+      the AAAI-25 author kit for details. Papers must be in trouble-free,...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: At the time of abstract submission, authors should include a full title
+      for their paper and a complete abstract in the fields provided. Submissions...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: All authors are expected to be available to review (light load), unless
+      extenuating circumstances apply.
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 7 pages of technical content plus additional pages solely for references
+    evidence: Papers must consist of up to 7 pages of technical content plus additional
+      pages solely for references; acknowledgements should be omitted from papers...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 7 pages of technical content plus additional pages solely for references
+    _conflict: true
+  page_limit_exclusions:
+    value: true
+    evidence: Papers must consist of up to 7 pages of technical content plus additional
+      pages solely for references; acknowledgements should be omitted from papers...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Papers must be formatted in AAAI two-column, camera-ready style
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Submissions may consist of up to 7 pages of technical content plus additional
+      pages solely for references; acknowledgements should be omitted from...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: AAAI-25 will not consider any paper that, at the time of submission,
+      is under review or has already been published or accepted for publication in
+      any...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors are free to retract a submission from a venue with a concurrent
+      review process (e.g., from NeurIPS-24) and submit the same work to AAAI-25 as...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  publication_venue:
+    value: Proceedings
+    evidence: ''
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: AAAI Press
+      llm_batch2:
+        value: Proceedings
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors must complete a reproducibility checklist at the time of paper
+      submission, which outlines how to reproduce the results of the submission.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: forbidden
+      llm_batch2:
+        value: allowed
+    _conflict: true
+  conference_location:
+    value: PHILADELPHIA, PENNSYLVANIA, USA
+    evidence: February 25 – March 4, 2025, Philadelphia, Pennsylvania, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Philadelphia, Pennsylvania, USA
+      llm_batch2:
+        value: PHILADELPHIA, PENNSYLVANIA, USA
+    normalized:
+      city: Philadelphia
+      country: US
+      display: Philadelphia, US
+      raw: PHILADELPHIA, PENNSYLVANIA, USA
+  conference_format:
+    value: in-person
+    evidence: February 27 – March 2, 2025 AAAI-25 Conference
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+    _conflict: true
+  financial_aid_available:
+    value: true
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: July 8, 2024 AAAI-25 web site open for paper submission
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

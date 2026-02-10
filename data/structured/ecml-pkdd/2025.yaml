@@ -1,0 +1,251 @@
+conference: ECML-PKDD
+year: 2025
+last_checked: '2026-02-16T09:17:17.158550+00:00'
+completeness:
+  known: 10
+  total: 40
+  percentage: 25.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 10
+rules:
+  submission_deadline:
+    value: March 14, 2025
+    evidence: 'deadline: 2025-03-14 23:59:59'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 14, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: September 15-19, 2025
+    evidence: 'date: September 15-19, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 15-19, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The long papers (16 pages in LNCS-format) are strongly preferred
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer
+    evidence: the organizers will be responsible for maintaining the journal track,
+      with publications in the DMKD and MLj journals.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: If Large Language Models (LLMs) or other AI tools are used to assist
+      in preparing the paper, they should be employed responsibly to uphold the...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Porto, Portugal
+    evidence: Alfândega Porto Congress Centre
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Porto, Portugal
+    normalized:
+      city: Porto
+      country: Portugal
+      display: Porto, Portugal
+      raw: Porto, Portugal
+  conference_format:
+    value: in-person
+    evidence: 'The general structure, typically very much appreciated by the community,
+      consists of: conference sessions from Tuesday till Thursday; workshops and...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Workshop Chairs
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: The long papers (16 pages in LNCS-format) are strongly preferred
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

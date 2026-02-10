@@ -1,0 +1,406 @@
+conference: PLDI
+year: 2026
+last_checked: '2026-02-16T11:40:13.314306+00:00'
+completeness:
+  known: 33
+  total: 40
+  percentage: 82.5
+quality:
+  conflict_count: 7
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Thu 5 Mar 2026
+      llm_batch2: Fri 24 Apr 2026
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Thu 9 Apr 2026
+      llm_batch2: Fri 15 May 2026
+  - field: conference_dates
+    values:
+      llm_batch1: Wed 17 - Fri 19 Jun 2026
+      llm_batch2: June 15-19, 2026
+  - field: page_limit
+    values:
+      llm_batch1: 20 pages
+      llm_batch2: 3 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ACM Digital Library
+      llm_batch2: Proceedings
+  - field: submission_system
+    values:
+      llm_batch1: HotCRP
+      llm_batch2: EasyChair
+  - field: has_student_research
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 33
+rules:
+  submission_deadline:
+    value: Thu 13 Nov 2025
+    evidence: Submission deadline is 11:59PM on Thursday November 13, 2025 anywhere
+      on earth
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 13 Nov 2025
+  abstract_deadline:
+    value: Fri 13 Mar 2026
+    evidence: Abstract submission deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: Fri 13 Mar 2026
+  notification_date:
+    value: Fri 24 Apr 2026
+    evidence: Author notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Thu 5 Mar 2026
+      llm_batch2:
+        value: Fri 24 Apr 2026
+    _conflict: true
+  camera_ready_deadline:
+    value: Fri 15 May 2026
+    evidence: Camera-ready deadline Program Committee
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Thu 9 Apr 2026
+      llm_batch2:
+        value: Fri 15 May 2026
+    _conflict: true
+  conference_dates:
+    value: June 15-19, 2026
+    evidence: PLDI 2026 Mon 15 - Fri 19 June 2026 Boulder, Colorado, United States
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Wed 17 - Fri 19 Jun 2026
+      llm_batch2:
+        value: June 15-19, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The submissions are double blind (the uploaded PDFs must not contain
+      your name or any other identifying information).
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 3 pages
+    evidence: No more than 3 pages. Reference lists do not count towards these limits.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 20 pages
+      llm_batch2:
+        value: 3 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Use the acmart template file ( overleaf template , latex template ).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: Must contain original research that is not already published at PLDI
+      or another conference or journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  publication_venue:
+    value: Proceedings
+    evidence: Accepted papers will be posted to the PLDI website.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: Proceedings
+    _conflict: true
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: The SRC welcomes work-in-progress research and aims to provide high-quality
+      feedback to students about their work.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Boulder, Colorado, United States
+    evidence: PLDI 2026 Mon 15 - Fri 19 June 2026 Boulder, Colorado, United States
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Boulder, Colorado, United States
+      llm_batch2:
+        value: Boulder, Colorado, United States
+    normalized:
+      city: Boulder
+      country: US
+      display: Boulder, US
+      raw: Boulder, Colorado, United States
+  conference_format:
+    value: in-person
+    evidence: We are able to accommodate transition to in-person more easily than
+      to virtual.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Final Presentation Students who progress to the final round will be
+      required to give a talk to the judges.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: Workshops and Tutorials
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'The submission form will require the following:'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch2:
+        value: EasyChair
+    _conflict: true
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: Workshops and Tutorials
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: true
+    evidence: PLDI Student Research Competition
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'Three students from each category (graduate and undergraduate) will
+      be selected as winners. Winners will receive a cash prize: $500, $300, and $200...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'

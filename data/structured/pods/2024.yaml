@@ -1,0 +1,313 @@
+conference: PODS
+year: 2024
+last_checked: '2026-02-16T08:32:56.803000+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 4, 2023
+    evidence: 'Reviews sent to authors: August 18, 2023 Rebuttal and revision phase:
+      August 21 - 25, 2023 Notification: September 4, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 4, 2023
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: June 10-12, 2024
+    evidence: 'CONFERENCE: June 10-12, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 10-12, 2024
+  rebuttal_deadline:
+    value: August 25, 2023
+    evidence: 'Rebuttal and revision phase: August 21 - 25, 2023'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 25, 2023
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PODS will apply a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Before the discussion phase starts between reviewers and decisions are
+      made, authors will have a few days to read the reviews and submit optional...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: The main content of the paper must be no more than 8 pages in length
+      for all Research Track papers
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'All papers will be judged for quality and relevance. Submissions should
+      be uploaded at: https://cmt3.research.microsoft.com/SIGMOD2024'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Following the ACM guidelines a research paper submitted to SIGMOD 2024
+      cannot be under review for any other publishing forum or presentation venue,...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: You must also use care in referring to related past work, particularly
+      your own, in the paper. For example, if you are Jane Smith, the following text...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: PACMMOD
+    evidence: Papers published in the PACMMOD issues of SIGMOD 2024 will be invited
+      to present their work at the SIGMOD conference in June 2024.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: PACMMOD
+  statements:
+    value: true
+    evidence: Please include a link with your materials in the text box provided in
+      the submission form at the time of submission. For all Research Track...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Generative AI tools and technologies, such as ChatGPT, may not be listed
+      as authors of an ACM published Work. The use of generative AI tools and...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Santiago, Chile
+    evidence: The annual ACM SIGMOD/PODS Conference is a leading international forum
+      for database researchers, practitioners, developers, and users to explore...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Santiago, Chile
+    normalized:
+      city: Santiago
+      country: Chile
+      display: Santiago, Chile
+      raw: Santiago, Chile
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in the Intercontinental Santiago Hotel.
+      The conference venue is located on Santiago’s Eastside, in the El Golf sector
+      –...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers will be treated equally in the conference proceedings,
+      which are the persistent record of the conference. Authors of all accepted...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2024 conference. The workshops will run on June 9 (Sunday) or June 14...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: All aspects of the submission and notification process will be handled
+      electronically. Submissions must adhere to the paper formatting instructions....
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2024 conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

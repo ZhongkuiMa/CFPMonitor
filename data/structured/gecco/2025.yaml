@@ -1,0 +1,308 @@
+conference: GECCO
+year: 2025
+last_checked: '2026-02-16T09:43:45.219639+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: January 29, 2025
+    evidence: 'Submission of Full Papers: January 29, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 29, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 19, 2025
+    evidence: 'Notification of acceptance/rejection: March 19, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 19, 2025
+  camera_ready_deadline:
+    value: April 9, 2025
+    evidence: 'Camera-ready deadline: April 9, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 9, 2025
+  conference_dates:
+    value: July 14-18, 2025
+    evidence: 'The conference: July 14-18, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 14-18, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 8, 2025 May 15, 2025
+    evidence: 'Presenter mandatory registration: May 8, 2025 May 15, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 8, 2025 May 15, 2025
+  double_blind:
+    value: true
+    evidence: Each paper submitted to GECCO will be rigorously evaluated in a double-blind
+      review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Reviewers may contact authors for clarification or rebuttals of their
+      reviews
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers that are deemed by the track chairs and/or the EiC to not be
+      a proper fit within the track they were submitted to nor any other track in
+      the...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: 'Maximum number of pages: 8 (excluding references)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: All papers must be anonymized and exclude any identifying information
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'You MUST use this ACM template: LaTeX template , specifically the ACM
+      SigConf template.'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: It is possible to submit supplementary material (e.g., videos, a PDF
+      appendix, source code, data, mathematical proofs) in addition to the PDF of
+      the...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Simultaneously submitting work to another conference or journal that
+      is substantially similar to work also submitted to GECCO, is NOT ALLOWED.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted papers will be published in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Ethics, broader impact, reproducibility checklist, and funding disclosure
+      is required
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Málaga, Spain
+    evidence: 'The conference: July 14-18, 2025'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Málaga, Spain
+    normalized:
+      city: Málaga
+      country: Spain
+      display: Málaga, Spain
+      raw: Málaga, Spain
+  conference_format:
+    value: hybrid
+    evidence: GECCO is going to be held as a hybrid event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    evidence: Accepted full papers will appear in the ACM Digital Library as part
+      of the Main Proceedings of GECCO. Poster-only papers are due by the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Warning: Workshops are allowed to change this limit up to the limits
+      stated below. The limits for specific workshops may therefore be more strict...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: You must use the submission website to submit all kinds of contributions
+      to GECCO (including the abstract of full papers).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: The student workshop at GECCO (Genetic and Evolutionary Computation
+      Conference) 2025 aims to provide a platform for graduate and undergraduate...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: GECCO is however still interested in such related publications. For
+      this reason, researchers are invited to submit abstracts of their work recently...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: There will be a Best Paper Award (BPA) procedure.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,280 @@
+conference: COLT
+year: 2026
+last_checked: '2026-02-16T10:38:17.872766+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: February 4, 2026
+    evidence: 'Submission deadline: February 4, Anywhere on Earth'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 4, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 4, 2026
+    evidence: 'Author notification: On or before May 4'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 4, 2026
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: June 29–July 3, 2026
+    evidence: 'Conference dates: June 29–July 3'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 29–July 3, 2026
+  rebuttal_deadline:
+    value: April 10-April 20, 2026
+    evidence: April 10-April 20, Discussion period
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 10-April 20, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions should be suitable for double-blind reviewing; in particular,
+      submissions should NOT include author names or other identifying...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: As in previous years, there will be a rebuttal phase during the review
+      process.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 PMLR formatted pages
+    evidence: The main body is limited to 12 PMLR formatted pages, excluding references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 PMLR formatted pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please use the following style files. The '[anon]' option in the LaTeX
+      template should be used to suppress author names from appearing in the...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: 'Conferences: In general, submissions that are substantially similar
+      to papers that have been previously published, accepted for publication, or...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research (PMLR)
+    evidence: Accepted papers will be published electronically in the Proceedings
+      of Machine Learning Research (PMLR).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research (PMLR)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors may use large language models (LLMs) for writing, mathematics
+      and general research.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: San Diego, California
+    evidence: The 39th Annual Conference on Learning Theory (COLT 2026) will take
+      place June 29-July 3, 2026 in San Diego, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Diego, California
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: San Diego, California
+  conference_format:
+    value: in-person
+    evidence: At least one author of each accepted paper must attend the conference
+      in person to present the work.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: Papers should be submitted through CMT; the deadline for submissions
+      is February 4, 2026, Anywhere on Earth.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: PAPER AWARDS COLT will award both best paper and best student paper
+      awards.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

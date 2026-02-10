@@ -1,0 +1,282 @@
+conference: ICPC
+year: 2025
+last_checked: '2026-02-16T09:06:49.004200+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: Sat 9 Nov 2024
+    evidence: Submission deadline is firm, no extensions.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sat 9 Nov 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Sun 12 Jan 2025
+    evidence: Sun 12 Jan 2025 - Paper Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sun 12 Jan 2025
+  camera_ready_deadline:
+    value: Wed 5 Feb 2025
+    evidence: Wed 5 Feb 2025 - Camera Ready
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Wed 5 Feb 2025
+  conference_dates:
+    value: Sun 27 Apr 2025 - Mon 28 Apr 2025
+    evidence: Sun 27 Apr Mon 28 Apr
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sun 27 Apr 2025 - Mon 28 Apr 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'All submissions must adhere to the following requirements: Authors’
+      names must be omitted from the submitted paper.'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Conditional Accepts will be checked by only one member of the Program
+      Committee, and this will be done in one pass.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Submissions that report strictly on data science or model development
+      without any connection to software engineering and AI-enabled systems will be...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages plus 2 additional pages of references for long papers and 5 pages
+      plus 1 additional page for references for short papers
+    evidence: Page limit is 10 pages plus 2 additional pages of references for long
+      papers and 5 pages plus 1 additional page for references for short papers.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages plus 2 additional pages of references for long papers and
+          5 pages plus 1 additional page for references for short papers
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions must conform to the IEEE conference proceedings template,
+      specified in the IEEE Conference Proceedings Formatting Guidelines
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplementary materials are not mentioned and the submission is limited
+      to a specific page count.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ICSE Companion proceedings
+    evidence: The accepted full and short papers will be published in the ICSE Companion
+      proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ICSE Companion proceedings
+  statements:
+    value: true
+    evidence: Authors are asked to classify their papers as either research or experience
+      papers. Please use the following guidance to determine the appropriate...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Ottawa - Canada
+    evidence: 'location: Ottawa - Canada'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Ottawa - Canada
+    normalized:
+      city: Ottawa
+      country: Canada
+      display: Ottawa, Canada
+      raw: Ottawa - Canada
+  conference_format:
+    value: in-person
+    evidence: The conference is held in Ottawa, Canada with specific dates and venue
+      details provided.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Talks are scheduled throughout the conference days with no mention of
+      poster or other formats.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The data does not mention any workshops or tutorials for the main track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

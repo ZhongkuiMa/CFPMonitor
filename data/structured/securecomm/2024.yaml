@@ -1,0 +1,276 @@
+conference: SECURECOMM
+year: 2024
+last_checked: '2026-02-16T08:16:13.708412+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: 25 July 2024
+    evidence: Notification deadline is 25 September 2024, but the camera-ready deadline
+      is extended until 25 September 2024. The submission deadline is earlier at...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 25 July 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 25 September 2024
+    evidence: Notification deadline is 25 September 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 25 September 2024
+  camera_ready_deadline:
+    value: 25 September 2024
+    evidence: Camera-Ready Deadline is extended until 25 September 2024.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 25 September 2024
+  conference_dates:
+    value: 28-30 October, 2024
+    evidence: 'Date: 28-30 October, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 28-30 October, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Single-Blind Review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Single-Blind Review.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12-20 pages
+    evidence: Full/ Regular papers should be up 12-20 pages content in length.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12-20 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be formatted using the Springer LNICST Authors’ Kit.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer – LNICST series
+    evidence: Proceedings will be submitted for inclusion in leading indexing services,
+      such as Web of Science, Compendex, Scopus, DBLP, EU Digital Library,...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer – LNICST series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Dubai, United Arab Emirates
+    evidence: 'Location: Dubai, United Arab Emirates'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Dubai, United Arab Emirates
+    normalized:
+      city: Dubai
+      country: UAE
+      display: Dubai, UAE
+      raw: Dubai, United Arab Emirates
+  conference_format:
+    value: in-person
+    evidence: EAI SecureComm 2024 will be held as an on-site conference with an option
+      to present remotely.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshop Proposals is mentioned but not for the main track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Confy+
+    evidence: Papers should be submitted through EAI ‘ Confy+ ‘ system
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Confy+
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshop Proposals is mentioned in the data sources.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Call for Tutorial Proposals is not specifically linked to the main track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Call for Posters – EAI SecureComm 2024 is mentioned in the data sources.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Best Paper Award and Best Student Papers are mentioned in the data sources.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

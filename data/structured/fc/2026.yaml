@@ -1,0 +1,279 @@
+conference: FC
+year: 2026
+last_checked: '2026-02-16T10:59:19.140690+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: September 20, 2025
+    evidence: Paper submission deadline is September 20, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 20, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 24, 2025
+    evidence: 'Notification of acceptance: November 24, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 24, 2025
+  camera_ready_deadline:
+    value: January 12, 2026
+    evidence: Final pre-proceedings papers due date is January 12, 2026.
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 12, 2026
+  conference_dates:
+    value: March 2-6, 2026
+    evidence: 'Date: March 2-6, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 2-6, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Regular and short research paper submissions as well as SoKs must be
+      anonymized with no author names, affiliations, acknowledgments, or obvious...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: It is acceptable (but by no means required) for submitted papers to
+      be published online in non-anonymous form (e.g., on authors' websites or archives...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Submissions are limited to 15 pages in standard LNCS format excluding
+      references and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be formatted in standard LNCS format ( templates ) and submitted
+      as PDF files.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer-Verlag Lecture Notes in Computer Science (LNCS) series
+    evidence: Accepted submissions will be included in the conference proceedings
+      to be published in the Springer-Verlag Lecture Notes in Computer Science (LNCS)...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer-Verlag Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: No specific artifact evaluation policy mentioned.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: No restrictions on LLM/AI usage mentioned.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: St. Kitts Marriott Resort St. Kitts
+    evidence: 2–6 March 2026 St. Kitts Marriott Resort St. Kitts
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: St. Kitts Marriott Resort St. Kitts
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: St. Kitts Marriott Resort St. Kitts
+  conference_format:
+    value: in-person
+    evidence: 'Date: March 2-6, 2026'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The conference does not mention any workshops or satellite events.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: All accepted papers will appear in the Springer LNEE Proceedings (indexed
+      by EI Compendex, SCOPUS, Web of Science, and SpringerLink). Selected papers...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: No mention of soliciting workshop proposals.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: No mention of best paper or other awards in the submission guidelines.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

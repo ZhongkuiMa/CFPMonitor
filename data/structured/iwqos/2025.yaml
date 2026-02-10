@@ -1,0 +1,276 @@
+conference: IWQOS
+year: 2025
+last_checked: '2026-02-16T09:42:26.643209+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: February 23, 2025
+    evidence: 'Full Paper Submission Deadline: 23 February 2025 (extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 23, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 26, 2025
+    evidence: 'Notification of Paper Acceptance: 26 April 2025 (extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 26, 2025
+  camera_ready_deadline:
+    value: June 10, 2025 EDT
+    evidence: 'Camera Ready Submission Deadline: 10 Jun 2025 EDT (hard deadline)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 10, 2025 EDT
+  conference_dates:
+    value: July 2-4, 2025
+    evidence: 'dates: Jul 2, 2025 - Jul 4, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 2-4, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 10, 2025 EDT
+    evidence: 'Author registration deadline: 10 June, 2025 EDT (hard deadline)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 10, 2025 EDT
+  double_blind:
+    value: true
+    evidence: The review process will be double-blind, requiring submissions to avoid
+      revealing the authors' names and affiliations, as well as to refrain from...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: 'Full paper: 10 pages'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please format your final manuscript according to the detailed formatting
+      instructions below.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE/ACM
+    evidence: Authors of accepted papers are required to submit high quality original
+      technical papers for presentation at the conference and publication in the...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE/ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Gold Coast, Australia
+    evidence: 'place: Gold Coast, Australia'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Gold Coast, Australia
+    normalized:
+      city: Gold Coast
+      country: Australia
+      display: Gold Coast, Australia
+      raw: Gold Coast, Australia
+  conference_format:
+    value: in-person
+    evidence: The 33rd IEEE/ACM International Symposium on Quality of Service (IWQoS
+      2025) aims to continue this tradition as an international platform for the...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: All submissions must be made electronically as PDF files. Please follow
+      the submission like on https://iwqos2025.hotcrp.com/ to submit your paper.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: The Call for Papers can be found here. The Call for Posters can be found
+      here.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

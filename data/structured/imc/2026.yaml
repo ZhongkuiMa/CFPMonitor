@@ -1,0 +1,310 @@
+conference: IMC
+year: 2026
+last_checked: '2026-02-16T10:37:58.487885+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: November 20, 2025
+    evidence: Cycle 1 Deadline Paper submission November 20, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 20, 2025
+  abstract_deadline:
+    value: November 13, 2025
+    evidence: Cycle 1 Deadline Paper registration (with abstract) November 13, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 13, 2025
+  notification_date:
+    value: March 17, 2026
+    evidence: Cycle 1 Deadline Notification March 17, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 17, 2026
+  camera_ready_deadline:
+    value: April 14, 2026
+    evidence: Cycle 1 Deadline Shepherd approval and final camera ready submission
+      April 14, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 14, 2026
+  conference_dates:
+    value: October 12-16, 2026
+    evidence: ACM IMC 2026 - Call for Papers The ACM IMC 2026 conference will be held
+      from October 12-16, 2026 in Karlsruhe, Germany.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 12-16, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: IMC follows a double-blind review process. Submissions must be anonymized.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of accepted papers should plan to interact with their shepherds
+      immediately after notification, and to budget sufficient time between...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: IMC 2026 will have two deadlines per year (November 20th, 2025 and April
+      29th, 2026) and an optional one-shot-revision process across deadlines. The...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages for text and figures + unlimited pages for references and appendix
+    evidence: 'Page limits Full papers: up to 13 pages for technical content + unlimited
+      pages for references and appendices (including ethics discussion)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages for text and figures + unlimited pages for references and
+          appendix
+  page_limit_exclusions:
+    value: true
+    evidence: Appendices may not be used to abuse page limits. The page-limited body
+      of the paper should be self-contained.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: The ACM template style file satisfies the formatting requirements, provided
+      you compile your source with options that produce letter page size and...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Appendices may not be used to abuse page limits. The page-limited body
+      of the paper should be self-contained.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The official publication date is the date the proceedings are made available
+      in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: All papers must include, in a clearly marked appendix section with the
+      heading “Ethics”, a statement about ethical issues; papers that do not include...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: IMC 2026 requires that authors upload the references in their paper
+      in plain text format for easing verification of paper reference validity, which...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Karlsruhe, Germany
+    evidence: ACM IMC 2026 - Call for Papers The ACM IMC 2026 conference will be held
+      from October 12-16, 2026 in Karlsruhe, Germany.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Karlsruhe, Germany
+    normalized:
+      city: Karlsruhe
+      country: Germany
+      display: Karlsruhe, Germany
+      raw: Karlsruhe, Germany
+  conference_format:
+    value: in-person
+    evidence: ACM IMC 2026 - Call for Papers The ACM IMC 2026 conference will be held
+      from October 12-16, 2026 in Karlsruhe, Germany.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Shepherd approval and final camera ready submission April 14, 2026
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'null'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Cycle 1 submission system (register by Thursday November 13, 2025 at
+      11:59PM AoE (UTC-12) and submit by Thursday November 20, 2025 at 11:59PM AoE...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'null'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: IMC 2026 will bestow three awards on paper submissions, (1) a Best Paper
+      award; (2) a Best Student Paper award; and (3) a Community Contribution...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

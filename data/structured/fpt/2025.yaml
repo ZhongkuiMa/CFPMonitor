@@ -1,0 +1,288 @@
+conference: FPT
+year: 2025
+last_checked: '2026-02-16T10:28:00.802670+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: August 01, 2025
+    evidence: Submission Due (Conference Track)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 01, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: October 10, 2025
+    evidence: Notification of acceptance
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 10, 2025
+  camera_ready_deadline:
+    value: November 07, 2025
+    evidence: Camera-Ready Paper Submissions and Copyrights Due 7 November 2025 (AoE)
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 07, 2025
+  conference_dates:
+    value: December 02 - December 05, 2025
+    evidence: 2-5th Dec. 2025, Shanghai
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 02 - December 05, 2025
+  rebuttal_deadline:
+    value: September 19, 2025
+    evidence: Rebuttal responses due for regular FPT papers
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: September 19, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Manuscripts must not identify authors or their affiliations for double-blind
+      review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: It is also planned to invite the best direct submissions to FPT to contribute
+      to an FPT 2025 Special Issue of ACM TRETS after the conference.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages + up to 2 extra pages
+    evidence: 'Regular/Special Full paper: 8 pages + up to 2 extra pages (with additional
+      fee for each extra page)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages + up to 2 extra pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers should be submitted electronically in PDF format, following the
+      IEEE style.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Papers that are accepted to the FPT conference will be published in
+      the conference proceedings on IEEE Xplore.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: Ethics, broader impact, reproducibility checklist, or funding disclosure
+      is required
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: 'Artifacts Evaluation: We provide the opportunity of Artifact Evaluation
+      for both accepted regular papers and journal-track papers.'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Shanghai, China
+    evidence: 2-5th Dec. 2025, Shanghai
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Shanghai, China
+    normalized:
+      city: Shanghai
+      country: China
+      display: Shanghai, China
+      raw: Shanghai, China
+  conference_format:
+    value: in-person
+    evidence: The FPT conference is the premier conference in the Asia-Pacific region
+      on field-programmable technologies.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Papers should be submitted electronically in PDF format, following the
+      IEEE style. For submission, please go to the EasyChair and select FPT’25.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

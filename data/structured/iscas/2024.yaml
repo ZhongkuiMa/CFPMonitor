@@ -1,0 +1,292 @@
+conference: ISCAS
+year: 2024
+last_checked: '2026-02-16T07:58:24.375209+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: Oct 15, 2023
+    evidence: Submission deadline has been extended to Nov 7, 2023. Check Call for
+      Participation section for details.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Oct 15, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Jan 15, 2024
+    evidence: The authors' notification email has been sent. Paper status can also
+      be found here . Check Submission Site for details.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Jan 15, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 19-22, 2024
+    evidence: 'Dates: May 19, 2024 - May 22, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 19-22, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Jan 31, 2024
+    evidence: 'ISCAS 2024 Conference Registration is open. Author Registration Deadline:
+      Jan 31, 2024.'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Jan 31, 2024
+  double_blind:
+    value: true
+    evidence: THIS IS A DOUBLE BLIND REVIEW PROCESS. Do NOT include author names nor
+      affiliation information in your paper.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 5 pages
+    evidence: 'Paper Length: Maximum 5 pages , of which 4 are for technical content
+      including text, figures and references (if any), and with one additional...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 5 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Use our templates to meet formatting requirements below. Your paper
+      must comply with the following specifications:'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: 'IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I),
+      IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II), IEEE
+      Transactions on Biomedical Circuits and Systems (TBioCAS), IEEE Transactions
+      on Very Large Scale Integration Systems (TVLSI)'
+    evidence: 'Authors of selected accepted ISCAS 2024 papers will be invited to submit
+      a paper for possible publication either in: IEEE Transactions on Circuits...'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: 'IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I),
+          IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II),
+          IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), IEEE Transactions
+          on Very Large Scale Integration Systems (TVLSI)'
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Singapore
+    evidence: 'Location: Singapore'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Singapore
+    normalized:
+      city: Singapore
+      country: Singapore
+      display: Singapore
+      raw: Singapore
+  conference_format:
+    value: in-person
+    evidence: 'Dates: May 19, 2024 - May 22, 2024'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: ePapers
+    evidence: ALL submissions must be made on-line from ePapers submission site .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: ePapers
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

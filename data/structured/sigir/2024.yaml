@@ -1,0 +1,325 @@
+conference: SIGIR
+year: 2024
+last_checked: '2026-02-16T08:55:51.812553+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: January 25, 2024
+    evidence: 'Full paper submission deadline: January 25, 2024 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 25, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 25, 2024
+    evidence: All notifications (except SIRIP, Tutorial, and Workshop Papers) on March
+      25, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 25, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: July 14-18, 2024
+    evidence: The conference will be held from July 14-18, 2024 in Washington D.C.,
+      USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 14-18, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 15, 2024
+    evidence: 'Standard registration deadline: June 15, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 15, 2024
+  double_blind:
+    value: true
+    evidence: The full paper review process is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: Authors are required to take all reasonable steps to preserve the anonymity
+      of their submission. The submission must not include author information;...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: Immediately after the abstract deadline, PC Chairs will desk reject
+      submissions that lack informative titles and abstracts (“placeholder abstracts”).
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: be at most 9 pages (including figures, tables, proofs, appendixes, acknowledgments,
+      and any content except references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Submissions that violate the anonymity, pre-print policy , length, or
+      formatting requirements, or are determined to violate ACM’s policies on...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: 'Submissions must be anonymous and should be submitted electronically
+      via EasyChair: https://easychair.org/conferences/?conf=sigir24'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Figures, tables, proofs, appendixes, acknowledgements, or any other
+      content after page 9 of the submission.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: You can submit to SIGIR 2024 papers that you have posted to pre-print/archival
+      platforms (e.g. arXiv), or plan to post in the future, after...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The official publication date is the date the proceedings are made available
+      in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Authors should carefully go through ACM’s authorship policy before submitting
+      a paper.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The focus is on generating new findings of established approaches akin
+      to a test of time. Submitted papers should analyze to which extent assumptions...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Washington D.C., USA
+    evidence: The conference will be held from July 14-18, 2024 in Washington D.C.,
+      USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Washington D.C., USA
+    normalized:
+      city: Washington D.C.
+      country: US
+      display: Washington D.C., US
+      raw: Washington D.C., USA
+  conference_format:
+    value: in-person
+    evidence: The conference will be in-person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: At least one author of each accepted paper is required to register for,
+      and the author(s) or their delegate(s) must present the work at the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: 'ACM SIGIR Student Traval Grant application deadline: May 15, 2024'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: Workshop proposals are solicited but not for the main conference track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Submissions must be anonymous and should be submitted electronically
+      via EasyChair: https://easychair.org/conferences/?conf=sigir24'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Workshops will provide a platform for presenting novel ideas and emerging
+      areas in IR, in a less formal and more focused way than the conference...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: Tutorials are separate tracks and not part of the main conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: Demonstrations present first-hand experience with research prototypes
+      or operational systems. They provide opportunities to exchange ideas gained...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: true
+    evidence: The SIGIR Symposium on IR in Practice (SIRIP) 2024 will be held as part
+      of ACM SIGIR 2024.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: The SIGIR 2024 Doctoral Consortium (DC) will provide a unique opportunity
+      for doctoral students to explore and develop their research interests under...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

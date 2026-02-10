@@ -1,0 +1,331 @@
+conference: ASPLOS
+year: 2026
+last_checked: '2026-02-16T11:08:35.731498+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: August 20, 2025
+    evidence: Full paper submission — August 20, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 20, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 24, 2025
+    evidence: Notification — November 24, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 24, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: March 22-26, 2026
+    evidence: ASPLOS 2026 will be held in Pittsburgh, USA, from the 22nd to the 26th
+      of March 2026.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 22-26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ASPLOS employs a double-blind review process, keeping author identities
+      concealed from reviewers and vice versa.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: ASPLOS 2026 will provide an opportunity for authors to respond to reviews
+      prior to final consideration of the submissions at the program committee...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Submissions rejected from either the rapid round or the main review
+      period of ASPLOS must not be submitted to the next subsequent review cycles
+      and...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Full submissions must not exceed 11 pages of single-spaced two-column
+      text
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: false
+    evidence: The only exceptions are the bibliographic references section and the
+      appendices, which are not included in the page limit.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must be printable PDF files. When creating your submission,
+      you must use the ACM’s acmart Latex class available on the official ACM site,...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplemental material and Appendixes may be submitted as part of the
+      submission file and have no page limit. The submission must be self-contained...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: The authors additionally guarantee that no manuscript that contains
+      significant overlap with the contributions of the submitted document is or will...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: Starting January 1, 2026, ACM will fully transition to Open Access.
+      All ACM publications, including those from ACM-sponsored conferences, will be...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact evaluation will continue in 2026 as has become a tradition
+      at ASPLOS.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: Authors must abide by the ACM authorship policy, including its rules
+      relating to Generative AI. “Generative AI tools and technologies, such as...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Pittsburgh, PA, USA
+    evidence: ASPLOS 2026 will be held in Pittsburgh, USA, from the 22nd to the 26th
+      of March 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Pittsburgh, PA, USA
+    normalized:
+      city: Pittsburgh
+      country: US
+      display: Pittsburgh, US
+      raw: Pittsburgh, PA, USA
+  conference_format:
+    value: in-person
+    evidence: All submissions should abide by the ACM Code of Ethics.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Submissions selected by the program committee will be conditionally
+      accepted, subject to revision and approval by a committee member acting as a...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Information about Student Travel Grants is up.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: We solicit workshop and tutorial proposals for ASPLOS 2026 in Pittsburgh,
+      PA. Workshops and tutorials will be held on March 22 (Sunday) and March 23...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions must be printable PDF files. When creating your submission,
+      you must use the ACM’s acmart Latex class available on the official ACM site,...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: We solicit workshop and tutorial proposals for ASPLOS 2026 in Pittsburgh,
+      PA. Workshops and tutorials will be held on March 22 (Sunday) and March 23...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The committee will select a handful of papers to receive a Best Paper
+      Award.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,270 @@
+conference: EUSIPCO
+year: 2025
+last_checked: '2026-02-16T09:23:19.522189+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: March 13, 2025
+    evidence: Paper submission - March 13, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 13, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 20, 2025
+    evidence: Paper acceptance notification - May 20, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 20, 2025
+  camera_ready_deadline:
+    value: June 20, 2025
+    evidence: Camera-ready paper upload - June 20, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 20, 2025
+  conference_dates:
+    value: September 8-12, 2025
+    evidence: Isola delle Femmine – Palermo 8-12 September 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 8-12, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 20, 2025
+    evidence: Author’s registration deadline - June 20, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 20, 2025
+  double_blind:
+    value: true
+    evidence: The review process is single-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 5 pages
+    evidence: All main conference and special session submissions should be written
+      in English with a maximum paper length of five (5) printed pages
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 5 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: PAPERS MUST BE SUBMITTED IN ADOBE’S PORTABLE DOCUMENT FORMAT (PDF) FORMAT
+      must not have Adobe Document Protection and Document Security should not be...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted papers will be published on IEEE Xplore© like past proceedings
+      of EUSIPCO conferences
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Isola delle Femmine, Palermo, Italy
+    evidence: Isola delle Femmine – Palermo 8-12 September 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Isola delle Femmine, Palermo, Italy
+    normalized:
+      city: Isola Delle Femmine
+      country: Italy
+      display: Isola Delle Femmine, Italy
+      raw: Isola delle Femmine, Palermo, Italy
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in Isola delle Femmine-Palermo, Italy, on
+      September 8-12, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: Deadline for Satellite Workshop Proposals January 10, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: true
+    evidence: Tutorial proposals should be submitted by January 31, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: true
+    evidence: Demo Proposal Submission Deadline May 4, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

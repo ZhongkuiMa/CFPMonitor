@@ -1,0 +1,296 @@
+conference: ICIP
+year: 2026
+last_checked: '2026-02-16T11:42:10.308902+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: January 21, 2026
+    evidence: Submission due February 4, 2026 January 21, 2026 (submission of special
+      session papers opens on January 7, 2026)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 21, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 22, 2026
+    evidence: Notification of acceptance April 22, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 22, 2026
+  camera_ready_deadline:
+    value: May 13, 2026
+    evidence: Camera-ready paper due May 13, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 13, 2026
+  conference_dates:
+    value: September 13-17, 2026
+    evidence: The 2026 IEEE International Conference on Image Processing (ICIP) Call
+      for Papers has officially launched. Start preparing your materials; the...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 13-17, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: July 16, 2026
+    evidence: 'Satellite Workshop author registration due date: July 16, 2026 Every
+      accepted paper or abstract shall be covered by at least one registration at
+      the...'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 16, 2026
+  double_blind:
+    value: true
+    evidence: 'The double-blind review process requires that each submitter upload
+      two versions of their paper: A PDF version of the paper for double-blind review
+      –...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Once all reviews have been received, authors will be invited to a rebuttal
+      process.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 5 pages + 1 page of only references
+    evidence: 'Format: up to 5 pages + 1 page of only references (see Author Kit)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 5 pages + 1 page of only references
+  page_limit_exclusions:
+    value: false
+    evidence: The critical dimensions are the actual width and height of the page
+      content.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Please use the PDF Xpress in your paper preparation to make sure it
+      adheres to the formatting guidelines below.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may submit supplemental materials alongside their papers, including
+      images, video, datasets, codes, and software.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: 'Preprints, including Arxiv Authors may post their preprints in the
+      following locations: Author’s personal website, Author’s employer’s website,...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IEEE Xplore
+    evidence: All papers accepted to ICIP 2026 will be published on 13 August 2026
+      and will be freely accessible and downloadable by all in the final format from...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: All authors must submit their PUBLISH-READY papers through PDF Xpress
+      at https://ieee-pdf-express.org/account/login for checking paper’s formatting...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Tampere, Finland
+    evidence: The 2026 IEEE International Conference on Image Processing (ICIP) Call
+      for Papers has officially launched. Start preparing your materials; the...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Tampere, Finland
+    normalized:
+      city: Tampere
+      country: Finland
+      display: Tampere, Finland
+      raw: Tampere, Finland
+  conference_format:
+    value: in-person
+    evidence: The 2026 IEEE International Conference on Image Processing (ICIP) Call
+      for Papers has officially launched. Start preparing your materials; the...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All papers accepted to ICIP 2026 will be published on 13 August 2026
+      and will be freely accessible and downloadable by all in the final format from...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Satellite Workshops will be held as half-day or full-day events and
+      will take place on September 13 or September 17, 2026, before or after the main...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,265 @@
+conference: IWQOS
+year: 2026
+last_checked: '2026-02-16T11:09:17.051983+00:00'
+completeness:
+  known: 14
+  total: 40
+  percentage: 35.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 14
+rules:
+  submission_deadline:
+    value: 23 February 2026
+    evidence: 'Full Paper Deadline: 23 February 2026 (Deadline Extended!)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 23 February 2026
+  abstract_deadline:
+    value: 16 February 2026
+    evidence: 'Abstract Deadline : Extended!'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 16 February 2026
+  notification_date:
+    value: 30 April 2026
+    evidence: 'Notification of Acceptance: 30 April 2026 (Deadline Extended!)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 30 April 2026
+  camera_ready_deadline:
+    value: 20 May 2026
+    evidence: 'Camera Ready Deadline: 20 May 2026 (Deadline Extended!)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 20 May 2026
+  conference_dates:
+    value: June 29 - July 2, 2026
+    evidence: from June 29 to July 2, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 29 - July 2, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Papers that do not adhere to these guidelines will be rejected without
+      consideration of their merits.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 single-spaced, double-column pages
+    evidence: manuscripts not exceeding 10 single-spaced, double-column pages (including
+      references and appendices)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 single-spaced, double-column pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be made electronically as PDF files.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore Digital Library
+    evidence: Accepted workshop papers and abstracts will be published in the IWQoS
+      2026 workshop proceedings and submitted for inclusion in the IEEE Xplore...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Papers that do not adhere to these guidelines will be rejected without
+      consideration of their merits.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Dubai, United Arab Emirates
+    evidence: Dubai, United Arab Emirates
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Dubai, United Arab Emirates
+    normalized:
+      city: Dubai
+      country: UAE
+      display: Dubai, UAE
+      raw: Dubai, United Arab Emirates
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshop Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

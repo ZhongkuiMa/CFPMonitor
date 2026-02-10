@@ -1,0 +1,305 @@
+conference: SDM
+year: 2024
+last_checked: '2026-02-16T08:43:36.371770+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: September 22, 2023
+    evidence: 'Full Paper Submission: September 22, 2023, 11:59pm (US Pacific time)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 22, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 18-20, 2024
+    evidence: April 18 - 20, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 18-20, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Authors are requested to submit original and unpublished work, adhering
+      to the formatting and submission guidelines available on the conference...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are required to submit their papers electronically in PDF format
+      (postscript files can be converted using standard converters) through...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: All papers should have a maximum length of nine pages (single-spaced,
+      two column, 10-point font, and at least 1
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors are required to submit their papers electronically in PDF format
+      (postscript files can be converted using standard converters) through...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: SIAM website
+    evidence: Accepted contributions will be published in archival form and made available
+      on the SIAM website, ensuring wide dissemination and recognition for...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: SIAM website
+  statements:
+    value: true
+    evidence: Authors are required to submit their papers electronically in PDF format
+      (postscript files can be converted using standard converters) through...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors will be required to disclose the use of LLMs in the paper submission
+      form.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Houston, TX, USA
+    evidence: Westin Houston, Memorial City, Houston, TX, U.S.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Houston, TX, USA
+    normalized:
+      city: Houston
+      country: US
+      display: Houston, US
+      raw: Houston, TX, USA
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: The format of the conference is not specified in the data sources provided.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: 'Apply for Assistance (Travel Fund Application Deadline: SIAM Student
+      Travel Award and Early Career Travel Award Applications): January 18, 2024,...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: true
+    evidence: A series of focused workshops will be held on the conference's final
+      day, providing a collaborative space to delve deeper into specific data mining...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: CMT
+    evidence: Authors are required to submit their papers electronically in PDF format
+      (postscript files can be converted using standard converters) through...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop Proposals: October 6, 2023, 11:59pm (US Pacific time)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: "Blue Sky Idea Track: SDMâ\x80\x9924 is excited to announce the Blue\
+      \ Sky Idea Track, a first for Data Mining conferences."
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

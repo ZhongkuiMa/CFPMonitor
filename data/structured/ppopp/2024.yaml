@@ -1,0 +1,294 @@
+conference: PPOPP
+year: 2024
+last_checked: '2026-02-16T07:55:07.934647+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: August 4, 2023
+    evidence: 'Full paper submission: Friday, August 4, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 4, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: November 10, 2023
+    evidence: 'Author notification: Friday, November 10, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 10, 2023
+  camera_ready_deadline:
+    value: January 17, 2024
+    evidence: 'Final paper due: January 17, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 17, 2024
+  conference_dates:
+    value: March 2-6, 2024
+    evidence: 'Dates: 02 - 06 March, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 2-6, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PPoPP submissions will be evaluated based on their technical merit and
+      accessibility. Submissions should report on original research relevant to...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages of text
+    evidence: Papers should contain a maximum of 10 pages of text (in a typeface no
+      smaller than 10 point) or figures, NOT INCLUDING references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages of text
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'All papers must be prepared in ACM Conference Format using the 2-column
+      acmart format: use the SIGPLAN proceedings template...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may submit supplementary material, such as proofs or source
+      code; all supplementary material must be in PDF or ZIP format.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The official publication date affects the deadline for any patent filings
+      related to published work.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Papers that go through the AE process successfully will receive one
+      or several of the ACM reproducibility badges, printed on the papers themselves.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Edinburgh, United Kingdom
+    evidence: 'Location: Edinburgh, United Kingdom'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Edinburgh, United Kingdom
+    normalized:
+      city: Edinburgh
+      country: UK
+      display: Edinburgh, UK
+      raw: Edinburgh, United Kingdom
+  conference_format:
+    value: in-person
+    evidence: 'Dates: 02 - 06 March, 2024'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

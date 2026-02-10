@@ -1,0 +1,301 @@
+conference: AAMAS
+year: 2026
+last_checked: '2026-02-16T11:32:37.530803+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: October 08, 2025
+    evidence: 'Paper submission: Oct 08, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 08, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 22, 2025
+    evidence: 'Author notification: Dec 22, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2025
+  camera_ready_deadline:
+    value: February 18, 2026
+    evidence: 'Camera-ready paper: Feb 18, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 18, 2026
+  conference_dates:
+    value: May 25-29, 2026
+    evidence: 'Conference: May 25-29, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 25-29, 2026
+  rebuttal_deadline:
+    value: November 21 – 25, 2025
+    evidence: 'Rebuttal period: Nov 21–25, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: November 21 – 25, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: March 31, 2026
+    evidence: 'Author Registration Deadline: Mar 31, 2026'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 31, 2026
+  double_blind:
+    value: true
+    evidence: AAMAS reviewing is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Reviewers will assess papers based on the following criteria: Relevance
+      and Advancement (level of future-thinking)'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Papers may be moved to a different area based on fit but may be desk
+      rejected if deemed out of scope.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Papers submitted to the main track must be at most 8 pages long
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Excessive use of typesetting tricks to make everything fit into 8 pages
+      is not admissible.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: The submission website is now open. If the primary author of your paper
+      is a (doctoral or other kind of) student, then please register your paper as...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: You have the option to accompany your submission with supplementary
+      material.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Submissions that are in violation of any of the above policies are subject
+      to rejection without peer review at the discretion of the program chairs.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IFAAMAS
+    evidence: All papers accepted at AAMAS 2026 will be published by the International
+      Foundation for Autonomous Agents and Multiagent Systems (IFAAMAS)
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IFAAMAS
+  statements:
+    value: true
+    evidence: 'Ethics policy: Authors assume full responsibility for content, including
+      checking for plagiarism and veracity of all text.'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: AI-assisted technologies may not be listed as authors or co-authors
+      on papers submitted to AAMAS. It is permissible to use AI-assisted technologies...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Paphos, Cyprus
+    evidence: The 25th International Conference on Autonomous Agents and Multiagent
+      Systems (AAMAS 2026) will be held in Paphos, Cyprus in May 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Paphos, Cyprus
+    normalized:
+      city: Paphos
+      country: Cyprus
+      display: Paphos, Cyprus
+      raw: Paphos, Cyprus
+  conference_format:
+    value: in-person
+    evidence: AAMAS 2026 will be an in-person event in Paphos, Cyprus.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All authors are required to have OpenReview profiles. Since these can
+      take some time to obtain, you may submit your abstract with a partial author...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: AAMAS 2026 invites proposals for the workshop program, which will be
+      held on May 25-26, 2026, immediately before the main program of the AAMAS...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Papers submitted to the main track must be at most 8 pages long, with
+      any number of additional pages containing bibliographic references. You have...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

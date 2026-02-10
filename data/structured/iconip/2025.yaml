@@ -1,0 +1,292 @@
+conference: ICONIP
+year: 2025
+last_checked: '2026-02-16T10:01:17.027948+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: May 15, 2025
+    evidence: 'Paper submission deadline: May 15th 22nd AoE (May 23rd at noon UTC)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 15, 2025
+    evidence: 'Notification of acceptance: By the end of July 15th 25th AoE (July
+      26th at noon UTC)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 15, 2025
+  camera_ready_deadline:
+    value: August 15, 2025
+    evidence: 'Camera-ready submission: August 15th'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 15, 2025
+  conference_dates:
+    value: November 20-24, 2025
+    evidence: 'Conference dates: November 20-24'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 20-24, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: August 15, 2025
+    evidence: 'Early registration deadline: August 15th'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 15, 2025
+  double_blind:
+    value: true
+    evidence: ICONIP employs a single-blind paper reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12-15 pages
+    evidence: The paper length must be between 12 and 15 pages (including figures,
+      references, and appendix) in Springer LNCS Proceedings format.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12-15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All papers must be submitted electronically to the OpenReview site...
+      in PDF format in the Springer LNCS/LNAI style. The style files can be...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: ICONIP2025 Preprint Policy... If you have published your paper in preprint
+      servers before submitting it to ICONIP2025, you must update the preprint...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer series of Lecture Notes in Computer Science (LNCS) and Communications
+      in Computer and Information Science (CCIS)
+    evidence: Proceedings will be published in the Springer series of Lecture Notes
+      in Computer Science (LNCS) and Communications in Computer and Information...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer series of Lecture Notes in Computer Science (LNCS) and Communications
+          in Computer and Information Science (CCIS)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: The ICONIP2025 submission instructions do not mention any artifact evaluation
+      policy.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: ICONIP employs a single-blind paper reviewing process.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Okinawa, Japan
+    evidence: The International Conference on Neural Information Processing (ICONIP)
+      is set to be held in Okinawa, Japan, from November 20th to November 24th, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Okinawa, Japan
+    normalized:
+      city: Okinawa
+      country: Japan
+      display: Okinawa, Japan
+      raw: Okinawa, Japan
+  conference_format:
+    value: in-person
+    evidence: You must be available to present at the conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ICONIP2025 Call for Papers... We are now calling for proposals of special
+      sessions during the single track main conference and parallel workshops and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: All papers must be submitted electronically to the OpenReview site (https://openreview.net/group?id=apnns.org/ICONIP/2025/Conference)
+      in PDF format...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Special Sessions
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: true
+    evidence: Call for Tutorials
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The conference program will include... awards to outstanding papers
+      presented at the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

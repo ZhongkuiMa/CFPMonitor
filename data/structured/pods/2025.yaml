@@ -1,0 +1,326 @@
+conference: PODS
+year: 2025
+last_checked: '2026-02-16T09:57:13.632054+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: January 17, 2024
+    evidence: Weds, Jan 17, 2024, Paper Submission
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 17, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 29, 2024
+    evidence: Thurs, Feb 29, 2024, Notification of Accept/Review/Reject
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 29, 2024
+  camera_ready_deadline:
+    value: May 2, 2024
+    evidence: Thurs, May 2, 2024, Final Notification
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 2, 2024
+  conference_dates:
+    value: June 22-27, 2025
+    evidence: The annual ACM SIGMOD/PODS Conference is a leading international forum
+      for database researchers, practitioners, developers, and users to explore...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 22-27, 2025
+  rebuttal_deadline:
+    value: July 29 - August 1, 2024
+    evidence: Thurs, Jul 29 - Aug 1, 2024, Revision Feedback
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 29 - August 1, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: PODS will apply a double-blind reviewing process. This implies that
+      submitted papers must adhere to the double-blind reviewing policy described
+      below...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: In lieu of the revision requests from prior years, many accepted papers
+      will be assigned a shepherd to guide authors through revisions. Final...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 12 pages
+    evidence: LaTex users must format their submission using the standard ACM "acmsmall"
+      proceedings stylesheet:...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: LaTex users must format their submission using the standard ACM "acmsmall"
+      proceedings stylesheet:...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Papers that are longer than 15 pages or do not cohere with the required
+      format style risk rejection without consideration of their merits. The...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Following the ACM guidelines a research paper submitted to SIGMOD 2025
+      cannot be under review for any other publishing forum or presentation venue,...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: You must also use care in referring to related past work, particularly
+      your own, in the paper. For example, if you are Jane Smith, the following text...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: PACMMOD journal
+    evidence: Authors of papers published in the PACMMOD issues of PODS 2025 will
+      be invited to present their work at the SIGMOD/PODS conference. PODS will apply
+      a...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: PACMMOD journal
+  statements:
+    value: true
+    evidence: 'Inclusion and Diversity in Writing: Be mindful of not using language
+      or examples that further the marginalization, stereotyping, or erasure of any...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: SIGMOD strives to establish a culture where sharing research artifacts
+      (data, results, code, and scripts) is the norm rather than an exception....
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Berlin, Germany
+    evidence: The annual ACM SIGMOD/PODS Conference is a leading international forum
+      for database researchers, practitioners, developers, and users to explore...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Berlin, Germany
+    normalized:
+      city: Berlin
+      country: Germany
+      display: Berlin, Germany
+      raw: Berlin, Germany
+  conference_format:
+    value: in-person
+    evidence: The annual ACM SIGMOD/PODS Conference is a leading international forum
+      for database researchers, practitioners, developers, and users to explore...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Authors of accepted publications will be assigned a time to present
+      a poster of their work at the poster plenaries in the conference. All papers
+      are...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2025 conference. The workshops will run on June 22, 2025 (Sunday) or June 27,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Submissions to the demonstration track are NOT subject to double blind
+      reviewing. The author name(s) and affiliation(s) must be present in the...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: We invite proposals for workshops to be collocated with the SIGMOD/PODS
+      2025 conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: We solicit proposals for tutorials to be presented at the 2025 ACM SIGMOD
+      conference on topics that are of interest to the database community.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: The SIGMOD demonstration program has become an important venue for sharing
+      cutting-edge data management system prototypes (software, hardware, both)...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: 'Awards: The annual ACM SIGMOD/PODS Conference is a leading international
+      forum for database researchers, practitioners, developers, and users to...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,319 @@
+conference: REFSQ
+year: 2025
+last_checked: '2026-02-16T10:31:01.459801+00:00'
+completeness:
+  known: 19
+  total: 40
+  percentage: 47.5
+quality:
+  conflict_count: 4
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Wed 15 Jan 2025
+      llm_batch2: Fri 13 Dec 2024
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Fri 7 Feb 2025
+      llm_batch2: Fri 7 Mar 2025
+  - field: conference_location
+    values:
+      llm_batch1: Polytechnic University of Catalonia, North Campus, Barcelona
+      llm_batch2: Barcelona, Spain
+  - field: workshops
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  source_coverage:
+    llm: 19
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Fri 13 Dec 2024
+    evidence: 'Fri 13 Dec 2024 : Notification for Workshop Proposals'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Wed 15 Jan 2025
+      llm_batch2:
+        value: Fri 13 Dec 2024
+    _conflict: true
+  camera_ready_deadline:
+    value: Fri 7 Mar 2025
+    evidence: Fri 7 Mar 2025 Camera-ready submissions
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Fri 7 Feb 2025
+      llm_batch2:
+        value: Fri 7 Mar 2025
+    _conflict: true
+  conference_dates:
+    value: Mon 7 Apr - Thu 10 Apr, 2025
+    evidence: REFSQ Program Mon 7 Apr Tue 8 Apr Wed 9 Apr Thu 10 Apr
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mon 7 Apr - Thu 10 Apr 2025
+      llm_batch2:
+        value: Mon 7 Apr - Thu 10 Apr, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Each submission in the scope of REFSQ will undergo a single-blind review
+      process that will involve at least three members of the program committee.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Each submission in the scope of REFSQ will undergo a single-blind review
+      process that will involve at least three members of the program committee.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Each submission in the scope of REFSQ will undergo a single-blind review
+      process that will involve at least three members of the program committee.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  page_limit:
+    value: 15 pages
+    evidence: Technical design papers (15 pages incl. references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be formatted according to the Springer LNCS/LNBIP
+      conference proceedings template for LaTeX and Word
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer’s LNCS series
+    evidence: Proceedings of previous editions can be found at https://link.springer.com/conference/refsq
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Springer’s LNCS series
+  statements:
+    value: true
+    evidence: Finally, we cordially invite authors to disclose their research artifacts
+      following our open science guidelines.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Barcelona, Spain
+    evidence: 'place: Barcelona, Spain'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Polytechnic University of Catalonia, North Campus, Barcelona
+      llm_batch2:
+        value: Barcelona, Spain
+    _conflict: true
+    normalized:
+      city: Barcelona
+      country: Spain
+      display: Barcelona, Spain
+      raw: Barcelona, Spain
+  conference_format:
+    value: in-person
+    evidence: The REFSQ Working Conference provide a forum for exchanging innovative
+      ideas and approaches to successful requirements engineering (RE) amongst...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Workshops Opening Workshops at C2 - Sala Actes 09:00 - 09:30 Workshops
+      Opening Workshops at C2 - Sala Actes
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: The REFSQ Working Conference provide a forum for exchanging innovative
+      ideas and approaches to successful requirements engineering (RE) amongst...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  submission_system:
+    value: EasyChair
+    evidence: 'Submit your proposal via EasyChair in PDF format through EasyChair
+      at: https://easychair.org/conferences/?conf=refsq2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshop Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

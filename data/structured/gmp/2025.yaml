@@ -1,0 +1,261 @@
+conference: GMP
+year: 2025
+last_checked: '2026-02-16T09:05:53.506329+00:00'
+completeness:
+  known: 13
+  total: 40
+  percentage: 32.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 13
+rules:
+  submission_deadline:
+    value: December 16, 2024
+    evidence: Full paper submission December 16, 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 16, 2024
+  abstract_deadline:
+    value: December 9, 2024
+    evidence: Abstract submission (mandatory) December 9, 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: December 9, 2024
+  notification_date:
+    value: February 17, 2025
+    evidence: First review notification February 17, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 17, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 28-30, 2025
+    evidence: Conference date May 28-30
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 28-30, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The review process will be double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 to 15 pages
+    evidence: Please use our LaTeX template for your submission (expected length is
+      10 to 15 pages).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 to 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please use our LaTeX template for your submission.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Computer-Aided Geometric Design (CAGD, Elsevier)
+    evidence: The conference proceedings will be published in a special issue of Computer-Aided
+      Geometric Design (CAGD, Elsevier).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Computer-Aided Geometric Design (CAGD, Elsevier)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: St. Louis, MO, USA
+    evidence: GMP 2025 will be held in-person on the beautiful campus of Washington
+      University in St. Louis.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: St. Louis, MO, USA
+    normalized:
+      city: St. Louis
+      country: US
+      display: St. Louis, US
+      raw: St. Louis, MO, USA
+  conference_format:
+    value: in-person
+    evidence: GMP 2025 will be held in-person on the beautiful campus of Washington
+      University in St. Louis.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: https://srmv2.eg.org/COMFy/Conference/GMP_2025
+    evidence: 'Submission link: https://srmv2.eg.org/COMFy/Conference/GMP_2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: https://srmv2.eg.org/COMFy/Conference/GMP_2025
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

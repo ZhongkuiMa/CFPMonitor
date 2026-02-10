@@ -1,0 +1,313 @@
+conference: NEURIPS
+year: 2025
+last_checked: '2026-02-16T09:51:37.287235+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: May 15, 2025
+    evidence: 'Full paper submission deadline: May 15, 2025 AOE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 15, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Sep 18, 2025
+    evidence: 'Author notification: Sep 18, 2025 AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sep 18, 2025
+  camera_ready_deadline:
+    value: Oct 23, 2025
+    evidence: 'Camera-ready: Oct 23, 2025 AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Oct 23, 2025
+  conference_dates:
+    value: December 2-7, 2025
+    evidence: 'date: December 2-7, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 2-7, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions must be anonymized and may not contain any identifying
+      information that may violate the double-blind reviewing policy.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Single-blind submissions
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Reviews and author responses will not be public initially (but may be
+      made public later)
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have one week to view and respond to initial reviews.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: NeurIPS does not tolerate any collusion whereby authors secretly cooperate
+      with reviewers, ACs, or SACs to obtain favorable reviews.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 9 pages
+    evidence: The main text of a submitted paper is limited to nine content pages
+      , including all figures and tables.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'All submissions must be in PDF format, and in a single PDF file include,
+      in this suggested order: The submitted paper content, Paper references, The...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Technical appendices with additional results, figures, graphs and proofs
+      may be submitted with the paper submission before the full submission...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Submissions that are substantially similar to papers that the authors
+      have previously published or submitted in parallel to other peer-reviewed...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: NeurIPS conference proceedings
+    evidence: Accepted papers will be published in the NeurIPS proceedings and presented
+      at the conference alongside the main track papers.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: NeurIPS conference proceedings
+  statements:
+    value: true
+    evidence: Camera-ready papers will be due in advance of the conference. All camera-ready
+      papers must include a funding disclosure .
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The NeurIPS policy for use of Large Language Models (LLMs) can be found
+      here.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: San Diego Convention Center, USA
+    evidence: 'place: San Diego Convention Center, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Diego Convention Center, USA
+    normalized:
+      city: null
+      country: US
+      display: US
+      raw: San Diego Convention Center, USA
+  conference_format:
+    value: in-person
+    evidence: NeurIPS will host only in-person workshops this year, with full-stack
+      technical support to broadcast the workshop to the online audience.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The main text of a submitted paper is limited to nine content pages
+      , including all figures and tables. Additional pages containing references,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Each paper may designate up to one (1) NeurIPS.cc account email address
+      of a corresponding student author who confirms that they would need the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: Following the NeurIPS 2025 main conference, workshops on a variety of
+      current topics will be held.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: We are using OpenReview to manage submissions.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: We invite the submission of position papers to be published at the NeurIPS
+      2025 conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Accepted papers will be published in the NeurIPS proceedings and presented
+      at the conference alongside the main track papers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

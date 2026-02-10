@@ -1,0 +1,289 @@
+conference: ACML
+year: 2024
+last_checked: '2026-02-16T08:03:00.043622+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: July 3, 2024
+    evidence: 'Submission deadline: 03 July 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 3, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 14, 2024
+    evidence: 'Reviews released to authors: 14 August 2024 Author rebuttal deadline:
+      21 August 2024 Acceptance notification: 04 September 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 14, 2024
+  camera_ready_deadline:
+    value: September 2, 2024
+    evidence: 'Camera-ready submission deadline: 02 October 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 2, 2024
+  conference_dates:
+    value: December 5-8, 2024
+    evidence: The 16th Asian Conference on Machine Learning (ACML 2024) will take
+      place between December 5th - 8th, 2024 in Hanoi, Vietnam.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 5-8, 2024
+  rebuttal_deadline:
+    value: August 21, 2024
+    evidence: 'Author rebuttal deadline: 21 August 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 21, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All conference track submissions must be anonymized for double-blinded
+      review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Author rebuttal deadline: 21 August 2024'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: 'Conference Track: (16-page limit with references)'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'Please submit your manuscript via OpenReview at: https://openreview.net/group?id=ACML.org/2024/Conference
+      Manuscripts must be written in English, and...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary materials may be submitted as a separate file, but reviewers
+      are not obliged to consider it.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research Workshop and Conference Proceedings
+      (PMLR)
+    evidence: 'Conference Track: (16-page limit with references) for which the proceedings
+      will be published as a volume of Proceedings of Machine Learning Research...'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research Workshop and Conference Proceedings
+          (PMLR)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Hanoi, Vietnam
+    evidence: The conference will be held in person from December 5-8, 2024, in Hanoi,
+      Vietnam.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Hanoi, Vietnam
+    normalized:
+      city: Hanoi
+      country: Vietnam
+      display: Hanoi, Vietnam
+      raw: Hanoi, Vietnam
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in person from December 5-8, 2024, in Hanoi,
+      Vietnam.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: Call for Workshops (Closed)
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: OpenReview
+    evidence: https://openreview.net/group?id=ACML.org/2024/Conference
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: true
+    evidence: Call for Tutorials (Closed)
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Call for ACML 2024 Distinguished Contribution Award Nominations (Closed)
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

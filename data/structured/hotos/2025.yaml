@@ -1,0 +1,290 @@
+conference: HOTOS
+year: 2025
+last_checked: '2026-02-16T10:12:10.492170+00:00'
+completeness:
+  known: 20
+  total: 40
+  percentage: 50.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 20
+rules:
+  submission_deadline:
+    value: January 15, 2025 (AoE)
+    evidence: 'Paper or Panel Proposal Submission Deadline: January 15, 2025 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 15, 2025 (AoE)
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 1, 2025
+    evidence: 'Author Notifications: accept/reject decisions April 1, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 1, 2025
+  camera_ready_deadline:
+    value: April 15, 2025 (Extended)
+    evidence: 'Camera-ready deadline: April 15, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 15, 2025 (Extended)
+  conference_dates:
+    value: May 14–16, 2025
+    evidence: 'Workshop: May 14–16, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 14–16, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 7, 2025 (Early)
+    evidence: 'Registration Type Fee (early) Registration Fees: ACM Member $700, ACM
+      Student Member $500, Non-Member $800, Student Non-Member $600'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 7, 2025 (Early)
+  double_blind:
+    value: true
+    evidence: Research and position paper submissions must be no longer than 5 pages
+      including figures and tables, plus as many pages as needed for references....
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Revised versions of all accepted papers will be available online to
+      registered attendees before the workshop. After the workshop, accepted papers...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 5 pages
+    evidence: Research and position paper submissions must be no longer than 5 pages
+      including figures and tables, plus as many pages as needed for references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 5 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please use the acmart style ( exttt{documentclass[sigconf,10pt] extit{acmart}}).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Simultaneous submission of the same work to multiple venues, submission
+      of previously published work, or plagiarism constitutes dishonesty or fraud.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: After the workshop, accepted papers will be made available on the workshop
+      site, along with slides of the presentation and in some cases a summary of...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: true
+    evidence: See the ACM code of conduct and diversity and inclusion guidelines.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Banff, Alberta, Canada
+    evidence: 'Workshop: May 14–16, 2025, Banff, Alberta, Canada'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Banff, Alberta, Canada
+    normalized:
+      city: Banff
+      country: Canada
+      display: Banff, Canada
+      raw: Banff, Alberta, Canada
+  conference_format:
+    value: in-person
+    evidence: HotOS will be an in-person workshop.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Thanks to the generous support of our sponsors, HotOS XX will offer
+      a limited number of awards to assist students attending the workshop.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: web submission form
+    evidence: Papers and proposals should be submitted as PDF files via the web submission
+      form.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: web submission form
+  has_workshop_proposals:
+    value: true
+    evidence: We solicit position papers that propose new directions of systems research,
+      advocate innovative approaches to long-standing problems, or report on...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: true
+    evidence: We solicit position papers that propose new directions of systems research,
+      advocate innovative approaches to long-standing problems, or report on...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Thanks to the generous support of our sponsors, HotOS XX will offer
+      a limited number of awards to assist students attending the workshop.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

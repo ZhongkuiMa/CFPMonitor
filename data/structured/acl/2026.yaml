@@ -1,0 +1,322 @@
+conference: ACL
+year: 2026
+last_checked: '2026-02-16T11:49:01.748058+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: January 5, 2026
+    evidence: 'Submission deadline (all papers are submitted to ARR) : January 5,
+      2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 5, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 4, 2026
+    evidence: 'Notification of acceptance: April 4, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 4, 2026
+  camera_ready_deadline:
+    value: April 19, 2026
+    evidence: 'Camera-ready papers due : April 19, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 19, 2026
+  conference_dates:
+    value: July 5 - 7, 2026
+    evidence: 'Main Conference : July 5-7, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 5 - 7, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: April 19, 2026
+    evidence: 'Withdrawal deadline : April 19, 2026'
+    category: deadlines
+    priority: low
+    _sources:
+      llm:
+        value: April 19, 2026
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The reviewing process will continue to be double-blind. Reviewers will
+      not see authors, nor will authors see reviewers, and reviews on ARR will not...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors have the option through ARR to make their anonymized submitted
+      articles publicly visible.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers can be desk-rejected for a variety of reasons, including format
+      and anonymity violations, dual submissions, and self-plagiarism (significant...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Long Papers (8 pages) and Short Papers (4 pages)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Papers that do not conform to the required styles, including paper size,
+      margin width, and font size restrictions, will be rejected without review.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Submissions must use the official ACL style templates, which are available
+      here (Latex and Word).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Optional Supplementary Materials: Appendices, Software, and Data'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of the conference
+    evidence: Final versions of accepted papers will be given one additional page
+      of content (up to 9 pages for long papers, up to 5 pages for short papers) to...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the conference
+  statements:
+    value: true
+    evidence: Authors are required to discuss the limitations of their work in a dedicated
+      section titled “Limitations”. This section should be included at the end...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: 'Optional Supplementary Materials: Appendices, Software, and Data'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: The ACL 2026 Industry Track adheres to the ACL policy on using writing
+      assistants (including AI-based writing assistants and other AI tools)...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: San Diego, CA, USA
+    evidence: 'Conference Dates: July 2-7, 2026, 2026'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Diego, CA, USA
+    normalized:
+      city: San Diego
+      country: US
+      display: San Diego, US
+      raw: San Diego, CA, USA
+  conference_format:
+    value: hybrid
+    evidence: The conference will include both in-person and virtual presentation
+      options.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Papers have to be submitted through the ACL 2026 Industry Track online
+      submission system .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: The conference will feature a Best Demo Award, recognizing the most
+      outstanding demonstration.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

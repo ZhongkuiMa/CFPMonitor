@@ -1,0 +1,273 @@
+conference: ECSCW
+year: 2026
+last_checked: '2026-02-16T11:16:56.934166+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: March 6, 2026
+    evidence: March 6, 2026 Submissions due for Conference Papers (23:59 AoE)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 6, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 24, 2026
+    evidence: April 24, 2026 Notification to the authors
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 24, 2026
+  camera_ready_deadline:
+    value: May 29, 2026
+    evidence: May 29, 2026 Deadline for camera-ready version of accepted submissions
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 29, 2026
+  conference_dates:
+    value: July 1 – 3, 2026
+    evidence: July 1 – 3, 2026 ECSCW 2026 Conference
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 1 – 3, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: (Full) Conference Papers submissions will undergo a double-blind, single-round
+      peer review by the EUSSET CSCW program committee
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Conference Papers that are not in the appropriate submission format
+      or do not fall within the scope of the conference will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6,000 words
+    evidence: we expect they will be no longer than 6,000 words without references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6,000 words
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All authors must follow the EUSSET conference template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: European Society for Embedded Technologies (EUSSET) Digital Library
+    evidence: All accepted Conference Papers will be published in the European Society
+      for Embedded Technologies (EUSSET) Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: European Society for Embedded Technologies (EUSSET) Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Munich, Germany
+    evidence: The 24th edition of ECSCW will take place in Munich, Germany – from
+      June 29th to July 3rd, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Munich, Germany
+    normalized:
+      city: Munich
+      country: Germany
+      display: Munich, Germany
+      raw: Munich, Germany
+  conference_format:
+    value: in-person
+    evidence: The 24th edition of ECSCW will take place in Munich, Germany – from
+      June 29th to July 3rd, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: January 15, 2026 System open for submissions
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals are not anonymous and should include all organizer(s)
+      names, affiliations, and contact information.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

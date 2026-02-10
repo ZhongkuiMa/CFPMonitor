@@ -1,0 +1,324 @@
+conference: EACL
+year: 2024
+last_checked: '2026-02-16T08:51:40.394548+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: October 15, 2023
+    evidence: Paper submission deadline (via ARR), Sunday, 15 October 2023
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 15, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 17, 2024
+    evidence: Notification of acceptance (long & short papers), Wednesday 15 January
+      2024 17 January 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 17, 2024
+  camera_ready_deadline:
+    value: February 2, 2024
+    evidence: Camera-ready papers due (long & short papers), Friday 31 January 2024
+      2 February 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 2, 2024
+  conference_dates:
+    value: March 18-20, 2024
+    evidence: Main Conference, Monday-Wed, 18-20 March 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 18-20, 2024
+  rebuttal_deadline:
+    value: December 12-13, 2023
+    evidence: Author response period, Friday-Tuesday, 8-12 December 2023
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 12-13, 2023
+  withdrawal_deadline:
+    value: January 22, 2024
+    evidence: Withdrawal deadline (long & short papers), Monday, 22 January 2024
+    category: deadlines
+    priority: low
+    _sources:
+      llm:
+        value: January 22, 2024
+  registration_deadline:
+    value: February 23, 2024
+    evidence: Early registration will end on Friday, February 23, 2024, 11:59 PM (EDT).
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 23, 2024
+  double_blind:
+    value: true
+    evidence: Following standard ACL and ARR policy, submitted papers must be prepared
+      for two-way anonymized review, and no deanonymized preprint may be posted in...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Author response period, Friday-Tuesday, 8-12 December 2023
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Long papers may consist of up to 8 pages of content, plus unlimited
+      pages for references and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Following standard ACL and ARR policy, submitted papers must be prepared
+      for two-way anonymized review, and no deanonymized preprint may be posted in...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: 'EACL 2024 follows the ARR policy on multiple submission: we will not
+      consider any paper that is under review in a journal or another conference at...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACL Anthology
+    evidence: The proceedings of the main conference , Findings , workshops , tutorials
+      , system demonstrations , and the student research workshop are accessible...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACL Anthology
+  statements:
+    value: true
+    evidence: We believe that it is also important to discuss the limitations of your
+      work, in addition to its strengths. Following EACL 2023, EACL 2024 requires...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Malta
+    evidence: EACL 2024 will take place at the Hotel Radisson Blu, St. Julians, in
+      Malta.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Malta
+    normalized:
+      city: null
+      country: Malta
+      display: Malta
+      raw: Malta
+  conference_format:
+    value: in-person
+    evidence: Main Conference, Monday-Wed, 18-20 March 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: Finacial aid via a discounted/sliding scale Virtual Registration ($0-100)
+      is availale. For more information and how to apply please see here .
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'Papers must be submitted via ARR at this link: https://openreview.net/group?id=aclweb.org/ACL/ARR/2023/October'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: true
+    evidence: Papers submitted to EACL 2024, but not selected for the main conference,
+      will also automatically be considered for publication in the Findings of the...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

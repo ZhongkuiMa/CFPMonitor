@@ -1,0 +1,384 @@
+conference: IJCAI
+year: 2026
+last_checked: '2026-02-16T10:41:34.405989+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 2
+  conflicts:
+  - field: conference_dates
+    values:
+      llm_batch1: August 15-21, 2026
+      llm_batch2: August 18, 2026 - August 21, 2026
+  - field: submission_system
+    values:
+      llm_batch1: CMT
+      llm_batch2: chairingtool.com
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: January 19, 2026
+    evidence: 'Full paper submission deadline (including Appendix and resubmission
+      information): January 19, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: January 19, 2026
+      llm_batch2:
+        value: January 19, 2026
+  abstract_deadline:
+    value: January 12, 2026
+    evidence: 'Abstract submission deadline : January 12, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: January 12, 2026
+  notification_date:
+    value: April 29, 2026
+    evidence: 'Paper notification : April 29, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: April 29, 2026
+      llm_batch2:
+        value: April 29, 2026
+  camera_ready_deadline:
+    value: May 15, 2026
+    evidence: 'Camera Ready Deadline: May 15, 2026 (all times are 23:59 Anywhere On
+      Earth, UTC-12)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: May 15, 2026
+  conference_dates:
+    value: August 18, 2026 - August 21, 2026
+    evidence: 'Conference : Saturday, August 15 to Friday, August 21, 2026. (all times
+      are 23:59 Anywhere On Earth, UTC-12)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 15-21, 2026
+      llm_batch2:
+        value: August 18, 2026 - August 21, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: From the authors’ perspective, reviewing for IJCAI-ECAI 2026 is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: The full paper review process will allow authors to respond to the reviews.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Submissions that violate the IJCAI-ECAI 2026 style (e.g., by decreasing
+      margins or font sizes) will be rejected without review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: 'Papers must be no longer than 9 pages in total: 7 pages for the body
+      of the paper and 2 pages for references; an optional ethics statement can be...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 9 pages
+      llm_batch2:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: 'Papers must be no longer than 9 pages in total: 7 pages for the body
+      of the paper and 2 pages for references; an optional ethics statement can be...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers submitted to IJCAI-ECAI 2026 must be formatted according to the
+      IJCAI-ECAI 2026 guidelines (link above).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may submit up to 50MB of supplementary material, such as appendices,
+      proofs, derivations, data, or source code; all supplementary material...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: IJCAI-ECAI 2026 will not accept any paper that, at the time of full
+      paper submission, is under review for, has already been published in or has...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: The existence of non-anonymous preprints (on arXiv, social media, websites,
+      etc.) and prior publication in non-archival venues will not result in...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  publication_venue:
+    value: IJCAI
+    evidence: All accepted papers will be published exclusively by IJCAI (open access),
+      with IJCAI retaining the copyright.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: IJCAI
+      llm_batch2:
+        value: IJCAI
+  statements:
+    value: true
+    evidence: Authors can include in the main body of their paper, or on the reference
+      pages, an ethics statement that addresses both ethical issues regarding the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Generative AI models do not satisfy the criteria for authorship of papers
+      published in IJCAI-ECAI 2026. If authors use an LLM in any part of the...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: forbidden
+      llm_batch2:
+        value: forbidden
+  conference_location:
+    value: Bremen, Germany
+    evidence: IJCAI-ECAI 2026 is scheduled to take place in Bremen, Germany, from
+      August 15 to 21, 2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Bremen, Germany
+      llm_batch2:
+        value: Bremen, Germany
+    normalized:
+      city: Bremen
+      country: Germany
+      display: Bremen, Germany
+      raw: Bremen, Germany
+  conference_format:
+    value: in-person
+    evidence: We are looking forward to the community meeting in person. Papers not
+      presented in person will be excluded from the proceedings unless one of the...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: At least one author of each accepted paper must participate in the conference
+      at Bremen and present the work.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Moreover, IJCAI-ECAI 2026 will host the Journal Track, the Sister Conferences
+      Track, Early Career Highlights, Competitions, Demos, and the Doctoral...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: chairingtool.com
+    evidence: Full papers must be submitted through the same site by the paper submission
+      deadline. The list of author names provided at the Author Information...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: CMT
+      llm_batch2:
+        value: chairingtool.com
+    _conflict: true
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: true
+    evidence: IJCAI-ECAI 2026 invites researchers and practitioners to submit demonstrations
+      to its Demonstration Track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: Moreover, IJCAI-ECAI 2026 will host the Journal Track, the Sister Conferences
+      Track, Early Career Highlights, Competitions, Demos, and the Doctoral...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: A separate award will be given to honor an outstanding research paper/proposal
+      in this track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

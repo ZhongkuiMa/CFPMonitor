@@ -1,0 +1,303 @@
+conference: USENIX ATC
+year: 2026
+last_checked: '2026-02-16T11:03:23.468746+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: Tuesday, January 14, 2025
+    evidence: 'Submissions due: Tuesday, January 14, 2025, 11:59 pm UTC'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Tuesday, January 14, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Friday, April 25, 2025
+    evidence: 'Notification to authors: Friday, April 25, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, April 25, 2025
+  camera_ready_deadline:
+    value: Tuesday, June 3, 2025
+    evidence: 'Final papers due: Tuesday, June 3, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Tuesday, June 3, 2025
+  conference_dates:
+    value: July 7-9, 2025
+    evidence: The 2025 USENIX Annual Technical Conference will be co-located with
+      the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-9, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: USENIX ATC '25 will employ double-blind reviewing. Papers that are not
+      properly anonymized may be rejected without review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Full submissions must not exceed 12 pages, and short submissions must
+      not exceed 6 pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors should use the USENIX templates and style files when preparing
+      their paper for submission.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Submissions may include as many additional pages as needed for references
+      and for supplementary material in appendices.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: USENIX
+    evidence: The acceptance of any organization as a sponsor does not imply explicit
+      or implicit approval by USENIX of the donor organization's values or actions.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: USENIX
+  statements:
+    value: true
+    evidence: Final versions of accepted submissions should include all sources of
+      funding in an acknowledgments section. Authors should also disclose any...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact evaluation is optional, although we hope all papers will participate.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Sheraton Boston in Boston, MA, USA
+    evidence: The 2025 USENIX Annual Technical Conference will be co-located with
+      the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Sheraton Boston in Boston, MA, USA
+    normalized:
+      city: Sheraton Boston In Boston
+      country: US
+      display: Sheraton Boston In Boston, US
+      raw: Sheraton Boston in Boston, MA, USA
+  conference_format:
+    value: in-person
+    evidence: The 2025 USENIX Annual Technical Conference will be co-located with
+      the 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

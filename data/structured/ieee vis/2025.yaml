@@ -1,0 +1,400 @@
+conference: IEEE VIS
+year: 2025
+last_checked: '2026-02-16T09:12:50.946043+00:00'
+completeness:
+  known: 34
+  total: 40
+  percentage: 85.0
+quality:
+  conflict_count: 6
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: July 15, 2025
+      llm_batch2: June 17, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: August 8, 2025
+      llm_batch2: July 1st, 2025 (Short Papers)
+  - field: page_limit
+    values:
+      llm_batch1: 9 pages + 2 additional
+      llm_batch2: 11 pages (full papers), 5 pages (short papers)
+  - field: arxiv_preprint
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: publication_venue
+    values:
+      llm_batch1: IEEE Transactions on Visualization and Computer Graphics
+      llm_batch2: IEEE Xplore
+  - field: submission_system
+    values:
+      llm_batch1: Precision Conference System (PCS)
+      llm_batch2: PCS
+  source_coverage:
+    llm: 34
+rules:
+  submission_deadline:
+    value: March 31, 2025
+    evidence: full papers with supplemental material are due on March 31
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: March 31, 2025
+  abstract_deadline:
+    value: March 21, 2025
+    evidence: submission information (title, abstract, authors) are due on March 21
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: March 21, 2025
+  notification_date:
+    value: June 17, 2025
+    evidence: 'Notification: June 17, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: July 15, 2025
+      llm_batch2:
+        value: June 17, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: July 1st, 2025 (Short Papers)
+    evidence: 'Submission Deadline: July 1 (Short Papers), August 8 (Full Papers)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: August 8, 2025
+      llm_batch2:
+        value: July 1st, 2025 (Short Papers)
+    _conflict: true
+  conference_dates:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: IEEE VIS employs a two-phase, (author-optional) double-blind review
+      process that follows the review process for IEEE TVCG
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: 'Primaries: For each of the papers for which you are the primary reviewer
+      and that has received a conditional accept decision, please: WRITE A...'
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Some papers may be desk rejected—rejected before they enter detailed
+      peer review—by the OPCs/APCs if they determine that the submission is clearly...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages (full papers), 5 pages (short papers)
+    evidence: Camera-ready papers may not exceed 11 pages (full papers, 9 pages of
+      main text and 2 pages of references) or 5 pages (short papers, 4 pages of main...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 9 pages + 2 additional
+      llm_batch2:
+        value: 11 pages (full papers), 5 pages (short papers)
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: For full papers, use the correct JOURNAL style template . For short
+      papers, use the correct CONFERENCE style template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: You can submit supplemental material (e.g. a video, appendix) for your
+      work for inclusion in the digital archive
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Concurrent submissions (i.e., having the same or a similar paper concurrently
+      under review at another conference or journal/magazine) are strictly...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: 'USE OF GENERATIVE AI: We remind you that, according to IEEE policy,
+      the use of content generated by artificial intelligence (AI) in an article...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  publication_venue:
+    value: IEEE Xplore
+    evidence: The final two pages (full papers) or 1 page (short papers) can also
+      include links to the Supplemental Material, Figure Credits, and Acknowledgements...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: IEEE Transactions on Visualization and Computer Graphics
+      llm_batch2:
+        value: IEEE Xplore
+    _conflict: true
+  statements:
+    value: true
+    evidence: 'USE OF GENERATIVE AI: We remind you that, according to IEEE policy,
+      the use of content generated by artificial intelligence (AI) in an article...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: 'USE OF GENERATIVE AI: We remind you that, according to IEEE policy,
+      the use of content generated by artificial intelligence (AI) in an article...'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  conference_format:
+    value: virtual
+    evidence: Virtual Presentations
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: virtual
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: Please see the talk guide for information on how to present your work
+      at VIS 2025
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: Diversity and inclusivity scholarships will be available to support
+      the participation of speakers with financial needs.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: IEEE VIS Short Papers will follow a similar set of guidelines, with
+      the exception that the paper length limits are shortened to 4+1 pages
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: PCS
+    evidence: Papers will be in the VGTC conference two-column format, in line with
+      the IEEE VIS formatting guidelines . To submit a short paper, please use the...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Precision Conference System (PCS)
+      llm_batch2:
+        value: PCS
+    _conflict: true
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

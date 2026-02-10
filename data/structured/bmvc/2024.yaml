@@ -1,0 +1,305 @@
+conference: BMVC
+year: 2024
+last_checked: '2026-02-16T08:57:36.432750+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: May 10, 2024
+    evidence: 'Submission deadline: Friday, 10 May 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 10, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 19, 2024
+    evidence: 'Notification: Jul 19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 19, 2024
+  camera_ready_deadline:
+    value: August 30, 2024
+    evidence: 'camera_ready: Aug 30, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 30, 2024
+  conference_dates:
+    value: November 25-28, 2024
+    evidence: 'date: November 25-28, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 25-28, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: BMVC reviewing is double-blind in that authors do not know the names
+      of the area chairs or reviewers for their papers, and the area chairs/reviewers...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: false
+    evidence: 'Note 1: There will be no rebuttal period for BMVC this year . Therefore
+      reviews should not ask for revisions and/or additional experiments but only...'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  desk_rejection:
+    value: true
+    evidence: 'Papers for which one of the following is true should be flagged by
+      ACs and desk rejected: Is the paper already published in essentially similar
+      form...'
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: Papers in the BMVC style are limited to nine pages, including figures
+      and tables.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: true
+    evidence: All appendices must be supplied as supplementary material, in a separate
+      file to the main paper, and do not count towards the NINE pages limit
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: A complete paper should be submitted according to the formatting style
+      . The length of papers submitted for review should not exceed NINE pages,...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: 'Authors may optionally upload supplementary material, which may include:
+      Videos to showcase results/demo of the proposed approach/system; Images and...'
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Papers submitted under the “Brave new ideas” subject area are expected
+      to move away from incremental benchmark gains. Proposed ideas should radically...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: BMVA
+    evidence: The British Machine Vision Association will make all accepted papers
+      publicly available one week before the conference. Authors wishing to submit
+      a...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: BMVA
+  statements:
+    value: true
+    evidence: Authors take complete responsibility for their papers’ accuracy and
+      authenticity when submitting them to BMVC. To ensure a high standard of academic...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: 'LLMs: Does the paper contain manifestly (and demonstrably) fake references?'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Glasgow, UK
+    evidence: 25 th - 28 th November 2024, Glasgow, UK
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Glasgow, UK
+    normalized:
+      city: Glasgow
+      country: UK
+      display: Glasgow, UK
+      raw: Glasgow, UK
+  conference_format:
+    value: in-person
+    evidence: 'BMVC 2024 conference and workshop proceedings are now online! You can
+      found them at: [Conference] and [Workshops].'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All authors with accepted papers at BMVC 2024 will have the opportunity
+      to present their work in one of the poster sessions (including oral...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: We are soliciting proposals for workshops to be held together with the
+      2024 British Machine Vision Conference (BMVC 2024). Workshops will take place...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: BMVC 2024 will use OpenReview to manage submissions.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: We are soliciting proposals for workshops to be held together with the
+      2024 British Machine Vision Conference (BMVC 2024).
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: We are delighted to invite submissions for the Doctoral Consortium at
+      the upcoming British Machine Vision Conference (BMVC) , to take place on 25-28...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

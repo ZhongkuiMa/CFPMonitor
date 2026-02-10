@@ -1,0 +1,302 @@
+conference: EUROGRAPHICS
+year: 2024
+last_checked: '2026-02-16T08:03:26.196059+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: October 6, 2023
+    evidence: Full Papers – Full paper due
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 6, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 22, 2023
+    evidence: Notification for conditional acceptance or rejection
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 22, 2023
+  camera_ready_deadline:
+    value: February 29, 2024
+    evidence: Camera-ready version
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 29, 2024
+  conference_dates:
+    value: April 22-26, 2024
+    evidence: Eurographics 2024 will be hosted in Limassol, Cyprus on April 22nd-26th,
+      2024.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 22-26, 2024
+  rebuttal_deadline:
+    value: December 7, 2023
+    evidence: Full Papers – Rebuttal due
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 7, 2023
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Review of full papers is based on a double-blind reviewing approach,
+      so please be sure to remove all personal data (such as authors, affiliations,...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: During a rebuttal period from November 30 to December 7, 2023, authors
+      will be able to submit a brief document to address any factual errors or...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: true
+    evidence: At least one author should register and present in-person his or her
+      paper.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  page_limit:
+    value: no maximum length
+    evidence: There is no maximum length imposed on papers. However, papers should
+      only be as long as they need to be, but not longer.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: no maximum length
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers must be formatted according to the Eurographics Computer Graphics
+      Forum guidelines. The publication guidelines and LaTeX templates are...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may provide all relevant artifacts as supplementary materials
+      during submission, and agree to provide access to them online upon acceptance.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: As authors, putting a submission on a repository like arXiv is allowed,
+      either before submission or during the review cycle.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Computer Graphics Forum
+    evidence: Accepted full papers will be published in a special issue of the Eurographics
+      journal Computer Graphics Forum as well as the EG Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Computer Graphics Forum
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: The best regular papers will be recommended to the editors of prestigious
+      journals in the field, who may invite the authors of these papers to submit...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Limassol, Cyprus
+    evidence: Eurographics 2024 will be hosted in Limassol, Cyprus on April 22nd-26th,
+      2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Limassol, Cyprus
+    normalized:
+      city: Limassol
+      country: Cyprus
+      display: Limassol, Cyprus
+      raw: Limassol, Cyprus
+  conference_format:
+    value: in-person
+    evidence: Eurographics 2024 will be hosted in Limassol, Cyprus on April 22nd-26th,
+      2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SRMv2
+    evidence: Electronic submission of all papers is mandatory and will be conducted
+      using the Submission and Review Management (SRMv2) .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SRMv2
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: From all accepted and presented papers, an international jury will select
+      the best papers. The best paper will receive the Günter Enderle Award,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

@@ -1,0 +1,269 @@
+conference: FOCS
+year: 2025
+last_checked: '2026-02-16T10:01:32.632492+00:00'
+completeness:
+  known: 14
+  total: 40
+  percentage: 35.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 14
+rules:
+  submission_deadline:
+    value: April 3, 2025 at 8PM ET
+    evidence: 'Submission deadline: April 3, 2025 at 8PM ET'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 3, 2025 at 8PM ET
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 8, 2025
+    evidence: 'Paper notification: July 8, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 8, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: December 14–17, 2025
+    evidence: 'Conference dates: December 14-17, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 14–17, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: FOCS 2025 will use double-blind reviewing , and as such, submissions
+      should not reveal the identity of the authors in any way.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: There is no bound on the length of a submission, material other than
+      the abstract, references, and the first ten pages will be read at the...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Computer Society
+    evidence: The 66th Annual Symposium on Foundations of Computer Science (FOCS 2025),
+      sponsored by the IEEE Computer Society Technical Committee on Mathematical...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Computer Society
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: In particular, important references should not be omitted or anonymized.
+      In addition, authors should feel free to disseminate their ideas or draft...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Sydney, Australia
+    evidence: The 66th Annual Symposium on Foundations of Computer Science (FOCS 2025),
+      sponsored by the IEEE Computer Society Technical Committee on Mathematical...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Sydney, Australia
+    normalized:
+      city: Sydney
+      country: Australia
+      display: Sydney, Australia
+      raw: Sydney, Australia
+  conference_format:
+    value: in-person
+    evidence: All workshops are in person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: true
+    evidence: FOCS 2025 will hold workshops on December 14 . We invite groups of interested
+      researchers to submit workshop proposals.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  submission_system:
+    value: HotCRP
+    evidence: 'Please submit using this link: https://focs25.hotcrp.com/'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: FOCS 2025 will hold workshops on December 14 . We invite groups of interested
+      researchers to submit workshop proposals.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The Machtey award will be given to the best paper or papers written
+      solely by one or more students. An abstract is eligible if all authors are...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

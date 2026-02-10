@@ -1,0 +1,300 @@
+conference: ICMI
+year: 2025
+last_checked: '2026-02-16T09:20:52.458779+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: '2025-05-02 23:59:59'
+    evidence: Paper submission open on 02/04/2025, deadline extended to 17/04/2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: '2025-05-02 23:59:59'
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: TBD
+    evidence: Notification date is TBD in the data sources
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: TBD
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: 14-16 Oct 2025
+    evidence: Main conference days will be on 14-16 Oct 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 14-16 Oct 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: 5 Oct 2025
+    evidence: Registrations are now open. All main and adjunct papers need to be covered
+      by a full/student registration by the early-bird registration deadline (...
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 5 Oct 2025
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The main conference days will be on 14-16 Oct 2025, while workshops/tutorials
+      and grand challenges will be held on 13 or 17 Oct 2025. This schedule...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Author Guidelines mention that submissions must use official template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Supplementary materials are not mentioned in the data sources for main
+      conference track
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: The proceedings of all ICMI 2025 papers, including Long and Short Papers,
+      will be published by ACM as part of their series of International...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Canberra, Australia
+    evidence: The 27th International Conference on Multimodal Interaction (ICMI 2025)
+      will be held in Canberra, Australia on 13-17 Oct 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Canberra, Australia
+    normalized:
+      city: Canberra
+      country: Australia
+      display: Canberra, Australia
+      raw: Canberra, Australia
+  conference_format:
+    value: in-person
+    evidence: ICMI is an in-person conference, and virtual attendance is only possible
+      under extenuating circumstances.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: Oral Presentations (for papers assigned to Oral sessions only) Each
+      oral presentation is allocated 18 minutes including 4 minutes of Q&A. In...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Student travel grants are available for students (and post-doctoral
+      researchers in exceptional circumstances) to support travel and accommodation
+      of...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: The data sources do not mention any workshops or tutorials for the main
+      conference track
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Paper submission open on 02/04/2025, deadline extended to 17/04/2025
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: The data sources do not mention any workshops or tutorials for the main
+      conference track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: The data sources do not mention any workshops or tutorials for the main
+      conference track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: The data sources do not mention any demos for the main conference track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: true
+    evidence: Poster Presentation is mentioned in the data sources
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: The data sources do not mention any position papers for the main conference
+      track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: The data sources do not mention any student research workshops/competitions
+      for the main conference track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: Doctoral Consortium is mentioned in the data sources
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: The data sources do not mention any Findings track for the main conference
+      track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

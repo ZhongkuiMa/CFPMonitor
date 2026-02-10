@@ -1,0 +1,274 @@
+conference: ICPP
+year: 2026
+last_checked: '2026-02-16T10:43:22.171147+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: May 1, 2026
+    evidence: 'Paper Submission: May 1, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 1, 2026
+  abstract_deadline:
+    value: April 24, 2026
+    evidence: 'Abstract Submission: April 24, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 24, 2026
+  notification_date:
+    value: June 30, 2026
+    evidence: 'Author Notiﬁcation: June 30, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 30, 2026
+  camera_ready_deadline:
+    value: July 30, 2026
+    evidence: 'Camera-ready Paper Submission: July 30, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 30, 2026
+  conference_dates:
+    value: September 28 - October 1, 2026
+    evidence: 'Conference: September 28 - October 1, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 28 - October 1, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The review process is double-anonymous , so submissions should not reveal
+      the identity of the authors.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Paper submissions should not exceed 10 pages (including references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Please use the ACM format located at here . More speciﬁcally, we recommend
+      using \\(documentclass[sigconf,review,anonymous]{acmart} conﬁguration for...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: All accepted papers that are presented at the conference will be published
+      in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Singapore
+    evidence: ICPP 2026 is held in Singapore from 28 September to 1 October, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Singapore
+    normalized:
+      city: Singapore
+      country: Singapore
+      display: Singapore
+      raw: Singapore
+  conference_format:
+    value: in-person
+    evidence: 'Conference: September 28 - October 1, 2026'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: all submissions must be made electronically through the conference submission
+      portal in PDF format printable on US letter size (8.5″ x 11″) paper
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

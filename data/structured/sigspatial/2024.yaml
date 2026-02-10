@@ -1,0 +1,316 @@
+conference: SIGSPATIAL
+year: 2024
+last_checked: '2026-02-16T08:07:42.088932+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: Friday, June 7th, 2024
+    evidence: 'Paper Submission: Friday, May 31st June 7th, 2024 11:59 PM Pacific
+      Time'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, June 7th, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Friday, August 23rd, 2024
+    evidence: 'Notification of Accept/Reject: Friday, August 23rd, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, August 23rd, 2024
+  camera_ready_deadline:
+    value: Friday, September 13th, 2024
+    evidence: 'Camera-ready: Friday, September 13th, 2024 11:59 PM Pacific Time'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Friday, September 13th, 2024
+  conference_dates:
+    value: Tuesday October 29 - Friday November 1, 2024
+    evidence: Tuesday October 29 - Friday November 1, 2024 Atlanta, GA, USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Tuesday October 29 - Friday November 1, 2024
+  rebuttal_deadline:
+    value: Sunday, August 4th, 2024
+    evidence: 'Author Response: Friday, August 2nd Sunday, August 4th, 2024 11:59
+      PM Pacific Time'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Sunday, August 4th, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'All papers should be submitted through EasyChair using the following
+      link: https://easychair.org/conferences/?conf=sigspatial2024. Research, Systems...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: For these papers, authors should append “(Systems Paper) ” or “(Industrial
+      Paper)” to the title, respectively. Submissions are limited to 10 pages...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 10+references+2 pages
+    evidence: Submissions are limited to 10 pages (excluding references), with up
+      to 2 additional pages after the references to be used for appendices. References...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10+references+2 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Submissions are limited to 10 pages (excluding references), with up
+      to 2 additional pages after the references to be used for appendices. References...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: 'All papers should be submitted through EasyChair using the following
+      link: https://easychair.org/conferences/?conf=sigspatial2024. Research, Systems...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: Submissions are limited to 10 pages (excluding references), with up
+      to 2 additional pages after the references to be used for appendices. References...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: The proceedings of the workshops will appear in the ACM Digital Library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: 'All papers should be submitted through EasyChair using the following
+      link: https://easychair.org/conferences/?conf=sigspatial2024. Research, Systems...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Authors should review and follow the ACM Policy on Authorship which
+      includes guidelines on the use of generative AI software tools for manuscript...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Atlanta, GA, USA
+    evidence: Tuesday October 29 - Friday November 1, 2024 Atlanta, GA, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Atlanta, GA, USA
+    normalized:
+      city: Atlanta
+      country: US
+      display: Atlanta, US
+      raw: Atlanta, GA, USA
+  conference_format:
+    value: in-person
+    evidence: The conference is the premier annual event of the ACM Special Interest
+      Group on Spatial Information (ACM SIGSPATIAL). Researchers, students, and...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'Session 1: Finalists (1-4) ChatGPT for Intelligent Spatial Analysis
+      Workflow (Undergraduate) Ying Nie (Geospatial Data Science Lab, University of...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Competitors whose submissions are accepted for participation at the
+      SRC session @ SIGSPATIAL 2024 will receive financial support for their conference...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ACM SIGSPATIAL 2024 Workshops
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'All papers should be submitted through EasyChair using the following
+      link: https://easychair.org/conferences/?conf=sigspatial2024.'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: One-day and half-day workshops will be held on the first day of the
+      conference. Workshop proposals are to be submitted in PDF format to the Workshops...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: The poster and demo sessions are the places where authors of Poster
+      Papers and Data & Resources Papers and Demonstration Papers showcase their work...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: true
+    evidence: 9th ACM SIGSPATIAL Student Research Competition
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: Poster and Demo Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

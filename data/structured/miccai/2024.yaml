@@ -1,0 +1,343 @@
+conference: MICCAI
+year: 2024
+last_checked: '2026-02-16T08:08:18.211627+00:00'
+completeness:
+  known: 35
+  total: 40
+  percentage: 87.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 35
+rules:
+  submission_deadline:
+    value: 7 March 2024
+    evidence: The full manuscript submission deadline will be 23:59, Pacific Time,
+      7 th March 2024 . There will be no extension.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 7 March 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 17 June 2024
+    evidence: Notification of Paper Decisions 17 June 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 17 June 2024
+  camera_ready_deadline:
+    value: 8 July 2024
+    evidence: Main Conference Camera-ready Paper Submission and Author/Presenter Registration
+      8 July 2024
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 8 July 2024
+  conference_dates:
+    value: 6 - 10 October 2024
+    evidence: Conference Dates 6 - 10 October 2024
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 6 - 10 October 2024
+  rebuttal_deadline:
+    value: 20 May 2024
+    evidence: Rebuttal Due Date 20 May 2024
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 20 May 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The MICCAI Conference review process is double-blind, i.e. the names
+      of the authors, reviewers, and area chairs are not revealed to each other.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: 'The goal of the rebuttal/response process is For early accepted papers:
+      for the authors to (optionally) respond to misinterpretations or inaccuracies...'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: All MICCAI 2024 submissions must be original and cannot already be published
+      or considered for publication elsewhere (with the explicit exception of...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Manuscripts should be up to 8-pages (text, figures and tables) plus
+      up to 2 pages of references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be submitted electronically in searchable pdf format following
+      the guidelines for authors and LaTeX and MS Word templates available at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors will be able to submit supplementary materials in the form of
+      supporting images, tables, and proof of equations that do NOT represent...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: All MICCAI 2024 submissions must be original and cannot already be published
+      or considered for publication elsewhere (with the explicit exception of...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: You can post your submitted version, the version before peer review,
+      on arXiv but you cannot post your camera-ready version to arXiv during the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Springer's Lecture Notes in Computer Science
+    evidence: MICCAI Proceedings are published in Springer's Lecture Notes in Computer
+      Science.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's Lecture Notes in Computer Science
+  statements:
+    value: true
+    evidence: Authors must declare the data origin, data license, and (when appropriate)
+      ethics application number for any public or private data used in the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of LLMs (such as ChatGPT) is allowed as a general-purpose writing
+      assistance tool. Authors should understand that they take full...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Marrakesh / Morocco
+    evidence: The workshop will take place in Marrakesh, Morocco.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Marrakesh / Morocco
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Marrakesh / Morocco
+  conference_format:
+    value: in-person
+    evidence: All accepted MICCAI'24 papers must be presented in-person by an author
+      registered for physical, in-person participation in the conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted MICCAI'24 papers must be presented in-person by an author
+      registered for physical, in-person participation in the conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: For low- or middle-income countries, travel and participation grants
+      will be made available to provide financial support for students and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: We are soliciting proposals for workshops to be held in conjunction
+      with MICCAI 2024 in Marrakesh, Morocco.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: You will submit your paper using the Conference Management Toolkit (CMT)
+      website .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop Proposals 18 January 2024
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'The goal of the rebuttal/response process is For early accepted papers:
+      for the authors to (optionally) respond to misinterpretations or inaccuracies...'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

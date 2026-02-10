@@ -1,0 +1,300 @@
+conference: RTSS
+year: 2024
+last_checked: '2026-02-16T08:30:57.984964+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: Thursday, May 23, 2024
+    evidence: Paper Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thursday, May 23, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Wednesday, July 31, 2024
+    evidence: Author Notification of Acceptance Decision
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Wednesday, July 31, 2024
+  camera_ready_deadline:
+    value: Friday, October 4, 2024
+    evidence: 'Submission of camera-ready papers:'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Friday, October 4, 2024
+  conference_dates:
+    value: Wednesday, Dec 11 to Friday Dec 13, 2024
+    evidence: Main Conference
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Wednesday, Dec 11 to Friday Dec 13, 2024
+  rebuttal_deadline:
+    value: From Friday, Jul 12 to Thursday, Jul 18, 2024
+    evidence: Rebuttal Period
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: From Friday, Jul 12 to Thursday, Jul 18, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Sunday, October 27, 2024
+    evidence: Author Registration Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Sunday, October 27, 2024
+  double_blind:
+    value: true
+    evidence: Double-Blind Submission Requirements – RTSS 2024
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Rebuttal Period
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: The main body of each submitted paper is limited to 11 pages of technical
+      content with additional pages permitted for bibliography only.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE conference proceedings
+    evidence: All accepted papers will appear in the main program and proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE conference proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact Evaluation – RTSS 2024
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: forbidden
+    evidence: 'IEEE Guidelines for Artificial Intelligence (AI)-Generated Text : The
+      use of artificial intelligence (AI)–generated text in an article shall be...'
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: York, United Kingdom
+    evidence: RTSS'24 will be held in York, UK from December 11 th to 13 th in 2024
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: York, United Kingdom
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: York, United Kingdom
+  conference_format:
+    value: in-person
+    evidence: Main Conference
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best paper and best student paper awards will be presented at the conference,
+      along with an award for the best presentation.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

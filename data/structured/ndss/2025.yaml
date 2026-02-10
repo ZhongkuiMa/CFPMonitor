@@ -1,0 +1,293 @@
+conference: NDSS
+year: 2025
+last_checked: '2026-02-16T09:18:44.606617+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: Wed, 17 April 2024
+    evidence: Paper submission deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Wed, 17 April 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Thu, 20 June 2024
+    evidence: Author notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thu, 20 June 2024
+  camera_ready_deadline:
+    value: Thu, 12 September 2024
+    evidence: Camera Ready deadline for papers
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Thu, 12 September 2024
+  conference_dates:
+    value: Feb 23, 2025 - Feb 28, 2025
+    evidence: 'dates: Feb 23, 2025 - Feb 28, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Feb 23, 2025 - Feb 28, 2025
+  rebuttal_deadline:
+    value: Mon, 10 June to Tue, 18 June 2024
+    evidence: 'Mon, 10 June to Mon, 15 July 2024: Kick-the-tires stage (answering
+      AEC preliminary questions)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Mon, 10 June to Tue, 18 June 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: Thu, 12 September 2024
+    evidence: 'Mon, 7 October to Mon, 14 October 2024: Kick-the-tires stage (answering
+      AEC reviewer questions)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Thu, 12 September 2024
+  double_blind:
+    value: true
+    evidence: NDSS implements a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of NDSS papers have the opportunity to rebut the reviews and
+      to interact with the reviewers during an interactive discussion phase.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages
+    evidence: Technical papers submitted for NDSS must not exceed 13 pages, excluding
+      references or appendices
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors must use the NDSS templates.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Internet Society
+    evidence: The Proceedings will be made freely accessible from the Internet Society
+      web pages
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Internet Society
+  statements:
+    value: true
+    evidence: Ethical Considerations section
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors of NDSS papers have the option of submitting their artifacts
+      shortly after the notification of the (conditional) acceptance of their papers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: The use of Generative Artificial Intelligence, i.e., tools capable of
+      generating text, images, or other data using generative models, often in...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: San Diego, CA
+    evidence: NDSS Symposium 2025 will take place in San Diego, CA, from 24 to 28
+      February 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Diego, CA
+    normalized:
+      city: San Diego
+      country: US
+      display: San Diego, US
+      raw: San Diego, CA
+  conference_format:
+    value: in-person
+    evidence: NDSS Symposium 2025 will take place in San Diego, CA, from 24 to 28
+      February 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: The submission site for the fall review cycle is at https://ndss25-fall.hotcrp.com
+      .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: The Program Committee reserves the right to reject a submission if insufficient
+      evidence was presented that ethical or relevant legal concerns were...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

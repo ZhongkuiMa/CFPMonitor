@@ -1,0 +1,328 @@
+conference: FORTE
+year: 2024
+last_checked: '2026-02-16T08:18:16.229543+00:00'
+completeness:
+  known: 35
+  total: 40
+  percentage: 87.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 35
+rules:
+  submission_deadline:
+    value: February 23, 2024
+    evidence: 'Paper submission: February 9, 2024 February 23, 2024 (Extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 23, 2024
+  abstract_deadline:
+    value: February 16, 2024
+    evidence: 'Abstract submission: February 2, 2024 February 16, 2024 (Extended)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 16, 2024
+  notification_date:
+    value: April 5, 2024
+    evidence: 'Paper notification: March 29, 2024 April 5, 2024 (Extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 5, 2024
+  camera_ready_deadline:
+    value: April 24, 2024
+    evidence: ''
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 24, 2024
+  conference_dates:
+    value: June 17-21, 2024
+    evidence: 'Conferences: June 17-21, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 17-21, 2024
+  rebuttal_deadline:
+    value: March 22, 2024
+    evidence: ''
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 22, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May 22, 2024
+    evidence: 'Early registration: Possible until May 22, 2024.'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 22, 2024
+  double_blind:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Regular papers (7-15 pages, not counting references)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Contributions must be prepared as a PDF using Springer’s LNCS style.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer LNCS-IFIP series
+    evidence: The proceedings of the main conferences will be published as volumes
+      in the Springer LNCS-IFIP series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer LNCS-IFIP series
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: FORTE 2024 includes an artefact evaluation performed by the artefact
+      evaluation committee (AEC).
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Groningen, The Netherlands
+    evidence: 'Venue: Groningen, The Netherlands'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Groningen, The Netherlands
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Groningen, The Netherlands
+  conference_format:
+    value: in-person
+    evidence: The DisCoTec events will take place in the Zernike campus, which is
+      located in the north part of the city.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  workshops:
+    value: false
+    evidence: DisCoTec 2024 will include workshops on a broad spectrum of distributed
+      computing subjects.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'Submission site: https://easychair.org/conferences/?conf=forte2024'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

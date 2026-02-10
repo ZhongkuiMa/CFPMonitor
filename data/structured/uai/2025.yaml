@@ -1,0 +1,288 @@
+conference: UAI
+year: 2025
+last_checked: '2026-02-16T09:18:17.383282+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: February 10, 2025
+    evidence: 'February 10th, 2025 (23:59 AoE): Paper submission deadline'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 10, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: May 6, 2025
+    evidence: 'May 6th, 2025 (23:59 AoE): Author notification'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 6, 2025
+  camera_ready_deadline:
+    value: June 12, 2025
+    evidence: June 6th , June 12th 2025 (23:59 AoE)
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 12, 2025
+  conference_dates:
+    value: July 22-24, 2025
+    evidence: Main Conference July 22nd -July 24th, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 22-24, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: July 19, 2025
+    evidence: The deadline for in-person registration is 19th July.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 19, 2025
+  double_blind:
+    value: true
+    evidence: Papers will be assessed in a rigorous double-blind peer-review process
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: up to 9 pages of content (references also possible here)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: ''
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research
+    evidence: All accepted papers will be published in a volume of Proceedings of
+      Machine Learning Research (PMLR)
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: optional
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Rio de Janeiro, Brazil
+    evidence: The upcoming 41st edition (UAI 2025) will be an in-person conference
+      with virtual elements taking place in Rio de Janeiro, Brazil from July 21st
+      to...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Rio de Janeiro, Brazil
+    normalized:
+      city: Rio De Janeiro
+      country: Brazil
+      display: Rio De Janeiro, Brazil
+      raw: Rio de Janeiro, Brazil
+  conference_format:
+    value: in-person/virtual
+    evidence: The upcoming 41st edition (UAI 2025) will be an in-person conference
+      with virtual elements taking place in Rio de Janeiro, Brazil from July 21st
+      to...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person/virtual
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Papers should be submitted on the UAI 2025 OpenReview submission site
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

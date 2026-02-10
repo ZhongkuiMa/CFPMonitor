@@ -1,0 +1,420 @@
+conference: UIST
+year: 2026
+last_checked: '2026-02-16T11:20:17.990377+00:00'
+completeness:
+  known: 34
+  total: 40
+  percentage: 85.0
+quality:
+  conflict_count: 6
+  conflicts:
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: July 14, 2026
+      llm_batch2: July 24, 2026
+  - field: rebuttal_deadline
+    values:
+      llm_batch1: June 16, 2026
+      llm_batch2: June 5, 2026
+  - field: page_limit
+    values:
+      llm_batch1: 10 pages
+      llm_batch2: 10 pages (standard) OR 5 pages (short)
+  - field: page_limit_exclusions
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: conference_location
+    values:
+      llm_batch1: Detroit, MI USA
+      llm_batch2: Detroit, Michigan, USA
+  - field: has_awards
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  source_coverage:
+    llm: 34
+rules:
+  submission_deadline:
+    value: March 31, 2026
+    evidence: Papers due (Paper PDF) Tuesday, March 31st, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: March 31, 2026
+      llm_batch2:
+        value: March 31, 2026
+  abstract_deadline:
+    value: March 24, 2026
+    evidence: Abstract due incl. title, abstract, author list Tuesday, March 24th,
+      2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: March 24, 2026
+      llm_batch2:
+        value: March 24, 2026
+  notification_date:
+    value: June 27, 2026
+    evidence: Decisions sent to authors (conditional accept or reject) Saturday, June
+      27th, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 27, 2026
+      llm_batch2:
+        value: June 27, 2026
+  camera_ready_deadline:
+    value: July 24, 2026
+    evidence: Upload to TAPS Friday, July 24th, 2026
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: July 14, 2026
+      llm_batch2:
+        value: July 24, 2026
+    _conflict: true
+  conference_dates:
+    value: November 2-5, 2026
+    evidence: 'date: November 2 - 5, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: November 2-5, 2026
+      llm_batch2:
+        value: November 2-5, 2026
+  rebuttal_deadline:
+    value: June 5, 2026
+    evidence: Rebuttals due Friday, June 5th, 2026
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: June 16, 2026
+      llm_batch2:
+        value: June 5, 2026
+    _conflict: true
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Anonymous, i.e. authors must remove their names and affiliations throughout
+      all submission materials (paper, videos, supplementary material)...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: Reviewers do not know the identities of the authors
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors of papers have about a week to submit a rebuttal if they feel
+      that the reviewers have made substantive or factual errors, to clarify concerns...
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: 'Desk Rejections: The primary reviewer may, upon conferring with the
+      secondary reviewer and the program chairs, recommend a paper be rejected without...'
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages (standard) OR 5 pages (short)
+    evidence: 'Page limit : UIST papers can either be standard length papers (10 pages)
+      OR short papers (5 pages).'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 10 pages
+      llm_batch2:
+        value: 10 pages (standard) OR 5 pages (short)
+    _conflict: true
+  page_limit_exclusions:
+    value: true
+    evidence: References and appendices are excluded from the page count, but should
+      be included in the submitted PDF.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  template_required:
+    value: true
+    evidence: For LaTeX authors , submissions should be in the double-column format
+      ( example PDF ) using \\(documentclass[sigconf,review,anonymous]{acmart}\\)....
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Accompanying Video Optional, but highly encouraged Resolution of 1080p
+      (1920 x 1080) or 4k (3840 x 2160 px), encoded as MP4 using the H.264 codec No...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Similar to CHI 2026, we will also be implementing Assisted Desk Rejection
+      —a process in which a paper is collaboratively determined by ACs and...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library
+    evidence: Papers will be made available publicly in the ACM DL a week in advance
+      of the conference.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ACM Digital Library
+      llm_batch2:
+        value: ACM Digital Library
+  statements:
+    value: true
+    evidence: Please ensure that you use the correct template and correct formatting
+      of references. We require submitted papers to be in the 2-column format. Use...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: 'Open source : Our community welcomes open source and encourages the
+      practice of creating software/hardware and sharing it through open-source and...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch2:
+        value: optional
+  llm_policy:
+    value: allowed
+    evidence: Authors should avoid generating content using AI agents (e.g., LLMs
+      such as ChatGPT or similar), but the usage of these tools is allowed for editing...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Detroit, Michigan, USA
+    evidence: 'location: Detroit, Michigan, USA'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Detroit, MI USA
+      llm_batch2:
+        value: Detroit, Michigan, USA
+    _conflict: true
+    normalized:
+      city: Detroit
+      country: US
+      display: Detroit, US
+      raw: Detroit, Michigan, USA
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: TBD
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: PCS
+    evidence: All required materials must be submitted electronically to PCS by the
+      abstract and paper deadline.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: PCS
+      llm_batch2:
+        value: PCS
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true

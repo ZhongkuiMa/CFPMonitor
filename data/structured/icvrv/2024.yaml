@@ -1,0 +1,294 @@
+conference: ICVRV
+year: 2024
+last_checked: '2026-02-16T08:33:49.501565+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: September 8, 2024
+    evidence: Paper Due
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 8, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 30, 2024
+    evidence: Author Notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 30, 2024
+  camera_ready_deadline:
+    value: November 15, 2024
+    evidence: Camera-ready Paper Upolad
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 15, 2024
+  conference_dates:
+    value: December 27-29, 2024
+    evidence: Conference Dates
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 27-29, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: December 1, 2024
+    evidence: Registration Start
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: December 1, 2024
+  double_blind:
+    value: true
+    evidence: Reviewing is double-blind... MUST be suitably anonymized.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 6 pages
+    evidence: Papers must be at least 4 pages and no longer than 6 pages...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions for ICVRV 2024 MUST be in English, and MUST be prepared
+      in ICVRV Review Formatin PDF format.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are strongly encouraged to submit supplementary materials...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of ICVRV 2024
+    evidence: All accepted ICVRV papers will appear in the Proceedings of ICVRV 2024...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of ICVRV 2024
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Macau SAR, China
+    evidence: ICVRV 2024 will be held in Macau SAR, China, from December 27-29, 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Macau SAR, China
+    normalized:
+      city: Macau Sar
+      country: China
+      display: Macau Sar, China
+      raw: Macau SAR, China
+  conference_format:
+    value: in-person
+    evidence: All accepted submissions MUST be registered and presented orally at
+      ICVRV 2021.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: From all accepted and presented papers, an international jury will select
+      the best papers...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

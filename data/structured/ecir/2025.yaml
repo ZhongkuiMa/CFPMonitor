@@ -1,0 +1,310 @@
+conference: ECIR
+year: 2025
+last_checked: '2026-02-16T10:15:43.970729+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: October 16, 2024
+    evidence: 'Full Paper Submission: October 9, 2024, October 16, 2024, 11:59pm (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 16, 2024
+  abstract_deadline:
+    value: October 2, 2024
+    evidence: 'Full Paper Abstract Submission: October 2, 2024, October 9, 2024, 11:59pm
+      (AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 2, 2024
+  notification_date:
+    value: December 16, 2024
+    evidence: 'Acceptance/Rejection Notifications for Full Papers: December 16, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 16, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: April 06-10, 2025
+    evidence: 'Conference: April 06-10, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 06-10, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Full papers will be refereed through double-blind peer review, with
+      an initial first-stage review followed by a second stage of discussion led by
+      a...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Full papers are up to 12 pages in length plus additional pages for references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors should consult Springer’s authors’ guidelines and use their
+      proceedings templates, either for LaTeX or for Word (to be found at...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Papers submitted to ECIR 2025 should be substantially different from
+      papers that have been previously published, or accepted for publication, or
+      that...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: However, we discourage this since it places anonymity at risk; in particular,
+      please do not publish your paper at arXiv and submit it to ECIR at the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science
+    evidence: Accepted papers will be published in the conference proceedings in the
+      Springer Lecture Notes in Computer Science series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Reproducibility papers can be up to 12 pages in length plus additional
+      pages for references. Reproducibility papers will be refereed through...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Lucca, Italy
+    evidence: The European Conference on Information Retrieval (ECIR) is the prime
+      European forum for the presentation of original research in the field of...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lucca, Italy
+    normalized:
+      city: Lucca
+      country: Italy
+      display: Lucca, Italy
+      raw: Lucca, Italy
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Workshop Proposals Track Chairs
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: All papers should be submitted electronically through the EasyChair
+      submission system ( https://easychair.org/conferences/?conf=ecir2025 ) and...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals will be reviewed by the ECIR 2025 workshop committee
+      based on the quality of their proposal, covered topics, relationship to ECIR,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: true
+    evidence: Industry Day of ECIR 2025 will be held on April 10th, 2025 in Lucca,
+      Italy, immediately after the main conference program.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: Doctoral Consortium Track Chairs
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

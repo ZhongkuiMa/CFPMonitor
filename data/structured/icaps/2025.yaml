@@ -1,0 +1,314 @@
+conference: ICAPS
+year: 2025
+last_checked: '2026-02-16T09:10:27.163303+00:00'
+completeness:
+  known: 27
+  total: 40
+  percentage: 67.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 27
+rules:
+  submission_deadline:
+    value: November 1, 2024
+    evidence: November 1, 2024 - Full papers due (electronic submission, PDF)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 1, 2024
+  abstract_deadline:
+    value: October 25, 2024
+    evidence: October 25, 2024 - Abstracts due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 25, 2024
+  notification_date:
+    value: February 28, 2025
+    evidence: February 28, 2025 - Phase 2 author notification
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 28, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: November 9-14, 2025
+    evidence: The 35th edition of the ICAPS conference series will be held in Melbourne,
+      Victoria (Australia), from November 9th to 14th, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 9-14, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ICAPS 2025 does not have “tracks” but “topics”, following up the changes
+      made in ICAPS 2024 when all submissions were directed to a single track, and...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: During the rest of the conference workflow, we expect TCs to oversee
+      the activities of the ACs and assist them to reach a recommendation, moderate...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: All submissions to the main technical track must be classified in terms
+      of one or more high-level topics, and one or more relevant subject-matter...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions to the main technical track must be classified in terms
+      of one or more high-level topics, and one or more relevant subject-matter...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: ICAPS 2025 does not have “tracks” but “topics”, following up the changes
+      made in ICAPS 2024 when all submissions were directed to a single track, and...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings
+    evidence: The submission schedule of ICAPS 2025 is designed with authors in mind,
+      offering multiple opportunities to revise and resubmit. For example, to ICAPS...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Scholarship is important but for conference papers it may need to be
+      sacrificed on the altar of paper length limits. Conference papers are the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Melbourne, Victoria, Australia
+    evidence: The 35th edition of the ICAPS conference series will be held in Melbourne,
+      Victoria (Australia), from November 9th to 14th, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Melbourne, Victoria, Australia
+    normalized:
+      city: Melbourne
+      country: Australia
+      display: Melbourne, Australia
+      raw: Melbourne, Victoria, Australia
+  conference_format:
+    value: in-person
+    evidence: The 35th edition of the ICAPS conference series will be held in Melbourne,
+      Victoria (Australia), from November 9th to 14th, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ICAPS 2025 does not have “tracks” but “topics”, following up the changes
+      made in ICAPS 2024 when all submissions were directed to a single track, and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ICAPS 2025 does not have “tracks” but “topics”, following up the changes
+      made in ICAPS 2024 when all submissions were directed to a single track, and...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: true
+    evidence: Position papers, which contribute thoughtful critiques or bold new perspectives
+      of the field. Examples include meta-analysis of research trends,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: The Doctoral Consortium (DC) will provide Ph.D. students with the opportunity
+      to interact closely with established researchers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

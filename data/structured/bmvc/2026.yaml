@@ -1,0 +1,298 @@
+conference: BMVC
+year: 2026
+last_checked: '2026-02-16T11:49:26.690283+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: Friday, 29 May 2026
+    evidence: Paper & Supplementary Material Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, 29 May 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Friday, 7 August 2026
+    evidence: Author Notification of Decisions
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Friday, 7 August 2026
+  camera_ready_deadline:
+    value: Friday, 28 August 2026
+    evidence: Final Camera-Ready Paper Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Friday, 28 August 2026
+  conference_dates:
+    value: Monday, 23 – Thursday, 26 November 2026
+    evidence: BMVC 2026 Conference
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Monday, 23 – Thursday, 26 November 2026
+  rebuttal_deadline:
+    value: Friday, 10 July 2026
+    evidence: Rebuttal Period
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: Friday, 10 July 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: BMVC 2026 employs a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: An Area Chair will provide a meta-review summarising the discussion
+      and recommending a decision.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: Following the practice of major conferences in the field, and to manage
+      the volume of submissions, BMVC 2026 relies on a community reviewing model.
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 14 pages
+    evidence: Papers must not exceed 14 pages (excluding references).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 14 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submitted papers must use the official BMVC 2026 LaTeX/Word template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary information (e.g., appendices, videos, additional results)
+      can be submitted as a single .zip file by the paper deadline.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: Work submitted to BMVC 2026 must be original and cannot be under concurrent
+      review for another peer-reviewed conference or journal.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: BMVA
+    evidence: Accepted papers will be included in the conference proceedings published
+      by BMVA.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: BMVA
+  statements:
+    value: true
+    evidence: Each paper will be reviewed by at least three reviewers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: none
+    evidence: No specific artifact evaluation policy mentioned for main track.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: forbidden
+    evidence: Following the practice of major conferences in the field, and to manage
+      the volume of submissions, BMVC 2026 relies on a community reviewing model.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Lancaster, UK
+    evidence: The 37th BMVC will be an in-person event from 23rd—26th November 2026
+      in Lancaster, UK
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lancaster, UK
+    normalized:
+      city: Lancaster
+      country: UK
+      display: Lancaster, UK
+      raw: Lancaster, UK
+  conference_format:
+    value: in-person
+    evidence: The 37th BMVC will be an in-person event from 23rd—26th November 2026
+      in Lancaster, UK
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Workshop proposals are welcome.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: 'All submissions must be made through the OpenReview system: OpenReview
+      .'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: Workshop proposals are welcome.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: The DC provides a forum for PhD students.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

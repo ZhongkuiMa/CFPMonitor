@@ -1,0 +1,278 @@
+conference: PG
+year: 2025
+last_checked: '2026-02-16T09:52:03.772833+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: June 6, 2025
+    evidence: Paper due ( SRM system for papers ) June 6
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 6, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 8
+    evidence: Decision Notification August 8
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 8
+  camera_ready_deadline:
+    value: August 22
+    evidence: Camera-ready August 22
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 22
+  conference_dates:
+    value: October 14-17, 2025
+    evidence: Conference Dates October 14-17
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 14-17, 2025
+  rebuttal_deadline:
+    value: July 28
+    evidence: Rebuttal Due July 27 28
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 28
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The review process is doubly anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors will have opportunities to address reviewers' concerns in a
+      rebuttal period after the first cycle of reviewing before decisions are made.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 7-8 pages
+    evidence: Each paper is recommended to be 7-8 pages in length, not including bibliography
+      and figure-only pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 7-8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: 'A laTex-template is available at: LaTex-template .'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: EG digital library
+    evidence: Papers accepted to this track will be published in the PG2025 proceedings
+      in the EG digital library.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: EG digital library
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Taipei, Taiwan
+    evidence: Pacific Graphics 2025 will be held in Taipei, Taiwan, and hosted by
+      National Chengchi University from October 14-17, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Taipei, Taiwan
+    normalized:
+      city: Taipei
+      country: Taiwan, China
+      display: Taipei, Taiwan, China
+      raw: Taipei, Taiwan
+  conference_format:
+    value: in-person
+    evidence: Pacific Graphics 2025 will be held in Taipei, Taiwan, and hosted by
+      National Chengchi University from October 14-17, 2025.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SRM
+    evidence: All papers should be submitted through the SRM system for papers .
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SRM
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Best Paper Award (2025-10-17)
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

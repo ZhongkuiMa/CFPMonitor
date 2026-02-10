@@ -1,0 +1,404 @@
+conference: USENIX SECURITY
+year: 2025
+last_checked: '2026-02-16T09:21:59.546387+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 9
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: February 8, 2024
+      llm_batch2: January 22, 2025
+  - field: notification_date
+    values:
+      llm_batch1: September 1, 2023
+      llm_batch2: April 30, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: October 10, 2023
+      llm_batch2: June 12, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: August 14-16, 2024
+      llm_batch2: August 13-15, 2025
+  - field: rebuttal_deadline
+    values:
+      llm_batch1: August 21-23, 2023
+      llm_batch2: April 7-14, 2025
+  - field: page_limit
+    values:
+      llm_batch1: 13 pages
+      llm_batch2: 20 pages
+  - field: conference_location
+    values:
+      llm_batch1: Philadelphia, PA, USA
+      llm_batch2: Seattle, WA, USA
+  - field: conference_format
+    values:
+      llm_batch1: in-person
+      llm_batch2: hybrid
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'']'
+      llm_batch2: '[''oral'', ''poster'']'
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: January 22, 2025
+    evidence: 'Cycle 2 Deadline: Wednesday, January 22, 2025, 11:59 pm AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 8, 2024
+      llm_batch2:
+        value: January 22, 2025
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 30, 2025
+    evidence: 'Notification to authors: Wednesday, April 30, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 1, 2023
+      llm_batch2:
+        value: April 30, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: June 12, 2025
+    evidence: 'Cycle 2: Upload your final paper to the submissions system by Thursday,
+      June 12, 2025.'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: October 10, 2023
+      llm_batch2:
+        value: June 12, 2025
+    _conflict: true
+  conference_dates:
+    value: August 13-15, 2025
+    evidence: The USENIX Security Symposium brings together researchers, practitioners,
+      system programmers, and others interested in the latest advances in the...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: August 14-16, 2024
+      llm_batch2:
+        value: August 13-15, 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: April 7-14, 2025
+    evidence: 'Rebuttal period: April 7–14, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: August 21-23, 2023
+      llm_batch2:
+        value: April 7-14, 2025
+    _conflict: true
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'The review process will be anonymous. Papers must be submitted in a
+      form suitable for anonymous review:'
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 20 pages
+    evidence: Final papers should be no longer than 20 pages, including bibliography
+      and any appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 13 pages
+      llm_batch2:
+        value: 20 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings
+    evidence: All papers that are accepted by the end of the second submission cycle
+      (January–June 2025) will appear in the proceedings for USENIX Security '25.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Proceedings
+      llm_batch2:
+        value: Proceedings
+  statements:
+    value: true
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+      llm_batch2:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seattle, WA, USA
+    evidence: The 34th USENIX Security Symposium will be held on August 13–15, 2025,
+      in Seattle, WA, USA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Philadelphia, PA, USA
+      llm_batch2:
+        value: Seattle, WA, USA
+    _conflict: true
+    normalized:
+      city: Seattle
+      country: US
+      display: Seattle, US
+      raw: Seattle, WA, USA
+  conference_format:
+    value: hybrid
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: hybrid
+    _conflict: true
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'', ''poster'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: ''
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCRP
+      llm_batch2:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'True'

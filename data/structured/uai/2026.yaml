@@ -1,0 +1,330 @@
+conference: UAI
+year: 2026
+last_checked: '2026-02-16T10:47:56.843739+00:00'
+completeness:
+  known: 31
+  total: 40
+  percentage: 77.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 31
+rules:
+  submission_deadline:
+    value: February 25, 2026
+    evidence: Paper submission deadline (incl. supp. material) is February 25th, 2026
+      (23:59 Anywhere on Earth, AoE)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 25, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: June 1st, 2026
+    evidence: Author notification is June 1, 2026 (23:59 AoE)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 1st, 2026
+  camera_ready_deadline:
+    value: July 8th, 2026
+    evidence: Camera-ready deadline is July 8th, 2026 (23:59 AoE)
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 8th, 2026
+  conference_dates:
+    value: August 18-20, 2026
+    evidence: 'Main Conference: Tuesday, August 18th to Thursday, August 20th, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 18-20, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: June 1st, 2026
+    evidence: At least one author of each accepted paper is required to register for
+      the conference. The registration will open in April , but some of our policies...
+    category: deadlines
+    priority: low
+    _sources:
+      llm:
+        value: June 1st, 2026
+  registration_deadline:
+    value: July 14, 2026
+    evidence: The early bird registration deadline is July 14th 23:59 AOE.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: July 14, 2026
+  double_blind:
+    value: true
+    evidence: The reviewing process is double blind at the level of Reviewers and
+      ACs (i.e. Reviewers and ACs cannot see Authors’ identities and vice-versa),
+      but...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are free to provide responses and further engage in discussing
+      the paper with the Reviewers in the discussion period from April 23rd to May...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers should clearly state their main claims and offer evidence in
+      support of those claims. Submissions will be judged on the basis of their...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The main part of the manuscript must not exceed 8 pages in length.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: false
+    evidence: Unlimited additional pages containing references and appendices (with
+      proofs, experimental protocols, and any required details) are allowed and...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Manuscripts must be prepared using the UAI latex template and formatting
+      instructions.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may also provide further supplementary material, such as source
+      code or data, in a ZIP file of up to 50MB in size.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of Machine Learning Research (PMLR)
+    evidence: All accepted papers will be published in a volume of Proceedings of
+      Machine Learning Research (PMLR).
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of Machine Learning Research (PMLR)
+  statements:
+    value: true
+    evidence: Authors who submit two or more papers should make sure they are substantially
+      different. Program Chairs and Workflow Chairs cannot submit papers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Large language models (LLMs) are not eligible for authorship. Regarding
+      the use of LLMs, they are permitted as a general-purpose tool to assist with...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Amsterdam, The Netherlands
+    evidence: The conference will be an in-person conference taking place in Amsterdam,
+      The Netherlands
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Amsterdam, The Netherlands
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Amsterdam, The Netherlands
+  conference_format:
+    value: in-person
+    evidence: UAI 2026 is primarily organized as an in-person event, and we very much
+      hope to see many of you in real life in beautiful Amsterdam! It is also...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    - spotlight
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'', ''spotlight'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The conference includes tutorials, but no workshops or satellite events
+      are mentioned for the main track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Manuscripts can be submitted at UAI 2026 OpenReview from January 25th,
+      2026 (23:59 AoE), until February 25th, 2026 (23:59 AoE).
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: true
+    evidence: 'Tutorials: Monday, August, 17th, 2026'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

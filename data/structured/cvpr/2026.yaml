@@ -1,0 +1,387 @@
+conference: CVPR
+year: 2026
+last_checked: '2026-02-16T11:32:07.104022+00:00'
+completeness:
+  known: 29
+  total: 40
+  percentage: 72.5
+quality:
+  conflict_count: 5
+  conflicts:
+  - field: submission_deadline
+    values:
+      llm_batch1: November 13, 2025 AOE
+      llm_batch2: December 15, 2025
+  - field: rebuttal_deadline
+    values:
+      llm_batch1: January 22, 2026
+      llm_batch2: February 5, 2026
+  - field: page_limit_exclusions
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: publication_venue
+    values:
+      llm_batch1: Computer Vision Foundation
+      llm_batch2: Conference proceedings
+  - field: llm_policy
+    values:
+      llm_batch1: allowed
+      llm_batch2: forbidden
+  source_coverage:
+    llm: 29
+rules:
+  submission_deadline:
+    value: December 15, 2025
+    evidence: Dec 15, 2025 - Papers assigned to reviewers
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: November 13, 2025 AOE
+      llm_batch2:
+        value: December 15, 2025
+    _conflict: true
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 20, 2026
+    evidence: Feb 20, 2026 - Final reviewer recommendations due
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: February 20, 2026
+      llm_batch2:
+        value: February 20, 2026
+  camera_ready_deadline:
+    value: Not mentioned
+    evidence: ''
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: Not mentioned
+  conference_dates:
+    value: June 3-7, 2026
+    evidence: 'date: June 3-7, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: June 3-7, 2026
+      llm_batch2:
+        value: June 3-7, 2026
+  rebuttal_deadline:
+    value: February 5, 2026
+    evidence: Feb 5, 2026 - Author rebuttals due
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: January 22, 2026
+      llm_batch2:
+        value: February 5, 2026
+    _conflict: true
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 23, 2026 12:59 PM MDT*
+    evidence: EarlyRegistrationDeadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: April 23, 2026 12:59 PM MDT*
+  double_blind:
+    value: true
+    evidence: 'CVPR reviewing is double blind: authors do not know the names of the
+      area chairs or reviewers for their papers, and the area chairs/reviewers are
+      not...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Reviews and author responses will never be made public
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Authors receive reviews and have the option of submitting a rebuttal
+      to address any concerns the reviewers may have.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Papers authored by reviewers, who have not submitted reviews on time
+      or who have submitted reviews that are deemed to be highly irresponsible will
+      be...
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: The page limit for CVPR submissions is 8 pages excluding references
+      and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: The page limit for CVPR submissions is 8 pages excluding references
+      and appendices.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  template_required:
+    value: true
+    evidence: Papers must use the official template
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: All code/data should be reviewed confidentially and kept private, and
+      deleted after the review process is complete.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: There will be multiple emails sent out to all reviewers as a reminder
+      to submit reviews in a timely manner.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: 'Check for Use of Personal Data and Human Subjects: If a paper is using
+      personal data or data from human subjects, the authors must have an ethics...'
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  publication_venue:
+    value: Conference proceedings
+    evidence: The CVPR 2026 proceedings will be published by IEEE/CVF.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: Computer Vision Foundation
+      llm_batch2:
+        value: Conference proceedings
+    _conflict: true
+  statements:
+    value: true
+    evidence: 'Check for Discussion of Negative Societal Impact: The CVPR community
+      has not put as much emphasis on the awareness of possible negative societal...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: CVPR 2026 does not allow the use of Large Language Models or online
+      chatbots such as ChatGPT in any part of the reviewing process.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+      llm_batch2:
+        value: forbidden
+    _conflict: true
+  conference_location:
+    value: Denver, Colorado, United States
+    evidence: 'place: Denver, Colorado, United States'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Denver, Colorado, United States
+      llm_batch2:
+        value: Denver, Colorado, United States
+    normalized:
+      city: Denver
+      country: US
+      display: Denver, US
+      raw: Denver, Colorado, United States
+  conference_format:
+    value: in-person
+    evidence: 'date: June 3-7, 2026'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: The conference format is in-person and does not mention poster or spotlight
+      presentations.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: There will be multiple emails sent out to all reviewers as a reminder
+      to submit reviews in a timely manner.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: The reviewing process is managed by OpenReview.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: OpenReview
+  has_workshop_proposals:
+    value: true
+    evidence: Call For Workshop Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: We are soliciting proposals for short courses and tutorials to be held
+      at the 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: true
+    evidence: CVPR 2026 introduces a new Findings Track
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_awards:
+    value: true
+    evidence: Papers that complete sections of the CRF may receive recognition for
+      computational excellence.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'

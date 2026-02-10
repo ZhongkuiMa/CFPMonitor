@@ -1,0 +1,309 @@
+conference: DAC
+year: 2024
+last_checked: '2026-02-16T08:45:48.777550+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: November 20, 2023
+    evidence: 'Manuscript Submission Deadline: November 20, 2023 5:00 PM (PST)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 20, 2023
+  abstract_deadline:
+    value: November 13, 2023
+    evidence: 'Abstract Submission Deadline: November 13, 2023 5:00 PM (PST)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 13, 2023
+  notification_date:
+    value: February 26, 2024
+    evidence: 'Accept/Reject Notifications Sent: February 26, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 26, 2024
+  camera_ready_deadline:
+    value: April 10, 2024
+    evidence: 'Proceedings Manuscript Deadline: April 10, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 10, 2024
+  conference_dates:
+    value: June 23-27, 2024
+    evidence: 61st DAC will be held June 23-27, 2024 at Moscone Center West in San
+      Francisco, CA.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 23-27, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: April 10, 2024
+    evidence: Speaker registration deadline. One author from each manuscript is required
+      to register at the speaker registration rate.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 10, 2024
+  double_blind:
+    value: true
+    evidence: The DAC publication policy does allow for papers published on arXiv
+      to be submitted to DAC. Note, however, that the authors are expected to follow...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Submitters should report COIs of all co-authors with members of the
+      Technical Program Committee upon submission. However, it is recommended that...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: The DAC publication policy does allow for papers published on arXiv
+      to be submitted to DAC. Note, however, that the authors are expected to follow...
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 6 pages
+    evidence: The manuscript must be within 6 pages, double-columned, 9 or 10-pt font,
+      in PDF format only, be a readable file and follow the ACM style template.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 6 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The manuscript must be within 6 pages, double-columned, 9 or 10-pt font,
+      in PDF format only, be a readable file and follow the ACM style template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: DAC adheres to strict rules regarding duplicate submissions. Submissions
+      must be clearly novel and distinct with respect to other submissions to DAC...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: The DAC publication policy does allow for papers published on arXiv
+      to be submitted to DAC. Note, however, that the authors are expected to follow...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: ACM
+    evidence: The manuscript must be within 6 pages, double-columned, 9 or 10-pt font,
+      in PDF format only, be a readable file and follow the ACM style template.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: We follow ACM/IEEE policy ond the AI/ChatGPT. In brief, the use of AI
+      software tools (such as ChatGPT, Jasper, AI Write, Lex, for example) is...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: San Francisco, CA
+    evidence: 61st DAC will be held June 23-27, 2024 at Moscone Center West in San
+      Francisco, CA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Francisco, CA
+    normalized:
+      city: San Francisco
+      country: US
+      display: San Francisco, US
+      raw: San Francisco, CA
+  conference_format:
+    value: in-person
+    evidence: 61st DAC will be held June 23-27, 2024 at Moscone Center West in San
+      Francisco, CA.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted presentations are expected to submit a video of their presentation
+      in advance of the event. This does not replace participation in the...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Sunday Workshop Proposals Deadline: November 20, 2023 5:00 PM (PST)'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: 'Sunday Workshop Proposals Deadline: November 20, 2023 5:00 PM (PST)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: 'Monday Tutorial Proposals Deadline: November 20, 2023 5:00 PM (PST)'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: The Design Automation Conference (DAC) is the premier event to showcase
+      cutting-edge research achievements in the design and design automation of...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

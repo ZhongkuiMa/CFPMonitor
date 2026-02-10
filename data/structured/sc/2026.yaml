@@ -1,0 +1,283 @@
+conference: SC
+year: 2026
+last_checked: '2026-02-16T10:42:07.559804+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: 8 April 2026
+    evidence: Paper Submissions Close
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 8 April 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: 1 July 2026
+    evidence: Notifications Sent
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 1 July 2026
+  camera_ready_deadline:
+    value: 28 August 2026
+    evidence: Final Paper Due
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 28 August 2026
+  conference_dates:
+    value: 17-19 November 2026
+    evidence: Papers Schedule
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 17-19 November 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All papers must include a complete paper checklist submitted as a supplementary
+      document through the submission system. The deadline for this...
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors prepare a rebuttal.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 two-column pages
+    evidence: Submissions are limited to 10 two-column pages (U.S. letter – 8.5″ x
+      11″), excluding the bibliography, using the IEEE proceedings template.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 two-column pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Submissions are limited to 10 two-column pages (U.S. letter – 8.5″ x
+      11″), excluding the bibliography, using the IEEE proceedings template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Authors of accepted papers may provide supplemental material with their
+      final version of the paper (e.g., additional proofs, videos, or images).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM Digital Library and IEEE Xplore
+    evidence: Papers are archived in the ACM Digital Library and IEEE Xplore; members
+      of SIGHPC or subscribers to the archives may access the full papers without...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM Digital Library and IEEE Xplore
+  statements:
+    value: true
+    evidence: All manuscripts submitted to the SC Technical Papers program must contain
+      an AD Appendix. The AD Appendix describes the significant research products...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: The Artifact Description (AD) Appendix will be auto-generated from author
+      responses to a standard form embedded in the online submission system. It...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: SC permits the use of AI tools (e.g., ChatGPT, Grammarly, or other AI
+      assistants) to help improve the submission text. The authors should verify...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: McCormick Place, Chicago, Illinois, USA
+    evidence: All Dates & Deadlines • SC26
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: McCormick Place, Chicago, Illinois, USA
+    normalized:
+      city: Mccormick Place
+      country: US
+      display: Mccormick Place, US
+      raw: McCormick Place, Chicago, Illinois, USA
+  conference_format:
+    value: in-person
+    evidence: Papers presentations will be held Tuesday–Thursday, November 17–19,
+      2026.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: All papers must include a complete paper checklist submitted as a supplementary
+      document through the submission system. The deadline for this...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

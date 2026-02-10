@@ -1,0 +1,317 @@
+conference: ISMAR
+year: 2026
+last_checked: '2026-02-16T10:46:05.097811+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: March 16th, 2026 (23:59 AoE)
+    evidence: 'Paper submission deadline: March 16th, 2026 (23:59 AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 16th, 2026 (23:59 AoE)
+  abstract_deadline:
+    value: March 9th, 2026 (23:59 AoE)
+    evidence: 'Abstract deadline: March 9th, 2026 (23:59 AoE)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: March 9th, 2026 (23:59 AoE)
+  notification_date:
+    value: June 22nd, 2026 (23:59 AoE, Sunday)
+    evidence: 'Final notification: June 22nd, 2026 (23:59 AoE, Sunday)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 22nd, 2026 (23:59 AoE, Sunday)
+  camera_ready_deadline:
+    value: July 21st, 2026 (23:59 AoE, Tuesday)
+    evidence: 'Camera-ready version: July 21st, 2026 (23:59 AoE, Tuesday)'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: July 21st, 2026 (23:59 AoE, Tuesday)
+  conference_dates:
+    value: October 5-9, 2026
+    evidence: 'date: Oct 5-9, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 5-9, 2026
+  rebuttal_deadline:
+    value: May 31st, 2026 (23:59 AoE, Sunday)
+    evidence: 'Rebuttals due: May 31st, 2026 (23:59 AoE, Sunday)'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 31st, 2026 (23:59 AoE, Sunday)
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ISMAR uses a DOUBLE-BLIND review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: All authors will be given time to write a rebuttal.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Submissions that receive low review scores from both coordinators or
+      that violate the submission guidelines will be rejected early.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Be a maximum of 11 pages total, with a minimum of 4 and a maximum of
+      9 pages of content.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All submissions must be formatted strictly in accordance with the IEEE
+      Computer Society VGTC conference guidelines.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplemental Materials (Optional)
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Visualization and Computer Graphics (TVCG) or ISMAR
+      2026 conference proceedings
+    evidence: Submissions accepted as journal papers will be directly published in
+      a special issue of IEEE Transactions on Visualization and Computer Graphics...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Visualization and Computer Graphics (TVCG) or
+          ISMAR 2026 conference proceedings
+  statements:
+    value: true
+    evidence: Ethics and Responsibility
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: required_disclosure
+    evidence: In accordance with IEEE guidelines , the use of content generated by
+      artificial intelligence (AI) in an article (including but not limited to text,...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: required_disclosure
+  conference_location:
+    value: Bari, Italy
+    evidence: 'place: Bari, Italy'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Bari, Italy
+    normalized:
+      city: null
+      country: Italy
+      display: Italy
+      raw: Bari, Italy
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: Precision Conference System (PCS)
+    evidence: All paper submissions must be made electronically via the Precision
+      Conference System (PCS) website
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: Precision Conference System (PCS)
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

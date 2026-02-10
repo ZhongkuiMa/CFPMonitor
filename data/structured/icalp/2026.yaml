@@ -1,0 +1,318 @@
+conference: ICALP
+year: 2026
+last_checked: '2026-02-16T11:43:54.802428+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: February 6, 2026
+    evidence: 'ICALP submission deadline: 6 February 2026 (AoE)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 6, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 20, 2026
+    evidence: 'ICALP Author notification: 20 April 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 20, 2026
+  camera_ready_deadline:
+    value: May 11, 2026
+    evidence: 'ICALP Camera-ready Deadline: 11 May 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 11, 2026
+  conference_dates:
+    value: July 7-10, 2026
+    evidence: 'Main conference: 7–10 July, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 7-10, 2026
+  rebuttal_deadline:
+    value: March 24, 2026
+    evidence: "ICALP rebuttal period (Track B only): 21â\x80\x9324 March 2026"
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: March 24, 2026
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submissions are anonymous. The conference will employ a lightweight
+      double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: For Track B, the authors will have the opportunity to view and respond
+      to initial reviews.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: "There is no page limit and authors are encouraged to use the â\x80\x9C\
+      full versionâ\x80\x9D of their paper as the submission."
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The submissions are done via HotCRP to the appropriate track of the
+      conference. The use of pdflatex or similar pdf generating tools is mandatory.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Authors are encouraged to also make full versions of their submissions
+      freely accessible in an on-line repository such as ArXiv, HAL, ECCC.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: Leibniz International Proceedings in Informatics (LIPIcs) series
+    evidence: ICALP proceedings are published in the Leibniz International Proceedings
+      in Informatics (LIPIcs) series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Leibniz International Proceedings in Informatics (LIPIcs) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: none
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: none
+  llm_policy:
+    value: allowed
+    evidence: nothing explicitly mentioned about LLM/AI usage
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: London, UK
+    evidence: 'location: London, England, UK'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: London, UK
+    normalized:
+      city: London
+      country: UK
+      display: London, UK
+      raw: London, UK
+  conference_format:
+    value: in-person
+    evidence: At least one author of each accepted paper is expected to register for
+      the conference, and all talks are in-person.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: nothing explicitly mentioned about different presentation formats, but
+      oral presentations are implied
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The conference will be preceded by a series of workshops, which will
+      take place on 6 July 2026.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions to ICALP 2026 use HotCRP system
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: 'Workshop proposal deadline: 2 February 2026, 23:59 AoE'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: 'During the conference, the following awards will be delivered:'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

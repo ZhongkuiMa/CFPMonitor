@@ -1,0 +1,274 @@
+conference: DIMVA
+year: 2024
+last_checked: '2026-02-16T08:36:59.147366+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: February 21, 2024
+    evidence: 'Submission: Dec 6, 2023 Dec 19, 2023 (extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 21, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: April 8, 2024
+    evidence: 'Notification (accept/reject): Apr 4, 2024 Apr 8, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 8, 2024
+  camera_ready_deadline:
+    value: May 1, 2024
+    evidence: 'Camera ready deadline: Apr 17, 2024 May 01, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1, 2024
+  conference_dates:
+    value: July 17 to 19, 2024
+    evidence: 'Conference: July 17 to 19, 2024 at EPFL in Lausanne, Switzerland'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 17 to 19, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: DIMVA 2024 will adopt a double-blind reviewing process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 20 pages
+    evidence: Full papers are limited to 20 pages in Springer LNCS format, including
+      bibliography and appendices.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer Lecture Notes in Computer Science (LNCS) series
+    evidence: The conference proceedings will appear in the Springer Lecture Notes
+      in Computer Science (LNCS) series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer Lecture Notes in Computer Science (LNCS) series
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Authors are encouraged to submit code appropriately anonymized, using,
+      e.g., [https://anonymous.4open.science/](https://anonymous.4open.science/)
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: We encourage submissions about security issues of generative AI to solve
+      intrusion, malware, or vulnerability detection related challenges; or...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Lausanne, Switzerland
+    evidence: 'Conference: July 17 to 19, 2024 at EPFL in Lausanne, Switzerland'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Lausanne, Switzerland
+    normalized:
+      city: Lausanne
+      country: Switzerland
+      display: Lausanne, Switzerland
+      raw: Lausanne, Switzerland
+  conference_format:
+    value: in-person
+    evidence: DIMVA will be held in BC05/06 on the EPFL campus.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Papers can be submitted using [https://dimva2024.hotcrp.com/](https://dimva2024.hotcrp.com/)
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Call for Posters
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

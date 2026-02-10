@@ -1,0 +1,303 @@
+conference: MICCAI
+year: 2025
+last_checked: '2026-02-16T09:29:06.400515+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: February 27, 2025
+    evidence: 'Full manuscript, including supplementary material, submission deadline:
+      23:59, Pacific Time, 27th February 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 27, 2025
+  abstract_deadline:
+    value: February 13, 2025
+    evidence: Main Conference Paper Abstract Registration (Intention to Submit) February
+      13, 2025
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 13, 2025
+  notification_date:
+    value: June 17, 2025
+    evidence: Notification of Paper Decisions June 17, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 17, 2025
+  camera_ready_deadline:
+    value: June 30, 2025
+    evidence: 'Camera-ready file submission: Monday, June 30, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: June 30, 2025
+  conference_dates:
+    value: September 24-26, 2025
+    evidence: Main Conference Dates Sept 24 to 26, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 24-26, 2025
+  rebuttal_deadline:
+    value: May 19, 2025
+    evidence: Rebuttal Period May 13 to 19, 2025
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May 19, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 30, 2025
+    evidence: 'Author (main conference) registration and payment completion: Monday,
+      June 30, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 30, 2025
+  double_blind:
+    value: true
+    evidence: The MICCAI Conference review process is double-blinded, i.e. the names
+      of the authors, reviewers, and Area Chairs are not revealed to each other.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Reviewers are strongly discouraged from searching arXiv for submissions
+      they have been assigned to review. Even if they come across this information...
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages of content + 2 pages of references
+    evidence: NEW Papers must be submitted electronically in searchable PDF format
+      using the provided MICCAI 2025 LaTeX or MS Word templates. Manuscripts can be
+      up...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages of content + 2 pages of references
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: NEW Papers must be submitted electronically in searchable PDF format
+      using the provided MICCAI 2025 LaTeX or MS Word templates.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: NEW Supplementary materials are limited to multimedia content (e.g.,
+      videos) as warranted by the technical application (e.g. robotics, surgery, ...).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: You can post your submitted version, the version before peer review,
+      on arXiv but you cannot post your camera-ready version to arXiv during the...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer's Lecture Notes in Computer Science
+    evidence: MICCAI Proceedings are published in Springer's Lecture Notes in Computer
+      Science.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer's Lecture Notes in Computer Science
+  statements:
+    value: true
+    evidence: Authors must declare the origin, license, and (when appropriate) ethics
+      application number for any public or private data used in the preparation of...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: The use of LLMs (such as ChatGPT) is allowed as a general-purpose writing
+      assistance tool.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Daejeon, Republic of Korea
+    evidence: CLINICCAI will take place in Daejeon, Republic of Korea, on September
+      25, 2025
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Daejeon, Republic of Korea
+    normalized:
+      city: Daejeon
+      country: South Korea
+      display: Daejeon, South Korea
+      raw: Daejeon, Republic of Korea
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: true
+    evidence: Grants will be made available to support the physical participation
+      by authors - especially students and early-career scientists - from...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  submission_system:
+    value: CMT
+    evidence: 'The submission process will comprise two phases: You will register
+      your intention-to-submit by 23:59, Pacific Time, 13th February 2025 . This...'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: true
+    evidence: Satellite Events Workshop/Challenge/Tutorial Proposals January 9, 2025
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: All presentations will compete for the CLINICCAI Best Presentation Award,
+      to be announced at the end of the event.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

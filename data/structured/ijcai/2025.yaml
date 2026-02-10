@@ -1,0 +1,298 @@
+conference: IJCAI
+year: 2025
+last_checked: '2026-02-16T09:08:58.544310+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: January 23, 2025
+    evidence: 'Author information and Full paper submission deadline (including Appendix
+      and resubmission information): January 23, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 23, 2025
+  abstract_deadline:
+    value: January 16, 2025
+    evidence: 'Abstract submission deadline : January 16, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: January 16, 2025
+  notification_date:
+    value: April 28, 2025
+    evidence: 'Paper notification : April 28, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 28, 2025
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: August 16-22, 2025
+    evidence: 'Conference (Montreal) : Saturday, August 16 to Friday, August 22, 2025.'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 16-22, 2025
+  rebuttal_deadline:
+    value: April 6-9, 2025
+    evidence: 'Author response period : April 6-9, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: April 6-9, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: From the authors’ perspective, reviewing for IJCAI 2025 is double-blind.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: The full paper review process will allow authors to respond to the reviews.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Papers that advance beyond Phase 1 will receive additional reviews in
+      Phase 2, during which authors will have the opportunity to submit a response.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages
+    evidence: 'Papers must be no longer than 9 pages in total: 7 pages for the body
+      of the paper and 2 pages for references; an optional ethics statement can be...'
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages
+  page_limit_exclusions:
+    value: false
+    evidence: The last two pages can also contain acknowledgements and an optional
+      contribution statement.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers submitted to IJCAI 2025 must be formatted according to the IJCAI
+      2025 guidelines (link above).
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplementary material (e.g., appendices, data, source code) must be
+      submitted by the full paper submission deadline.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: The existence of non-anonymous preprints (on arXiv, social media, websites,
+      etc.) and prior publication in non-archival venues will not result in...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: IJCAI
+    evidence: All accepted papers will be published exclusively by IJCAI, with IJCAI
+      retaining the copyright.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IJCAI
+  statements:
+    value: true
+    evidence: Authors may include a statement of the potential broader impact of their
+      work, including its ethical aspects and future societal consequences.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: forbidden
+    evidence: Generative AI models, including ChatGPT, BARD, LLaMA, or similar LLMs,
+      do not satisfy the criteria for authorship of papers published in IJCAI 2025.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Montreal, Canada
+    evidence: 'Conference (Montreal) : Saturday, August 16 to Friday, August 22, 2025.'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Montreal, Canada
+    normalized:
+      city: Montreal
+      country: Canada
+      display: Montreal, Canada
+      raw: Montreal, Canada
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: In addition to the main track, authors will be able to submit papers
+      to four special tracks (AI for Social Good, AI and Arts, Human-Centred AI, and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: CMT
+    evidence: 'Submission site : https://cmt3.research.microsoft.com/IJCAI2025'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: CMT
+  has_workshop_proposals:
+    value: false
+    evidence: The aim of the workshop program is to provide a structured setting for
+      the discussion of specialized technical topics, and the format of proposed...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: A selection of distinguished papers submitted to IJCAI 2025 will be
+      invited for expedited reviewing and publication in the Artificial Intelligence...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

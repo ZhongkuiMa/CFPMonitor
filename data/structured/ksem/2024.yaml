@@ -1,0 +1,297 @@
+conference: KSEM
+year: 2024
+last_checked: '2026-02-16T07:55:37.893837+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: January 15, 2024
+    evidence: 'Submission deadline: Jan 15, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 15, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 1, 2024
+    evidence: 'notification: Mar 1, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 1, 2024
+  camera_ready_deadline:
+    value: May 1, 2024
+    evidence: 'camera_ready: May 1, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: May 1, 2024
+  conference_dates:
+    value: August 16-18, 2024
+    evidence: 'dates: Aug 16, 2024 - Aug 18, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 16-18, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: June 5, 2024
+    evidence: If you register before June 5, 2024 but do not submit camera-ready paper
+      before June 5, 2024, you still need to pay $200 make up fee.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: June 5, 2024
+  double_blind:
+    value: true
+    evidence: To ensure a fair and unbiased review, KSEM 2024 will implement a double-blinded
+      review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 16 pages
+    evidence: Each submission should be in the Springer conference format with 10-12
+      point font, including tables, figures, and references. Each accepted paper...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 16 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors should consult Springer’s authors’ guidelines and use their
+      proceedings templates
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: We also encourage the submission of visionary paper and survey paper,
+      which is belong to type 1.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Springer-Verlag
+    evidence: Each accepted paper will be published in KSEM 2024 proceedings. High
+      quality accepted papers are possible to be recommended to related special issues...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer-Verlag
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: the use of large language models (LLM)
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Birmingham, United Kingdom
+    evidence: 'location: Birmingham, United Kingdom'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Birmingham, United Kingdom
+    normalized:
+      city: Birmingham
+      country: UK
+      display: Birmingham, UK
+      raw: Birmingham, United Kingdom
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in Birmingham, UK.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

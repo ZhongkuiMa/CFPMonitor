@@ -1,0 +1,301 @@
+conference: ISCA
+year: 2024
+last_checked: '2026-02-16T08:59:35.436258+00:00'
+completeness:
+  known: 24
+  total: 40
+  percentage: 60.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 24
+rules:
+  submission_deadline:
+    value: November 21, 2023
+    evidence: 'Full Paper Deadline: November 21, 2023 at 11:59 PM AoE'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 21, 2023
+  abstract_deadline:
+    value: November 14, 2023
+    evidence: 'Abstracts: November 14, 2023 at 11:59 PM AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: November 14, 2023
+  notification_date:
+    value: March 19, 2024
+    evidence: 'Author Notification: March 19, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 19, 2024
+  camera_ready_deadline:
+    value: April 26, 2024
+    evidence: 'Final Deadline: April 26, 2024 at 11:59 PM AoE'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 26, 2024
+  conference_dates:
+    value: June 29-July 3, 2024
+    evidence: "The 51th International Symposium on Computer Architecture will be held\
+      \ in Buenos Aires during June 29 â\x80\x93 July 3, 2024."
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 29-July 3, 2024
+  rebuttal_deadline:
+    value: February 23, 2024
+    evidence: 'Rebuttal/Revision Period: February 9 - 23, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: February 23, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: 'Reviewing will be double blind : please do not include any author names
+      on any submitted documents except in the space provided on the submission...'
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Rebuttal/Revision Period: February 9 - 23, 2024'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 11 pages
+    evidence: Papers must be at most 11 pages, not including references (but including
+      all figures and tables).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 11 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Download LaTeX Template (ZIP) (Updated October 10, 2023)
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Extra pages may be purchased (up to two) or have an approved artifact
+      (for which you can add a two-page appendix).
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: false
+    evidence: By submitting a manuscript to ISCA 2024, the authors guarantee that
+      the manuscript has not been previously published or accepted for publication
+      in a...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE
+    evidence: IEEE is the leading publisher for ISCA 2024. All papers (regular and
+      industry track) must register and follow the instructions of the IEEE CPS Author...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE
+  statements:
+    value: true
+    evidence: Declare all the authors of the paper upfront. Addition/removal of authors
+      once the paper is accepted will have to be approved by the program chairs,...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: ISCA-51 will be conducting Artifact Evaluation. Authors of accepted
+      papers are encouraged to submit their artifacts for evaluation.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Buenos Aires, Argentina
+    evidence: "The 51th International Symposium on Computer Architecture will be held\
+      \ in Buenos Aires during June 29 â\x80\x93 July 3, 2024."
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Buenos Aires, Argentina
+    normalized:
+      city: Buenos Aires
+      country: Argentina
+      display: Buenos Aires, Argentina
+      raw: Buenos Aires, Argentina
+  conference_format:
+    value: in-person
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: true
+    evidence: Student Travel Grants are available!
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: HotCRP is now open for submissions
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

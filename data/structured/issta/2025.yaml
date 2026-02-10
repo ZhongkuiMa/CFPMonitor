@@ -1,0 +1,275 @@
+conference: ISSTA
+year: 2025
+last_checked: '2026-02-16T10:21:13.218444+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: October 31, 2024
+    evidence: 'Full paper submission: 31 October, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 31, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 19, 2024
+    evidence: 'Initial notification: 19 December, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 19, 2024
+  camera_ready_deadline:
+    value: April 24, 2025
+    evidence: 'Camera ready: 24 April, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 24, 2025
+  conference_dates:
+    value: June 25-28, 2025
+    evidence: ISSTA 2025 Wed 25 - Sat 28 June 2025 Trondheim, Norway
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 25-28, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: ISSTA 2025 will conduct double-anonymous reviewing.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers that take more than 18 pages for anything apart from references
+      (including any section, figure, text, or appendix), will be desk-rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 18 pages
+    evidence: Each paper should have no more than 18 pages for all text and figures,
+      plus 4 pages for references
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 18 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Authors using LaTeX should use the sample-acmsmall-conf.tex file (found
+      in the samples folder of the acmart package) with the acmsmall option.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Proceedings of the ACM on Software Engineering (PACMSE)
+    evidence: 'The conference proceedings will be published in the Proceedings of
+      the ACM on Software Engineering (PACMSE), Issue: ISSTA 2025.'
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Proceedings of the ACM on Software Engineering (PACMSE)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: Upon submission, authors are asked to make their code, data, etc. available
+      to the program committee
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Trondheim, Norway
+    evidence: ISSTA 2025 Wed 25 - Sat 28 June 2025 Trondheim, Norway
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Trondheim, Norway
+    normalized:
+      city: Trondheim
+      country: Norway
+      display: Trondheim, Norway
+      raw: Trondheim, Norway
+  conference_format:
+    value: in-person
+    evidence: The ACM SIGSOFT International Symposium on Software Testing and Analysis
+      (ISSTA) is the leading research symposium on software testing and analysis,...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ISSTA 2025 Tracks Plenary Events, Research Papers, Tool Demonstrations,
+      Workshops, Doctoral Symposium, Artifact Evaluation
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Papers must be submitted electronically through the ISSTA 2025 submission
+      site.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: Doctoral Symposium
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

@@ -1,0 +1,278 @@
+conference: WISEC
+year: 2026
+last_checked: '2026-02-16T11:11:18.168495+00:00'
+completeness:
+  known: 17
+  total: 40
+  percentage: 42.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 17
+rules:
+  submission_deadline:
+    value: February 3, 2026
+    evidence: 'Camera-ready: February 3, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 3, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: January 13, 2026
+    evidence: 'Notification: January 13, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 13, 2026
+  camera_ready_deadline:
+    value: February 3, 2026
+    evidence: 'Camera-ready: February 3, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 3, 2026
+  conference_dates:
+    value: June 30 - July 3, 2026
+    evidence: Conference dates June 30 to July 3, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 30 - July 3, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: May TBA, 2026 (Firm)
+    evidence: Author registration May TBA, 2026 (Firm)
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: May TBA, 2026 (Firm)
+  double_blind:
+    value: true
+    evidence: All papers must be thoroughly anonymized for double-blind review.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Full paper submissions must be at most 10 pages in double-column ACM
+      format (use document option “sigconf”), excluding the bibliography and...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: All papers for ACM WiSec 2026 must be submitted electronically through
+      the HotCRP conference management system.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: ACM
+    evidence: The proceedings of ACM WiSec, sponsored by SIGSAC, will be published
+      by ACM.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: ACM
+  statements:
+    value: true
+    evidence: Ethical concerns vary from project to project, so there is no “one size
+      fits all” approach. Rather, researchers should consider ethical analysis to...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: WiSec encourages authors of accepted papers to make software and data
+      artifacts publicly available to the community.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Saarbrücken, Germany
+    evidence: The conference will be held in person from June 30 to July 3, 2026,
+      in Saarbrücken, Germany.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Saarbrücken, Germany
+    normalized:
+      city: Saarbrücken
+      country: Germany
+      display: Saarbrücken, Germany
+      raw: Saarbrücken, Germany
+  conference_format:
+    value: in-person
+    evidence: The conference will be held in person from June 30 to July 3, 2026,
+      in Saarbrücken, Germany.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: All papers for ACM WiSec 2026 must be submitted electronically through
+      the HotCRP conference management system.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshops Proposals
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

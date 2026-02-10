@@ -1,0 +1,296 @@
+conference: ICCAD
+year: 2025
+last_checked: '2026-02-16T09:17:06.171241+00:00'
+completeness:
+  known: 25
+  total: 40
+  percentage: 62.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 25
+rules:
+  submission_deadline:
+    value: April 21, 2025
+    evidence: The paper submission deadline is April 21, 2025 at 23:59 AOE.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: April 21, 2025
+  abstract_deadline:
+    value: April 14, 2025
+    evidence: April 14, 2025 Abstract Submission Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 14, 2025
+  notification_date:
+    value: June 30, 2025
+    evidence: Notification for Regular Papers on or before June 30, 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 30, 2025
+  camera_ready_deadline:
+    value: August 14, 2025
+    evidence: August 14, 2025 Camera-Ready Paper Submission
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 14, 2025
+  conference_dates:
+    value: October 26-30, 2025
+    evidence: 'date: October 26 - 30, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 26-30, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: August 14, 2025
+    evidence: August 14, 2025 Author Registration Deadline
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 14, 2025
+  double_blind:
+    value: true
+    evidence: ICCAD follows a double-blind review policy.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: Each paper must be no more than 8 pages (including the abstract, figures
+      and tables)
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Paper templates are available [ here ] and authors are recommended to
+      format their papers based on the IEEE template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE
+    evidence: IEEE will hold the copyright for ICCAD 2025 proceedings.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: MUNICH, GERMANY
+    evidence: 'place: MUNICH, GERMANY'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: MUNICH, GERMANY
+    normalized:
+      city: Munich
+      country: Germany
+      display: Munich, Germany
+      raw: MUNICH, GERMANY
+  conference_format:
+    value: in-person
+    evidence: Oral sessions at the conference will include only in-person presentation.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: SoftConf
+    evidence: ALL submissions must be made online through SoftConf.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: SoftConf
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: WILLIAM J. MCCALLA IEEE ICCAD BEST PAPER AWARD
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

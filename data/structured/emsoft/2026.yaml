@@ -1,0 +1,278 @@
+conference: EMSOFT
+year: 2026
+last_checked: '2026-02-16T11:15:32.656728+00:00'
+completeness:
+  known: 16
+  total: 40
+  percentage: 40.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 16
+rules:
+  submission_deadline:
+    value: March 30, 2026
+    evidence: 'Full Paper Submission: March 30, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 30, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: July 17, 2026
+    evidence: 'Notification: July 17, 2026'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 17, 2026
+  camera_ready_deadline:
+    value: August 17, 2026
+    evidence: 'Camera-ready Submission: August 17, 2026'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: August 17, 2026
+  conference_dates:
+    value: October 4-9, 2026
+    evidence: ESWEEK 2026 will take place as an in-person event from October 4th to
+      October 9th, 2026 in Barcelona, Spain.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 4-9, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Submitted manuscripts must be double blind . Authors should not reveal
+      their identity directly or indirectly (e.g., through references).
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 12 pages
+    evidence: Papers should not exceed 12 pages in the IEEE transactions two-column
+      format for the initial submission.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 12 pages
+  page_limit_exclusions:
+    value: false
+    evidence: References, appendix, etc. are all counted towards the 12-page limit.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+      (TCAD)
+    evidence: All full papers accepted in EMSOFT’25 will be published in IEEE Transactions
+      on Computer-Aided Design of Integrated Circuits and Systems (TCAD) .
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+          Systems (TCAD)
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Barcelona, Spain
+    evidence: ESWEEK 2026 will take place as an in-person event from October 4th to
+      October 9th, 2026 in Barcelona, Spain.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Barcelona, Spain
+    normalized:
+      city: Barcelona
+      country: Spain
+      display: Barcelona, Spain
+      raw: Barcelona, Spain
+  conference_format:
+    value: in-person
+    evidence: ESWEEK 2026 will take place as an in-person event from October 4th to
+      October 9th, 2026 in Barcelona, Spain.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: 'An accepted paper will be removed from the journal (TCAD or ESL) and
+      the technical program unless both of the following conditions are satisfied:
+      (1)...'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'EMSOFT: Call for WiP Papers - Embedded Systems Week'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: All papers (journal track and late breaking track) must be submitted
+      through the hotCRP management tool from the corresponding web page of each...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: 'EMSOFT: CFP - Embedded Systems Week'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

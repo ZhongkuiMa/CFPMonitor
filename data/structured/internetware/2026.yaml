@@ -1,0 +1,315 @@
+conference: INTERNETWARE
+year: 2026
+last_checked: '2026-02-16T11:47:25.416165+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: Sat 4 Apr 2026
+    evidence: Sat 4 Apr 2026 Full Paper Submission Deadline
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sat 4 Apr 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: Thu 7 May 2026
+    evidence: Thu 7 May 2026 Initial Author Notification (Major Revision)
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Thu 7 May 2026
+  camera_ready_deadline:
+    value: Wed 10 Jun 2026
+    evidence: Wed 10 Jun 2026 Research Track Camera-Ready Version Deadline
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: Wed 10 Jun 2026
+  conference_dates:
+    value: Sat 18 - Mon 20 July 2026
+    evidence: Internetware 2026 Sat 18 - Mon 20 July 2026 Gold Coast, Australia
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: Sat 18 - Mon 20 July 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: The Internetware New Idea track will adopt a double-anonymous review
+      process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Submissions that do not comply with the above instructions will be desk
+      rejected without review.
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  page_limit:
+    value: 10 pages
+    evidence: All submissions must not exceed 10 pages for the main text, inclusive
+      of all figures, tables, appendices, etc. Two more pages containing only...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: false
+    evidence: ''
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Please use the ACM Primary Article Template (double column), as can
+      be obtained from the ACM Proceedings Template pages .
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Submissions that do not comply with the above instructions will be desk
+      rejected without review.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: Thematic special issue of a top-tier international journal
+    evidence: A subset of the Research Track papers accepted for presentation at Internetware
+      2026 will be invited to be revised and extended for consideration in...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Thematic special issue of a top-tier international journal
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: 'Each submission will be evaluated based on the following criteria:
+      Significance, Novelty, Presentation, Verifiability'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: During review, authors should not publicly use the submission title
+      . Internetware 2026 will follow the ACM SIGSOFT rules on Conflicts of Interest...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed
+  conference_location:
+    value: Gold Coast, Australia
+    evidence: Internetware 2026, Gold Coast, Australia
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Gold Coast, Australia
+    normalized:
+      city: Gold Coast
+      country: Australia
+      display: Gold Coast, Australia
+      raw: Gold Coast, Australia
+  conference_format:
+    value: in-person
+    evidence: Presentations are expected to be delivered in person , unless otherwise
+      specified by the conference organizers.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: For each accepted Tool Demonstration paper, at least one author must
+      register for and attend Internetware 2026 and present the demonstration....
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: Submissions to internetware 2026 conference that meet the above requirements
+      can be made via the internetware 2026 submission site (...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: true
+    evidence: The Internetware 2026 Tool Demonstration Track provides a dedicated
+      forum for presenting innovative software tools, systems, and research artifacts...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Awards
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

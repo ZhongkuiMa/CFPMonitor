@@ -1,0 +1,313 @@
+conference: PLDI
+year: 2025
+last_checked: '2026-02-16T10:18:25.921295+00:00'
+completeness:
+  known: 26
+  total: 40
+  percentage: 65.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 26
+rules:
+  submission_deadline:
+    value: November 14, 2024
+    evidence: Submission deadline is 11:59PM on Thursday November 14, 2024 anywhere
+      on earth
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: November 14, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 6, 2025
+    evidence: Notification to Authors on Tue 6 Mar 2025
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 6, 2025
+  camera_ready_deadline:
+    value: April 18, 2025
+    evidence: Phase 1 Deadline (Wednesday, 2 Apr 2025) and Phase 2 Deadline (Tuesday,
+      15 Apr 2025)
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 18, 2025
+  conference_dates:
+    value: June 16-20, 2025
+    evidence: PLDI 2025 is scheduled for June 16-20, 2025 in Seoul, South Korea
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 16-20, 2025
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: Author names and affiliations must be omitted from submissions.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 20 pages
+    evidence: Each paper should have no more than 20 pages of text, excluding bibliography
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 20 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Papers should be formatted using the ACM Proceedings format.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors are welcome to provide supplementary material if that material
+      supports the claims in the paper.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: PACMPL
+    evidence: Papers will be archived by the ACM Digital Library and published in
+      PACMPL.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: PACMPL
+  statements:
+    value: true
+    evidence: Authors are encouraged to consider the seven categories of the SIGPLAN
+      Empirical Evaluation Guidelines when preparing submissions.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifact evaluation is run by a separate committee whose task is to
+      assess how well the artifacts support the work described in the papers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Seoul, South Korea
+    evidence: PLDI 2025 will be held at The Westin Josun Seoul
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Seoul, South Korea
+    normalized:
+      city: Seoul
+      country: South Korea
+      display: Seoul, South Korea
+      raw: Seoul, South Korea
+  conference_format:
+    value: in-person
+    evidence: The conference is scheduled to take place in Seoul, South Korea.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: HotCRP
+    evidence: The submission site will be at https://pldi2025.hotcrp.com.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: HotCRP
+  has_workshop_proposals:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: PLDI does not include workshops or tutorials as part of the main conference
+      track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: PLDI does not have a Findings track.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: Up to 10% of the accepted papers may be designated as Distinguished
+      Papers.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

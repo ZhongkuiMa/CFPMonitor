@@ -1,0 +1,266 @@
+conference: PERCOM
+year: 2024
+last_checked: '2026-02-16T08:18:41.965149+00:00'
+completeness:
+  known: 14
+  total: 40
+  percentage: 35.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 14
+rules:
+  submission_deadline:
+    value: October 9, 2023
+    evidence: 'Submission via EDAS: October 2, 2023 -> October 9, 2023 (extended)'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 9, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: December 21, 2023
+    evidence: 'Notification: December 21, 2023'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 21, 2023
+  camera_ready_deadline:
+    value: February 2, 2024
+    evidence: 'Camera Ready: February 2, 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: February 2, 2024
+  conference_dates:
+    value: March 11 – 15, 2024
+    evidence: 'Conference Dates: March 11 – 15, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 11 – 15, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: January 26, 2024
+    evidence: 'Early registration deadline : January 26, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: January 26, 2024
+  double_blind:
+    value: true
+    evidence: PerCom 2024 will follow a double-blind review process.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 9 pages of technical content (10pt font, 2-column format)
+    evidence: Papers must be at most 9 pages of technical content (10pt font, 2-column
+      format), including text, figures, and tables, and up to 1 additional page...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 9 pages of technical content (10pt font, 2-column format)
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: The IEEE LaTeX and Microsoft Word templates, as well as formatting instructions,
+      can be found here. Papers must be at most 9 pages of technical...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: Accepted papers will be published in IEEE Xplore.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: mandatory
+    evidence: All accepted papers will be invited to submit an artifact abstract providing
+      the code, data, results, etc. associated with the contribution.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Biarritz, France
+    evidence: PerCom is now in its 22nd year and will be held in Biarritz, France
+      in March 2024 as a physical event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Biarritz, France
+    normalized:
+      city: Biarritz
+      country: France
+      display: Biarritz, France
+      raw: Biarritz, France
+  conference_format:
+    value: in-person
+    evidence: PerCom is now in its 22nd year and will be held in Biarritz, France
+      in March 2024 as a physical event.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

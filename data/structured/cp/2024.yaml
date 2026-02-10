@@ -1,0 +1,285 @@
+conference: CP
+year: 2024
+last_checked: '2026-02-16T08:50:50.803346+00:00'
+completeness:
+  known: 18
+  total: 40
+  percentage: 45.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 18
+rules:
+  submission_deadline:
+    value: 26/04
+    evidence: 'Paper submission: 23/04 26/04'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 26/04
+  abstract_deadline:
+    value: 18/04
+    evidence: 'Abstract registration: 18/04'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 18/04
+  notification_date:
+    value: 20/06
+    evidence: 'Final notification: 20/06'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: 20/06
+  camera_ready_deadline:
+    value: 01/07
+    evidence: 'Camera Ready: 01/07'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: 01/07
+  conference_dates:
+    value: September 2-6, 2024
+    evidence: The CP conference is the premier international event for presenting
+      research in all aspects of computing with constraints, including, but not...
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 2-6, 2024
+  rebuttal_deadline:
+    value: 29/05-02/06
+    evidence: 'Author rebuttal: 29/05-02/06'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: 29/05-02/06
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All papers will go through a double-blind reviewing process, meaning
+      that authors and reviewers are mutually anonymous.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Papers should be submitted in the form of a PDF file following LIPIcs
+      guidelines (https://submission.dagstuhl.de/series/details/LIPIcsauthor)....
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: Full papers, that can use up to 15 pages (references and appendices
+      excluded).
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Appendices may be included and will not contribute towards the total
+      page count, although the program chair reserves the right to limit the number
+      of...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: Papers should be submitted in the form of a PDF file following LIPIcs
+      guidelines (https://submission.dagstuhl.de/series/details/LIPIcsauthor)....
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Supplemental material (for example, experimental results or code) may
+      be referenced, but only if this can be done in a manner which would not reveal...
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: LIPIcs
+    evidence: Accepted papers will appear in conference proceedings published by LIPIcs.
+      The proceedings will be available at the time of the conference.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: LIPIcs
+  statements:
+    value: true
+    evidence: 'Papers should also be readable in black and white. To open the conference
+      more widely, two types of submissions are expected: Full papers, that can...'
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Girona
+    evidence: CP 2024 will be held in-person in Girona at the University of Girona
+      (Old Quarter Campus), September 02-06, 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Girona
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Girona
+  conference_format:
+    value: in-person
+    evidence: CP 2024 will be held in-person in Girona at the University of Girona
+      (Old Quarter Campus), September 02-06, 2024.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_awards:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low

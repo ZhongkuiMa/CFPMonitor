@@ -1,0 +1,315 @@
+# Field schema definitions for CFP extraction
+# Schema only - no extraction logic
+# Extraction patterns are in patterns.yaml
+
+# ============================================
+# DEADLINES - Critical timing information
+# ============================================
+
+submission_deadline:
+  category: deadlines
+  type: date
+  priority: critical
+  default: unknown
+  description: "Final deadline for paper submission"
+
+abstract_deadline:
+  category: deadlines
+  type: date
+  priority: high
+  default: unknown
+  description: "Deadline for abstract registration (if separate from submission)"
+
+notification_date:
+  category: deadlines
+  type: date
+  priority: critical
+  default: unknown
+  description: "Date when acceptance/rejection decisions are announced"
+
+camera_ready_deadline:
+  category: deadlines
+  type: date
+  priority: high
+  default: unknown
+  description: "Deadline for final camera-ready version submission"
+
+conference_dates:
+  category: deadlines
+  type: date
+  priority: critical
+  default: unknown
+  description: "Date range when the conference takes place"
+
+rebuttal_deadline:
+  category: deadlines
+  type: date
+  priority: medium
+  default: unknown
+  description: "Deadline for author rebuttal/response to reviews"
+
+withdrawal_deadline:
+  category: deadlines
+  type: date
+  priority: low
+  default: unknown
+  description: "Last date to withdraw submission without penalty"
+
+registration_deadline:
+  category: deadlines
+  type: date
+  priority: medium
+  default: unknown
+  description: "Deadline for author registration or commitment"
+
+# ============================================
+# REVIEW PROCESS - How review works
+# ============================================
+
+double_blind:
+  category: review_process
+  type: boolean
+  priority: critical
+  default: unknown
+  description: "Whether submissions must be double-blind (reviewers and authors both anonymous)"
+
+single_blind:
+  category: review_process
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether review is single-blind (reviewers anonymous, authors known)"
+
+open_review:
+  category: review_process
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether reviews are publicly visible (OpenReview style)"
+
+rebuttal_allowed:
+  category: review_process
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether authors can respond to reviewer comments"
+
+desk_rejection:
+  category: review_process
+  type: boolean
+  priority: medium
+  default: unknown
+  description: "Whether papers can be desk-rejected before full review"
+
+reciprocal_review:
+  category: review_process
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether authors must commit to reviewing papers"
+
+# ============================================
+# SUBMISSION REQUIREMENTS - Format and limits
+# ============================================
+
+page_limit:
+  category: submission_requirements
+  type: string
+  priority: critical
+  default: unknown
+  description: "Maximum page count for main paper"
+
+page_limit_exclusions:
+  category: submission_requirements
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether references, appendices, or other sections are excluded from page limit"
+
+template_required:
+  category: submission_requirements
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether submissions must use official template"
+
+supplementary_material_allowed:
+  category: submission_requirements
+  type: boolean
+  priority: medium
+  default: unknown
+  description: "Whether supplementary materials can be submitted (includes size/page limits if specified)"
+
+# ============================================
+# PUBLICATION POLICIES - What authors can/cannot do
+# ============================================
+
+concurrent_submission:
+  category: publication_policies
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether simultaneous submission to other venues is allowed"
+
+arxiv_preprint:
+  category: publication_policies
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether posting on arXiv before/during review is permitted"
+
+publication_venue:
+  category: publication_policies
+  type: string
+  priority: low
+  default: unknown
+  description: "Where proceedings will be published (journal, publisher)"
+
+# ============================================
+# ETHICS & REPRODUCIBILITY - Required sections and policies
+# ============================================
+
+statements:
+  category: ethics_reproducibility
+  type: boolean
+  priority: high
+  default: unknown
+  description: "Whether ethics, broader impact, reproducibility checklist, or funding disclosure is required"
+
+artifact_evaluation:
+  category: ethics_reproducibility
+  type: enum
+  priority: high
+  default: unknown
+  description: "Code/artifact/data submission policy (mandatory/optional/none)"
+
+llm_policy:
+  category: ethics_reproducibility
+  type: enum
+  priority: medium
+  default: unknown
+  description: "Policy on LLM/AI usage in paper writing (allowed/required_disclosure/forbidden)"
+
+# ============================================
+# CONFERENCE LOGISTICS - Location and format
+# ============================================
+
+conference_location:
+  category: conference_logistics
+  type: string
+  priority: medium
+  default: unknown
+  description: "Physical location of conference (city, country)"
+
+conference_format:
+  category: conference_logistics
+  type: enum
+  priority: medium
+  default: unknown
+  description: "Conference format (in-person/virtual/hybrid), includes attendance requirements"
+
+presentation_formats:
+  category: conference_logistics
+  type: list
+  priority: low
+  default: unknown
+  description: "Available presentation formats (oral, poster, spotlight)"
+
+financial_aid_available:
+  category: conference_logistics
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether travel grants or financial aid are available"
+
+workshops:
+  category: conference_logistics
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether conference includes workshops or satellite events"
+
+# ============================================
+# PUBLICATION DETAILS - Systems and summaries
+# ============================================
+
+submission_system:
+  category: publication_details
+  type: enum
+  priority: medium
+  default: unknown
+  description: "Submission management system used (OpenReview/EasyChair/CMT/SoftConf/HotCRP)"
+
+# ============================================
+# TRACKS & EVENTS - Available submission tracks
+# ============================================
+
+has_workshop_proposals:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference solicits workshop proposals"
+
+has_tutorials:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a tutorials track"
+
+has_demos:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a demo/system demonstrations track"
+
+has_posters:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a dedicated poster submission track"
+
+has_industry_track:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has an industry/applications track"
+
+has_position_papers:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference accepts position/opinion papers"
+
+has_student_research:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a student research workshop/competition"
+
+has_doctoral_consortium:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a doctoral consortium/symposium"
+
+has_findings:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference has a Findings track (ACL-family venues)"
+
+has_awards:
+  category: tracks_and_events
+  type: boolean
+  priority: low
+  default: unknown
+  description: "Whether the conference mentions best paper or other awards"

@@ -1,0 +1,326 @@
+conference: S&P
+year: 2026
+last_checked: '2026-02-16T10:58:33.073367+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: June 5, 2025
+    evidence: 'Paper submission deadline: June 5, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 5, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 9, 2025
+    evidence: 'Acceptance notification: September 9, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: September 9, 2025
+  camera_ready_deadline:
+    value: October 17, 2025
+    evidence: 'Camera-ready deadline: October 17, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: October 17, 2025
+  conference_dates:
+    value: May 18-21, 2026
+    evidence: MAY 18-21, 2026 AT THE HILTON SAN FRANCISCO UNION SQUARE, SAN FRANCISCO,
+      CA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 18-21, 2026
+  rebuttal_deadline:
+    value: August 25, 2025
+    evidence: 'Rebuttal text due: August 25, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: August 25, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: October 17, 2025
+    evidence: 'Camera-ready deadline: October 17, 2025'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: October 17, 2025
+  double_blind:
+    value: true
+    evidence: Anonymous Submission
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: 'Rebuttal period (interactive): August 18 - August 29, 2025'
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: false
+    evidence: Cap on number of submissions Any author may not submit more than 6 papers
+      per cycle. In the event an author submitted more than 6 papers in a cycle,...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 13 pages of text and up to 5 pages for references and appendices, totaling
+      no more than 18 pages
+    evidence: Submitted papers may include up to 13 pages of text and up to 5 pages
+      for references and appendices, totaling no more than 18 pages.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 13 pages of text and up to 5 pages for references and appendices, totaling
+          no more than 18 pages
+  page_limit_exclusions:
+    value: false
+    evidence: All text and figures past page 13 must be clearly marked as part of
+      the appendix
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: Papers must be formatted for US letter (not A4) size paper. All submissions
+      must use the IEEE “compsoc” conference proceedings template.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Submitted papers can not use additional pages at submission time without
+      the explicit approval of PC Chairs
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'False'
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Authors are strongly recommended to disclose vulnerabilities in their
+      original submission. If that is not possible, authors should provide details
+      of...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: IEEE Symposium on Security and Privacy
+    evidence: To appear in the IEEE Symposium on Security & Privacy, May 2026
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Symposium on Security and Privacy
+  statements:
+    value: true
+    evidence: All the papers must use a separate and well-marked section titled “Ethics
+      considerations” at the end of their paper to make the relevant disclosures.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: Artifacts are strongly encouraged to be submitted for availability,
+      functionality and reproducibility assessments.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: mandatory
+  llm_policy:
+    value: allowed/required_disclosure
+    evidence: Authors are permitted to use LLMs when preparing their paper. However,
+      while the conference does not ban authors from using LLMs or researching their...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: allowed/required_disclosure
+  conference_location:
+    value: San Francisco, CA
+    evidence: MAY 18-21, 2026 AT THE HILTON SAN FRANCISCO UNION SQUARE, SAN FRANCISCO,
+      CA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: San Francisco, CA
+    normalized:
+      city: San Francisco
+      country: US
+      display: San Francisco, US
+      raw: San Francisco, CA
+  conference_format:
+    value: in-person
+    evidence: The number of papers accepted to IEEE S&P continues to grow substantially
+      each year. Due to conference venue limitations and costs, each accepted...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    - poster
+    evidence: The number of papers accepted to IEEE S&P continues to grow substantially
+      each year. Due to conference venue limitations and costs, each accepted...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'', ''poster'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Call for Workshops
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshops
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: 'Call for Nominations: IEEE Cybersecurity Award for Practice'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'

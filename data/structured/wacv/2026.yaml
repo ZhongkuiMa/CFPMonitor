@@ -1,0 +1,406 @@
+conference: WACV
+year: 2026
+last_checked: '2026-02-16T11:18:06.480203+00:00'
+completeness:
+  known: 30
+  total: 40
+  percentage: 75.0
+quality:
+  conflict_count: 10
+  conflicts:
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: December 8, 2025
+      llm_batch2: September 19, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: March 6-10, 2026
+      llm_batch2: March 6 - March 10, 2026
+  - field: registration_deadline
+    values:
+      llm_batch1: January 6, 2026
+      llm_batch2: February 4, 2026
+  - field: supplementary_material_allowed
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: publication_venue
+    values:
+      llm_batch1: IEEE/CVF
+      llm_batch2: IEEE
+  - field: presentation_formats
+    values:
+      llm_batch1: '[''oral'', ''poster'', ''spotlight'']'
+      llm_batch2: '[''oral'']'
+  - field: submission_system
+    values:
+      llm_batch1: OpenReview
+      llm_batch2: EasyChair
+  - field: has_workshop_proposals
+    values:
+      llm_batch1: 'False'
+      llm_batch2: 'True'
+  - field: has_tutorials
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  - field: has_demos
+    values:
+      llm_batch1: 'True'
+      llm_batch2: 'False'
+  source_coverage:
+    llm: 30
+rules:
+  submission_deadline:
+    value: July 18, 2025
+    evidence: 'Deadline: 2025-07-18 23:59:59'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: July 18, 2025
+      llm_batch2:
+        value: July 18, 2025
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: September 4, 2025
+    evidence: 'Reviews and Decisions to authors: Sept 3 rd , 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: September 4, 2025
+  camera_ready_deadline:
+    value: September 19, 2025
+    evidence: 'Deadline: 2025-09-19 23:59:59'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: December 8, 2025
+      llm_batch2:
+        value: September 19, 2025
+    _conflict: true
+  conference_dates:
+    value: March 6 - March 10, 2026
+    evidence: Friday, March 6 - Tuesday, March 10, 2026
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: March 6-10, 2026
+      llm_batch2:
+        value: March 6 - March 10, 2026
+    _conflict: true
+  rebuttal_deadline:
+    value: September 19, 2025
+    evidence: 'Rebuttal and Revision submission: Sept 19 th , 2025, 23:59 AoE'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: September 19, 2025
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: February 4, 2026
+    evidence: Hotel room rates not guaranteed after February 4th.
+    category: deadlines
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: January 6, 2026
+      llm_batch2:
+        value: February 4, 2026
+    _conflict: true
+  double_blind:
+    value: true
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: false
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  rebuttal_allowed:
+    value: true
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  desk_rejection:
+    value: true
+    evidence: Rejected round 1 papers which are submitted to round 2 as new papers
+      will be desk rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  page_limit:
+    value: 8 pages
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 8 pages
+      llm_batch2:
+        value: 8 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: true
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: false
+    evidence: Demo Submission deadline and notification dates have been changed to
+      avoid conflicts with CVPR deadlines. They are now sooner!
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: true
+    evidence: Authors are encouraged to post their work on arXiv. However, it is not
+      a requirement.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+  publication_venue:
+    value: IEEE
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: IEEE/CVF
+      llm_batch2:
+        value: IEEE
+    _conflict: true
+  statements:
+    value: true
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: mandatory
+    evidence: To improve reproducibility in AI research, we highly encourage authors
+      to voluntarily submit their code as part of the supplementary material....
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: mandatory
+  llm_policy:
+    value: allowed
+    evidence: Authors may use any tools they find productive in preparing a paper,
+      but must be aware that they are responsible for any misrepresentation, factual...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: allowed
+  conference_location:
+    value: Tucson, Arizona, USA
+    evidence: JW Marriott Starpass in Tucson, Arizona
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Tucson, Arizona, USA
+      llm_batch2:
+        value: Tucson, Arizona, USA
+    normalized:
+      city: Tucson
+      country: US
+      display: Tucson, US
+      raw: Tucson, Arizona, USA
+  conference_format:
+    value: in-person
+    evidence: Friday, March 6 - Tuesday, March 10, 2026
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'', ''poster'', ''spotlight'']'
+      llm_batch2:
+        value: '[''oral'']'
+    _conflict: true
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The Winter Conference on Applications of Computer Vision is the premier
+      international computer vision event comprising the main conference and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: Call for Papers is posted, See also Author Guidelines.
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: OpenReview
+      llm_batch2:
+        value: EasyChair
+    _conflict: true
+  has_workshop_proposals:
+    value: true
+    evidence: Call for Workshops is posted
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'True'
+    _conflict: true
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_demos:
+    value: false
+    evidence: Demo Submission deadline and notification dates have been changed to
+      avoid conflicts with CVPR deadlines. They are now sooner!
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'False'
+    _conflict: true
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: true
+    evidence: Call for Participation in Doctoral Consortium posted
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: There is no mention of any awards being given at the conference.
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'

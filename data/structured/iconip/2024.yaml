@@ -1,0 +1,289 @@
+conference: ICONIP
+year: 2024
+last_checked: '2026-02-16T08:36:18.728184+00:00'
+completeness:
+  known: 22
+  total: 40
+  percentage: 55.0
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 22
+rules:
+  submission_deadline:
+    value: July 22, 2024
+    evidence: 'Paper Submission Deadline: 18 June 2024 22 July 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: July 22, 2024
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: August 20, 2024
+    evidence: 'Notification of Acceptance: 13 August 2024 20 August 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: August 20, 2024
+  camera_ready_deadline:
+    value: September 30, 2024
+    evidence: 'Camera-Ready Submission: 30 September 2024'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: September 30, 2024
+  conference_dates:
+    value: December 2-6, 2024
+    evidence: 'Conference Dates: 2-6 December 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: December 2-6, 2024
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: September 30, 2024
+    evidence: 'Presenter Registration Deadline: 30 September 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: September 30, 2024
+  double_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: critical
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 15 pages
+    evidence: The page limit for each paper is 15. Up to five additional pages will
+      be permitted
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 15 pages
+  page_limit_exclusions:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  template_required:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: high
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  arxiv_preprint:
+    value: false
+    evidence: ICONIP204 Proceedings will be published in the Springer series of Lecture
+      Notes in Computer Science (LNCS) and Communications in Computer and...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  publication_venue:
+    value: Springer-Nature LNCS Series and CCIS
+    evidence: ICONIP2024 Proceedings will be published in the Springer series of Lecture
+      Notes in Computer Science (LNCS) and Communications in Computer and...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: Springer-Nature LNCS Series and CCIS
+  statements:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: medium
+  conference_location:
+    value: Auckland, New Zealand
+    evidence: ICONIP 2024 will be an in-person conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Auckland, New Zealand
+    normalized:
+      city: Auckland
+      country: New Zealand
+      display: Auckland, New Zealand
+      raw: Auckland, New Zealand
+  conference_format:
+    value: in-person
+    evidence: ICONIP 2024 will be an in-person conference.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: 'Special Session Proposal Submission Deadline: 15 April 2024'
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: unknown
+    evidence: ''
+    category: publication_details
+    priority: medium
+  has_workshop_proposals:
+    value: true
+    evidence: 'Special Session Proposal Submission Deadline: 15 March 2024 2 April
+      2024'
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
+  has_tutorials:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_demos:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_posters:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_industry_track:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_position_papers:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_student_research:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

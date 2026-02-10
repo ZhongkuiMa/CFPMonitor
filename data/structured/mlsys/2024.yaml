@@ -1,0 +1,298 @@
+conference: MLSYS
+year: 2024
+last_checked: '2026-02-16T08:27:11.120371+00:00'
+completeness:
+  known: 23
+  total: 40
+  percentage: 57.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 23
+rules:
+  submission_deadline:
+    value: October 27, 2023
+    evidence: Friday, October 27, 2023 4pm ET
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: October 27, 2023
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: February 16, 2024
+    evidence: 'Author notification: Friday Feb 16, 2024'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: February 16, 2024
+  camera_ready_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  conference_dates:
+    value: May 12-16, 2024
+    evidence: MLSys 2024 will be held on May 12-16, 2024 in Santa Clara, USA
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: May 12-16, 2024
+  rebuttal_deadline:
+    value: January 15 to January 19, 2024
+    evidence: 'Author response period: Monday Jan 15 to Friday Jan, 19, 2024'
+    category: deadlines
+    priority: medium
+    _sources:
+      llm:
+        value: January 15 to January 19, 2024
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All submissions will be double-blind, though authors are allowed to
+      post their papers on arXiv or other public forums.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: true
+    evidence: Authors are allowed to post their papers on arXiv or other public forums.
+    category: review_process
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  desk_rejection:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: medium
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 10 pages
+    evidence: Submitted papers will be in a 2-column format and can be up to 10 pages
+      long, not including references.
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 10 pages
+  page_limit_exclusions:
+    value: true
+    evidence: Each reference must explicitly list all authors of the paper. Authors
+      may use as many pages of appendices as they wish, but reviewers are not...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: 'To prepare your submission to MLSys 2024, please use the LaTeX style
+      files provided at: mlsys2024style.zip'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: true
+    evidence: Authors may use as many pages of appendices as they wish, but reviewers
+      are not required to read these.
+    category: submission_requirements
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  concurrent_submission:
+    value: false
+    evidence: We will not accept any paper which, at the time of submission, is under
+      review for another conference or has already been published.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: true
+    evidence: Authors may post technical reports (e.g., arXiv) of papers submitted
+      to MLSys.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  publication_venue:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: low
+  statements:
+    value: true
+    evidence: Authors must register all their conflicts on the paper submission site.
+      Conflicts are needed to ensure appropriate assignment of reviewers.
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: optional
+    evidence: We invite authors of accepted papers MLSys 2024 to submit their supporting
+      materials (code, data, models, experimental workflows, results) to the...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: optional
+  llm_policy:
+    value: forbidden
+    evidence: Papers that include content generated by LLMs or other generative models
+      are prohibited unless this content is illustrative or is presented as a part...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: forbidden
+  conference_location:
+    value: Santa Clara, USA
+    evidence: MLSys 2024 will be held on May 12-16, 2024 in Santa Clara, USA
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Santa Clara, USA
+    normalized:
+      city: Santa Clara
+      country: US
+      display: Santa Clara, US
+      raw: Santa Clara, USA
+  conference_format:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: medium
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: OpenReview
+    evidence: Submit at https://openreview.net/group?id=MLSys.org/2024/Conference
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: OpenReview
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'

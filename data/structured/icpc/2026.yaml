@@ -1,0 +1,386 @@
+conference: ICPC
+year: 2026
+last_checked: '2026-02-16T10:39:10.289086+00:00'
+completeness:
+  known: 28
+  total: 40
+  percentage: 70.0
+quality:
+  conflict_count: 7
+  conflicts:
+  - field: notification_date
+    values:
+      llm_batch1: Mon 5 Jan 2026
+      llm_batch2: May 9, 2025
+  - field: camera_ready_deadline
+    values:
+      llm_batch1: Mon 26 Jan 2026
+      llm_batch2: June 23, 2025
+  - field: conference_dates
+    values:
+      llm_batch1: Sun 12 - Sat 18 April 2026
+      llm_batch2: September 15-19, 2025
+  - field: page_limit
+    values:
+      llm_batch1: 10 pages plus 2 additional pages of references for full papers and
+        5 pages plus 1 additional page of references for short papers
+      llm_batch2: 16 pages
+  - field: publication_venue
+    values:
+      llm_batch1: ICSE Companion proceedings
+      llm_batch2: Springer as part of the LNCS series
+  - field: conference_location
+    values:
+      llm_batch1: Rio de Janeiro, Brazil
+      llm_batch2: Limassol, Cyprus
+  - field: submission_system
+    values:
+      llm_batch1: HotCrp
+      llm_batch2: EasyChair
+  source_coverage:
+    llm: 28
+rules:
+  submission_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: critical
+  abstract_deadline:
+    value: March 14, 2025
+    evidence: 'Abstract submission: March 14, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch2:
+        value: March 14, 2025
+  notification_date:
+    value: May 9, 2025
+    evidence: 'Notification: May 9, 2025'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Mon 5 Jan 2026
+      llm_batch2:
+        value: May 9, 2025
+    _conflict: true
+  camera_ready_deadline:
+    value: June 23, 2025
+    evidence: 'Camera-ready paper: June 23, 2025'
+    category: deadlines
+    priority: high
+    _sources:
+      llm_batch1:
+        value: Mon 26 Jan 2026
+      llm_batch2:
+        value: June 23, 2025
+    _conflict: true
+  conference_dates:
+    value: September 15-19, 2025
+    evidence: The 19th European Conference on Software Architecture (ECSA 2025) will
+      be held from September 15 to 19, 2025.
+    category: deadlines
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: Sun 12 - Sat 18 April 2026
+      llm_batch2:
+        value: September 15-19, 2025
+    _conflict: true
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: All contributions must be formatted according to the Springer LNCS style
+      http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0. Page limits...
+    category: review_process
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  single_blind:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  open_review:
+    value: false
+    evidence: Review Instructions
+    category: review_process
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Plagiarism checking will be conducted and any paper reporting more than
+      a 20% match with published work will be desk-rejected.
+    category: review_process
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  reciprocal_review:
+    value: false
+    evidence: ''
+    category: review_process
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  page_limit:
+    value: 16 pages
+    evidence: Research papers (max. 16 pages in LNCS style) which describe novel contributions
+      to software architecture research
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm_batch1:
+        value: 10 pages plus 2 additional pages of references for full papers and
+          5 pages plus 1 additional page of references for short papers
+      llm_batch2:
+        value: 16 pages
+    _conflict: true
+  page_limit_exclusions:
+    value: false
+    evidence: Call for Submissions
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  template_required:
+    value: true
+    evidence: All contributions must be formatted according to the Springer LNCS style
+      http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0. Page limits...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: Contravention of this concurrent submission policy will be deemed a
+      serious breach of ethics, and appropriate action will be taken in all such cases.
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch2:
+        value: 'False'
+  arxiv_preprint:
+    value: false
+    evidence: Call for Submissions
+    category: publication_policies
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'False'
+  publication_venue:
+    value: Springer as part of the LNCS series
+    evidence: The proceedings will be published by Springer as part of the LNCS series.
+    category: publication_policies
+    priority: low
+    _sources:
+      llm_batch1:
+        value: ICSE Companion proceedings
+      llm_batch2:
+        value: Springer as part of the LNCS series
+    _conflict: true
+  statements:
+    value: true
+    evidence: Authors are required to include a Data Availability statement after
+      the Conclusions section in a section named 'Data Availability'. This statement...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm_batch1:
+        value: 'True'
+      llm_batch2:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: allowed
+    evidence: Applying AI and LLMs in software architecture and architecting for AI
+      and LLM intensive systems.
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm_batch2:
+        value: allowed
+  conference_location:
+    value: Limassol, Cyprus
+    evidence: The 19th European Conference on Software Architecture (ECSA 2025) will
+      be held from September 15 to 19, 2025. ECSA 2025 is planned as an in-person...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: Rio de Janeiro, Brazil
+      llm_batch2:
+        value: Limassol, Cyprus
+    _conflict: true
+    normalized:
+      city: Limassol
+      country: Cyprus
+      display: Limassol, Cyprus
+      raw: Limassol, Cyprus
+  conference_format:
+    value: in-person
+    evidence: The 19th European Conference on Software Architecture (ECSA 2025) will
+      be held from September 15 to 19, 2025. ECSA 2025 is planned as an in-person...
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: in-person
+      llm_batch2:
+        value: in-person
+  presentation_formats:
+    value:
+    - oral
+    evidence: All accepted papers will be presented orally during the main conference.
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: '[''oral'']'
+      llm_batch2:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: The theme for ECSA 2025 is “impactful software architecture”. The software
+      architecture discipline has had a critical role in shaping robust,...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: 'All contributions must be submitted in PDF format via EasyChair to
+      the ECSA 2025 Research Track: https://easychair.org/conferences/?conf=ecsa2025
+      ....'
+    category: publication_details
+    priority: medium
+    _sources:
+      llm_batch1:
+        value: HotCrp
+      llm_batch2:
+        value: EasyChair
+    _conflict: true
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+      llm_batch2:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: true
+    evidence: Call for Posters
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_industry_track:
+    value: true
+    evidence: Tracks
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'True'
+  has_position_papers:
+    value: false
+    evidence: Call for Submissions
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: The theme for ECSA 2025 is “impactful software architecture”. The software
+      architecture discipline has had a critical role in shaping robust,...
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch2:
+        value: 'False'
+  has_awards:
+    value: false
+    evidence: Call for Submissions
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm_batch1:
+        value: 'False'

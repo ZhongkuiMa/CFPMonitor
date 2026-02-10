@@ -1,0 +1,297 @@
+conference: IJCNN
+year: 2026
+last_checked: '2026-02-16T11:15:51.438702+00:00'
+completeness:
+  known: 21
+  total: 40
+  percentage: 52.5
+quality:
+  conflict_count: 0
+  conflicts: []
+  source_coverage:
+    llm: 21
+rules:
+  submission_deadline:
+    value: January 31, 2026
+    evidence: '31 January: Paper submission deadline (23:59, anywhere on Earth, i.e.
+      UTC-12) – no extension will be given!'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: January 31, 2026
+  abstract_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: high
+  notification_date:
+    value: March 15, 2026
+    evidence: '15 March: Paper acceptance notification'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: March 15, 2026
+  camera_ready_deadline:
+    value: April 15, 2026
+    evidence: '15 April: Camera-ready papers'
+    category: deadlines
+    priority: high
+    _sources:
+      llm:
+        value: April 15, 2026
+  conference_dates:
+    value: June 22-26, 2026
+    evidence: '22- 26 June: Conference'
+    category: deadlines
+    priority: critical
+    _sources:
+      llm:
+        value: June 22-26, 2026
+  rebuttal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  withdrawal_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: low
+  registration_deadline:
+    value: unknown
+    evidence: ''
+    category: deadlines
+    priority: medium
+  double_blind:
+    value: true
+    evidence: We follow double blind review process, therefore each paper submitted
+      for the review should be anonymized.
+    category: review_process
+    priority: critical
+    _sources:
+      llm:
+        value: 'True'
+  single_blind:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  open_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  rebuttal_allowed:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: high
+  desk_rejection:
+    value: true
+    evidence: Papers will be checked for plagiarism. By submitting to IEEE WCCI 2026,
+      you acknowledge that you agree and are bound to the IEEE Plagiarism FAQ. The...
+    category: review_process
+    priority: medium
+    _sources:
+      llm:
+        value: 'True'
+  reciprocal_review:
+    value: unknown
+    evidence: ''
+    category: review_process
+    priority: low
+  page_limit:
+    value: 8 pages
+    evidence: All papers must be submitted using the IEEE conference proceedings template
+      with body text in 10pt type. LaTeX users must use...
+    category: submission_requirements
+    priority: critical
+    _sources:
+      llm:
+        value: 8 pages
+  page_limit_exclusions:
+    value: true
+    evidence: 'The page limitations are as follows: Full papers: papers of up to 6
+      pages, including references and any appendices. A maximum of two extra content...'
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  template_required:
+    value: true
+    evidence: All papers must be submitted using the IEEE conference proceedings template
+      with body text in 10pt type. LaTeX users must use...
+    category: submission_requirements
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  supplementary_material_allowed:
+    value: unknown
+    evidence: ''
+    category: submission_requirements
+    priority: medium
+  concurrent_submission:
+    value: false
+    evidence: All papers must be submitted using the IEEE conference proceedings template
+      with body text in 10pt type. LaTeX users must use...
+    category: publication_policies
+    priority: high
+    _sources:
+      llm:
+        value: 'False'
+  arxiv_preprint:
+    value: unknown
+    evidence: ''
+    category: publication_policies
+    priority: high
+  publication_venue:
+    value: IEEE Xplore
+    evidence: All papers must be submitted using the IEEE conference proceedings template
+      with body text in 10pt type. LaTeX users must use...
+    category: publication_policies
+    priority: low
+    _sources:
+      llm:
+        value: IEEE Xplore
+  statements:
+    value: true
+    evidence: Please add a note in the last paragraph of the introduction of your
+      submitted paper either stating that you will make your data/code available upon...
+    category: ethics_reproducibility
+    priority: high
+    _sources:
+      llm:
+        value: 'True'
+  artifact_evaluation:
+    value: unknown
+    evidence: ''
+    category: ethics_reproducibility
+    priority: high
+  llm_policy:
+    value: required_disclosure
+    evidence: The use of artificial intelligence (AI)-generated text in an article
+      must be disclosed in the acknowledgements section of any paper submitted to
+      an...
+    category: ethics_reproducibility
+    priority: medium
+    _sources:
+      llm:
+        value: required_disclosure
+  conference_location:
+    value: Maastricht, The Netherlands
+    evidence: WCCI 2026 will take place in the beautiful and historic city of Maastricht,
+      a vibrant hub of culture, innovation, and international collaboration.
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: Maastricht, The Netherlands
+    normalized:
+      city: null
+      country: null
+      display: Unknown
+      raw: Maastricht, The Netherlands
+  conference_format:
+    value: hybrid
+    evidence: 'WCCI 2026 will be held in a dual format: in-person sessions during
+      the local daytime, and on-line sessions during the nighttime, catering to...'
+    category: conference_logistics
+    priority: medium
+    _sources:
+      llm:
+        value: hybrid
+  presentation_formats:
+    value:
+    - oral
+    evidence: ''
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: '[''oral'']'
+  financial_aid_available:
+    value: unknown
+    evidence: ''
+    category: conference_logistics
+    priority: low
+  workshops:
+    value: false
+    evidence: Skip to content Join us at WCCI 2026 in Maastricht! Attend the conference
+      in-person or on-line. Learn about recent developments in AI and...
+    category: conference_logistics
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  submission_system:
+    value: EasyChair
+    evidence: All papers must be submitted using the IEEE conference proceedings template
+      with body text in 10pt type. LaTeX users must use...
+    category: publication_details
+    priority: medium
+    _sources:
+      llm:
+        value: EasyChair
+  has_workshop_proposals:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_tutorials:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_demos:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_posters:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_industry_track:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_position_papers:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_student_research:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_doctoral_consortium:
+    value: unknown
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+  has_findings:
+    value: false
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'False'
+  has_awards:
+    value: true
+    evidence: ''
+    category: tracks_and_events
+    priority: low
+    _sources:
+      llm:
+        value: 'True'
